@@ -322,19 +322,21 @@ blockquote {
 	transform: .3s ease-in-out;
 	color: red;
 }
+
 .article h4 {
 	color: black;
-	border: 1px solid black;
-	margin: 0px;
-	padding: 0px 2px 12px 10px;
+	border: 1px solid lightgrey;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 5px;
+	margin-top: 0px;
+	padding: 12px 2px 12px 10px;
 	max-width: 300px;
-	border-top-right-radius: 50px;
-
+	background-color: lightgrey;
+	border-top-right-radius: 50px 50px;
 	border-bottom-right-radius: 50px;
-
-
-
 }
+
 .article h5 {
 	border-bottom: 1px dashed grey;
 	margin-top: 5px;
@@ -344,8 +346,7 @@ blockquote {
 }
 
 .article p {
-	margin-top: 5px;
-	border: 1px solid red;
+	margin-top: 5px; //border: 1px solid red;
 	padding: 0px 2px 2px 10px;
 	font-size: 16pt;
 	word-wrap: normal;
@@ -430,7 +431,7 @@ blockquote {
 	border-radius: 5px;
 	margin-top: 15px;
 	margin-left: 10px;
-	height: 1300px;
+	height: 1270px;
 	box-shadow: 0 0 16px #3b5998;
 }
 
@@ -453,6 +454,16 @@ blockquote {
 	box-shadow: 0 0 16px #3b5998;
 	margin-top: 15px;
 	margin-left: 10px;
+	height: 1050px;
+}
+
+.sidebar3 h1 {
+	position: sticky;
+	line-height: 40px;
+	color: red;
+	top: 15px;
+	max-height: 999px;
+	border: 1px solid pink;
 }
 
 .adbar {
