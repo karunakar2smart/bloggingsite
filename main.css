@@ -190,19 +190,23 @@ blockquote {
 }
 
 .header {
-	border: 1px solid black;
+	border: 1px solid tomato;
 	margin-top: 0;
-	background-color: rgb(245, 97, 60);
+	background-color: rgba(255, 98, 0, 0.72);
+
 }
 
 .header h1 {
 	text-align: center;
-	color: white;
+	color: #ffffff;
+	font-weight: bolder;
+	font-size: 50px;
 }
 
 .header p {
 	text-align: center;
 	color: white;
+	font-size: 20px;
 }
 
 .navigation {
@@ -324,7 +328,7 @@ blockquote {
 }
 
 .article h4 {
-	color: black;
+	color: #000000;
 	border: 1px solid lightgrey;
 	margin-right: 0px;
 	margin-bottom: 0px;
@@ -332,17 +336,24 @@ blockquote {
 	margin-top: 0px;
 	padding: 12px 2px 12px 10px;
 	max-width: 300px;
-	background-color: lightgrey;
+	background-color: #d1d1d1;
 	border-top-right-radius: 50px 50px;
 	border-bottom-right-radius: 50px;
 }
 
-.article h5 {
-	border-bottom: 1px dashed grey;
-	margin-top: 5px;
-	margin-bottom: 0;
-	padding: 3px 0 3px 0;
+.bykarunakar {
+	border-top: 1px solid red;
+	border-bottom: 1px solid red;
+	border-right: 5px solid red;
+	padding: 5px;
 	text-align: center;
+	background-color: rgba(211, 211, 211, 0.35);
+	font-size: 19px;
+	color: black;
+	border-left: 5px solid red;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 8px;
+	margin: 4px;
 }
 
 .article p {
@@ -401,7 +412,7 @@ blockquote {
 	border-radius: 5px;
 }
 
-/* SIDEBAR 1 IS HERE BRO*/
+/* SIDEBAR 1 IS HERE BRO */
 
 .sidebar1 {
 	border-left: 2px solid lightgrey;
@@ -413,14 +424,27 @@ blockquote {
 	margin-left: 10px;
 	height: 1295px;
 	box-shadow: 0 0 16px #3b5998;
+	padding: 0px;
 }
 
-.sidebar1 h1 {
+.demo1 {
 	border: 1px solid red;
-	position: sticky;
+	position: static;
 	max-height: 1425px;
-	top: 0px;
+	top: 10px;
 	line-height: 40px;
+	margin: 0px;
+	padding: 0px;
+}
+
+.demo2 {
+	color: red;
+	border: 1px solid black;
+	position: sticky;
+	line-height: 80px;
+	max-height: 1425px;
+	top: 10px;
+	margin-top: 20px;
 }
 
 .sidebar2 {
@@ -447,6 +471,7 @@ blockquote {
 	border: 2px solid lightgrey;
 	margin-top: 15px;
 	box-shadow: 0 0 16px #3b5998;
+	display: none;
 }
 
 .sidebar3 {
@@ -535,9 +560,10 @@ blockquote {
 	margin-right: 9px;
 	flex-grow: 1;
 	margin-bottom: 9px;
-	background-color: black;
+	background-color: rgba(0, 0, 0, 0.85);
 	border-radius: 12px;
 	flex-basis: 200px;
+	flex-grow: 1;
 }
 
 .footer1 h4 {
@@ -547,7 +573,7 @@ blockquote {
 	text-align: center;
 	font-size: 30px;
 	color: white;
-	background-color: black;
+	background-color: rgba(0, 0, 0, 0.85);
 }
 
 .footer1 p {
@@ -578,6 +604,7 @@ blockquote {
 	margin-bottom: 9px;
 	background-color: black;
 	border-radius: 12px;
+	flex-grow: 1;
 }
 
 .footer3 ul {
@@ -644,29 +671,57 @@ blockquote {
 }
 
 .postarticlecontainer p {
-	margin-top: 5px;
-	border-top: 2px dashed lightgrey;
-	border-bottom: 2px dashed lightgrey;
+	margin: 0px; //border-top: 2px dashed lightgrey;
+	//border: 2px solid black;
 	margin-bottom: 1px;
-	padding: 3px 3px 3px 15px;
+	padding: 0px 3px 0px 15px;
 	line-height: 2em;
 	font-size: 16pt;
 	color: #26282d;
 }
 
-.articleheadings {
-	border: 1px solid red;
-	color: red;
+.captchajobs {
+	border: 1px solid pink;
 }
 
-.articleheadings h3 {
-	margin-top: 3px;
+.captchajobs h2 {
+	//border: 1px solid red;
+	padding: 0px;
+	margin: 2px;
+}
+
+.articleheadings {
+	border: 1px solid red;
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
 	color: black;
-	margin-bottom: 0;
-	padding: 1px 0 1px 12px;
+	font-weight: 600;
+	padding: 15px;
+	margin-left: 1px;
+	font-size: 18px;
+	background-color: lightgrey;
+	max-width: 500px;
 }
 
 /* -----------------------------------------------------*/
+
+.typingjobspostsidebar {
+
+	margin-top: 15px;
+	box-shadow: 0 0 14px #3b5998;
+	margin-left: 7px;
+	height: 5800px;
+	padding: 0px;
+}
+
+.typingjobspostsidebar h1 {
+	position: sticky;
+	padding: 0px;
+	top: 8px;
+	margin-top: 0px;
+	max-height: 2845px;
+	line-height: 50px;
+}
 
 blockquote {
 	border: 2px solid grey;
@@ -678,7 +733,8 @@ blockquote {
 	margin-top: 15px;
 	box-shadow: 0 0 14px #3b5998;
 	margin-left: 7px;
-	height: 2510px;
+	height: 2800px;
+	padding: 0px;
 }
 
 .postsidebar1 h1 {
@@ -708,6 +764,7 @@ blockquote {
 	margin-top: 15px;
 	position: relative;
 	float: right;
+	height: 240px;
 	margin-left: 9px;
 }
 
@@ -729,6 +786,7 @@ blockquote {
 	padding: 5px;
 	margin-left: 0;
 }
+
 
 .previousposts1:hover {
 	border: 2px solid lightgrey;
@@ -887,6 +945,19 @@ blockquote {
 	margin: 0;
 	border: 1px solid lightgrey;
 }
+
+.previousposts1 h2,
+.previousposts2 h2,
+.previousposts3 h2,
+.previousposts4 h2,
+.previousposts5 h2,
+.previousposts6 h2 {
+	margin: 0px;
+
+}
+
+
+
 
 /*MOST IMPORTANT SOCIAL SHARING ICONS + LINKS ARE HERE BRO...!*/
 
