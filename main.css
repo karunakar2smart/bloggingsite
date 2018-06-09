@@ -187,6 +187,7 @@ blockquote {
 	.agreement {
 		max-width: 100%;
 	}
+
 }
 
 .header {
@@ -547,18 +548,16 @@ blockquote {
 	flex-wrap: wrap;
 	padding: 9px;
 	margin-top: 15px;
-	flex-basis: 100px;
 }
 
 .footer1 {
 	box-shadow: 0 0 5px #3b5998;
 	margin-right: 9px;
-	flex-grow: 1;
 	margin-bottom: 9px;
 	background-color: rgba(0, 0, 0, 0.85);
 	border-radius: 12px;
-	flex-basis: 200px;
 	flex-grow: 1;
+	flex-basis: 200px;
 }
 
 .footer1 h4 {
@@ -586,6 +585,7 @@ blockquote {
 	margin-right: 9px;
 	margin-bottom: 5px;
 	flex-grow: 1;
+	flex-basis: 200px;
 }
 
 .footer2 p {
@@ -597,41 +597,77 @@ blockquote {
 	box-shadow: 0 0 5px #3b5998;
 	flex-grow: 1;
 	margin-bottom: 9px;
-	background-color: black;
 	border-radius: 12px;
-	flex-grow: 1;
+
+	flex-basis: 200px;
+
 }
 
-.footer3 ul {
-	border: 1px solid white;
-	padding: 15px;
-	margin: 0px;
-}
-
-.footer3 h4 {
-	color: white;
-	border: 1px solid white;
-	padding: 12px;
+.questionmark {
 	text-align: center;
-	font-size: 24px;
+	font-size: 50px;
+	color: white;
+	background-color: black;
+	font-weight: 900;
+	padding: 60px;
 	margin: 0px;
+	height: 200px;
+
+}
+
+.footer3 h1 {
+	border-bottom: 1px dashed grey;
+	padding: 5px;
+	margin: 2px;
+	text-align: center;
+
+
+}
+
+.qualifications {
+	border-bottom: 1px dashed grey;
+	padding: 0px;
+	margin: 2px;
+	color: grey;
+	font-size: 25px;
+	text-align: center;
+}
+
+#contact {
+	border-bottom: 1px dashed grey;
+	padding: 5px;
+	margin: 2px;
+	font-size: 19px;
+	text-align: center;
 }
 
 .footer3 a {
-	display: block;
-	color: lightgrey;
-	margin-bottom: 9px;
-	border: 1px solid white;
-	padding: 10px;
+	border: 1px solid lightgrey;
+	display: inline-block;
+	padding: 15px;
+	margin: 5px;
 	text-align: center;
-	text-decoration: none;
-	font-size: 19px;
+	border-radius: 5px;
+
 }
 
 .footer3 a:hover {
-	background-color: white;
-	color: black;
+	border: 1px solid blue;
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .copyright {
 	border: 1px solid lightgrey;
