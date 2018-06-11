@@ -187,20 +187,29 @@ blockquote {
 	.agreement {
 		max-width: 100%;
 	}
+	.typingjobspostsidebar {
+		display: none;
+	}
 
 }
 
 .header {
 
 	margin-top: 0;
-	background-color: rgba(255, 98, 0, 0.72); //background-color: #2196F3;
+	border: 1px solid red;
+	border-radius: 5px;
+
+	background-color: #e66465;
 }
 
 .header h1 {
 	text-align: center;
-	color: #ffffff;
+	color: white;
 	font-weight: bolder;
-	font-size: 50px;
+	font-size: 44px;
+
+
+
 }
 
 .header p {
@@ -214,6 +223,7 @@ blockquote {
 	border-left: 1px solid lightgrey;
 	border-right: 1px solid lightgrey;
 	margin: 0;
+	border-radius: 5px;
 	padding: 3px 0 0 0;
 }
 
@@ -268,6 +278,7 @@ blockquote {
 	width: 50%;
 	z-index: 2;
 	margin-right: 9px;
+	flex-basis: 200px;
 }
 
 .agreement p {
@@ -280,6 +291,7 @@ blockquote {
 	border: 2px dashed lightgrey;
 	flex-grow: 1;
 	z-index: 2;
+	flex-basis: 200px;
 }
 
 .funvideo h1 {
@@ -289,9 +301,9 @@ blockquote {
 
 .articlecontainer {
 	margin-top: 15px;
-	padding: 2px;
+	padding: 1px;
 	border: 2px solid lightgrey;
-	box-shadow: 0 0 16px #3b5998;
+	box-shadow: 0 0 12px #3b5998;
 }
 
 .articlecontainer img {
@@ -588,9 +600,11 @@ blockquote {
 	flex-basis: 200px;
 }
 
-.footer2 p {
-	padding: 12px;
-	color: black;
+.footer2 img {
+	//border: 1px solid red;
+	width: 100%; //height: auto;
+	height: 400px;
+
 }
 
 .footer3 {
@@ -603,7 +617,13 @@ blockquote {
 
 }
 
-.questionmark {
+.footer3 img {
+	border: 1px solid red;
+	width: 100%;
+	height: auto;
+}
+
+/*.questionmark {
 	text-align: center;
 	font-size: 50px;
 	color: white;
@@ -614,6 +634,7 @@ blockquote {
 	height: 200px;
 
 }
+*/
 
 .footer3 h1 {
 	border-bottom: 1px dashed grey;
@@ -989,9 +1010,6 @@ blockquote {
 
 }
 
-
-
-
 /*MOST IMPORTANT SOCIAL SHARING ICONS + LINKS ARE HERE BRO...!*/
 
 .sharing {
@@ -1017,10 +1035,12 @@ blockquote {
 	margin-bottom: 4px;
 	text-align: center;
 	border: 2px solid lightgrey;
+	border-radius: 10px;
 }
 
 .sharing a:hover {
-	border: 2px solid black;
+	border: 2px solid blue;
+	border-radius: 10px;
 }
 
 .sharing img {
