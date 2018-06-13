@@ -5,8 +5,7 @@
 body {
 	font-size: 100%;
 	padding: 0px;
-	margin: 1px;
-	background-color: #f8f8f8;
+	margin: 1px; //background-color: #f8f8f8;
 }
 
 
@@ -171,19 +170,19 @@ blockquote {
 	[class*="karna-"] {
 		width: 100%
 	}
-	.sidebar1 {
+	.indexsidebar1 {
 		display: none;
 	}
-	.sidebar2 {
+	.indexsidebar2 {
 		display: none;
 	}
-	.sidebar3 {
+	.indexsidebar3 {
 		display: none;
 	}
-	.postsidebar1 {
+	.mmnsidebar1 {
 		display: none;
 	}
-	.postsidebar2 {
+	.mmnsidebar2 {
 		display: none;
 	}
 	.commentcount {
@@ -192,7 +191,7 @@ blockquote {
 	.agreement {
 		max-width: 100%;
 	}
-	.typingjobspostsidebar {
+	.typingjobssidebar1 {
 		display: none;
 	}
 
@@ -210,10 +209,6 @@ blockquote {
 	text-align: center;
 	color: white;
 	font-weight: 600;
-
-
-
-
 }
 
 .header p {
@@ -223,9 +218,7 @@ blockquote {
 }
 
 .navigation {
-
 	margin: 0;
-
 	padding: 3px 0 0 0;
 }
 
@@ -246,20 +239,15 @@ blockquote {
 
 .navigation a {
 	text-align: center;
-	padding: 12px;
+	padding: 15px;
 	margin-right: 4px;
 	text-decoration: none;
 	display: block;
-	padding: 15px;
 	font-size: 20px;
 	background-color: white;
 	border: .5px solid #DC4C46;
 	border-radius: 4px;
 	color: #DC4C46;
-
-
-
-
 }
 
 .navigation a:hover {
@@ -270,7 +258,6 @@ blockquote {
 
 .funcontainer {
 	border: .5px dashed black;
-
 	display: flex;
 	border-radius: 9px;
 	flex-wrap: wrap;
@@ -284,12 +271,10 @@ blockquote {
 	flex-basis: 200px;
 	margin-bottom: 9px;
 	border: 2px solid rgb(206, 206, 206);
-
 	max-width: 100%;
 	width: 50%;
 	z-index: 2;
 	margin-right: 9px;
-
 	color: rgb(38, 40, 45);
 	background-color: rgb(251, 252, 253);
 }
@@ -302,26 +287,103 @@ blockquote {
 	background-color: #fbfcfd;
 	font-stretch: 100%; //
 	color: rgba(54, 57, 73, .09);
-
-
 }
 
 .funvideo {
 	border: 2px solid rgb(206, 206, 206);
-
 	flex-grow: 1;
 	flex-basis: 200px;
 	z-index: 2;
 	padding: 0px;
 	margin: 0px;
-
-
 }
 
 .funvideo p {
 	padding: 0px;
 	margin: 0px;
 }
+
+/* SIDEBAR 1 IS HERE BRO */
+
+.indexsidebar1 {
+	border: .5px dotted rgba(220, 76, 70, 0.41);
+	border-radius: 5px;
+	margin-top: 15px;
+	margin-left: 10px;
+	height: 1295px; //box-shadow: 0 0 16px #3b5998;
+	padding: 0px;
+}
+
+.demo1 {
+	border: 1px solid red;
+	position: static;
+	max-height: 1425px;
+	top: 10px;
+	line-height: 40px;
+	margin: 0px;
+	padding: 0px;
+}
+
+.demo2 {
+	color: red;
+	border: 1px solid black;
+	position: sticky;
+	line-height: 80px;
+	max-height: 1425px;
+	top: 10px;
+	margin-top: 20px;
+}
+
+.indexsidebar2 {
+	border: .5px dotted rgba(220, 76, 70, 0.41);
+	border-radius: 5px;
+	margin-top: 15px;
+	margin-left: 10px;
+	height: 1270px;
+}
+
+.indexsidebar2 h1 {
+	border: 1px solid red;
+	position: sticky;
+	max-height: 1000px;
+	line-height: 40px;
+	top: 12px;
+}
+
+.section1 {
+	border: 2px solid lightgrey;
+	margin-top: 15px; //box-shadow: 0 0 16px #3b5998;
+	display: none;
+}
+
+.indexsidebar3 {
+	border: .5px dotted rgba(220, 76, 70, 0.41);
+	margin-top: 15px;
+	margin-left: 10px;
+	height: 1070px;
+	border-radius: 5px;
+}
+
+.indexsidebar3 h1 {
+	position: sticky;
+	line-height: 40px;
+	color: red;
+	top: 15px;
+	max-height: 999px;
+	border: 1px solid pink;
+}
+
+.adbar {
+	border: 1px solid lightgrey;
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 15px;
+	flex-basis: 100px;
+	padding: 0;
+	margin-top: 15px; //box-shadow: 0 0 16px #3b5998;
+}
+
+/* -----------------------------------------------------*/
 
 .article {
 	background-color: rgba(54, 57, 73, .01);
@@ -330,7 +392,9 @@ blockquote {
 .articlecontainer {
 	margin-top: 15px;
 	padding: 1px;
-	border: 2px solid lightgrey;
+	border: .5px dotted rgba(220, 76, 70, 0.41);
+	border-bottom: .5px dotted black;
+	border-radius: 5px;
 }
 
 .articlecontainer img {
@@ -348,12 +412,10 @@ blockquote {
 }
 
 .article h1 {
-	border-bottom: 1px dashed grey;
-	border-top: 1px solid grey;
-	border-top-right-radius: 10px;
-	border-top-left-radius: 10px;
+	border-bottom: .5px dotted rgba(220, 76, 70, 0.41);
+	border-left: 5px solid #ff0e04;
 	margin-bottom: 0;
-	padding: 4px;
+	padding: 4px 0px 1px 9px;
 	margin-top: 1px;
 	font-variant: small-caps;
 }
@@ -392,10 +454,9 @@ blockquote {
 }
 
 .article p {
-	margin-top: 5px; //border: 1px solid red;
-	padding: 0px 2px 2px 10px;
-
-	word-wrap: normal; //line-height: 1.8em;
+	margin-top: 5px;
+	padding: 0px 1px 0px 5px;
+	word-wrap: normal;
 	display: block;
 	line-height: 40px;
 	vertical-align: baseline;
@@ -432,11 +493,9 @@ blockquote {
 }
 
 .readmore a:hover {
-
 	background-color: #DC4C46;
 	color: white;
 	transition: .5s ease-in-out;
-
 }
 
 .commentcount {
@@ -460,87 +519,8 @@ blockquote {
 	border-radius: 5px;
 }
 
-/* SIDEBAR 1 IS HERE BRO */
 
-.sidebar1 {
-	border: 1px solid #b4b4b4;
-	border-radius: 5px;
-	margin-top: 15px;
-	margin-left: 10px;
-	height: 1295px; //box-shadow: 0 0 16px #3b5998;
-	padding: 0px;
-}
-
-.demo1 {
-	border: 1px solid red;
-	position: static;
-	max-height: 1425px;
-	top: 10px;
-	line-height: 40px;
-	margin: 0px;
-	padding: 0px;
-}
-
-.demo2 {
-	color: red;
-	border: 1px solid black;
-	position: sticky;
-	line-height: 80px;
-	max-height: 1425px;
-	top: 10px;
-	margin-top: 20px;
-}
-
-.sidebar2 {
-	border-left: 2px solid lightgrey;
-	border-top: 2px solid lightgrey;
-	border-bottom: 2px solid lightgrey;
-	border-right: 2px solid lightgrey;
-	border-radius: 5px;
-	margin-top: 15px;
-	margin-left: 10px;
-	height: 1270px; //box-shadow: 0 0 16px #3b5998;
-}
-
-.sidebar2 h1 {
-	border: 1px solid red;
-	position: sticky;
-	max-height: 1000px;
-	line-height: 40px;
-	top: 12px;
-}
-
-.section1 {
-	border: 2px solid lightgrey;
-	margin-top: 15px; //box-shadow: 0 0 16px #3b5998;
-	display: none;
-}
-
-.sidebar3 {
-	border: 1px solid lightgrey; //box-shadow: 0 0 16px #3b5998;
-	margin-top: 15px;
-	margin-left: 10px;
-	height: 1050px;
-}
-
-.sidebar3 h1 {
-	position: sticky;
-	line-height: 40px;
-	color: red;
-	top: 15px;
-	max-height: 999px;
-	border: 1px solid pink;
-}
-
-.adbar {
-	border: 1px solid lightgrey;
-	display: flex;
-	flex-wrap: wrap;
-	margin-top: 15px;
-	flex-basis: 100px;
-	padding: 0;
-	margin-top: 15px; //box-shadow: 0 0 16px #3b5998;
-}
+/** PAGINATION IS HERE **/
 
 .pagination {
 	border: 1px solid lightgrey;
@@ -592,7 +572,7 @@ blockquote {
 }
 
 .footer1 {
-	//box-shadow: 0 0 5px #3b5998;
+
 	margin-right: 9px;
 	margin-bottom: 9px;
 	background-color: rgba(0, 0, 0, 0.85);
@@ -705,19 +685,6 @@ blockquote {
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 .copyright {
 	border: 1px solid lightgrey;
 	margin-top: 15px;
@@ -736,18 +703,25 @@ blockquote {
 /*POST ARTICLE STARTED HERE */
 
 .postarticlecontainer {
-	border: 1px solid lightgrey;
+	border-right: .5px dotted rgba(220, 76, 70, 0.41);
+	border-left: .5px dotted rgba(220, 76, 70, 0.41);
+
+	border-radius: 6px;
 	margin-top: 15px;
-	padding: 0; //background-color: rgba(54, 57, 73, .01); //box-shadow: 0 0 16px #3b5998;
+	padding: 0;
 	display: block;
 }
 
 .postarticlecontainer h1 {
-	border-bottom: 2px dashed lightgrey;
-	padding: 10px 0px 10px 15px;
+	border-top: .5px dotted rgba(220, 76, 70, 0.41);
+	border-bottom: .5px dotted rgba(220, 76, 70, 0.41);
+	padding: 0px 0px 15px 15px;
+
 	margin: 0px;
 	color: red;
+
 }
+
 
 .postarticlecontainer p {
 	margin: 0px;
@@ -775,12 +749,7 @@ blockquote {
 	border-left: 6px solid #f44336;
 }
 
-
-
-
-
 .articleheadings {
-
 	background-color: rgba(194, 226, 255, 0.42);
 	border-left: 6px solid #0d94ff;
 	font-weight: 600;
@@ -792,45 +761,10 @@ blockquote {
 	border-top-right-radius: 8px;
 }
 
-/* -----------------------------------------------------*/
-
-.typingjobspostsidebar {
-
-	margin-top: 15px; //box-shadow: 0 0 14px #3b5998;
-	margin-left: 7px;
-	height: 5800px;
-	padding: 0px;
-}
-
-.typingjobspostsidebar h1 {
-	position: sticky;
-	padding: 0px;
-	top: 8px;
-	margin-top: 0px;
-	max-height: 2845px;
-	line-height: 50px;
-}
-
 blockquote {
 	border: 2px solid grey;
 	margin: 3px;
 	padding: 15px;
-}
-
-.postsidebar1 {
-	margin-top: 15px; //box-shadow: 0 0 14px #3b5998;
-	margin-left: 7px;
-	height: 2800px;
-	padding: 0px;
-}
-
-.postsidebar1 h1 {
-	position: sticky;
-	padding: 0px;
-	top: 8px;
-	margin-top: 0px;
-	max-height: 2845px;
-	line-height: 50px;
 }
 
 .postsection {
@@ -845,15 +779,6 @@ blockquote {
 	box-shadow: 0 0 14px #3b5998;
 }
 
-.postsidebar2 {
-	//box-shadow: 0 0 14px #3b5998;
-	border: 1px solid blue;
-	margin-top: 15px;
-	position: relative;
-	float: right;
-	height: 240px;
-	margin-left: 9px;
-}
 
 .previouspostsection {
 	display: flex;
@@ -934,7 +859,8 @@ blockquote {
 }
 
 .previousposts3:hover {
-	border: 2px solid lightgrey; //box-shadow: 0 0 12px 0 #3b5998;
+	border: 2px solid lightgrey;
+	box-shadow: 0 0 12px 0 #3b5998;
 	text-decoration: underline;
 }
 
@@ -1044,8 +970,11 @@ blockquote {
 /*MOST IMPORTANT SOCIAL SHARING ICONS + LINKS ARE HERE BRO...!*/
 
 .sharing {
-	border-bottom: 2px solid lightgrey;
-	padding: 0;
+
+	border-top: .5px dotted rgba(220, 76, 70, 0.41);
+	border-bottom: .5px dotted rgba(220, 76, 70, 0.41);
+	border-radius: 6px;
+	padding: 5px;
 	margin-bottom: 10px;
 }
 
