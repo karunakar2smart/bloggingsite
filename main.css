@@ -199,8 +199,7 @@ blockquote {
 
 .header {
 	margin-top: 0;
-
-	border-radius: 5px; //background-color: #00aba9;
+	border-radius: 5px;
 	background-color: #DC4C46;
 }
 
@@ -303,36 +302,58 @@ blockquote {
 	margin: 0px;
 }
 
-/* SIDEBAR 1 IS HERE BRO */
+/* INDEX SIDEBAR AND THE SIDEBARPOSTCARD IS HERE */
 
 .indexsidebar1 {
 	border: .5px dotted rgba(220, 76, 70, 0.41);
 	border-radius: 5px;
 	margin-top: 15px;
 	margin-left: 10px;
-	height: 1295px; //box-shadow: 0 0 16px #3b5998;
+	height: 1295px;
 	padding: 0px;
 }
 
-.demo1 {
-	border: 1px solid red;
-	position: static;
-	max-height: 1425px;
+.sidebarpostcard1 {
+	border: 2px dashed #ada9a9;
 	top: 10px;
+	border-radius: 6px;
+	position: sticky;
 	line-height: 40px;
 	margin: 0px;
-	padding: 0px;
+	padding: 5px;
 }
 
-.demo2 {
-	color: red;
-	border: 1px solid black;
-	position: sticky;
-	line-height: 80px;
-	max-height: 1425px;
-	top: 10px;
-	margin-top: 20px;
+.sidebarpostcard1:hover {
+	border: 1px dashed lightgrey;
+	text-decoration: underline;
+	box-shadow: 0 0 16px #3b5998;
+
 }
+
+.sidebarpostcard1 h2 {
+	border-top: 3px solid red;
+	padding: 1px 0px 0px 5px;
+	margin: 0px;
+	font-stretch: 100%;
+	word-wrap: normal;
+}
+
+.sidebarpostcard1 a {
+	text-decoration: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+.sidebarpostcard1 img {
+	border: 1px solid lightgrey;
+	position: relative;
+	width: 100%;
+	height: auto;
+	padding: 0;
+	margin: 0;
+}
+
+/** 2nd SIDEBAR IS HERE **/
 
 .indexsidebar2 {
 	border: .5px dotted rgba(220, 76, 70, 0.41);
@@ -340,15 +361,50 @@ blockquote {
 	margin-top: 15px;
 	margin-left: 10px;
 	height: 1270px;
+	padding: 0px;
 }
 
-.indexsidebar2 h1 {
-	border: 1px solid red;
+.sidebarpostcard2 {
+	border: 2px dashed #ada9a9;
+	top: 10px;
+	border-radius: 6px;
 	position: sticky;
-	max-height: 1000px;
 	line-height: 40px;
-	top: 12px;
+	margin: 0px;
+	padding: 5px;
 }
+
+.sidebarpostcard2:hover {
+	border: 1px dashed lightgrey;
+	text-decoration: underline;
+	box-shadow: 0 0 16px #3b5998;
+
+}
+
+.sidebarpostcard2 h2 {
+	border-top: 3px solid red;
+	padding: 1px 0px 0px 5px;
+	margin: 0px;
+	font-stretch: 100%;
+	word-wrap: normal;
+}
+
+.sidebarpostcard2 a {
+	text-decoration: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+.sidebarpostcard2 img {
+	border: 1px solid lightgrey;
+	position: relative;
+	width: 100%;
+	height: auto;
+	padding: 0;
+	margin: 0;
+}
+
+
 
 .section1 {
 	border: 2px solid lightgrey;
@@ -356,31 +412,67 @@ blockquote {
 	display: none;
 }
 
+/** INDEXSIDEBAR 3 IS HERE **/
+
 .indexsidebar3 {
 	border: .5px dotted rgba(220, 76, 70, 0.41);
 	margin-top: 15px;
 	margin-left: 10px;
 	height: 1070px;
 	border-radius: 5px;
+	padding: 0px;
 }
 
-.indexsidebar3 h1 {
+.sidebarpostcard3 {
+	border: 2px dashed #ada9a9;
+	top: 10px;
+	border-radius: 6px;
 	position: sticky;
 	line-height: 40px;
-	color: red;
-	top: 15px;
-	max-height: 999px;
-	border: 1px solid pink;
+	margin: 0px;
+	padding: 5px;
 }
 
-.adbar {
+.sidebarpostcard3:hover {
+	border: 1px dashed lightgrey;
+	text-decoration: underline;
+	box-shadow: 0 0 16px #3b5998;
+
+}
+
+.sidebarpostcard3 h2 {
+	border-top: 3px solid red;
+	padding: 1px 0px 0px 5px;
+	margin: 0px;
+	font-stretch: 100%;
+	word-wrap: normal;
+}
+
+.sidebarpostcard3 a {
+	text-decoration: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+.sidebarpostcard3 img {
 	border: 1px solid lightgrey;
+	position: relative;
+	width: 100%;
+	height: auto;
+	padding: 0;
+	margin: 0;
+}
+
+
+.adbar {
+	border: .5px dashed #DC4C46;
 	display: flex;
 	flex-wrap: wrap;
 	margin-top: 15px;
 	flex-basis: 100px;
 	padding: 0;
-	margin-top: 15px; //box-shadow: 0 0 16px #3b5998;
+	margin-top: 15px;
+	border-radius: 5px;
 }
 
 /* -----------------------------------------------------*/
@@ -418,6 +510,7 @@ blockquote {
 	padding: 4px 0px 1px 9px;
 	margin-top: 1px;
 	font-variant: small-caps;
+	transition: .5s ease-in-out;
 }
 
 .article a {
@@ -523,7 +616,9 @@ blockquote {
 /** PAGINATION IS HERE **/
 
 .pagination {
-	border: 1px solid lightgrey;
+
+	border: .5px dashed rgba(0, 0, 0, 0.47);
+	border-radius: 5px;
 	display: flex;
 	margin: 9px;
 	flex-grow: 1;
@@ -531,7 +626,7 @@ blockquote {
 	flex-wrap: wrap;
 	align-items: center;
 	justify-content: center;
-	background-color: white; //box-shadow: 0 0 5px #3b5998;
+	background-color: white;
 }
 
 .pagination a {
@@ -540,18 +635,21 @@ blockquote {
 	font-size: 25px;
 	margin-right: 9px;
 	display: block;
-	border: 2px solid lightgrey;
+	border: .5px dotted #DC4C46;
 	padding: 15px;
-	color: black;
+	color: #DC4C46;
+	border-radius: 5px;
 }
 
 .pagination a:hover {
-	background-color: lightgrey;
+	background-color: #DC4C46;
+	transition: .5s ease-in-out;
+	color: white;
 }
 
 .googlead {
-	border: 1px dashed black;
-	padding: 9px; //box-shadow: 0 0 5px #3b5998;
+	border: .5px dashed rgba(0, 0, 0, 0.47);
+	padding: 9px;
 	flex-grow: 2;
 	margin: 9px;
 }
@@ -729,7 +827,6 @@ blockquote {
 }
 
 .typingjobtitle {
-
 	padding: 0px;
 	margin: 0px;
 }
