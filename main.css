@@ -830,6 +830,7 @@ blockquote {
 
 .captchajobs:hover {
 	box-shadow: 0px 0px 50px 0px lightgrey;
+	z-index: 2;
 }
 
 .typingjobtitle {
@@ -911,7 +912,8 @@ blockquote {
 
 
 .previousposts1:hover {
-	border: 2px solid lightgrey; //box-shadow: 0 0 12px 0 #3b5998;
+	border: 2px solid lightgrey;
+	box-shadow: 0 0 12px 0 #3b5998;
 	text-decoration: underline;
 
 }
@@ -938,7 +940,8 @@ blockquote {
 }
 
 .previousposts2:hover {
-	border: 2px solid lightgrey; //box-shadow: 0 0 12px 0 #3b5998;
+	border: 2px solid lightgrey;
+	box-shadow: 0 0 12px 0 #3b5998;
 	text-decoration: underline;
 }
 
