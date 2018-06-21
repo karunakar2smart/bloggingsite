@@ -10,16 +10,16 @@
   ExpiresByType application/json          "access plus 10 seconds"
 
 # Favicon (cannot be renamed)
-  ExpiresByType image/x-icon              "access plus 10 minutes"
+  ExpiresByType image/x-icon              "access  10 minutes"
 
 # Media: images, video, audio
-  ExpiresByType image/gif                 "access plus 10 minutes"
-  ExpiresByType image/png                 "access plus 10 minutes"
-  ExpiresByType image/jpeg                "access plus 10 minutes"
-  ExpiresByType video/ogg                 "access plus 10 minutes"
-  ExpiresByType audio/ogg                 "access plus 10 minutes"
-  ExpiresByType video/mp4                 "access plus 10 minutes"
-  ExpiresByType video/webm                "access plus 10 minutes"
+  ExpiresByType image/gif                 "access  10 minutes"
+  ExpiresByType image/png                 "access  10 minutes"
+  ExpiresByType image/jpeg                "access  10 minutes"
+  ExpiresByType video/ogg                 "access  10 minutes"
+  ExpiresByType audio/ogg                 "access  10 minutes"
+  ExpiresByType video/mp4                 "access  10 minutes"
+  ExpiresByType video/webm                "access  10 minutes"
 
 # Webfonts
   ExpiresByType application/x-font-ttf    "access plus 1 month"
@@ -31,5 +31,8 @@
 # CSS and JavaScript
   ExpiresByType text/css                  "access plus 10 minutes"
   ExpiresByType application/javascript    "access plus 10 minutes"
+  ExpiresByType text/html    "access  10 minutes"
+  ExpiresByType https://karunakar2smart.disqus.com/embed.js    "access  10 seconds"
+	
 
 </IfModule>
