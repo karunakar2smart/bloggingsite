@@ -5,34 +5,34 @@
   ExpiresDefault                          "access plus 1 month"
 
 # Data
-  ExpiresByType text/xml                  "access plus 0 seconds"
-  ExpiresByType application/xml           "access plus 0 seconds"
-  ExpiresByType application/json          "access plus 10 seconds"
+  ExpiresByType text/xml                  "access plus 10 minutes"
+  ExpiresByType application/xml           "access plus 10 minutes"
+  ExpiresByType application/json          "access plus 60 seconds"
 
 # Favicon (cannot be renamed)
   ExpiresByType image/x-icon              "access  10 minutes"
 
 # Media: images, video, audio
-  ExpiresByType image/gif                 "access  1 week"
-  ExpiresByType image/png                 "access  1 week"
-  ExpiresByType image/jpeg                "access  1 week"
-  ExpiresByType video/ogg                 "access  1 week"
-  ExpiresByType audio/ogg                 "access  1 week"
-  ExpiresByType video/mp4                 "access  1 week"
-  ExpiresByType video/webm                "access  1 week"
+  ExpiresByType image/gif                 "access  10 minutes"
+  ExpiresByType image/png                 "access  10 minutes"
+  ExpiresByType image/jpeg                "access  10 minutes"
+  ExpiresByType video/ogg                 "access  10 minutes"
+  ExpiresByType audio/ogg                 "access  10 minutes"
+  ExpiresByType video/mp4                 "access  10 minutes"
+  ExpiresByType video/webm                "access  10 minutes"
 
 # Webfonts
-  ExpiresByType application/x-font-ttf    "access plus 1 month"
-  ExpiresByType font/opentype             "access plus 1 month"
-  ExpiresByType application/x-font-woff   "access plus 1 month"
-  ExpiresByType image/svg+xml             "access plus 1 month"
-  ExpiresByType application/vnd.ms-fontobject "access plus 1 month"
+  ExpiresByType application/x-font-ttf    "access 10 minutes"
+  ExpiresByType font/opentype             "access 10 minutes"
+  ExpiresByType application/x-font-woff   "access 10 minutes"
+  ExpiresByType image/svg+xml             "access 10 minutes"
+  ExpiresByType application/vnd.ms-fontobject "10 minutes"
 
 # CSS and JavaScript
-  ExpiresByType text/css                  "access plus 1 week"
-  ExpiresByType application/javascript    "access plus 1 week"
-  ExpiresByType text/html    "access  1 week"
-  ExpiresByType embed.js    "access  1 month"
+  ExpiresByType text/css                  "access 10 minutes"
+  ExpiresByType application/javascript    "access 10 minutes"
+  ExpiresByType text/html    "access  10 minutes"
+  ExpiresByType embed.js    "access  10 minutes"
 	
 
 </IfModule>
