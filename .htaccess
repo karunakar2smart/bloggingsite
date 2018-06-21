@@ -13,13 +13,13 @@
   ExpiresByType image/x-icon              "access  10 minutes"
 
 # Media: images, video, audio
-  ExpiresByType image/gif                 "access  10 minutes"
-  ExpiresByType image/png                 "access  10 minutes"
-  ExpiresByType image/jpeg                "access  10 minutes"
-  ExpiresByType video/ogg                 "access  10 minutes"
-  ExpiresByType audio/ogg                 "access  10 minutes"
-  ExpiresByType video/mp4                 "access  10 minutes"
-  ExpiresByType video/webm                "access  10 minutes"
+  ExpiresByType image/gif                 "access  1 week"
+  ExpiresByType image/png                 "access  1 week"
+  ExpiresByType image/jpeg                "access  1 week"
+  ExpiresByType video/ogg                 "access  1 week"
+  ExpiresByType audio/ogg                 "access  1 week"
+  ExpiresByType video/mp4                 "access  1 week"
+  ExpiresByType video/webm                "access  1 week"
 
 # Webfonts
   ExpiresByType application/x-font-ttf    "access plus 1 month"
@@ -29,10 +29,10 @@
   ExpiresByType application/vnd.ms-fontobject "access plus 1 month"
 
 # CSS and JavaScript
-  ExpiresByType text/css                  "access plus 10 minutes"
-  ExpiresByType application/javascript    "access plus 10 minutes"
-  ExpiresByType text/html    "access  10 minutes"
-  ExpiresByType https://karunakar2smart.disqus.com/embed.js    "access  10 seconds"
+  ExpiresByType text/css                  "access plus 1 week"
+  ExpiresByType application/javascript    "access plus 1 week"
+  ExpiresByType text/html    "access  1 week"
+  ExpiresByType embed.js    "access  1 month"
 	
 
 </IfModule>
