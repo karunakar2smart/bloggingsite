@@ -1,0 +1,4 @@
+User-Agent: *
+Disallow: images
+
+Sitemap: https://www.alltechnotricks.com/sitemap.xml
