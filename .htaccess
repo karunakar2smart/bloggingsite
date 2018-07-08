@@ -1,3 +1,5 @@
+Options +FollowSymLinks
+RewriteEngine On
 Rewrite 301 /index.html https://www.alltechnotricks.com/
 
 <IfModule mod_expires.c>
