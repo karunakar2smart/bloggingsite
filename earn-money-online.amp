@@ -38,7 +38,7 @@
 	<meta property="og:locale" content="en_US" />
 	
 	
-	<script type="application/ld+json"> { "@context": "http://schema.org", "@type": "NewsArticle", "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.alltechnotricks.com/earn-money-online.html" }, "headline": "A Best Way To Earn Money Online - 100% Free", "image": [ "https://www.alltechnotricks.com/images/make-money-online.jpg" ], "datePublished": "2018-06-05T08:00:00+08:00", "dateModified": "2018-06-08T09:20:00+08:00", "author": { "@type": "Person", "name": "Karunakar", "email": "karunakar2smart.mail@gmail.com" }, "publisher": { "@type": "Organization", "name": "Google", "logo": { "@type": "ImageObject", "url": "https://www.alltechnotricks.com/fevicon.ico" } }, "description": "Do you want to earn money online? Follow our tricks to start earn money online by doing different types of jobs through online earning sites for 100% FREE" } </script>
+	<script type="application/ld+json"> { "@context": "http://schema.org", "@type": "NewsArticle", "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.alltechnotricks.com/earn-money-online.html" }, "headline": "A Best Way To Earn Money Online - 100% Free", "image": [ "https://www.alltechnotricks.com/images/make-money-online.jpg" ], "datePublished": "2018-06-05T08:00:00+08:00", "dateModified": "2018-06-09T09:20:00+08:00", "author": { "@type": "Person", "name": "Karunakar", "email": "karunakar2smart.mail@gmail.com" }, "publisher": { "@type": "Organization", "name": "Google", "logo": { "@type": "ImageObject", "url": "https://www.alltechnotricks.com/fevicon.ico" } }, "description": "Do you want to earn money online? Follow our tricks to start earn money online by doing different types of jobs through online earning sites for 100% FREE" } </script>
   
 	<style amp-custom>
 	.scrollToTop {
@@ -179,31 +179,102 @@
 		margin: 0px;
 		padding: 1px;
 	}
-
+		.header {
+			background-color: #dc4c46; padding: 20px;
+		}
+		.header h1 {
+			color: white; text-align: center;
+		}
+		.header p{
+			color: white; text-align: center;
+		}
+		.navigation {
+			margin:0;padding:3px 0 0 0;
+		}
+		.navigation ul {
+			display:flex;list-style-type:none;flex-basis:100px;flex-wrap:wrap;padding:0;margin:0;
+		}
+		.navigation li {
+			flex-grow:1;margin-bottom:3px;padding:2px 0 0 2px;
+		}
+		.navigation a {
+			text-align:center;padding:15px;margin-right:4px;text-decoration:none;display:block;font-size:20px;background-color:#fff;border:.5px solid #dc4c46;border-radius:4px;color:#dc4c46;
+		}
+		.sharing {
+			border-bottom:.5px solid rgba(220,76,70,.41);border-top: .5px dotted rgba(220,76,70,.41);border-left:.5px solid rgba(220,76,70,.41);border-right: .5px solid rgba(220,76,70,.41); border-radius:6px;padding:5px;margin-bottom:10px; margin-bottom: 0px;
+		}
+		.sharing ul {
+			list-style-type:none;display:flex;padding:5px;margin:0;flex-basis:100px;flex-wrap:wrap;
+		}
+		#title {
+			border-bottom: .5px solid #f44336;padding: 15px 0px 15px 15px; margin: 0px;color: red;border-right: 5px solid red;text-align: center;border-left: 5px solid red; border-radius: 5px; 
+		}
+		
+	.article h1 {
+		background-color: #e7f3fe;border-left: 6px solid #2196F3;color: #2e2020;font-weight: 500;margin-left: 1px;padding: 5px 0px 5px 15px;
+		}
+		blockquote {
+			border:2px solid grey; margin: 0px;padding:15px; 	font-size: 1.50em;
+	line-height: 1.25;
+		}
+		.article h2 {
+			background-color: #e7f3fe;border-left: 6px solid #2196F3;color: black;font-weight: 500;margin-left: 1px;padding: 5px 0px 5px 15px;
+		}
+		.bingo {
+			color: #00a591;
+			padding:0 2px 0 0;
+		}
+		.karna {
+			border: 1px solid red;
+		}
+		.footercontainer {
+			margin-top: 9px;
+		}
+		.footer1 {
+			border: .1px dashed rgba(0, 0, 0, 0.55); border-radius: 5px; margin-right: 5px; margin-bottom: 5px;
+		}
+		.footer2 {
+			border: .1px dashed rgba(0, 0, 0, 0.55); border-radius: 5px; margin-right: 5px;margin-bottom: 5px;
+		}
+		.karunakarcard {
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); padding: 5px;margin-bottom: 9px; border: .1px dashed #0f0e0e; border-radius: 5px;
+		}
+		.previouspost1 a {
+			text-decoration: none;
+		}
+		.container {
+			padding: 0px 25px; border: .5px dotted black; border-radius: 5px;
+		}
+		.ceo{
+			color: grey; text-align: justify;
+		}
+		button {
+			border: none;outline: 0;display: inline-block;padding: 15px;color: white;font-size: 15px;background-color: #000;text-align: center;cursor: pointer;width: 100%; margin-bottom: 10px;
+		}
+		.copyright {
+			border: 1px solid lightgrey; color: white;margin-top: 2px;padding: 10;text-align: center;background-color: black;
+		}
 </style>
-
-  
-  
-  
 </head>
 <body>
 
 
-		<div class="header" id="top-page" style="background-color: #dc4c46; padding: 20px;">
-			<h1 style="color: white; text-align: center;">Earn Money Online</h1>
-			<p style="color: white; text-align: center;">Top Legitimate Ways To Make Money Online</p>
+		<div class="header" id="top-page">
+			<h1>Earn Money Online</h1>
+			<p>Top Legitimate Ways To Make Money Online</p>
 		</div>
-		<div class="navigation" style="margin:0;padding:3px 0 0 0;">
-			<ul style="display:flex;list-style-type:none;flex-basis:100px;flex-wrap:wrap;padding:0;margin:0;">
-				<li style="flex-grow:1;margin-bottom:3px;padding:2px 0 0 2px;"> <a href="https://www.alltechnotricks.com/" style="text-align:center;padding:15px;margin-right:4px;text-decoration:none;display:block;font-size:20px;background-color:#fff;border:.5px solid #dc4c46;border-radius:4px;color:#dc4c46">Home</a> </li>
-				<li style="flex-grow:1;margin-bottom:3px;padding:2px 0 0 2px"> <a href="#" style="text-align:center;padding:15px;margin-right:4px;text-decoration:none;display:block;font-size:20px;background-color:#fff;border:.5px solid #dc4c46;border-radius:4px;color:#dc4c46">About Me</a></li>
-				<li style="flex-grow:1;margin-bottom:3px;padding:2px 0 0 2px"> <a href=# style="text-align:center;padding:15px;margin-right:4px;text-decoration:none;display:block;font-size:20px;background-color:#fff;border:.5px solid #dc4c46;border-radius:4px;color:#dc4c46">Contact Me</a></li>
+		<div class="navigation">
+			<ul>
+				<li> 
+					<a href="https://www.alltechnotricks.com/">Home</a> </li>
+				<li> <a href="#">About Me</a></li>
+				<li> <a href="#">Contact Me</a></li>
 			</ul>
 		</div>
-	<div class="sharing" style="border-bottom:.5px solid rgba(220,76,70,.41);border-top: .5px dotted rgba(220,76,70,.41);border-left:.5px solid rgba(220,76,70,.41);border-right: .5px solid rgba(220,76,70,.41); border-radius:6px;padding:5px;margin-bottom:10px; margin-bottom: 0px;">
-				<ul style=list-style-type:none;display:flex;padding:5px;margin:0;flex-basis:100px;flex-wrap:wrap>
+	<div class="sharing">
+				<ul>
 					<a href="https://www.facebook.com/alltechnotricks.karunakar.7" target="_blank">
-						<amp-social-share type="facebook" data-param-app_id="254325784911610"></amp-social-share>
+						<amp-social-share type="facebook"></amp-social-share>
 					</a>
 					<a href="https://twitter.com/karunakar2smart" target="_blank"> 
 						<amp-social-share type="twitter"></amp-social-share>
@@ -216,24 +287,22 @@
 					
 					</a>
 					<a href="https://plus.google.com/u/0/117648017511937827009" target="_blank"> 
-						 <amp-social-share type="gplus" style="border-radius: 50%;"></amp-social-share></a>
+						 <amp-social-share type="gplus"></amp-social-share></a>
 				</ul>
 			</div>
 	<div id="top-page"></div>
-			<div class=" article">
-				<h1 style="border-bottom: .5px solid #f44336;padding: 15px 0px 15px 15px; margin: 0px;color: red;border-right: 5px solid red;text-align: center;border-left: 5px solid red; border-radius: 5px;">The Best Way To Earn Money Online</h1>
+			<div class="article">
+				<h1 id="title">The Best Way To Earn Money Online</h1>
 				<p>Hi, there. Are you sure that you need to find the best way to <b>earn money online?</b>. Then, you are in a good place. This article gives you all the top 10 legitimate ways to start <b>earning money online</b> in which I personally got paid...!</p>
 				<p>This is a good useful article for people who are looking for an Alternate Online earning opportunities through the <b>Internet business</b> and through the Online business without any <b>Investments.</b>
-					<h1 style="	background-color: #e7f3fe;border-left: 6px solid #2196F3;color: #000000;font-weight: 500;margin-left: 1px;padding: 5px 0px 5px 15px;
-	font-stretch: 100%;"><b>How Can I Earn Money Online</b></h1>
+					<h1><b>How Can I Earn Money Online</b></h1>
 					<p>A few years ago, I had an occasion to go through some of the online earning websites. It reveals intricacies of the site through a dialogue between earn online and the earnings from online.
 						<p>I personally included 100 % free investment online earning job details for Students, Housewife, and those who need to <b>earn money</b> through internet. I had tested One Year in Online on my own which is making me $500 - $ 5000 every month. All methods are Genuine and paying regularly via world’s best Payment Processors like <a href="https://www.paypal.com/in/home">Paypal</a>, <a href="https://www.payza.eu/india">Payza</a>, <a href="https://www.wmtransfer.com/">WebMoney</a> etc...!
 							<p>For, every beginner, this seemed to be one of the few sites which learns you all kinds of money making websites and <b>earnings</b> through inquisition and also be using video demography concept of learning.
-								<h1 style="	background-color: #e7f3fe;border-left: 6px solid #2196F3;color: #000;font-weight: 500;margin-left: 1px;padding: 5px 0px 5px 15px;"><b>Earn Money Through Internet</b></h1>
+								<h1><b>Earn Money Through Internet</b></h1>
 								<p>This is the best article which helps you to find out to start <b>making money online</b>. I think I was successful in this attempt. I have been divided these into many pages because of the Latest News and Updates. There have been several posts on this Title and Headings on this site, each one having its own flavor.
-									<blockquote class=karna-12 style="border:2px solid grey; margin: 0px;padding:15px; 	font-size: 1.50em;
-	line-height: 1.25;">" Always Start Any work with the Hope of Failure, Because, What Do you Fear for, If you know that the Work is a Failure? "</blockquote>
-									<p>I have thoroughly read and written this <a href="https://www.alltechnotricks.com/earn-money-online.html">article</a>. I had spent considerable time formulating the structure of this site, besides its concepts.
+									<blockquote class=karna-12>" Always Start Any work with the Hope of Failure, Because, What Do you Fear for, If you know that the Work is a Failure? "</blockquote><br>
+									<p> I have thoroughly read and written this <a href="https://www.alltechnotricks.com/earn-money-online.html">article</a>. I had spent considerable time formulating the structure of this site, besides its concepts.
 										<p>However, this article is totally a different attempt to learn different types of techniques to <b>earn money online</b>. i'm sure it will be extremely useful for Teenagers, Housewives and to the people who would like to start <b>earning money online</b>.
 											<p>The exposition of this site is extremely Lucid. I am sure that who visits and reads this article in an appropriate manner will find these <b>online earning websites</b> extremely useful...!</p>
 				<div id="marker">
@@ -242,14 +311,14 @@
       layout="nodisplay">
     </amp-position-observer>
   </div>
-				<h2 style="	background-color: #e7f3fe;border-left: 6px solid #2196F3;color: black;font-weight: 500;margin-left: 1px;padding: 5px 0px 5px 15px;"><b>What kind of Website is this?</b></h2>
+				<h2><b>What kind of Website is this?</b></h2>
 											<p>In one sense, This is a construction manual to your success...! It explains the skills that you will need to <b>earn money online</b> and offers Blueprint to help you build a Successful Rewarding Life...!</p>
 											<amp-auto-ads type="adsense"
               data-ad-client="ca-pub-2687924945894784">
 </amp-auto-ads>
 											<p>In a second sense, it is a Cook Website. It lists the ingredients - The principles - you will need to follow to become a Successful Men and gives you the recipe for mixing them in correct proportions....!</p>
 											<p>But, above all, this is a Guide article - a step by step and how to book that will take you from dreaming about Success to unlocking your Potentials for SUCCESS...</p>
-											<h1 style="	background-color: #e7f3fe;border-left: 6px solid #2196F3;color: #2e2020;font-weight: 500;margin-left: 1px;padding: 5px 0px 5px 15px;"><b>How To Start Earning Money Online?</b></h1>
+											<h1><b>How To Start Earning Money Online?</b></h1>
 											<p>This article learns you all the Required Skills to <b>earn money online</b>.</p>
 											<p> <i class=right></i>All the Ways Which we were <b>Making Money</b> is 100 % Legitimate...!
 												<br><i class=right></i>There are NO REGISTRATION FEES required to Join in this various kinds of Online Job Portals...!
@@ -257,23 +326,26 @@
 												<br><i class=right></i>All the <b>PAYMENT PROOFS</b> has been uploaded to this Website of Different Companies which were Paying Continuously to the Workers...
 												<br><i class=right></i> All the Payment Processed with the International Payment Processors like <b><a href="https://www.paypal.com/in/webapps/mpp/home">PAYPAL</a></b>, <a href="https://www.payza.eu/india"><b>PAYZA</b></a>, <a href="https://www.wmtransfer.com/"><b>WEB MONEY</b></a> etc...!.
 												<br><i class=right></i>All these Payment Processors will transfer your Money Directly to your Bank Accounts...!</p>
-											<h1 style="	background-color: #e7f3fe;border-left: 6px solid #2196F3;color: #000;font-weight: 500;margin-left: 1px;padding: 5px 0px 5px 15px;"><b>Different Ways To Earn Money Online</b></h1>
+											<h1><b>Different Ways To Earn Money Online</b></h1>
 											<p> <i class=right></i>You will learn the following Money Making Ways on this website
-												<br><span style="color:#00a591;padding:0 2px 0 0">&#9679;</span><i class=right></i> <a href=typing-jobs.html>How To Make Money By Typing Captchas?</a>
-												<br><span style="color:#00a591;padding:0 2px 0 0">&#9679;</span><i class=right></i>How To Make Money By Writing Articles?
-												<br><span style="color:#00a591;padding:0 2px 0 0">&#9679;</span><i class=right></i>Do, I Receive Payments, Really?
-												<br><span style="color:#00a591;padding:0 2px 0 0">&#9679;</span><i class=right></i>How To Make Money By Doing Online Surveys?
-												<br><span style="color:#00a591;padding:0 2px 0 0">&#9679;</span><i class=right></i>How Can I Start A Blog like?
-												<br><span style="color:#00a591;padding:0 2px 0 0">&#9679;</span><i class=right></i>Free Captcha Software and Demo videos For Captcha solvers?
-												<br><span style="color:#00a591;padding:0 2px 0 0">&#9679;</span><i class=right></i>How To Make Money By Doing Online Surveys?
-												<br><span style="color:#00a591;padding:0 2px 0 0">&#9679;</span><i class=right></i>Do I Receive Payments, really?</p>
+												<br>
+												<span class="bingo">&#9679;</span>
+												
+												<i class=right></i> <a href=typing-jobs.html>How To Make Money By Typing Captchas?</a>
+												<br><span class="bingo">&#9679;</span><i class=right></i>How To Make Money By Writing Articles?
+												<br><span class="bingo">&#9679;</span><i class=right></i>Do, I Receive Payments, Really?
+												<br><span class="bingo">&#9679;</span><i class=right></i>How To Make Money By Doing Online Surveys?
+												<br><span class="bingo">&#9679;</span><i class=right></i>How Can I Start A Blog like?
+												<br><span class="bingo">&#9679;</span><i class=right></i>Free Captcha Software and Demo videos For Captcha solvers?
+												<br><span class="bingo">&#9679;</span><i class=right></i>How To Make Money By Doing Online Surveys?
+												<br><span class="bingo">&#9679;</span><i class=right></i>Do I Receive Payments, really?</p>
 				<amp-auto-ads type="adsense"
               data-ad-client="ca-pub-2687924945894784">
 </amp-auto-ads>
-				<div class="sharing" style="border-bottom:.5px solid rgba(220,76,70,.41);border-top: .5px dotted rgba(220,76,70,.41);border-left:.5px solid rgba(220,76,70,.41);border-right: .5px solid rgba(220,76,70,.41); border-radius:6px;padding:5px;margin-bottom:10px; margin-bottom: 0px;">
-				<ul style=list-style-type:none;display:flex;padding:5px;margin:0;flex-basis:100px;flex-wrap:wrap>
+				<div class="sharing">
+				<ul >
 					<a href="https://www.facebook.com/alltechnotricks.karunakar.7" target="_blank">
-						<amp-social-share type="facebook" data-param-app_id="254325784911610"></amp-social-share>
+						<amp-social-share type="facebook"></amp-social-share>
 					</a>
 					<a href="https://twitter.com/karunakar2smart" target="_blank"> 
 						<amp-social-share type="twitter"></amp-social-share>
@@ -286,7 +358,7 @@
 					
 					</a>
 					<a href="https://plus.google.com/u/0/117648017511937827009" target="_blank"> 
-						 <amp-social-share type="gplus" style="border-radius: 50%;"></amp-social-share></a>
+						 <amp-social-share type="gplus" ></amp-social-share></a>
 				</ul>
 			</div>
 	
@@ -294,14 +366,14 @@
 <div class="section">
 	
 	<div class="previouspost1">
-<a href="https://www.alltechnotricks.com/earn-money-online.html"> 
+<a href="https://www.alltechnotricks.com/earn-money-online.html" target="_blank"> 
   
   <amp-img src="https://www.alltechnotricks.com/images/make-money-online.jpg" height="4px" width="5px"
   layout="responsive">
 	</amp-img>
-  <hr style="border: 1px solid red;"> </a>
-				<a href="https://www.alltechnotricks.com/earn-money-online.html" target="_blank" style="text-decoration: none;">
-					<h1 style="margin-top: 0px;">&#9679; Make Money Online | Top Ways To Earn Money Online</h1> </a>
+  <hr class="karna"> </a>
+				<a href="https://www.alltechnotricks.com/earn-money-online.html" target="_blank">
+					<h1>&#9679; Make Money Online | Top Ways To Earn Money Online</h1> </a>
 			</div>
 		<div class="previouspost2">
 <amp-auto-ads type="adsense"
@@ -313,7 +385,7 @@
 <a href="https://www.alltechnotricks.com/earn-money-online.html"> 
   <amp-img src="https://www.alltechnotricks.com/images/make-money-online.jpg" height="4px" width="5px"
   layout="responsive">
-	</amp-img>
+	</amp-img><hr class="karna">
    </a>
 			<amp-auto-ads type="adsense"
               data-ad-client="ca-pub-2687924945894784">
@@ -321,33 +393,31 @@
 			</div>
 	</div>
 		
-	<div class=" footercontainter" style="margin-top: 9px;">
-			<div class="footer1" style="border: .1px dashed rgba(0, 0, 0, 0.55); border-radius: 5px; margin-right: 5px; margin-bottom: 5px;">
+	<div class="footercontainter">
+			<div class="footer1">
 			<amp-auto-ads type="adsense"
               data-ad-client="ca-pub-2687924945894784">
 </amp-auto-ads>
 			</div>
-			<div class="footer2" style="border: .1px dashed rgba(0, 0, 0, 0.55); border-radius: 5px; margin-right: 5px;margin-bottom: 5px;">
+			<div class="footer2">
 				<amp-auto-ads type="adsense"
               data-ad-client="ca-pub-2687924945894784">
 </amp-auto-ads>
 			</div>
-			<div class="karunakarcard" style=" box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); padding: 5px;margin-bottom: 9px; border: .1px dashed #0f0e0e; border-radius: 5px;">
-				<div class="container" style=" padding: 0px 25px; border: .5px dotted black; border-radius: 5px;">
+			<div class="karunakarcard">
+				<div class="container">
 					<h2>Karunakar</h2>
-					<p style=" color: grey; text-align: justify;">CEO & Founder</p>
+					<p class="ceo">CEO & Founder</p>
 					<p>Hi this some paragraph text which is used for description purposes</p>
 					<p>Karunakar2smart.mail@gmial.com</p>
-					<button style="border: none;outline: 0;display: inline-block;padding: 15px;color: white;font-size: 15px;background-color: #000;text-align: center;cursor: pointer;width: 100%; margin-bottom: 10px;">Contact Me</button>
+					<button>Contact Me</button>
 				</div>
 			</div>
 		</div>
-		<div class=" copyright" style="border: 1px solid lightgrey; color: white;margin-top: 2px;padding: 10;text-align: center;background-color: black;">
+		<div class="copyright">
 			<p>&#64; 2018 alltechnotricks.com Powered By All Techno Tricks | All Rights Reserved | Design & Coded by Karunakar.</div>
-	<button id="scrollToTopButton" on="tap:top-page.scrollTo(duration=200)" class="scrollToTop">⌃</button>
-
-	</div>
-	<amp-animation id="showAnim" layout="nodisplay">
+	<button id="scrollToTopButton" on="tap:top-page.scrollTo(duration=500)" class="scrollToTop">⌃</button>
+<amp-animation id="showAnim" layout="nodisplay">
     <script type="application/json">
       {
         "duration": "200ms",
@@ -384,6 +454,7 @@
      }
    </script>
  </amp-animation>
+
 </body>
 	
 
