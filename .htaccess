@@ -1,4 +1,3 @@
-Options +FollowSymLinks
 RewriteEngine On
 Rewrite 301 /index.html https://www.alltechnotricks.com/
 
