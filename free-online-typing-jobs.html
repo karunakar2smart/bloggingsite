@@ -555,8 +555,7 @@
 	<div class="progress-container" style="position: fixed;">
 		<div class="progress-bar" id="myBar"></div>
 	</div>
-
-<IfModule mod_expires.c>
+<IfModule mod_expires.c style="display: none;">
   ExpiresActive on
 
 # Perhaps better to whitelist expires rules? Perhaps.
@@ -592,6 +591,10 @@
   ExpiresByType text/html    "access  10 minutes"
   ExpiresByType embed.js    "access  10 minutes"
 
+#GZIP COMPRESSION IS HERE
 </IfModule>
+
+
 	</body>
+
 </html>
