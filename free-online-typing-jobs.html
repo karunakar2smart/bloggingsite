@@ -555,6 +555,43 @@
 	<div class="progress-container" style="position: fixed;">
 		<div class="progress-bar" id="myBar"></div>
 	</div>
-</body>
 
+<IfModule mod_expires.c>
+  ExpiresActive on
+
+# Perhaps better to whitelist expires rules? Perhaps.
+  ExpiresDefault                          "access plus 1 month"
+
+# Data
+  ExpiresByType text/xml                  "access plus 10 minutes"
+  ExpiresByType application/xml           "access plus 10 minutes"
+  ExpiresByType application/json          "access plus 60 seconds"
+
+# Favicon (cannot be renamed)
+  ExpiresByType image/x-icon              "access  10 minutes"
+
+# Media: images, video, audio
+  ExpiresByType image/gif                 "access  10 minutes"
+  ExpiresByType image/png                 "access  10 minutes"
+  ExpiresByType image/jpeg                "access  10 minutes"
+  ExpiresByType video/ogg                 "access  10 minutes"
+  ExpiresByType audio/ogg                 "access  10 minutes"
+  ExpiresByType video/mp4                 "access  10 minutes"
+  ExpiresByType video/webm                "access  10 minutes"
+
+# Webfonts
+  ExpiresByType application/x-font-ttf    "access 10 minutes"
+  ExpiresByType font/opentype             "access 10 minutes"
+  ExpiresByType application/x-font-woff   "access 10 minutes"
+  ExpiresByType image/svg+xml             "access 10 minutes"
+  ExpiresByType application/vnd.ms-fontobject "10 minutes"
+
+# CSS and JavaScript
+  ExpiresByType text/css                  "access 10 minutes"
+  ExpiresByType application/javascript    "access 10 minutes"
+  ExpiresByType text/html    "access  10 minutes"
+  ExpiresByType embed.js    "access  10 minutes"
+
+</IfModule>
+	</body>
 </html>
