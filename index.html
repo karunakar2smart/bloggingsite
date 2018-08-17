@@ -27,7 +27,6 @@
 	<meta property="og:site_name" content="Techno Tricks" />
 	<meta property="og:image" content="https://www.alltechnotricks.com/images/earn-money-online-typing-jobs.jpg" />
 	<script type='text/javascript' src='//platform-api.sharethis.com/js/sharethis.js#property=5b6543baf3815e0011ed25e0&product=inline-share-buttons' async='async' media="none" onload="if(media!='all')meida='all'"></script>
-
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-115951250-1"></script>
 	<script>
 		function gtag() {
@@ -41,7 +40,7 @@
 			box-sizing: border-box;
 		}
 
-		#button {
+		.button {
 			opacity: 0.7;
 			position: fixed;
 			bottom: 20px;
@@ -56,7 +55,7 @@
 			border-radius: 4px;
 		}
 
-		#button:hover {
+		.button:hover {
 			background-color: #0b39fc;
 			opacity: 1;
 		}
@@ -236,9 +235,9 @@
 	</style>
 </head>
 
-<body>
+<body id="top-page">
 	<!-- MOBILE VIEW OF NAVIGATION -->
-	<div class="karna-12 mobilenavigation" id="top-page" style="border: 1px solid lightgrey; display: block; margin-top: 1px; margin-bottom: 5px; box-shadow: 0px 0px 60px 0px lightgrey;">
+	<div class="karna-12 mobilenavigation" style="border: 1px solid lightgrey; display: block; margin-top: 1px; margin-bottom: 5px; box-shadow: 0px 0px 60px 0px lightgrey;">
 		<div class="navigation" style="margin:0;padding:3px 0 0 0;">
 			<ul style="display:flex;list-style-type:none;flex-basis:100px;flex-wrap:wrap;padding:0;margin:0; ">
 				<li style="flex-grow:1;margin-bottom:3px;padding:2px 0 0 2px; border-right: 1px solid lightgrey;">
@@ -248,7 +247,7 @@
 		</div>
 	</div>
 	<!-- DESKTOP NAVIGATION -->
-	<div class="karna-12 desktopnavigation" id="top-page" style=" margin-bottom:  10px;  padding: 0px;box-shadow: 0 4px 8px 1px rgba(0, 0, 0, 0.09), 0 6px 20px 2px rgba(0, 0, 0, 0.09);">
+	<div class="karna-12 desktopnavigation" style=" margin-bottom:  10px;  padding: 0px;box-shadow: 0 4px 8px 1px rgba(0, 0, 0, 0.09), 0 6px 20px 2px rgba(0, 0, 0, 0.09);">
 		<div class="navigation" style="margin:0;padding:3px 0 0 0;">
 			<ul style="display:flex;list-style-type:none;flex-basis:100px;flex-wrap:wrap;padding:0px;margin:0;">
 				<li style="flex-grow:1;margin-bottom:3px;padding:2px 0 0 2px;">
@@ -310,33 +309,30 @@
 		<p>&#64; 2018 <a href="https://www.alltechnotricks.com" target="_top" style="text-decoration: none; color: white;">All Techno Tricks</a> Powered By All Techno Tricks | All Rights Reserved | Design by Karunakar.</p>
 		<a href="//www.dmca.com/Protection/Status.aspx?ID=9e60fa98-7c26-403f-bbf4-cd354f1a755f" title="DMCA.com Protection Status" class="dmca-badge" style="display: none;"> </a>
 	</div>
-	<script src="event-script/ajax.js"></script>
-	<!-- FOR SMOOTH SCROLLING -->
+	<!--to go to top -->
+	<a href="#top" id="top-page" class="button" onclick="scrollToTop();return false"> <i class="fa fa-arrow-up" style="border: none; color: white; font-size: 20px; padding: 0px; margin: 0px;"></i> </a>
+	<link rel="stylesheet" href="font-awesome/css/all.css" media="none" onload="if(media!='all')media='all'">
 	<script>
-		$(document).ready(function () {
-			// Add smooth scrolling to all links
-			$("a").on('click', function (event) {
-				// Make sure this.hash has a value before overriding default behavior
-				if (this.hash !== "") {
-					// Prevent default anchor click behavior
-					event.preventDefault();
-					// Store hash
-					var hash = this.hash;
-					// Using jQuery's animate() method to add smooth page scroll
-					// The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-					$('html, body').animate({
-						scrollTop: $(hash).offset().top
-					}, 800, function () {
-						// Add hash (#) to URL when done scrolling (default click behavior)
-						window.location.hash = hash;
-					});
-				} // End if
+		document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+			anchor.addEventListener('click', function (e) {
+				e.preventDefault();
+				document.querySelector(this.getAttribute('href')).scrollIntoView({
+					behavior: 'smooth'
+				});
 			});
 		});
 	</script>
-	<!--to go to top --><a href="#top-page" id="button"><i class="fa fa-arrow-up" style="border: none; color: white; font-size: 20px; padding: 0px; margin: 0px;"></i></a>
-	<link rel="stylesheet" href="font-awesome/css/all.css" media="none" onload="if(media!='all')media='all'">
+	<script>
+		var timeOut;
 
+		function scrollToTop() {
+			if (document.body.scrollTop != 0 || document.documentElement.scrollTop != 0) {
+				window.scrollBy(0, -50);
+				timeOut = setTimeout('scrollToTop()', 10);
+			}
+			else clearTimeout(timeOut);
+		}
+	</script>
 </body>
 
 </html>
