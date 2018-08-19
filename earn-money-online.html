@@ -525,7 +525,7 @@
 					<div class="socialsharing">
 						<ul>
 							<li class="facebook"><a href="javascript:fbshareCurrentPage()" window.location.href="https://www.facebook.com/sharer/sharer.php?u=" +escape(window.location.href)+ "&t="+document.title; target="_blank" style="text-decoration: none; color: white;"><i class="fa fa-facebook"></i> Share</a> </li>
-							<li class="twitter"><a href="http://twitter.com/share?url=https://www.alltechnotricks.com/earn-money-online.html" target="_blank" class="twitter-share-button" style="text-decoration: none; color: white;"><i class="fa fa-twitter"></i>Share</a></li>
+							<li class="twitter"><a href="javascript:tweetCurrentPage()" target="_blank"><i class="fa fa-twitter"></i>Share</a></li>
 							<li class="whatsapp"><a href="whatsapp://send?text=<?php the_title(); ?> – <?php urlencode(the_permalink()); ?>" data-action="share/whatsapp/share"><i class="fa fa-whatsapp"></i>Share</a></li>
 						</ul>
 					</div>
@@ -614,6 +614,11 @@
 <script language="javascript">
 	function fbshareCurrentPage() {
 		window.open("https://www.facebook.com/sharer/sharer.php?u=" + escape(window.location.href) + "&t=" + document.title, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');
+	}
+</script>
+<script language="javascript">
+	function tweetCurrentPage() {
+		window.open("https://twitter.com/share?url=" + escape(window.location.href) + "&text=" + document.title, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');
 		return false;
 	}
 </script>
