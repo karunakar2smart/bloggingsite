@@ -33,7 +33,7 @@
 		}
 		window.dataLayer = window.dataLayer || [], gtag("js", new Date), gtag("config", "UA-115951250-1")
 	</script>
-	<script type="application/ld+json"> { "@context": "http://schema.org", "@type": "Article", "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.alltechnotricks.com/earn-money-online.html" }, "headline": "A Best Way To Earn Money Online - 100% Free", "image": [ "https://www.alltechnotricks.com/images/earn-money-online.jpeg" ], "datePublished": "2018-07-05", "dateModified": "2018-08-19", "author": { "@type": "Person", "name": "Karunakar" }, "publisher": { "@type": "Organization", "name": "Techno Tricks", "logo": { "@type": "ImageObject", "url": "https://www.alltechnotricks.com/fevicon.ico" } }, "description": "Do you want to earn money online? Follow our tricks to start earn money online by doing different types of jobs through online earning sites for 100% FREE." } </script>
+	<script type="application/ld+json"> { "@context": "http://schema.org", "@type": "Article", "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.alltechnotricks.com/earn-money-online.html" }, "headline": "A Best Way To Earn Money Online - 100% Free", "image": [ "https://www.alltechnotricks.com/images/earn-money-online.jpeg" ], "datePublished": "2018-07-05", "dateModified": "2018-08-21", "author": { "@type": "Person", "name": "Karunakar" }, "publisher": { "@type": "Organization", "name": "Techno Tricks", "logo": { "@type": "ImageObject", "url": "https://www.alltechnotricks.com/fevicon.ico" } }, "description": "Do you want to earn money online? Follow our tricks to start earn money online by doing different types of jobs through online earning sites for 100% FREE." } </script>
 	<style>
 		.button {
 			opacity: 0.7;
@@ -339,18 +339,18 @@
 			.important-links li:hover {
 				box-shadow: none;
 			}
-			.socialsharing a {
-				color: white;
-			}
-			.socialsharing a:hover {
-				color: white;
-			}
 			.fa-bullhorn {
 				border: none;
 				padding: 0px 10px 0px 0px;
 				margin: 0px;
 				font-size: 10px;
 				color: #004B80;
+			}
+			.socialsharing a {
+				color: white;
+			}
+			.socialsharing a:hover {
+				color: white;
 			}
 			.whatsapp {
 				background-color: #25D366;
@@ -585,19 +585,9 @@
 			</div>
 		</div>
 		<!--to go to top -->
-		<a href="#top-page" class="button" onclick="scrollToTop();return false"> <i class="fa fa-arrow-up" style="border: none; color: white; font-size: 20px; padding: 0px; margin: 0px;"></i> </a>
+		<a href="#top-page" class="button"> <i class="fa fa-arrow-up" style="border: none; color: white; font-size: 20px; padding: 0px; margin: 0px;"></i> </a>
 		<div class="karna-12 copyright" style="border: 1px solid lightgrey; color: white;margin-top: 2px;padding: 10;text-align: center;background-color: #004B80; font-size: 15px;">
 			<p>&#64; 2018 <a href="https://www.alltechnotricks.com" style="color: white; text-decoration: none;">All Techno Tricks</a> Powered By All Techno Tricks | All Rights Reserved | Design by Karunakar.</p>
-			<script>
-				document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-					anchor.addEventListener('click', function (e) {
-						e.preventDefault();
-						document.querySelector(this.getAttribute('href')).scrollIntoView({
-							behavior: 'smooth'
-						});
-					});
-				});
-			</script>
 		</div>
 	</div>
 	<div></div>
@@ -616,6 +606,21 @@
 <script language="javascript">
 	function fbshareCurrentPage() {
 		window.open("https://www.facebook.com/sharer/sharer.php?u=" + escape(window.location.href) + "&t=" + document.title, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');
+	}
+</script>
+<script>
+	let anchorlinks = document.querySelectorAll('a[href^="#"]')
+	for (let item of anchorlinks) { // relitere
+		item.addEventListener('click', (e) => {
+			let hashval = item.getAttribute('href')
+			let target = document.querySelector(hashval)
+			target.scrollIntoView({
+				behavior: 'smooth'
+				, block: 'start'
+			})
+			history.pushState(null, null, hashval)
+			e.preventDefault()
+		})
 	}
 </script>
 
