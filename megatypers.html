@@ -166,8 +166,91 @@
 			width: 32.999%;
 		}
 
-		.mobilenavigation {
-			display: none !important;
+		.nav {
+			border-bottom: 1px solid #f1f1f1;
+			display: flex;
+			flex-grow: 1;
+			flex-wrap: wrap;
+			padding: 1px 0px 5px 0px;
+			margin: 0px;
+			box-shadow: 0px 0px 10px 0px lightgrey;
+			margin-bottom: 8px;
+		}
+
+		.home {
+			flex-grow: 1;
+			text-align: center;
+			border-bottom: 1px solid white;
+		}
+
+		.home:hover {
+			border-bottom: 1px solid #F3130E;
+			transition: .9s ease-in-out;
+		}
+
+		.home a {
+			text-decoration: none;
+			color: #004b80;
+		}
+
+		#nav-home {
+			border: none;
+			color: #004b80;
+			font-size: 35px;
+			padding: 0px 10px 0px 0px;
+		}
+
+		#nav-home:hover {
+			color: #F3130E;
+			transition: .3s ease-in-out;
+		}
+
+		.logo {
+			border-left: 2px solid #f1f1f1;
+			flex-grow: 1;
+			text-align: center;
+			border-bottom: 1px solid white;
+		}
+
+		.logo:hover {
+			border-bottom: 1px solid #F3130E;
+			transition: .4s ease-in-out;
+		}
+
+		.logo a {
+			color: #004b80;
+			text-decoration: none;
+			font-size: 20px;
+		}
+
+		#fa-logo {
+			color: #004b80;
+			font-size: 35px;
+			border: none;
+		}
+
+		.searchbar {
+			border-left: 2px solid #f1f1f1;
+			flex-grow: 1;
+			text-align: center;
+			border-bottom: 1px solid white;
+		}
+
+		.searchbar:hover {
+			border-bottom: 1px solid #F3130E;
+			transition: .8s ease-in-out;
+		}
+
+		.fa-search {
+			color: #004b80;
+			font-size: 25px;
+			padding: 10px 0px 0px 0px;
+			border: none;
+		}
+
+		.fa-search:hover {
+			color: #F3130E;
+			transition: .3s ease-in-out;
 		}
 
 		.important-links {
@@ -686,11 +769,21 @@
 			[class*="karna-"] {
 				width: 100%;
 			}
-			.desktopnavigation {
-				display: none !important;
+			#nav-home {
+				font-size: 25px;
+				padding: 10px 0px 0px 10px;
 			}
-			.mobilenavigation {
-				display: block!important;
+			.logo a {
+				font-size: 18px;
+				padding: 10px 0px 0px 0px;
+			}
+			#fa-logo {
+				font-size: 27px;
+				padding: 10px 0px 0px 0px;
+			}
+			.fa-search {
+				padding: 10px 5px 0px 10px;
+				font-size: 25px;
 			}
 			.sidebar1,
 			.sidebar2 {
@@ -818,25 +911,15 @@
 </head>
 
 <body id="top-page">
-	<!-- MOBILE VIEW OF NAVIGATION -->
-	<div class="karna-12 mobilenavigation" style="border: 1px solid lightgrey; display: block; margin-top: 1px; margin-bottom: 5px; box-shadow: 0px 0px 60px 0px lightgrey;">
-		<div class="navigation" style="margin:0;padding:3px 0 0 0;">
-			<ul style="display:flex;list-style-type:none;flex-basis:100px;flex-wrap:wrap;padding:0;margin:0; ">
-				<li style="flex-grow:1;margin-bottom:3px;padding:2px 0 0 2px; border-right: 1px solid lightgrey;">
-					<a href="https://www.alltechnotricks.com/" target="_top" style="text-align:center;padding:5px;margin-right:4px;text-decoration:none;display:block;background-color:#fff; color:#004B80;"> <i class="fa fa-home" style="border: none; padding: 0px; font-size: 35px;"></i></a>
-				</li>
-			</ul>
+	<div class="karna-12 nav">
+		<div class="home">
+			<a href="https://www.alltechnotricks.com" target="_top"> <i class="fa fa-home" id="nav-home"></i> </a>
 		</div>
-	</div>
-	<div class="karna-12 desktopnavigation" style=" margin-bottom:  10px;  padding: 0px;box-shadow: 0 4px 8px 1px rgba(0, 0, 0, 0.09), 0 6px 20px 2px rgba(0, 0, 0, 0.09);">
-		<div class="navigation" style="margin:0;padding:3px 0 0 0;">
-			<ul style="display:flex;list-style-type:none;flex-basis:100px;flex-wrap:wrap;padding:0px;margin:0;">
-				<li style="flex-grow:1;margin-bottom:3px;padding:2px 0 0 2px;">
-					<a href="https://www.alltechnotricks.com/" target="_top" style="text-align:center;padding:14px;margin-right:4px;text-decoration:none;display:block;font-size:20px;background-color:#fff;border:.5px solid lightgrey;border-radius:4px;color:#004B80;"> <i class="fa fa-home" style="border: none; padding: 0px; font-size: 25px;"></i>Home </a>
-				</li>
-				<li style="flex-grow:1;margin-bottom:3px;padding:2px 0 0 2px"> <a href="https://www.facebook.com/alltechnotricks.karunakar.7" target="_blank" style="text-align:center;padding:14px;margin-right:4px;text-decoration:none;display:block;font-size:20px;background-color:#fff;border:.5px solid lightgrey;border-radius:4px;color:#004B80;    "><i class="fa fa-question-circle" style="border: none; font-size: 20px;"></i>About Me</a></li>
-				<li style="flex-grow:1;margin-bottom:3px;padding:2px 0 0 2px"> <a href="https://www.facebook.com/alltechnotricks.karunakar.7" target="_blank" style="text-align:center;padding:14px;margin-right:4px;text-decoration:none;display:block;font-size:20px;background-color:#fff;border:.5px solid lightgrey;border-radius:4px;color:#004B80;    "><i class="fa fa-address-card" style="border: none; font-size: 20px;"></i>Contact Me</a></li>
-			</ul>
+		<div class="logo">
+			<a href="https://www.alltechnotricks.com"> <i class="fa fa-ravelry" id="fa-logo"></i> All Techno Tricks </a>
+		</div>
+		<div class="searchbar">
+			<a href="#"> <i class="fa fa-search"></i> </a>
 		</div>
 	</div>
 	<div class="karna-12 container">
