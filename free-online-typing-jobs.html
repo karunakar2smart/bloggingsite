@@ -98,6 +98,7 @@
 			display: inline-block;
 			padding: 3.5px;
 			margin-right: 15px;
+			border: none;
 		}
 
 		.sidebar1 {
@@ -121,7 +122,7 @@
 			margin-top: 0px;
 			margin-bottom: 0px;
 			padding: 0px 3px 0px 20px;
-			color: #004B80;
+			color: blue;
 			font-family: sans-serif;
 			font-weight: 550;
 			word-wrap: break-word;
@@ -308,11 +309,6 @@
 			color: rgb(9, 0, 245);
 			font-size: 10px !important;
 			padding: 0px 0px 0px 10px;
-		}
-
-		.fa-bullhorn {
-			border: none;
-			color: #004B80;
 		}
 
 		.article a {
@@ -643,6 +639,62 @@
 			margin-right: 30px;
 		}
 
+		@-webkit-keyframes flash {
+			0%,
+			100%,
+			50% {
+				opacity: 1;
+			}
+			25%,
+			75% {
+				opacity: 0;
+			}
+		}
+
+		@keyframes flash {
+			0%,
+			100%,
+			50% {
+				opacity: 1;
+			}
+			25%,
+			75% {
+				opacity: 0;
+			}
+		}
+
+		.faa-flash.animated,
+		.faa-flash.animated-hover:hover,
+		.faa-parent.animated-hover:hover > .faa-flash {
+			-webkit-animation: flash 2s ease infinite;
+			animation: flash 2s ease infinite;
+		}
+
+		.faa-flash.animated.faa-fast,
+		.faa-flash.animated-hover.faa-fast:hover,
+		.faa-parent.animated-hover:hover > .faa-flash.faa-fast {
+			-webkit-animation: flash 1s ease infinite;
+			animation: flash 1s ease infinite;
+		}
+
+		.faa-flash.animated.faa-slow,
+		.faa-flash.animated-hover.faa-slow:hover,
+		.faa-parent.animated-hover:hover > .faa-flash.faa-slow {
+			-webkit-animation: flash 3s ease infinite;
+			animation: flash 3s ease infinite;
+		}
+
+		.fa-external-link-square {
+			font-size: 18px !important;
+			color: #0474F4;
+			border: none;
+			padding: 0px 0px 0px 10px;
+		}
+
+		#numbers {
+			padding: 0px 15px 0px 0px;
+		}
+
 		.ads {
 			padding: 10px 5px 8px 20px !important;
 			border-top: 3px solid #f1f1f1;
@@ -755,6 +807,9 @@
 			#bell-right {
 				display: none;
 			}
+			#numbers {
+				padding: 0px;
+			}
 			.ads {
 				padding: 5px 1px 5px 8px !important;
 				margin: 2px !important;
@@ -776,9 +831,9 @@
 		</div>
 	</div>
 	<div class="karna-12 container">
-		<div class="karna-7 articleid" style="border: 1px solid lightgrey; margin-top: 3px; margin-left: 5px;border-radius: 5px;box-shadow: 0 4px 8px 1px rgba(0, 0, 0, 0.09), 0 6px 20px 2px rgba(0, 0, 0, 0.09);">
+		<div class="karna-7 articleid" style="border: 1px solid lightgrey; margin-top: 3px; margin-left: 5px;border-radius: 5px;">
 			<div class="karna-12 article">
-				<h1 style="padding: 15px; margin: 0px;color: #004B80;text-align: center; border-radius: 5px; font-size: 36px; line-height: 1.333; font-weight: 600; border-bottom: 1px solid lightgrey;box-shadow: 0 4px 8px 1px rgba(0, 0, 0, 0.05), 0 6px 20px 2px rgba(0, 0, 0, 0.05);">Top 10 Free Online Typing Jobs</h1>
+				<h1 style="padding: 15px; margin: 0px;color: #004B80;text-align: center; border-radius: 5px; font-size: 36px; line-height: 1.333; font-weight: 600; border-bottom: 1px solid lightgrey;">Top 6 Free Online Typing Jobs</h1>
 				<p>Hi, are you searching for <b>free online typing jobs</b>? Then you are in a good place.</p>
 				<p>Yes, we can <b>earn money</b> through different <b>online typing work</b> with <b>no registration fees</b>.</p>
 				<p>Yes, indeed. It's is 100% <b>Free</b> to <b>signup</b>.</p>
@@ -795,22 +850,22 @@
 				<div class="important-links">
 					<ul>
 						<a href="#megatyper-online-typing-job">
-							<li> <i class="fa fa-bell faa-ring animated" style="border: none; animation-name: ring;"></i> MegaTypers Online Typing Work.<i class="fa fa-arrow-down faa-passing animated" style="animation-name: passing;"></i><i class="fa fa-bell faa-ring animated" id="bell-right" style="border: none; animation-name: ring;"></i> </li>
+							<li> <i class="fa fa-bell faa-ring animated" style="border: none; animation-name: ring;"></i><span id="numbers">1.</span> MegaTypers Online Typing Work.<i class="fa fa-arrow-down faa-passing animated" style="animation-name: passing;"></i><i class="fa fa-bell faa-ring animated" id="bell-right" style="border: none; animation-name: ring;"></i> </li>
 						</a>
 						<a href="#qlink-online-typing-job">
-							<li><i class="fa fa-bell faa-ring animated" style="border: none; animation-name: ring;"></i>Qlinkgroup Online Typing Job.<i class="fa fa-arrow-down faa-passing animated" style="animation-name: passing;"></i><i class="fa fa-bell faa-ring animated" id="bell-right" style="border: none; animation-name: ring;"></i></li>
+							<li><i class="fa fa-bell faa-ring animated" style="border: none; animation-name: ring;"></i><span id="numbers">2.</span> Qlinkgroup Online Typing Job.<i class="fa fa-arrow-down faa-passing animated" style="animation-name: passing;"></i><i class="fa fa-bell faa-ring animated" id="bell-right" style="border: none; animation-name: ring;"></i></li>
 						</a>
 						<a href="#kalotibablo-online-typing-job">
-							<li><i class="fa fa-bell faa-ring animated" style="border: none; animation-name: ring;"></i>Kalotibablo Data Entry Work.<i class="fa fa-arrow-down faa-passing animated" style="animation-name: passing;"></i><i class="fa fa-bell faa-ring animated" id="bell-right" style="border: none; animation-name: ring;"></i></li>
+							<li><i class="fa fa-bell faa-ring animated" style="border: none; animation-name: ring;"></i><span id="numbers">3.</span>Kalotibablo Data Entry Work.<i class="fa fa-arrow-down faa-passing animated" style="animation-name: passing;"></i><i class="fa fa-bell faa-ring animated" id="bell-right" style="border: none; animation-name: ring;"></i></li>
 						</a>
 						<a href="#captchatypers-online-typing-job">
-							<li><i class="fa fa-bell faa-ring animated" style="border: none; animation-name: ring;"></i>Captcha Typers Online Typing Job.<i class="fa fa-arrow-down faa-passing animated" style="animation-name: passing;"></i><i class="fa fa-bell faa-ring animated" id="bell-right" style="border: none; animation-name: ring;"></i></li>
+							<li><i class="fa fa-bell faa-ring animated" style="border: none; animation-name: ring;"></i><span id="numbers">4.</span>Captcha Typers Typing Job.<i class="fa fa-arrow-down faa-passing animated" style="animation-name: passing;"></i><i class="fa fa-bell faa-ring animated" id="bell-right" style="border: none; animation-name: ring;"></i></li>
 						</a>
 						<a href="#captcha2cash-online-typing-job">
-							<li><i class="fa fa-bell faa-ring animated" style="border: none; animation-name: ring;"></i>Captcha2Cash Online Typing Job.<i class="fa fa-arrow-down faa-passing animated" style="animation-name: passing;"></i><i class="fa fa-bell faa-ring animated" id="bell-right" style="border: none; animation-name: ring;"></i></li>
+							<li><i class="fa fa-bell faa-ring animated" style="border: none; animation-name: ring;"></i><span id="numbers">5.</span>Captcha2Cash Online Typing Job.<i class="fa fa-arrow-down faa-passing animated" style="animation-name: passing;"></i><i class="fa fa-bell faa-ring animated" id="bell-right" style="border: none; animation-name: ring;"></i></li>
 						</a>
 						<a href="#lionbridge-online-typing-job">
-							<li><i class="fa fa-bell faa-ring animated" style="border: none; animation-name: ring;"></i>Lionbridge Online Typing Job.<i class="fa fa-arrow-down faa-passing animated" style="animation-name: passing;"></i><i class="fa fa-bell faa-ring animated" id="bell-right" style="border: none; animation-name: ring;"></i></li>
+							<li><i class="fa fa-bell faa-ring animated" style="border: none; animation-name: ring;"></i><span id="numbers">6.</span>Lionbridge Online Typing Job.<i class="fa fa-arrow-down faa-passing animated" style="animation-name: passing;"></i><i class="fa fa-bell faa-ring animated" id="bell-right" style="border: none; animation-name: ring;"></i></li>
 						</a>
 					</ul>
 				</div>
@@ -841,9 +896,16 @@
 						(adsbygoogle = window.adsbygoogle || []).push({});
 					</script>
 				</p>
-				<br>
+
+
+
+
 				<a href="https://www.alltechnotricks.com/megatypers.html" target="_blank">
-					<h2 id="megatyper-online-typing-job"><i class="fa fa-bullhorn"></i>MegaTypers Free Online Typing Work</h2> </a>
+
+				<h2 id="megatyper-online-typing-job"><span style="padding: 0px 10px 0px 0px;">1.</span>MegaTypers Free Online Typing Work. <i class="fa fa-external-link-square faa-flash animated" style="animation-name: flash;"></i></h2>
+
+					</a>
+
 				<p><a href="https://www.alltechnotricks.com/megatyper.html" target="_blank">MegaTypers</a> is a workforce management company which provides <b>free online typing services</b>.</p>
 				<p>They are looking for Typers from all around the globe.</p>
 				<p>You need to type at least 6 words per minute, which is an easy task.</p>
@@ -867,9 +929,9 @@
 						(adsbygoogle = window.adsbygoogle || []).push({});
 					</script>
 				</p>
-				<br>
+
 				<a href="#" target="_top">
-					<h2 id="qlink-online-typing-job"><i class="fa fa-bullhorn"></i>Qlink Group Online Typing Work</h2></a>
+					<h2 id="qlink-online-typing-job"><span style="padding: 0px 10px 0px 0px;">2.</span>Qlink Group Online Typing Work.<i class="fa fa-external-link-square faa-flash animated" style="animation-name: flash;"></i></h2></a>
 				<p>Hi, I am glad that you reached till here.</p>
 				<p>Welcome to <b>Qlinkgroup online typing job</b>.</p>
 				<p>In here, there will be a flow of images in the given software in which you need to submit the input less than 20 seconds.</p>
@@ -890,9 +952,9 @@
 						(adsbygoogle = window.adsbygoogle || []).push({});
 					</script>
 				</p>
-				<br>
+
 				<a href="#" target="_top">
-					<h2 id="kalotibablo-online-typing-job"><i class="fa fa-bullhorn"></i>Kalotibablo Online Typing Work</h2></a>
+					<h2 id="kalotibablo-online-typing-job"><span style="padding: 0px 10px 0px 0px;">3.</span>Kalotibablo Online Typing Work.<i class="fa fa-external-link-square faa-flash animated" style="animation-name: flash;"></i></h2></a>
 				<p>Hi, here it is another <b>online typing job</b></p>
 				<p>Welcome to <b>Kalotibablo online typing work</b>.</p>
 				<p>Honestly, for every beginner <b>Kalotibablo online typing job</b> is a good choice, because the submitting <b>time</b> for every input is high.</p>
@@ -916,9 +978,9 @@
 						(adsbygoogle = window.adsbygoogle || []).push({});
 					</script>
 				</p>
-				<br>
+
 				<a href="#" target="_top">
-					<h2 id="captchatypers-online-typing-job"><i class="fa fa-bullhorn"></i>Captcha Typers Online Typing Job</h2></a>
+					<h2 id="captchatypers-online-typing-job"><span style="padding: 0px 10px 0px 0px;">4.</span>Captcha Typers Online Typing Job.<i class="fa fa-external-link-square faa-flash animated" style="animation-name: flash;"></i></h2></a>
 				<p>Welcome to <b>CaptchaTypers free online typing job</b>.</p>
 				<p><b>CaptchaTypers</b> is another best site which is providing <b>free online typing jobs</b>.</p>
 				<p>In here, unlike other <b>typing jobs</b>, you cannot work on <b>CaptchaTypers</b> official website.</p>
@@ -937,9 +999,9 @@
 						(adsbygoogle = window.adsbygoogle || []).push({});
 					</script>
 				</p>
-				<br>
+
 				<a href="#" target="_top">
-					<h2 id="captcha2cash-online-typing-job"><i class="fa fa-bullhorn"></i>Captcha2Cash Online Typing Work</h2></a>
+					<h2 id="captcha2cash-online-typing-job"><span style="padding: 0px 10px 0px 0px;">5.</span>Captcha2Cash Online Typing Work.<i class="fa fa-external-link-square faa-flash animated" style="animation-name: flash;"></i></h2></a>
 				<p><b>Captcha2cash</b> is also another site which offers <b>free online typing jobs</b>.</p>
 				<p>In here, you can directly create a new account by adding your <b>payment credentials</b>.</p>
 				<p>Yes, indeed you can directly work on <b>Captcha2cash</b> official website.</p>
@@ -955,9 +1017,9 @@
 						(adsbygoogle = window.adsbygoogle || []).push({});
 					</script>
 				</p>
-				<br>
+
 				<a href="#" target="_blank">
-					<h2 id="lionbridge-online-typing-job"><i class="fa fa-bullhorn"></i>Lionbridge Online Typing Work</h2></a>
+					<h2 id="lionbridge-online-typing-job"><span style="padding: 0px 10px 0px 0px;">6.</span>Lionbridge Online Typing Work.<i class="fa fa-external-link-square faa-flash animated" style="animation-name: flash;"></i></h2></a>
 				<p>The <b>Smart Crowd</b> formerly known as VirtualBee / Key For Cash is one of the <b>legit online money making</b> sites.</p>
 				<p>This is the only few <b>online</b> companies in existence offering legit <b>online typing jobs from home</b>.</p>
 				<p>The <b>online typing</b> tasks were the same even though the company name has changed.</p>
@@ -991,13 +1053,13 @@
 		</div>
 		<div class="karna-3 sidebar1">
 			<div class="karna-sidebar-ads" style="top: 5px;position: sticky; padding: 2px;">
-				<div style=" border: 1px dashed lightgrey;box-shadow: 0 4px 8px 1px rgba(0, 0, 0, 0.05), 0 6px 20px 2px rgba(0, 0, 0, 0.05); border-radius: 5px; padding: 3px; margin-bottom: 3px;"> <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-2687924945894784" data-ad-slot="7944930014" data-ad-format="auto" data-full-width-responsive="true"></ins>
+				<div style=" border: 1px dashed lightgrey;border-radius: 5px; padding: 3px; margin-bottom: 3px;"> <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-2687924945894784" data-ad-slot="7944930014" data-ad-format="auto" data-full-width-responsive="true"></ins>
 					<!--  images + links ads are here -->
 					<script>
 						(adsbygoogle = window.adsbygoogle || []).push({});
 					</script>
 				</div>
-				<div class="card1" style=" border: 1px solid lightgrey;box-shadow: 0 4px 8px 1px rgba(0, 0, 0, 0.05), 0 6px 20px 2px rgba(0, 0, 0, 0.05); border-radius: 5px;">
+				<div class="card1" style=" border: 1px solid lightgrey;border-radius: 5px;">
 					<a href="https://www.alltechnotricks.com/megatypers.html" target="_blank"> <img src="images/earn-money-online.jpeg" alt="Make Money Online By Typing Job" title="Make Money Online By Typing Jobs" style="width: 100%; height: auto;"> </a>
 					<a href="https://www.alltechnotricks.com/megatypers.html" target="_blank" style="text-decoration:none">
 						<h2 style="margin-top: 0px; padding: 6px; line-height: 1.125em;">	Hiring - 10$ to 100$ per hour.
@@ -1015,17 +1077,17 @@
 --></div>
 		</div>
 		<div class="karna-12 section" style="display: flex; flex-basis: 100px; flex-wrap: wrap; margin-top: 5px;">
-			<div class="karna-4 previouspost1" style="padding: 5px;border: 1px solid lightgrey;border-radius: 5px;margin-bottom: 8px;margin-right: 5px;box-shadow: 0 4px 8px 1px rgba(0, 0, 0, 0.05), 0 6px 20px 2px rgba(0, 0, 0, 0.05);">
-				<a href="https://www.alltechnotricks.com/megatypers.html" target="_blank"> <img src="images/free-online-typing-jobs.jpeg" alt="make-money-online" title="Earn Money Online By Free Online Typing Jobs" style="width: 100%; height: auto;"> </a>
+			<div class="karna-4 previouspost1" style="padding: 5px;border: 1px solid lightgrey;border-radius: 5px;margin-bottom: 8px;margin-right: 5px;">
+				<a href="https://www.alltechnotricks.com/megatypers.html" target="_blank"> <img src="images/megatypers-logo-image.jpg" alt="make-money-online" title="Earn Money Online By Free Online Typing Jobs" style="width: 100%; height:auto;"> </a>
 				<a href="https://www.alltechnotricks.com/megatypers.html" target="_blank" style="text-decoration: none;">
 					<h2 style="margin-top: 0px; font-size: 25px;">MegaTypers Online Typing Job with no investment - 100% Free.</h2> </a>
 			</div>
-			<div class="karna-4 previouspost2" style="border: 1px solid lightgrey; margin-right: 5px; margin-bottom: 5px; border-radius: 5px; padding: 5px;border-radius: 5px;margin-bottom: 8px;margin-right: 5px;box-shadow: 0 4px 8px 1px rgba(0, 0, 0, 0.05), 0 6px 20px 2px rgba(0, 0, 0, 0.05);">
+			<div class="karna-4 previouspost2" style="border: 1px solid lightgrey; margin-right: 5px; margin-bottom: 5px; border-radius: 5px; padding: 5px;border-radius: 5px;margin-bottom: 8px;margin-right: 5px;">
 				<a href="https://www.alltechnotricks.com/free-online-typing-jobs.html" target="_blank"> <img src="images/earn-money-online.jpeg" alt="make-money-online" title="Earn Money Online | Top Ways To Earn Money Online" style="width: 100%; height: auto;"> </a>
 				<a href="https://www.alltechnotricks.com/free-online-typing-jobs.html" target="_blank" style="text-decoration: none;">
 					<h2 style="margin-top: 0px; font-size: 25px;">Make Money Online | Top Ways To Earn Money Online</h2> </a>
 			</div>
-			<div class="karna-4 previouspost2" style="padding: 5px;border: 1px solid lightgrey;border-radius: 5px;margin-bottom: 8px;box-shadow: 0 4px 8px 1px rgba(0, 0, 0, 0.05), 0 6px 20px 2px rgba(0, 0, 0, 0.05);">
+			<div class="karna-4 previouspost2" style="padding: 5px;border: 1px solid lightgrey;border-radius: 5px;margin-bottom: 8px;">
 				<a href="https://www.alltechnotricks.com/earn-money-online.html" target="_blank" style="text-decoration: none;"> <img src="images/free-online-typing-jobs.jpeg" alt="Make Money Online | Top Ways To Earn Money Online" title="Earn Money Online | Top Ways To Earn Money Online" style="width: 100%; height: auto;"> </a>
 				<a href="https://www.alltechnotricks.com/earn-money-online.html" target="_blank" style="text-decoration: none;">
 					<h2 style="margin-top: 0px; font-size: 25px;">Make Money Online with no investment.</h2> </a>
