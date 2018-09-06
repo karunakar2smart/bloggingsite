@@ -1,7 +1,5 @@
 User-Agent: *
 Disallow: /event-script/
 Disallow: /images/
-Disallow: /typingjobs.html
-Disallow: /writing-articles.html
 
 Sitemap: https://www.alltechnotricks.com/sitemap.xml
