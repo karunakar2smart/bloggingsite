@@ -48,7 +48,6 @@
 				-webkit-transform: translateX(-100%);
 				transform: translateX(-100%);
 				opacity: 0.5;
-
 			}
 			100% {
 				-webkit-transform-origin: 0 0;
@@ -66,7 +65,6 @@
 				-webkit-transform: translateX(-100%);
 				transform: translateX(-100%);
 				opacity: 0.5;
-
 			}
 			100% {
 				-webkit-transform-origin: 0 0;
@@ -597,20 +595,25 @@
 			float: left;
 			padding: 1px;
 			height: 4990px;
-			animation-name: slideLeftReturn;
-			animation-duration: 4s;
-			animation-iteration-count: 3;
-			animation-delay: 4s;
+			opacity: 0;
+			animation-name: uptodown;
+			animation-fill-mode: forwards;
+			animation-duration: 5s;
+			animation-iteration-count: 1;
+			animation-delay: 6s;
 		}
 
 		.sidebar2 {
 			float: right;
 			padding: 0px;
 			height: 4990px;
-			animation-name: slideRightReturn;
-			animation-duration: 4s;
-			animation-iteration-count: 2;
-			animation-delay: 6s;
+			position: relative;
+			opacity: 0;
+			animation-name: uptodown;
+			animation-duration: 7s;
+			animation-fill-mode: forwards;
+			animation-iteration-count: 1;
+			animation-delay: 9s;
 		}
 
 		.sidebar3 {
@@ -816,6 +819,26 @@
 
 		.ads {
 			padding: 10px 5px 8px 20px;
+		}
+
+		@keyframes uptodown {
+			0% {
+				transform: translateY(-1000px);
+				;
+				opacity: 0;
+			}
+			30% {
+				transform: translateY(500px);
+				opacity: .5;
+			}
+			70% {
+				transform: translateY(-200px);
+				opacity: .9;
+			}
+			100% {
+				transform: translateY(0px);
+				opacity: 1;
+			}
 		}
 
 		@media only screen and (max-width:768px) {
