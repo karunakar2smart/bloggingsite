@@ -33,14 +33,63 @@
 		}
 		window.dataLayer = window.dataLayer || [], gtag("js", new Date), gtag("config", "UA-115951250-1")
 	</script>
-	<script type="application/ld+json"> { "@context": "http://schema.org", "@type": "Article", "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.alltechnotricks.com/Blog/github-pages-custom-domain.html" }, "headline": "Host a website using Github pages with a custom URL and Godaddy Domain.", "image": [ "https://www.alltechnotricks.com/images/earn-money-online.jpeg" ], "datePublished": "2018-10-23", "dateModified": "2018-10-23", "author": { "@type": "Person", "name": "Karunakar" }, "publisher": { "@type": "Organization", "name": "Techno Tricks", "logo": { "@type": "ImageObject", "url": "https://www.alltechnotricks.com/fevicon.ico" } }, "description": "We can host a website using Github pages with a custom URL and a personal domain name. We will learn more about adding CNAME file, creating a new repository on Github, configuring DNS for Domain name and finally checking the live status of our website with custom URL." } </script>
+	<script type="application/ld+json"> { "@context": "http://schema.org", "@type": "Article", "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.alltechnotricks.com/Blog/github-pages-custom-domain.html" }, "headline": "Host a website using Github pages with a custom URL and Godaddy Domain.", "image": [ "https://www.alltechnotricks.com/images/earn-money-online.jpeg" ], "datePublished": "2018-10-23", "dateModified": "2018-10-27", "author": { "@type": "Person", "name": "Karunakar" }, "publisher": { "@type": "Organization", "name": "Techno Tricks", "logo": { "@type": "ImageObject", "url": "https://www.alltechnotricks.com/fevicon.ico" } }, "description": "We can host a website using Github pages with a custom URL and a personal domain name. We will learn more about adding CNAME file, creating a new repository on Github, configuring DNS for Domain name and finally checking the live status of our website with custom URL." } </script>
 	<style>
-		.invitation_code {
-			border: 10px solid transparent;
-			border-image: url(images/border.png) 30% round;
-			padding: 30px;
-			color: black;
-			text-align: center;
+		.advertisement {
+			padding: 10px;
+		}
+
+		.advertisement_box {
+			max-width: 970px;
+			width: 100%;
+			height: 93px;
+			padding: 3px;
+			position: relative;
+			transform-style: preserve-3d;
+			transform-origin: left center;
+			perspective: 300px;
+			/*			box-shadow: 3px 7px 22px -2px rgba(212, 212, 212, 1);*/
+			animation: sliding 4s ease-in-out infinite alternate-reverse;
+		}
+
+		.advertisement_box:hover {
+			animation-play-state: paused;
+			animation-fill-mode: none;
+			cursor: pointer;
+		}
+
+		.box_front {
+			background-color: white;
+			position: absolute;
+			left: 0;
+			top: 0;
+			bottom: 0;
+			right: 0;
+			backface-visibility: hidden;
+			width: 100%;
+			height: 100%;
+		}
+
+		.box_back {
+			background-color: white;
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			backface-visibility: hidden;
+			width: 100%;
+			height: 100%;
+			transform: rotateX(180deg);
+		}
+
+		@keyframes sliding {
+			0% {
+				transform: rotateX(0deg);
+			}
+			100% {
+				transform: rotateX(180deg);
+			}
 		}
 
 		@keyframes flash {
@@ -743,9 +792,37 @@
 			display: none;
 		}
 
+		.advertisement_mobile {
+			display: none;
+		}
+
+		@media only screen and (max-width:900px) {
+			.advertisement_box {
+				width: 100%;
+				height: 90px;
+			}
+			.sidebar_1,
+			.sidebar_2 {
+				display: none !important;
+			}
+			.article_container {
+				width: 100%;
+			}
+			.section {
+				display: none;
+			}
+			.advertisement_mobile {
+				display: none;
+			}
+		}
+
 		@media only screen and (max-width:768px) {
 			[class*="karna-"] {
-				width: 99.777%;
+				width: 100%;
+				float: left;
+			}
+			.article_container {
+				width: 100%;
 			}
 			.copyright {
 				text-align: center;
@@ -826,11 +903,6 @@
 				color: blue;
 				padding: 0px;
 				margin: 0px;
-			}
-			.numbers {
-				padding: 0px;
-				margin: 0px;
-				float: left;
 			}
 			.arrow-down_svg {
 				float: right;
@@ -922,23 +994,16 @@
 				margin-left: 0px;
 				margin-right: 0px;
 			}
-			.mobile_section {
-				background: #eee;
+			.advertisement {
+				display: none;
+			}
+			.advertisement_mobile {
+				padding: 9px;
+			}
+			.advertisement_mobile_box {
 				width: 100%;
 				height: auto;
-				margin-top: 10px;
-				padding: 0px 3px 0px 3px;
-				margin-right: 0px;
-				margin-left: 0px;
 				display: block;
-			}
-			.mobile_section_ads {
-				background: white;
-				padding: 5px;
-				box-shadow: 0px 40px 60px -20px rgba(0, 0, 0, 0.2);
-				border: 1px solid lightgrey;
-				border-radius: 3px;
-				margin-top: 10px;
 			}
 		}
 	</style>
@@ -998,11 +1063,11 @@
 						<svg class="arrow-down_svg" viewBox="0 0 448 512">
 							<path d="M413.1 222.5l22.2 22.2c9.4 9.4 9.4 24.6 0 33.9L241 473c-9.4 9.4-24.6 9.4-33.9 0L12.7 278.6c-9.4-9.4-9.4-24.6 0-33.9l22.2-22.2c9.5-9.5 25-9.3 34.3.4L184 343.4V56c0-13.3 10.7-24 24-24h32c13.3 0 24 10.7 24 24v287.4l114.8-120.5c9.3-9.8 24.8-10 34.3-.4z" /> </svg>
 					</li>
-					<li> <a href="#create-new-repo-on-github">Create The New Repo On Github.com.</a>
+					<li> <a href="#create-new-repo-on-github">Create The New Repo On Github Pages.</a>
 						<svg class="arrow-down_svg" viewBox="0 0 448 512">
 							<path d="M413.1 222.5l22.2 22.2c9.4 9.4 9.4 24.6 0 33.9L241 473c-9.4 9.4-24.6 9.4-33.9 0L12.7 278.6c-9.4-9.4-9.4-24.6 0-33.9l22.2-22.2c9.5-9.5 25-9.3 34.3.4L184 343.4V56c0-13.3 10.7-24 24-24h32c13.3 0 24 10.7 24 24v287.4l114.8-120.5c9.3-9.8 24.8-10 34.3-.4z" /> </svg>
 					</li>
-					<li><a href="#add-CNAME-file-to-github">Adding CNAME file to Github.com.</a>
+					<li><a href="#add-CNAME-file-to-github">Adding CNAME file to Github Pages.</a>
 						<svg class="arrow-down_svg" viewBox="0 0 448 512">
 							<path d="M413.1 222.5l22.2 22.2c9.4 9.4 9.4 24.6 0 33.9L241 473c-9.4 9.4-24.6 9.4-33.9 0L12.7 278.6c-9.4-9.4-9.4-24.6 0-33.9l22.2-22.2c9.5-9.5 25-9.3 34.3.4L184 343.4V56c0-13.3 10.7-24 24-24h32c13.3 0 24 10.7 24 24v287.4l114.8-120.5c9.3-9.8 24.8-10 34.3-.4z" /> </svg>
 					</li>
@@ -1023,6 +1088,34 @@
 			<p>Firstly, we need to buy a <b>domain name</b>. In my case, I prefer <b>Godaddy</b> because their customer support is very good. Choose whatever you prefer to make a living and buy it.</p>
 			<p>Importantly, <b>Google</b> does not rank its domains based on their names. i.e. .COM doesn't rank much higher than .ORG or .IO or any other domain name. All the domain name rankings depend on <b>Google's search engine optimization(SEO)</b>.</p>
 			<hr style="border: 3px solid #f1f1f1;">
+			<div class="advertisement">
+				<div class="advertisement_box">
+					<div class="box_front">
+						<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+						<!-- link black + display = responsive --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-2687924945894784" data-ad-slot="9591937617" data-ad-format="auto" data-full-width-responsive="true"></ins>
+						<script>
+							(adsbygoogle = window.adsbygoogle || []).push({});
+						</script>
+					</div>
+					<div class="box_back">
+						<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+						<!-- link black + display = responsive --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-2687924945894784" data-ad-slot="9591937617" data-ad-format="auto" data-full-width-responsive="true"></ins>
+						<script>
+							(adsbygoogle = window.adsbygoogle || []).push({});
+						</script>
+					</div>
+				</div>
+			</div>
+			<div class="advertisement_mobile">
+				<div class="advertisement_mobile_box">
+					<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+					<!-- Responsive Automatic link (EDITS) = DISPLAY + TEXT --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-2687924945894784" data-ad-slot="7516725965" data-ad-format="auto" data-full-width-responsive="true"></ins>
+					<script>
+						(adsbygoogle = window.adsbygoogle || []).push({});
+					</script>
+				</div>
+			</div>
+			<hr style="border: 3px solid #f1f1f1;">
 			<h2 id="create-a-simple-static-webpage">2. Create A Simple Static Website.</h2>
 			<p>We need to create a static <b>HTML webpage</b> and save it as <b>index.html</b>. All the required tags must be included in the <b>index.html</b> webpage in which we must be coded manually or by doing copy paste.</p>
 			<p>Then make your super awesome website. Paste the following into <b>index.html</b>. If you are feeling adventurous you could paste some of the sites from HTML5 UP. It’s your website so I’ll leave that up to you!</p>
@@ -1042,6 +1135,34 @@
 		&lt/html&gt
 		</code> </div>
 			<hr style="border: 3px solid #f1f1f1;">
+			<div class="advertisement">
+				<div class="advertisement_box">
+					<div class="box_front">
+						<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+						<!-- link black + display = responsive --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-2687924945894784" data-ad-slot="9591937617" data-ad-format="auto" data-full-width-responsive="true"></ins>
+						<script>
+							(adsbygoogle = window.adsbygoogle || []).push({});
+						</script>
+					</div>
+					<div class="box_back">
+						<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+						<!-- link black + display = responsive --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-2687924945894784" data-ad-slot="9591937617" data-ad-format="auto" data-full-width-responsive="true"></ins>
+						<script>
+							(adsbygoogle = window.adsbygoogle || []).push({});
+						</script>
+					</div>
+				</div>
+			</div>
+			<div class="advertisement_mobile">
+				<div class="advertisement_mobile_box">
+					<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+					<!-- Responsive Automatic link (EDITS) = DISPLAY + TEXT --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-2687924945894784" data-ad-slot="7516725965" data-ad-format="auto" data-full-width-responsive="true"></ins>
+					<script>
+						(adsbygoogle = window.adsbygoogle || []).push({});
+					</script>
+				</div>
+			</div>
+			<hr style="border: 3px solid #f1f1f1;">
 			<h2 id="create-new-repo-on-github">3. Create The New Repository On Github.com</h2>
 			<p>Create a new <b>REPOSITORY</b> on <b>Github.com</b> by just clicking the plus icon on the top right corner and then the <b>new repository</b>. Fill all the essential fields according to your interest and hit the submit button.</p>
 			<p>After creating click on the add <b>new file</b> to upload our newly created simple <b>index.html</b> document which we were already created in <b>step2</b>. Upload this <b>index.html</b> document and hit <b>commit</b> with a message.</p>
@@ -1049,11 +1170,67 @@
 			<p>Another way to create a <b>new repository</b> is by using <b>GitBash</b>. After installing <b>Github</b> desktop locally we can <b>add </b>(<code>$ git add</code>), <b>commit</b> (<code>$ git commit -m "Commit Message"</code>), <b>push</b> (<code>$ git push</code>) etc directly from the GitBash. I have written an awesome article on how to commit, push, add the new repository by using <b>git command lines</b>.</p>
 			<p>You can check your live version of your simple website at <b>YOURUSERNAME.github.io</b></p>
 			<hr style="border: 3px solid #f1f1f1;">
-			<h2 id="add-CNAME-file-to-github">4. Add CNAME File to Github.com</h2>
+			<div class="advertisement">
+				<div class="advertisement_box">
+					<div class="box_front">
+						<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+						<!-- link black + display = responsive --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-2687924945894784" data-ad-slot="9591937617" data-ad-format="auto" data-full-width-responsive="true"></ins>
+						<script>
+							(adsbygoogle = window.adsbygoogle || []).push({});
+						</script>
+					</div>
+					<div class="box_back">
+						<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+						<!-- link black + display = responsive --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-2687924945894784" data-ad-slot="9591937617" data-ad-format="auto" data-full-width-responsive="true"></ins>
+						<script>
+							(adsbygoogle = window.adsbygoogle || []).push({});
+						</script>
+					</div>
+				</div>
+			</div>
+			<div class="advertisement_mobile">
+				<div class="advertisement_mobile_box">
+					<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+					<!-- Responsive Automatic link (EDITS) = DISPLAY + TEXT --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-2687924945894784" data-ad-slot="7516725965" data-ad-format="auto" data-full-width-responsive="true"></ins>
+					<script>
+						(adsbygoogle = window.adsbygoogle || []).push({});
+					</script>
+				</div>
+			</div>
+			<hr style="border: 3px solid #f1f1f1;">
+			<h2 id="add-CNAME-file-to-github">4. Add CNAME File to Github Pages.</h2>
 			<p>In order to add <b>CNAME</b>, click on the upload/New file located at the top right corner of the repository page. Save the file name as <b>CNAME</b> with your personal <b>domain name</b> in it.</p>
 			<p>Importantly, we need to save the file name as <b>CNAME</b> by including our personal <b>Godaddy domain name</b> in it. After filling all the required field hit the commit button with a commit message.</p>
 			<p>In my case, I filled my <b>CNAME</b> file as shown in the image below.</p>
 			<a href="../images/adding-CNAME-file.png" target="_self" style="cursor: zoom-in;"> <img src="../images/adding-CNAME-file.png" style="width: 100%; height: auto;  border: 1px solid lightgrey; border-radius: 9px;" alt="adding-CNAME-file-github" title="adding-CNAME-file-to-Github"></a>
+			<hr style="border: 3px solid #f1f1f1;">
+			<div class="advertisement">
+				<div class="advertisement_box">
+					<div class="box_front">
+						<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+						<!-- link black + display = responsive --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-2687924945894784" data-ad-slot="9591937617" data-ad-format="auto" data-full-width-responsive="true"></ins>
+						<script>
+							(adsbygoogle = window.adsbygoogle || []).push({});
+						</script>
+					</div>
+					<div class="box_back">
+						<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+						<!-- link black + display = responsive --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-2687924945894784" data-ad-slot="9591937617" data-ad-format="auto" data-full-width-responsive="true"></ins>
+						<script>
+							(adsbygoogle = window.adsbygoogle || []).push({});
+						</script>
+					</div>
+				</div>
+			</div>
+			<div class="advertisement_mobile">
+				<div class="advertisement_mobile_box">
+					<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+					<!-- Responsive Automatic link (EDITS) = DISPLAY + TEXT --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-2687924945894784" data-ad-slot="7516725965" data-ad-format="auto" data-full-width-responsive="true"></ins>
+					<script>
+						(adsbygoogle = window.adsbygoogle || []).push({});
+					</script>
+				</div>
+			</div>
 			<hr style="border: 3px solid #f1f1f1;">
 			<h2 id="configure-DNS-server-for-domain-name">5. Configure DNS Server For DOMAIN Name.</h2>
 			<p>Over at <a href="https://in.godaddy.com/" target="_blank" rel="noopener">https://in.godaddy.com/</a> head to the “<b>Manage DNS</b>” tab and scroll to the “<b>Custom resource records</b>” section at the bottom of the page.</p>
@@ -1073,7 +1250,11 @@
 			<p id="check-status-of-website">Thank you for reading this tutorial.</p>
 			<hr style="border: 2px dotted #f1f1f1;">
 			<p style="text-align: center; color: #004b80;">Next Step<sup class="faa-flash animated" style="padding: 0px 0px 0px 5px; color: red; animation-name: flash;">New</sup></p>
-			<li style="text-align: center;"><a href="https://www.alltechnotricks.com/kolotibablo.html" target="_blank" rel="noopener">Enforce HTTPS server on our website using Github hosting/pages.</a></li>
+			<div class="register_links">
+				<ol>
+					<li style="text-align: center;"><a href="https://www.alltechnotricks.com/kolotibablo.html" target="_blank" rel="noopener">Enforce HTTPS server on our website using Github hosting/pages.</a></li>
+				</ol>
+			</div>
 			<br>
 			<hr style="border: 3px solid #f1f1f1;">
 			<div class="featured_readings"> <span id="featured_readings_title">Featured Readings <sup style="color: red; animation: flash 3s infinite;">150 Reading Now.</sup></span>
@@ -1118,6 +1299,34 @@
 						</a>
 					</li>
 				</ul>
+			</div>
+			<hr style="border: 3px solid #f1f1f1;">
+			<div class="advertisement">
+				<div class="advertisement_box">
+					<div class="box_front">
+						<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+						<!-- link black + display = responsive --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-2687924945894784" data-ad-slot="9591937617" data-ad-format="auto" data-full-width-responsive="true"></ins>
+						<script>
+							(adsbygoogle = window.adsbygoogle || []).push({});
+						</script>
+					</div>
+					<div class="box_back">
+						<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+						<!-- link black + display = responsive --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-2687924945894784" data-ad-slot="9591937617" data-ad-format="auto" data-full-width-responsive="true"></ins>
+						<script>
+							(adsbygoogle = window.adsbygoogle || []).push({});
+						</script>
+					</div>
+				</div>
+			</div>
+			<div class="advertisement_mobile">
+				<div class="advertisement_mobile_box">
+					<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+					<!-- Responsive Automatic link (EDITS) = DISPLAY + TEXT --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-2687924945894784" data-ad-slot="7516725965" data-ad-format="auto" data-full-width-responsive="true"></ins>
+					<script>
+						(adsbygoogle = window.adsbygoogle || []).push({});
+					</script>
+				</div>
 			</div>
 			<hr style="border: 3px solid #f1f1f1;">
 			<br> <span>
@@ -1171,28 +1380,6 @@
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script></span> </div>
-	<div class="mobile_section">
-		<div class="mobile_section_ads">
-			<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-			<!-- link black + display = responsive --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-2687924945894784" data-ad-slot="9591937617" data-ad-format="auto" data-full-width-responsive="true"></ins>
-			<script>
-				(adsbygoogle = window.adsbygoogle || []).push({});
-			</script>
-		</div>
-		<div class="mobile_section_ads">
-			<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> <ins class="adsbygoogle" style="display:block" data-ad-format="fluid" data-ad-layout-key="-62+bv+1n-j+cs" data-ad-client="ca-pub-2687924945894784" data-ad-slot="2227802542"></ins>
-			<script>
-				(adsbygoogle = window.adsbygoogle || []).push({});
-			</script>
-		</div>
-		<div class="mobile_section_ads">
-			<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-			<!-- link black + display = responsive --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-2687924945894784" data-ad-slot="9591937617" data-ad-format="auto" data-full-width-responsive="true"></ins>
-			<script>
-				(adsbygoogle = window.adsbygoogle || []).push({});
-			</script>
-		</div>
-	</div>
 	<div class="copyright karna-12"> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> </div>
 </body>
 <script>
