@@ -33,14 +33,63 @@
 		}
 		window.dataLayer = window.dataLayer || [], gtag("js", new Date), gtag("config", "UA-115951250-1")
 	</script>
-	<script type="application/ld+json"> { "@context": "http://schema.org", "@type": "Article", "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.alltechnotricks.com/earn-money-online.html" }, "headline": "A Best Way To Earn Money Online - 100% Free", "image": [ "https://www.alltechnotricks.com/images/earn-money-online.jpeg" ], "datePublished": "2018-07-05", "dateModified": "2018-10-23", "author": { "@type": "Person", "name": "Karunakar" }, "publisher": { "@type": "Organization", "name": "Techno Tricks", "logo": { "@type": "ImageObject", "url": "https://www.alltechnotricks.com/fevicon.ico" } }, "description": "Do you want to earn money online? Follow our tricks to start earn money online by doing different types of jobs through online earning sites for 100% FREE." } </script>
+	<script type="application/ld+json"> { "@context": "http://schema.org", "@type": "Article", "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.alltechnotricks.com/earn-money-online.html" }, "headline": "A Best Way To Earn Money Online - 100% Free", "image": [ "https://www.alltechnotricks.com/images/earn-money-online.jpeg" ], "datePublished": "2018-07-05", "dateModified": "2018-10-27", "author": { "@type": "Person", "name": "Karunakar" }, "publisher": { "@type": "Organization", "name": "Techno Tricks", "logo": { "@type": "ImageObject", "url": "https://www.alltechnotricks.com/fevicon.ico" } }, "description": "Do you want to earn money online? Follow our tricks to start earn money online by doing different types of jobs through online earning sites for 100% FREE." } </script>
 	<style>
-		.invitation_code {
-			border: 10px solid transparent;
-			border-image: url(images/border.png) 30% round;
-			padding: 30px;
-			color: black;
-			text-align: center;
+		.advertisement {
+			padding: 10px;
+		}
+
+		.advertisement_box {
+			max-width: 970px;
+			width: 100%;
+			height: 93px;
+			padding: 3px;
+			position: relative;
+			transform-style: preserve-3d;
+			transform-origin: left center;
+			perspective: 300px;
+			/*			box-shadow: 3px 7px 22px -2px rgba(212, 212, 212, 1);*/
+			animation: sliding 4s ease-in-out infinite alternate-reverse;
+		}
+
+		.advertisement_box:hover {
+			animation-play-state: paused;
+			animation-fill-mode: none;
+			cursor: pointer;
+		}
+
+		.box_front {
+			background-color: white;
+			position: absolute;
+			left: 0;
+			top: 0;
+			bottom: 0;
+			right: 0;
+			backface-visibility: hidden;
+			width: 100%;
+			height: 100%;
+		}
+
+		.box_back {
+			background-color: white;
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			backface-visibility: hidden;
+			width: 100%;
+			height: 100%;
+			transform: rotateX(180deg);
+		}
+
+		@keyframes sliding {
+			0% {
+				transform: rotateX(0deg);
+			}
+			100% {
+				transform: rotateX(180deg);
+			}
 		}
 
 		@keyframes flash {
@@ -245,7 +294,8 @@
 		}
 
 		.important-links ol {
-			list-style-type: none;
+			list-style-type: numbers;
+			list-style-position: inside;
 			display: block;
 			margin: 0px;
 			padding: 10px 5px 10px 10px;
@@ -289,13 +339,6 @@
 			fill: black;
 		}
 
-		.numbers {
-			color: black;
-			float: left;
-			padding: 0px 10px 0px 5px;
-			clear: both;
-		}
-
 		.article_container {
 			margin: auto;
 			height: auto;
@@ -334,7 +377,7 @@
 		}
 
 		.article_container h2 a {
-			color: #F3130E;
+			color: #004b80;
 		}
 
 		.article_container h3 {
@@ -395,8 +438,6 @@
 			height: 600px;
 			position: relative;
 			position: sticky;
-			border: 1px solid lightgrey;
-			border-radius: 5px;
 			top: 10px;
 			transform-style: preserve-3d;
 			-webkit-transform-style: preserve-3d;
@@ -446,8 +487,6 @@
 			width: 120px;
 			height: 600px;
 			position: relative;
-			border: 1px solid lightgrey;
-			border-radius: 5px;
 			position: sticky;
 			top: 10px;
 			transform-style: preserve-3d;
@@ -541,49 +580,6 @@
 				-webkit-transform: translateY(10px);
 				opacity: 0;
 			}
-		}
-
-		.image_ads {
-			display: block;
-			width: 100%;
-			height: 400px;
-			padding: 20px;
-			position: relative;
-		}
-
-		.image_ {
-			width: 48.888%;
-			height: 400px;
-			padding: 5px;
-			border: 1px solid lightgrey;
-			border-radius: 9px;
-			float: left;
-			clear: both;
-			margin-left: 5px;
-			position: absolute;
-			top: 0px;
-			left: 0px;
-		}
-
-		.image_:hover {
-			cursor: zoom-in;
-		}
-
-		.image_square {
-			width: 48.888%;
-			height: 400px;
-			border: 1px solid lightgrey;
-			border-radius: 9px;
-			float: right;
-			clear: left;
-			margin-right: 5px;
-			position: absolute;
-			top: 0px;
-			right: 0px;
-		}
-
-		.mobile_image {
-			display: none;
 		}
 
 		.section {
@@ -753,9 +749,37 @@
 			display: none;
 		}
 
+		.advertisement_mobile {
+			display: none;
+		}
+
+		@media only screen and (max-width:900px) {
+			.advertisement_box {
+				width: 100%;
+				height: 90px;
+			}
+			.sidebar_1,
+			.sidebar_2 {
+				display: none !important;
+			}
+			.article_container {
+				width: 100%;
+			}
+			.section {
+				display: none;
+			}
+			.advertisement_mobile {
+				display: none;
+			}
+		}
+
 		@media only screen and (max-width:768px) {
 			[class*="karna-"] {
-				width: 99.777%;
+				width: 100%;
+				float: left;
+			}
+			.article_container {
+				width: 100%;
 			}
 			.copyright {
 				text-align: center;
@@ -773,6 +797,7 @@
 			}
 			.article_container p {
 				font-size: 16px;
+				line-height: 28px;
 				padding: 5px 3px 5px 8px;
 				word-break: break-word;
 			}
@@ -828,7 +853,7 @@
 				margin: 0px;
 			}
 			.important-links li {
-				text-align: center;
+				text-align: left;
 			}
 			.important-links li a {
 				color: blue;
@@ -902,18 +927,6 @@
 				right: 0;
 				bottom: 0;
 			}
-			.image_ads {
-				width: 100%;
-				height: auto;
-				display: none;
-			}
-			.mobile_image {
-				display: block;
-				padding: 3px;
-				margin: 0px;
-				width: 100%;
-				height: auto;
-			}
 			.sharing_icons {
 				display: none;
 			}
@@ -930,23 +943,16 @@
 				margin-left: 0px;
 				margin-right: 0px;
 			}
-			.mobile_section {
-				background: #eee;
+			.advertisement {
+				display: none;
+			}
+			.advertisement_mobile {
+				padding: 5px;
+			}
+			.advertisement_mobile_box {
 				width: 100%;
 				height: auto;
-				margin-top: 10px;
-				padding: 0px 3px 0px 3px;
-				margin-right: 0px;
-				margin-left: 0px;
 				display: block;
-			}
-			.mobile_section_ads {
-				background: white;
-				padding: 5px;
-				box-shadow: 0px 40px 60px -20px rgba(0, 0, 0, 0.2);
-				border: 1px solid lightgrey;
-				border-radius: 3px;
-				margin-top: 10px;
 			}
 		}
 	</style>
@@ -998,35 +1004,35 @@
 			<h1 style="padding: 15px; margin: 0px;color: #004B80;text-align: center; border-radius: 5px; font-size: 36px; line-height: 1.333; font-weight: 600; border-bottom: 3px solid #f1f1f1; font-variant: small-caps;">8 Best Way To Earn Money Online - 100% Free.</h1>
 			<div class="important-links">
 				<ol>
-					<li> <span class="numbers">1.</span> <a href="#free-online-typing-jobs">Top 6 Free Online Typing Jobs.</a>
+					<li><a href="#free-online-typing-jobs">Top 6 Free Online Typing Jobs.</a>
 						<svg class="arrow-down_svg" viewBox="0 0 448 512">
 							<path d="M413.1 222.5l22.2 22.2c9.4 9.4 9.4 24.6 0 33.9L241 473c-9.4 9.4-24.6 9.4-33.9 0L12.7 278.6c-9.4-9.4-9.4-24.6 0-33.9l22.2-22.2c9.5-9.5 25-9.3 34.3.4L184 343.4V56c0-13.3 10.7-24 24-24h32c13.3 0 24 10.7 24 24v287.4l114.8-120.5c9.3-9.8 24.8-10 34.3-.4z" /> </svg>
 					</li>
-					<li> <span class="numbers">2.</span> <a href="#freelancer-money">Earn Money By Freelancing.</a>
+					<li><a href="#freelancer-money">Earn Money By Freelancing.</a>
 						<svg class="arrow-down_svg" viewBox="0 0 448 512">
 							<path d="M413.1 222.5l22.2 22.2c9.4 9.4 9.4 24.6 0 33.9L241 473c-9.4 9.4-24.6 9.4-33.9 0L12.7 278.6c-9.4-9.4-9.4-24.6 0-33.9l22.2-22.2c9.5-9.5 25-9.3 34.3.4L184 343.4V56c0-13.3 10.7-24 24-24h32c13.3 0 24 10.7 24 24v287.4l114.8-120.5c9.3-9.8 24.8-10 34.3-.4z" /> </svg>
 					</li>
-					<li> <span class="numbers">3.</span><a href="#online-paid-surveys">Online paid surveys.</a>
+					<li><a href="#online-paid-surveys">Online paid surveys.</a>
 						<svg class="arrow-down_svg" viewBox="0 0 448 512">
 							<path d="M413.1 222.5l22.2 22.2c9.4 9.4 9.4 24.6 0 33.9L241 473c-9.4 9.4-24.6 9.4-33.9 0L12.7 278.6c-9.4-9.4-9.4-24.6 0-33.9l22.2-22.2c9.5-9.5 25-9.3 34.3.4L184 343.4V56c0-13.3 10.7-24 24-24h32c13.3 0 24 10.7 24 24v287.4l114.8-120.5c9.3-9.8 24.8-10 34.3-.4z" /> </svg>
 					</li>
-					<li> <span class="numbers">4.</span><a href="#blogging-money">Earn Money From Blogging.</a>
+					<li><a href="#blogging-money">Earn Money From Blogging.</a>
 						<svg class="arrow-down_svg" viewBox="0 0 448 512">
 							<path d="M413.1 222.5l22.2 22.2c9.4 9.4 9.4 24.6 0 33.9L241 473c-9.4 9.4-24.6 9.4-33.9 0L12.7 278.6c-9.4-9.4-9.4-24.6 0-33.9l22.2-22.2c9.5-9.5 25-9.3 34.3.4L184 343.4V56c0-13.3 10.7-24 24-24h32c13.3 0 24 10.7 24 24v287.4l114.8-120.5c9.3-9.8 24.8-10 34.3-.4z" /> </svg>
 					</li>
-					<li> <span class="numbers">5.</span><a href="#money-ptc-sites">Earn money from PTC sites.</a>
+					<li><a href="#money-ptc-sites">Earn money from PTC sites.</a>
 						<svg class="arrow-down_svg" viewBox="0 0 448 512">
 							<path d="M413.1 222.5l22.2 22.2c9.4 9.4 9.4 24.6 0 33.9L241 473c-9.4 9.4-24.6 9.4-33.9 0L12.7 278.6c-9.4-9.4-9.4-24.6 0-33.9l22.2-22.2c9.5-9.5 25-9.3 34.3.4L184 343.4V56c0-13.3 10.7-24 24-24h32c13.3 0 24 10.7 24 24v287.4l114.8-120.5c9.3-9.8 24.8-10 34.3-.4z" /> </svg>
 					</li>
-					<li> <span class="numbers">6.</span><a href="#affiliate-marketing">Affiliate Marketing.</a>
+					<li><a href="#affiliate-marketing">Affiliate Marketing.</a>
 						<svg class="arrow-down_svg" viewBox="0 0 448 512">
 							<path d="M413.1 222.5l22.2 22.2c9.4 9.4 9.4 24.6 0 33.9L241 473c-9.4 9.4-24.6 9.4-33.9 0L12.7 278.6c-9.4-9.4-9.4-24.6 0-33.9l22.2-22.2c9.5-9.5 25-9.3 34.3.4L184 343.4V56c0-13.3 10.7-24 24-24h32c13.3 0 24 10.7 24 24v287.4l114.8-120.5c9.3-9.8 24.8-10 34.3-.4z" /> </svg>
 					</li>
-					<li> <span class="numbers">7.</span><a href="#event-blogging">Event Blogging.</a>
+					<li><a href="#event-blogging">Event Blogging.</a>
 						<svg class="arrow-down_svg" viewBox="0 0 448 512">
 							<path d="M413.1 222.5l22.2 22.2c9.4 9.4 9.4 24.6 0 33.9L241 473c-9.4 9.4-24.6 9.4-33.9 0L12.7 278.6c-9.4-9.4-9.4-24.6 0-33.9l22.2-22.2c9.5-9.5 25-9.3 34.3.4L184 343.4V56c0-13.3 10.7-24 24-24h32c13.3 0 24 10.7 24 24v287.4l114.8-120.5c9.3-9.8 24.8-10 34.3-.4z" /> </svg>
 					</li>
-					<li> <span class="numbers">8.</span><a href="#web-developer">Web Developer.</a>
+					<li><a href="#web-developer">Web Developer.</a>
 						<svg class="arrow-down_svg" viewBox="0 0 448 512">
 							<path d="M413.1 222.5l22.2 22.2c9.4 9.4 9.4 24.6 0 33.9L241 473c-9.4 9.4-24.6 9.4-33.9 0L12.7 278.6c-9.4-9.4-9.4-24.6 0-33.9l22.2-22.2c9.5-9.5 25-9.3 34.3.4L184 343.4V56c0-13.3 10.7-24 24-24h32c13.3 0 24 10.7 24 24v287.4l114.8-120.5c9.3-9.8 24.8-10 34.3-.4z" /> </svg>
 					</li>
@@ -1037,6 +1043,34 @@
 			<p>I personally got <b>paid</b> through these sites and iam still <b>earning</b> through some of these sites. Normally, I do the <a href="https://www.alltechnotricks.com/free-online-typing-jobs.html" target="_top">online typing job</a> as it was very easy for that whose typing speed is good.</p>
 			<p>Eventually, I had gone through this <b>money making sites</b> and I was updating all of my content according to the updated sites. These are the <b>top legitimate ways to earn money online</b>. Importantly, we can start earning money with zero investment.</p>
 			<p>Honestly, I placed only the ways through which I got <b>paid</b> through these legitimate online earning sites. There is no previous experience needed, all you need to spend the time to read this complete post.</p>
+			<hr style="border: 3px solid #f1f1f1;">
+			<div class="advertisement">
+				<div class="advertisement_box">
+					<div class="box_front">
+						<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+						<!-- link black + display = responsive --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-2687924945894784" data-ad-slot="9591937617" data-ad-format="auto" data-full-width-responsive="true"></ins>
+						<script>
+							(adsbygoogle = window.adsbygoogle || []).push({});
+						</script>
+					</div>
+					<div class="box_back">
+						<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+						<!-- link black + display = responsive --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-2687924945894784" data-ad-slot="9591937617" data-ad-format="auto" data-full-width-responsive="true"></ins>
+						<script>
+							(adsbygoogle = window.adsbygoogle || []).push({});
+						</script>
+					</div>
+				</div>
+			</div>
+			<div class="advertisement_mobile">
+				<div class="advertisement_mobile_box">
+					<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+					<!-- Responsive Automatic link (EDITS) = DISPLAY + TEXT --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-2687924945894784" data-ad-slot="7516725965" data-ad-format="auto" data-full-width-responsive="true"></ins>
+					<script>
+						(adsbygoogle = window.adsbygoogle || []).push({});
+					</script>
+				</div>
+			</div>
 			<hr style="border: 3px solid #f1f1f1;">
 			<h3>How can I earn money online?</h3>
 			<p>All the jobs offered through these sites include <a href="https://www.alltechnotricks.com/free-online-typing-jobs.html" target="_top">online/offline typing jobs</a>, <a href="https://www.alltechnotricks.com/megatypers.html" target="_top">data entry jobs</a>, <b>money through blogging</b>, event blogging, money from freelancing, <b>PTC money making sites</b>, affiliate marketing, web developer etc.</p>
@@ -1058,6 +1092,34 @@
 			<p>The exposition of this site is extremely lucid. I am sure that who visits and reads this post in an appropriate manner will find this <a href="https://www.alltechnotricks.com/earn-money-online.html" target="_top">online money making</a> process extremely useful.</p>
 			<p>Here is the list of different ways to <b>earn money online</b>. Ok, let's get started.</p>
 			<hr style="border: 3px solid #f1f1f1;">
+			<div class="advertisement">
+				<div class="advertisement_box">
+					<div class="box_front">
+						<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+						<!-- link black + display = responsive --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-2687924945894784" data-ad-slot="9591937617" data-ad-format="auto" data-full-width-responsive="true"></ins>
+						<script>
+							(adsbygoogle = window.adsbygoogle || []).push({});
+						</script>
+					</div>
+					<div class="box_back">
+						<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+						<!-- link black + display = responsive --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-2687924945894784" data-ad-slot="9591937617" data-ad-format="auto" data-full-width-responsive="true"></ins>
+						<script>
+							(adsbygoogle = window.adsbygoogle || []).push({});
+						</script>
+					</div>
+				</div>
+			</div>
+			<div class="advertisement_mobile">
+				<div class="advertisement_mobile_box">
+					<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+					<!-- Responsive Automatic link (EDITS) = DISPLAY + TEXT --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-2687924945894784" data-ad-slot="7516725965" data-ad-format="auto" data-full-width-responsive="true"></ins>
+					<script>
+						(adsbygoogle = window.adsbygoogle || []).push({});
+					</script>
+				</div>
+			</div>
+			<hr style="border: 3px solid #f1f1f1;">
 			<h2 id="free-online-typing-jobs"><span style="padding: 0px 10px 0px 0px; color: #004b80;">1.</span><a href="https://www.alltechnotricks.com/free-online-typing-jobs.html" target="_blank"  rel="noopener">Top 6 Free Online Typing Jobs - 100% Free</a></h2>
 			<p>Here we can earn money by doing simple <b>online typing jobs</b>. We just need to type a 5-6 character word within the specified time limit. The more we type the more money we make.</p>
 			<p>All we need to have a PC with minimum internet connection and an average <b>typing speed</b>. Normally, some of the <a href="https://www.alltechnotricks.com/free-online-typing-jobs.html" target="_blank" rel="noopener">online typing jobs</a> doesn't really matter user <b>typing speed</b>. There is no previous experience needed.</p>
@@ -1072,6 +1134,34 @@
 				</li>
 			</ul>
 			<hr style="border: 3px solid #f1f1f1;">
+			<div class="advertisement">
+				<div class="advertisement_box">
+					<div class="box_front">
+						<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+						<!-- link black + display = responsive --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-2687924945894784" data-ad-slot="9591937617" data-ad-format="auto" data-full-width-responsive="true"></ins>
+						<script>
+							(adsbygoogle = window.adsbygoogle || []).push({});
+						</script>
+					</div>
+					<div class="box_back">
+						<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+						<!-- link black + display = responsive --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-2687924945894784" data-ad-slot="9591937617" data-ad-format="auto" data-full-width-responsive="true"></ins>
+						<script>
+							(adsbygoogle = window.adsbygoogle || []).push({});
+						</script>
+					</div>
+				</div>
+			</div>
+			<div class="advertisement_mobile">
+				<div class="advertisement_mobile_box">
+					<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+					<!-- Responsive Automatic link (EDITS) = DISPLAY + TEXT --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-2687924945894784" data-ad-slot="7516725965" data-ad-format="auto" data-full-width-responsive="true"></ins>
+					<script>
+						(adsbygoogle = window.adsbygoogle || []).push({});
+					</script>
+				</div>
+			</div>
+			<hr style="border: 3px solid #f1f1f1;">
 			<h2 id="online-paid-surveys"><span style="padding: 0px 10px 0px 0px; color: #004b80;">2.</span><a href="#">Get Paid by Online Paid Surveys.</a></h2>
 			<p>In here, you just need to give your opinions or fill out a <b style="font-weight: 400;">survey</b>.</p>
 			<p>You get paid for every Survey you submit and believe me, the <b style="font-weight: 400;">Payout</b> is really big!!</p>
@@ -1082,6 +1172,34 @@
 			<p>Here I have got a list of few sites or Online Survey Portals which are best, Genuine, verified and are worth Trying. </p>
 			<p>Here you can find more about <b style="font-weight: 400;">free online paid survey jobs</b>. </p>
 			<hr style="border: 3px solid #f1f1f1;">
+			<div class="advertisement">
+				<div class="advertisement_box">
+					<div class="box_front">
+						<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+						<!-- link black + display = responsive --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-2687924945894784" data-ad-slot="9591937617" data-ad-format="auto" data-full-width-responsive="true"></ins>
+						<script>
+							(adsbygoogle = window.adsbygoogle || []).push({});
+						</script>
+					</div>
+					<div class="box_back">
+						<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+						<!-- link black + display = responsive --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-2687924945894784" data-ad-slot="9591937617" data-ad-format="auto" data-full-width-responsive="true"></ins>
+						<script>
+							(adsbygoogle = window.adsbygoogle || []).push({});
+						</script>
+					</div>
+				</div>
+			</div>
+			<div class="advertisement_mobile">
+				<div class="advertisement_mobile_box">
+					<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+					<!-- Responsive Automatic link (EDITS) = DISPLAY + TEXT --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-2687924945894784" data-ad-slot="7516725965" data-ad-format="auto" data-full-width-responsive="true"></ins>
+					<script>
+						(adsbygoogle = window.adsbygoogle || []).push({});
+					</script>
+				</div>
+			</div>
+			<hr style="border: 3px solid #f1f1f1;">
 			<h2 id="freelancer-money"><span style="padding: 0px 10px 0px 0px; color: #004b80;">3.</span><a href="#">Earn Money Online By Freelancing.</a></h2>
 			<p>In here you need to select your respective categories that include photography, ideograph, marketing, traditional art, writing, translation, architecture, engineering, graphic design, accounting and administrative support.</p>
 			<p>It’s easy to set up an account and start looking for a project you can contribute to.</p>
@@ -1090,6 +1208,34 @@
 			<p>Create an appealing profile, look for <b style="font-weight: 400;">jobs</b>, send proposals.</p>
 			<p>There is less stress involved and you get to spend a lot more time with your friends and family.</p>
 			<p>Seriously, get in to learn more about <b style="font-weight: 400;">making money</b> by <b style="font-weight: 400;">freelancing</b>.
+				<hr style="border: 3px solid #f1f1f1;">
+				<div class="advertisement">
+					<div class="advertisement_box">
+						<div class="box_front">
+							<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+							<!-- link black + display = responsive --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-2687924945894784" data-ad-slot="9591937617" data-ad-format="auto" data-full-width-responsive="true"></ins>
+							<script>
+								(adsbygoogle = window.adsbygoogle || []).push({});
+							</script>
+						</div>
+						<div class="box_back">
+							<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+							<!-- link black + display = responsive --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-2687924945894784" data-ad-slot="9591937617" data-ad-format="auto" data-full-width-responsive="true"></ins>
+							<script>
+								(adsbygoogle = window.adsbygoogle || []).push({});
+							</script>
+						</div>
+					</div>
+				</div>
+				<div class="advertisement_mobile">
+					<div class="advertisement_mobile_box">
+						<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+						<!-- Responsive Automatic link (EDITS) = DISPLAY + TEXT --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-2687924945894784" data-ad-slot="7516725965" data-ad-format="auto" data-full-width-responsive="true"></ins>
+						<script>
+							(adsbygoogle = window.adsbygoogle || []).push({});
+						</script>
+					</div>
+				</div>
 				<hr style="border: 3px solid #f1f1f1;">
 				<h2 id="blogging-money"><span style="padding: 0px 10px 0px 0px; color: #004b80;">4.</span><a href="#">Earn Money From Blogging.</a></h2>
 				<p>Here it comes, <b style="font-weight: 400;">blogging</b> just doesn’t make you <b style="font-weight: 400;">money</b> but also gives you a wonderful and successful life.</p>
@@ -1110,6 +1256,34 @@
 				<p>Here it is my Independence Day script. See how it works.</p>
 				<p>Check out more about <b style="font-weight: 400;">event blogging</b>. </p>
 				<hr style="border: 3px solid #f1f1f1;">
+				<div class="advertisement">
+					<div class="advertisement_box">
+						<div class="box_front">
+							<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+							<!-- link black + display = responsive --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-2687924945894784" data-ad-slot="9591937617" data-ad-format="auto" data-full-width-responsive="true"></ins>
+							<script>
+								(adsbygoogle = window.adsbygoogle || []).push({});
+							</script>
+						</div>
+						<div class="box_back">
+							<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+							<!-- link black + display = responsive --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-2687924945894784" data-ad-slot="9591937617" data-ad-format="auto" data-full-width-responsive="true"></ins>
+							<script>
+								(adsbygoogle = window.adsbygoogle || []).push({});
+							</script>
+						</div>
+					</div>
+				</div>
+				<div class="advertisement_mobile">
+					<div class="advertisement_mobile_box">
+						<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+						<!-- Responsive Automatic link (EDITS) = DISPLAY + TEXT --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-2687924945894784" data-ad-slot="7516725965" data-ad-format="auto" data-full-width-responsive="true"></ins>
+						<script>
+							(adsbygoogle = window.adsbygoogle || []).push({});
+						</script>
+					</div>
+				</div>
+				<hr style="border: 3px solid #f1f1f1;">
 				<h2 id="affiliate-marketing"><span style="padding: 0px 10px 0px 0px; color: #004b80;">6.</span><a href="#">Affiliate Marketing.</a></h2>
 				<p>Affiliate marketing is the process of <b style="font-weight: 400;">earning</b> a <b style="font-weight: 400;">commission</b>. By just promoting other company's products.</p>
 				<p>You find a product you like, promote it to others and earn a piece of the profit for each sale that you make.</p>
@@ -1119,12 +1293,68 @@
 				<p>Here I have got a list of <b style="font-weight: 400;">top 10 affiliate marketing tips</b> which are best, Genuine, verified and are worth Trying. </p>
 				<p>Seriously, this is how I <b style="font-weight: 400;">earn money online</b> through affiliate marketing. </p>
 				<hr style="border: 3px solid #f1f1f1;">
+				<div class="advertisement">
+					<div class="advertisement_box">
+						<div class="box_front">
+							<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+							<!-- link black + display = responsive --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-2687924945894784" data-ad-slot="9591937617" data-ad-format="auto" data-full-width-responsive="true"></ins>
+							<script>
+								(adsbygoogle = window.adsbygoogle || []).push({});
+							</script>
+						</div>
+						<div class="box_back">
+							<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+							<!-- link black + display = responsive --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-2687924945894784" data-ad-slot="9591937617" data-ad-format="auto" data-full-width-responsive="true"></ins>
+							<script>
+								(adsbygoogle = window.adsbygoogle || []).push({});
+							</script>
+						</div>
+					</div>
+				</div>
+				<div class="advertisement_mobile">
+					<div class="advertisement_mobile_box">
+						<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+						<!-- Responsive Automatic link (EDITS) = DISPLAY + TEXT --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-2687924945894784" data-ad-slot="7516725965" data-ad-format="auto" data-full-width-responsive="true"></ins>
+						<script>
+							(adsbygoogle = window.adsbygoogle || []).push({});
+						</script>
+					</div>
+				</div>
+				<hr style="border: 3px solid #f1f1f1;">
 				<h2 id="money-ptc-sites"><span style="padding: 0px 10px 0px 0px; color: #004b80;">7.</span><a href="#">Earn Money From PTC sites.</a></h2>
 				<p><b style="font-weight: 400;">Paid to click</b> (PTC) is an online business model that draws online traffic from people aiming to earn money from home. PTC websites act as middlemen between advertisers and consumers; the advertiser pays for displaying ads on the PTC website, and a part of this payment goes to the viewer when he views the advertisement. (source from Wikipedia.org)</p>
 				<p>In my case, we just need to visit <b style="font-weight: 400;">PTC</b> sites and wait till the limited time has completed and just click submit.</p>
 				<p>That’s it, the required amount is credited in our account.</p>
 				<p>Seriously, In here you can find <b style="font-weight: 400;">100% legitimate ways to earn money online with no registration fees</b> from PTC sites.</p>
 				<p>Want to learn more, just read more about <b style="font-weight: 400;">Earn money from PTC sites</b>. </p>
+				<hr style="border: 3px solid #f1f1f1;">
+				<div class="advertisement">
+					<div class="advertisement_box">
+						<div class="box_front">
+							<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+							<!-- link black + display = responsive --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-2687924945894784" data-ad-slot="9591937617" data-ad-format="auto" data-full-width-responsive="true"></ins>
+							<script>
+								(adsbygoogle = window.adsbygoogle || []).push({});
+							</script>
+						</div>
+						<div class="box_back">
+							<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+							<!-- link black + display = responsive --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-2687924945894784" data-ad-slot="9591937617" data-ad-format="auto" data-full-width-responsive="true"></ins>
+							<script>
+								(adsbygoogle = window.adsbygoogle || []).push({});
+							</script>
+						</div>
+					</div>
+				</div>
+				<div class="advertisement_mobile">
+					<div class="advertisement_mobile_box">
+						<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+						<!-- Responsive Automatic link (EDITS) = DISPLAY + TEXT --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-2687924945894784" data-ad-slot="7516725965" data-ad-format="auto" data-full-width-responsive="true"></ins>
+						<script>
+							(adsbygoogle = window.adsbygoogle || []).push({});
+						</script>
+					</div>
+				</div>
 				<hr style="border: 3px solid #f1f1f1;">
 				<h2 id="web-developer"><span style="padding: 0px 10px 0px 0px; color: #004b80;">8.</span><a href="#">Web Developer.</a></h2>
 				<p>Turning code into cash</p>
@@ -1136,6 +1366,34 @@
 				<p>If you need to be a <b style="font-weight: 400;">web developer</b>, you must be perfect in programming languages.</p>
 				<p>If you are…!</p>
 				<p>Then there are the <b style="font-weight: 400;">top 10 legitimate free sites</b> which make you <b style="font-weight: 400;">earn money online</b> as a <b style="font-weight: 400;">web developer</b>. </p>
+				<hr style="border: 3px solid #f1f1f1;">
+				<div class="advertisement">
+					<div class="advertisement_box">
+						<div class="box_front">
+							<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+							<!-- link black + display = responsive --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-2687924945894784" data-ad-slot="9591937617" data-ad-format="auto" data-full-width-responsive="true"></ins>
+							<script>
+								(adsbygoogle = window.adsbygoogle || []).push({});
+							</script>
+						</div>
+						<div class="box_back">
+							<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+							<!-- link black + display = responsive --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-2687924945894784" data-ad-slot="9591937617" data-ad-format="auto" data-full-width-responsive="true"></ins>
+							<script>
+								(adsbygoogle = window.adsbygoogle || []).push({});
+							</script>
+						</div>
+					</div>
+				</div>
+				<div class="advertisement_mobile">
+					<div class="advertisement_mobile_box">
+						<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+						<!-- Responsive Automatic link (EDITS) = DISPLAY + TEXT --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-2687924945894784" data-ad-slot="7516725965" data-ad-format="auto" data-full-width-responsive="true"></ins>
+						<script>
+							(adsbygoogle = window.adsbygoogle || []).push({});
+						</script>
+					</div>
+				</div>
 				<hr style="border: 3px solid #f1f1f1;">
 				<div class="sharing_bar">
 					<ul>
@@ -1170,6 +1428,34 @@
 							</a>
 						</li>
 					</ul>
+				</div>
+				<hr style="border: 3px solid #f1f1f1;">
+				<div class="advertisement">
+					<div class="advertisement_box">
+						<div class="box_front">
+							<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+							<!-- link black + display = responsive --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-2687924945894784" data-ad-slot="9591937617" data-ad-format="auto" data-full-width-responsive="true"></ins>
+							<script>
+								(adsbygoogle = window.adsbygoogle || []).push({});
+							</script>
+						</div>
+						<div class="box_back">
+							<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+							<!-- link black + display = responsive --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-2687924945894784" data-ad-slot="9591937617" data-ad-format="auto" data-full-width-responsive="true"></ins>
+							<script>
+								(adsbygoogle = window.adsbygoogle || []).push({});
+							</script>
+						</div>
+					</div>
+				</div>
+				<div class="advertisement_mobile">
+					<div class="advertisement_mobile_box">
+						<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+						<!-- Responsive Automatic link (EDITS) = DISPLAY + TEXT --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-2687924945894784" data-ad-slot="7516725965" data-ad-format="auto" data-full-width-responsive="true"></ins>
+						<script>
+							(adsbygoogle = window.adsbygoogle || []).push({});
+						</script>
+					</div>
 				</div>
 				<hr style="border: 3px solid #f1f1f1;">
 				<br> <span>
@@ -1223,28 +1509,6 @@
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script></span> </div>
-	<div class="mobile_section">
-		<div class="mobile_section_ads">
-			<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-			<!-- link black + display = responsive --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-2687924945894784" data-ad-slot="9591937617" data-ad-format="auto" data-full-width-responsive="true"></ins>
-			<script>
-				(adsbygoogle = window.adsbygoogle || []).push({});
-			</script>
-		</div>
-		<div class="mobile_section_ads">
-			<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> <ins class="adsbygoogle" style="display:block" data-ad-format="fluid" data-ad-layout-key="-62+bv+1n-j+cs" data-ad-client="ca-pub-2687924945894784" data-ad-slot="2227802542"></ins>
-			<script>
-				(adsbygoogle = window.adsbygoogle || []).push({});
-			</script>
-		</div>
-		<div class="mobile_section_ads">
-			<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-			<!-- link black + display = responsive --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-2687924945894784" data-ad-slot="9591937617" data-ad-format="auto" data-full-width-responsive="true"></ins>
-			<script>
-				(adsbygoogle = window.adsbygoogle || []).push({});
-			</script>
-		</div>
-	</div>
 	<div class="copyright karna-12"> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> </div>
 </body>
 <script>
