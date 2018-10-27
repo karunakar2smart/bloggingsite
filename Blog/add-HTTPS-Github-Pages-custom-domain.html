@@ -995,17 +995,23 @@
 				margin-right: 0px;
 			}
 			.advertisement {
-				padding: 4px;
-				height: 260px; width: 100%;
+				padding: 3px;
+				height: auto; width: 100%;
 			}
 			.advertisement_box {
 				height: 250px;
 				transform-origin: center;
-				perspective: none !important;
+				perspective: 0px;
 				width: auto;
 				margin: auto;
-				animation-delay: 5s;
+				animation: sliding 4s ease-in-out 3s infinite alternate forwards;
+				transform-origin: center;
+				transform-style: flat;
 			}
+			.box_front, .box_back {
+				width: 100%; height: 100%;
+			}
+
 		}
 	</style>
 </head>
