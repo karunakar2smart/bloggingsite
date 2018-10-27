@@ -430,17 +430,16 @@
 		}
 
 		.sidebar1_ads {
-			width: 100%;
-			height: 800px;
+			background-color: white;
+			width: auto;
+			height: 600px;
 			position: relative;
 			position: sticky;
-			border: 1px solid lightgrey;
-			border-radius: 5px;
 			top: 10px;
 			transform-style: preserve-3d;
 			-webkit-transform-style: preserve-3d;
-			perspective: 50px;
-			-webkit-perspective: 50px;
+			perspective: 300px;
+			-webkit-perspective: 300px;
 			animation-direction: alternate-reverse;
 			-webkit-animation-direction: alternate-reverse;
 			animation-fill-mode: both;
@@ -482,17 +481,16 @@
 		}
 
 		.sidebar2_ads {
-			width: 100%;
-			height: 800px;
+			background-color: white;
+			width: auto;
+			height: 600px;
 			position: relative;
-			border: 1px solid lightgrey;
-			border-radius: 5px;
 			position: sticky;
 			top: 10px;
 			transform-style: preserve-3d;
 			-webkit-transform-style: preserve-3d;
-			perspective: 50px;
-			-webkit-perspective: 50px;
+			perspective: 300px;
+			-webkit-perspective: 300px;
 			animation: sidebar1_spin 6s infinite 4s;
 			-webkit-animation: sidebar1_spin 6s infinite 4s;
 		}
@@ -792,15 +790,20 @@
 			display: none;
 		}
 
-		@media only screen and (max-width:900px)  {
+		@media only screen and (max-width:900px) {
 			.advertisement_box {
-				width: 100%; height: 90px;
+				width: 100%;
+				height: 90px;
 			}
-			.sidebar_1, .sidebar_2 {
+			.sidebar_1,
+			.sidebar_2 {
 				display: none !important;
 			}
 			.article_container {
 				width: 100%;
+			}
+			.section {
+				display: none;
 			}
 		}
 
@@ -968,11 +971,6 @@
 				right: 0;
 				bottom: 0;
 			}
-			.image_ads {
-				width: 100%;
-				height: auto;
-				display: none;
-			}
 			.mobile_image {
 				display: block;
 				padding: 3px;
@@ -996,30 +994,13 @@
 				margin-left: 0px;
 				margin-right: 0px;
 			}
-			.mobile_section {
-				background: #eee;
-				width: 100%;
-				height: auto;
-				margin-top: 10px;
-				padding: 0px 3px 0px 3px;
-				margin-right: 0px;
-				margin-left: 0px;
-				display: block;
-			}
-			.mobile_section_ads {
-				background: white;
-				padding: 5px;
-				box-shadow: 0px 40px 60px -20px rgba(0, 0, 0, 0.2);
-				border: 1px solid lightgrey;
-				border-radius: 3px;
-				margin-top: 10px;
-			}
 			.advertisement {
 				padding: 4px;
 			}
 			.advertisement_box {
 				height: 250px;
-				width: auto;
+				width: 100%;
+				animation-delay: 4s;
 			}
 		}
 	</style>
@@ -1270,28 +1251,6 @@
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script></span> </div>
-	<div class="mobile_section">
-		<div class="mobile_section_ads">
-			<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-			<!-- link black + display = responsive --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-2687924945894784" data-ad-slot="9591937617" data-ad-format="auto" data-full-width-responsive="true"></ins>
-			<script>
-				(adsbygoogle = window.adsbygoogle || []).push({});
-			</script>
-		</div>
-		<div class="mobile_section_ads">
-			<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> <ins class="adsbygoogle" style="display:block" data-ad-format="fluid" data-ad-layout-key="-62+bv+1n-j+cs" data-ad-client="ca-pub-2687924945894784" data-ad-slot="2227802542"></ins>
-			<script>
-				(adsbygoogle = window.adsbygoogle || []).push({});
-			</script>
-		</div>
-		<div class="mobile_section_ads">
-			<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-			<!-- link black + display = responsive --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-2687924945894784" data-ad-slot="9591937617" data-ad-format="auto" data-full-width-responsive="true"></ins>
-			<script>
-				(adsbygoogle = window.adsbygoogle || []).push({});
-			</script>
-		</div>
-	</div>
 	<div class="copyright karna-12"> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> </div>
 </body>
 <script>
