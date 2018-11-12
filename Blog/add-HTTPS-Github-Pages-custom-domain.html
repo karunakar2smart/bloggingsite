@@ -401,71 +401,6 @@
 			margin: auto;
 			position: sticky;
 			top: 10px;
-			transform-style: preserve-3d;
-			-webkit-transform-style: preserve-3d;
-			perspective: 300px;
-			-webkit-perspective: 300px;
-			animation: sidebar1_spin 6s infinite 4s;
-			-webkit-animation: sidebar1_spin 6s infinite 4s;
-		}
-
-		.sidebar2_front {
-			width: 100%;
-			height: auto;
-			position: absolute;
-			top: 0px;
-			left: 0px;
-			backface-visibility: hidden;
-		}
-
-		.sidebar2_back {
-			width: 100%;
-			height: auto;
-			position: absolute;
-			top: 0;
-			left: 0;
-			backface-visibility: hidden;
-			transform: rotateY(180deg);
-			-webkit-transform: rotateY(180deg);
-		}
-
-		.sidebar1_ads:hover,
-		.sidebar2_ads:hover {
-			animation-play-state: paused;
-			-webkit-animation-play-state: paused;
-			cursor: pointer;
-		}
-
-		@keyframes sidebar1_spin {
-			0% {
-				transform: rotateY(0deg);
-				-webkit-transform: rotateY(0deg);
-			}
-			50%,
-			60% {
-				transform: rotateY(180deg);
-				-webkit-transform: rotateY(180deg);
-			}
-			100% {
-				transform: rotateY(360deg);
-				-webkit-transform: rotateY(360deg);
-			}
-		}
-
-		-webkit-@keyframes sidebar1_spin {
-			0% {
-				transform: rotateY(0deg);
-				-webkit-transform: rotateY(0deg);
-			}
-			50%,
-			60% {
-				transform: rotateY(180deg);
-				-webkit-transform: rotateY(180deg);
-			}
-			100% {
-				transform: rotateY(360deg);
-				-webkit-transform: rotateY(360deg);
-			}
 		}
 
 		@keyframes arrow_down {
@@ -492,49 +427,6 @@
 				-webkit-transform: translateY(10px);
 				opacity: 0;
 			}
-		}
-
-		.image_ads {
-			display: block;
-			width: 100%;
-			height: 400px;
-			padding: 20px;
-			position: relative;
-		}
-
-		.image_ {
-			width: 48.888%;
-			height: 400px;
-			padding: 5px;
-			border: 1px solid lightgrey;
-			border-radius: 9px;
-			float: left;
-			clear: both;
-			margin-left: 5px;
-			position: absolute;
-			top: 0px;
-			left: 0px;
-		}
-
-		.image_:hover {
-			cursor: zoom-in;
-		}
-
-		.image_square {
-			width: 48.888%;
-			height: 400px;
-			border: 1px solid lightgrey;
-			border-radius: 9px;
-			float: right;
-			clear: left;
-			margin-right: 5px;
-			position: absolute;
-			top: 0px;
-			right: 0px;
-		}
-
-		.mobile_image {
-			display: none;
 		}
 
 		.section {
@@ -1143,20 +1035,11 @@
 		</div>
 		<div class="sidebar_2 karna-1">
 			<div class="sidebar2_ads">
-				<div class="sidebar2_front">
-					<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-					<!-- Sidebar { 160 * 600 } = Wide Skyscraper + TEXT + DISPLAY --><ins class="adsbygoogle" style="display:inline-block;width:160px;height:600px" data-ad-client="ca-pub-2687924945894784" data-ad-slot="7041424104"></ins>
-					<script>
-						(adsbygoogle = window.adsbygoogle || []).push({});
-					</script>
-				</div>
-				<div class="sidebar2_back">
-					<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-					<!-- Sidebar { 160 * 600 } = Wide Skyscraper + TEXT + DISPLAY --><ins class="adsbygoogle" style="display:inline-block;width:160px;height:600px" data-ad-client="ca-pub-2687924945894784" data-ad-slot="7041424104"></ins>
-					<script>
-						(adsbygoogle = window.adsbygoogle || []).push({});
-					</script>
-				</div>
+				<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+				<!-- Sidebar { 160 * 600 } = Wide Skyscraper + TEXT + DISPLAY --><ins class="adsbygoogle" style="display:inline-block;width:160px;height:600px" data-ad-client="ca-pub-2687924945894784" data-ad-slot="7041424104"></ins>
+				<script>
+					(adsbygoogle = window.adsbygoogle || []).push({});
+				</script>
 			</div>
 		</div>
 	</div>
