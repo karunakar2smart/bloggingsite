@@ -487,13 +487,10 @@
 		.google_ads {
 			height: 90px;
 			padding: 2px;
-			display: flex;
-			flex-basis: 50px;
-			flex-wrap: wrap;
 		}
 
 		.ads {
-			flex-grow: 1;
+			display: block;
 		}
 
 		@media only screen and (max-width:768px) {
@@ -588,15 +585,14 @@
 				padding: 5px;
 			}
 			.google_ads {
-				display: flex;
-				flex-basis: 100px;
-				flex-shrink: 99px;
-				flex-wrap: wrap;
-				padding: 0px;
-				margin: 0px;
+				border: 1px solid lightgrey;
+				padding: 5px;
+				margin: 2px;
 			}
 			.ads {
-				flex-grow: 1;
+				display: block;
+				height: auto;
+				width: auto;
 			}
 		}
 
