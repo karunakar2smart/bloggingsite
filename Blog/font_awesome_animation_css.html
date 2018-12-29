@@ -32,7 +32,7 @@
 		}
 		window.dataLayer = window.dataLayer || [], gtag("js", new Date), gtag("config", "UA-115951250-1")
 	</script>
-	<script type="application/ld+json"> { "@context": "http://schema.org", "@type": "Article", "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.alltechnotricks.com/Blog/font_awesome_animation_css.html" }, "headline": "Animate All Font Awesome Icons With Pure CSS to Get Visitors Attention.", "image": [ "https://www.alltechnotricks.com/images/free-online-typing-jobs.jpg" ], "datePublished": "2018-12-17", "dateModified": "2018-12-17", "author": { "@type": "Person", "name": "Karunakar" }, "publisher": { "@type": "Organization", "name": "Techno Tricks", "logo": { "@type": "ImageObject", "url": "https://www.alltechnotricks.com/fevicon.ico" } }, "description": "Font awesome icons with CSS animations would help to increase the engagement of the visitors. I included simple pure CSS code using font awesome CDN's where you can directly copy pure CSS code and paste in to use to animate all font awesome icons and use in your website for free. There are different types of animations for you to select and use for free. Learn more at font awesome icons with pure CSS animations." } </script>
+	<script type="application/ld+json"> { "@context": "http://schema.org", "@type": "Article", "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.alltechnotricks.com/Blog/font_awesome_animation_css.html" }, "headline": "Animate All Font Awesome Icons With Pure CSS to Get Visitors Attention.", "image": [ "https://www.alltechnotricks.com/images/free-online-typing-jobs.jpg" ], "datePublished": "2018-12-17", "dateModified": "2018-12-29", "author": { "@type": "Person", "name": "Karunakar" }, "publisher": { "@type": "Organization", "name": "Techno Tricks", "logo": { "@type": "ImageObject", "url": "https://www.alltechnotricks.com/fevicon.ico" } }, "description": "Font awesome icons with CSS animations would help to increase the engagement of the visitors. I included simple pure CSS code using font awesome CDN's where you can directly copy pure CSS code and paste in to use to animate all font awesome icons and use in your website for free. There are different types of animations for you to select and use for free. Learn more at font awesome icons with pure CSS animations." } </script>
 	<style>
 		body {
 			background-color: rgba(238, 238, 238, 0.23);
@@ -115,7 +115,13 @@
 		.sharing_bar {
 			padding: 10px 0px 10px 0px;
 			margin: 0px;
-			/*			border-top: 1px dotted #317ec9;*/
+			/*			border: 1px solid red;*/
+			position: absolute;
+			left: 0;
+			bottom: 0;
+			top: 80px;
+			width: 50px;
+			position: fixed;
 		}
 
 		.sharing_bar ul {
@@ -379,6 +385,267 @@
 			line-height: 1.2em;
 		}
 
+		.important_links input {
+			display: none;
+		}
+
+		.important_links {
+			border: 1px solid lightgrey;
+			height: auto;
+			padding: 5px;
+			margin: 0px;
+			width: 300px;
+			float: right;
+			border-radius: 3px;
+			clear: both;
+		}
+
+		.important_links label {
+			color: white;
+			background-color: #317ec9;
+			width: 100%;
+			text-align: center;
+			cursor: pointer;
+			display: block;
+			padding: 7px;
+			font-size: 20px;
+			border-radius: 2px;
+		}
+
+		.important_links input:checked ~ .inside_links {
+			height: 150px;
+			overflow: hidden;
+		}
+
+		.important_links input[type=checkbox]+ label::after {
+			content: "+";
+			display: block;
+			float: right;
+			font-size: 22px;
+			top: -1px;
+			position: relative;
+		}
+
+		.important_links input[type=checkbox]:checked +label::after {
+			content: "-";
+			position: relative;
+			display: block;
+		}
+
+		.inside_links {
+			background: #f1f1f1;
+			border-radius: 3px;
+			color: white;
+			height: 0px;
+			padding: 0px;
+			overflow: hidden;
+			margin-top: 8px;
+			transition: all 1.2s ease-in-out;
+		}
+
+		.inside_links ol {
+			text-align: left;
+			padding: 5px 2px 5px 4px;
+			margin: 0px;
+		}
+
+		.karna_container {
+			width: 100%;
+			height: auto;
+			/*			border: 1px dotted salmon;*/
+		}
+
+		.slideshow {
+			width: 700px;
+			height: 350px;
+			margin: auto;
+			position: relative;
+			border-radius: 10px;
+			padding: 0px;
+			border: 1px solid white;
+			outline: 1px solid lightgrey;
+		}
+
+		.slideshow input {
+			display: none;
+		}
+
+		.slideshow label {
+			display: none;
+		}
+
+		.slides label {
+			width: 50px;
+			height: 50px;
+			z-index: 99;
+			position: absolute;
+			border-radius: 50%;
+			opacity: .5;
+			background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+			top: auto;
+			bottom: 0px;
+			margin: auto;
+			border-radius: none;
+			display: block;
+		}
+
+		.slideshow .slides {
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			z-index: -1;
+		}
+
+		.slideshow img {
+			width: inherit;
+			height: inherit;
+		}
+
+		.prev,
+		.next {
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			top: 0;
+			opacity: 1;
+			z-index: 99;
+			cursor: pointer;
+		}
+
+		.prev {
+			left: 0;
+		}
+
+		.next {
+			right: 0;
+		}
+
+		.nav {
+			width: 100%;
+			height: 12px;
+			position: absolute;
+			bottom: 10%;
+			z-index: 99;
+			text-align: center;
+		}
+
+		.dots {
+			position: relative;
+			top: -5px;
+			width: 18px;
+			height: 18px;
+			border-radius: 50%;
+			background-color: rgba(0, 0, 0, .4);
+			display: inline-block;
+			margin: 0 5px;
+			cursor: pointer;
+		}
+
+		#i1:checked ~ #one,
+		#i2:checked ~ #two,
+		#i3:checked ~ #three {
+			z-index: 9;
+			animation: scroll 1s ease-in-out;
+		}
+
+		#i1:checked ~ .nav #dot1,
+		#i2:checked ~ .nav #dot2,
+		#i3:checked ~ .nav #dot3 {
+			background-color: white;
+		}
+
+		.prev:hover,
+		.next:hover {
+			transition: .3s;
+			background-color: rgba(255, 82, 82, 0.8);
+			opacity: .4;
+		}
+
+		.prev span,
+		.next span {
+			position: absolute;
+			width: 0px;
+			height: 0px;
+			border: solid 15px;
+			top: 50%;
+			transform: translateY(-50%);
+		}
+
+		.prev span {
+			border-color: transparent black transparent transparent;
+			right: 35%;
+		}
+
+		.next span {
+			border-color: transparent transparent transparent black;
+			left: 35%;
+		}
+
+		.slide_image_container1,
+		.slide_image_container2,
+		.slide_image_container3 {
+			width: 100%;
+			height: 100%;
+		}
+
+		.slide_image_container1 {
+			background-image: linear-gradient(-60deg, #ff5858 0%, #f09819 100%);
+		}
+
+		.slide_image_container2 {
+			background-image: linear-gradient(to top, #4481eb 0%, #04befe 100%);
+		}
+
+		.slide_image_container3 {
+			background-image: linear-gradient(-225deg, #AC32E4 0%, #7918F2 48%, #4801FF 100%);
+		}
+
+		.slide_image_container1 h2,
+		.slide_image_container2 h2,
+		.slide_image_container3 h2 {
+			width: 100%;
+			height: 100%;
+			text-align: center;
+			padding: 60px 7px 5px 7px;
+			font-size: 29px;
+			margin: auto;
+			color: white;
+			line-height: 1.888em;
+		}
+
+		.slide_image_container1 ul,
+		.slide_image_container2 ul,
+		.slide_image_container3 ul {
+			list-style: none;
+			position: absolute;
+			margin: auto;
+			top: 60%;
+			right: 0;
+			left: -30px;
+			text-align: center;
+		}
+
+		.slide_image_container1 a,
+		.slide_image_container2 a,
+		.slide_image_container3 a {
+			padding: 15px;
+			text-decoration: none;
+			color: black;
+			font-size: 20px;
+			background: white;
+			border-radius: 3px;
+			font-variant: small-caps;
+		}
+
+		@keyframes scroll {
+			0% {
+				opacity: .3;
+			}
+			100% {
+				opacity: 1;
+			}
+		}
+
 		@media only screen and (max-width:768px) {
 			.large_container {
 				/*				border: 1px solid red;*/
@@ -432,6 +699,58 @@
 				padding: 5px;
 				line-height: 1.22em;
 			}
+			.sharing_bar {
+				position: relative;
+				width: 100%;
+				top: 0;
+				right: 0;
+				left: 0;
+				bottom: 0;
+			}
+			.important_links {
+				width: 100%;
+				height: auto;
+				margin-bottom: 9px;
+			}
+			.slideshow {
+				width: 100%;
+				height: 250px;
+				display: block;
+			}
+			.karna_container {
+				width: 100%;
+				height: 100%;
+				border: 1px solid red;
+			}
+			.slide_image_container1 h2,
+			.slide_image_container2 h2,
+			.slide_image_container3 h2 {
+				font-size: 20px;
+				padding: 32px 3px 15px 3px;
+			}
+			.slide_image_container1 a,
+			.slide_image_container2 a,
+			.slide_image_container3 a {
+				font-size: 18px;
+				padding: 10px;
+				position: absolute;
+				top: 10% !important;
+				left: 40%;
+				bottom: auto;
+			}
+			.slides label {
+				display: none;
+			}
+			.prev span {
+				display: none;
+			}
+			.next span {
+				display: none;
+			}
+			.slideshow:hover {
+				animation-play-state: paused;
+				cursor: pointer;
+			}
 		}
 
 		@media only screen and (max-width:900px) {
@@ -462,6 +781,14 @@
 			label span:nth-child(1) {
 				padding: 5px;
 			}
+			.sharing_bar {
+				width: 100%;
+				height: 100%;
+				position: static;
+			}
+			.slides label {
+				display: none;
+			}
 		}
 
 		@media only screen and (max-width:1024px) {
@@ -491,6 +818,14 @@
 			}
 			label span:nth-child(1) {
 				padding: 5px;
+			}
+			.sharing_bar {
+				position: static;
+				width: 100%;
+				height: auto;
+			}
+			.slides label {
+				display: none;
 			}
 		}
 		/*		Google ADS are Here....!*/
@@ -531,12 +866,24 @@
 			<div class="sidebar_1">SIDEBAR1</div>
 			<div class="article_container">
 				<h1>Best CSS Animations Of Font Awesome Icons Using CDN To Grab Visitor Attention.</h1>
+				<div class="important_links">
+					<div>
+						<input type="checkbox" name="important_links_one" id="karna_important">
+						<label for="karna_important">Quick Navigation.</label>
+						<div class="inside_links">
+							<ol>
+								<li><a href="#font-awesome-CDN">What is Font Awesome CDN? </a></li>
+								<li><a href="#font-awesome-icons-animation">Font Awesome Icons Animations With Pure CSS.</a></li>
+							</ol>
+						</div>
+					</div>
+				</div>
 				<p> <b>Font Awesome</b> is a font and icon toolkit based on CSS and LESS. It was made by <b>Dave Gandy</b> for use with Twitter Bootstrap and later was incorporated into the <b>BootstrapCDN</b>. Font Awesome has a 20% market share among those websites which use third-party Font Scripts on their platform, ranking it second place after <b>Google Fonts</b>.</p>
 				<p>The use of <b>font awesome icons</b> in web design is a proven method to modernize a website and help direct user flow. Adding icons to your site’s content helps a user better process the information you’re trying to convey and provides a visual focal point that grounds a user to a specific section.</p>
 				<p>Graphical icons can be used in any number of ways to spice up your web design project. You can use them as visual accompaniments to text areas or as standalone links in situations where space is tight and text blocks aren’t feasible within the design. It’s this versatility to icons which makes them both so useful and widespread.</p>
 				<p>Fortunately, there’s no need to go about producing your own icon set. <b>Font Awesome</b> provides a versatile framework that incorporates nearly any icon graphic you can imagine along with needed scalability and customization capabilities. <b>Font Awesome</b> will almost assuredly save you time and money in your application of specific icons. The following article will walk through incorporating Font Awesome icons to optimize your web design project. </p>
 				<hr style="border: 1px dotted lightgrey;">
-				<h2>What is Font Awesome CDN?</h2>
+				<h2 id="font-awesome-CDN">What is Font Awesome CDN?</h2>
 				<p>A <b>content delivery network (CDN)</b> refers to a geographically distributed group of servers which work together to provide fast delivery of Internet content. A <b>CDN</b> allows for the quick transfer of assets needed for loading Internet content including HTML pages, javascript files, stylesheets, images, and videos. The popularity of <b>CDN</b> services continues to grow, and today the majority of web traffic is served through CDNs, including traffic from major sites like Facebook, Netflix, and Amazon.</p>
 				<p> The most important benefits of using a CDN are</p>
 				<ul>
@@ -582,7 +929,7 @@
 					</script>
 				</div>
 				<hr style="border: 1px dotted lightgrey;">
-				<h2>Animated Font Awesome Icons.</h2>
+				<h2 id="font-awesome-icons-animation">Animated Font Awesome Icons.</h2>
 				<p>Here is the list of best <b>font awesome css animations</b> listed below. Click on the label to extend and copy the <b>css code</b> and use in your website.</p>
 				<div class="accordion_container">
 					<div style="margin-bottom: 18px;">
@@ -903,6 +1250,49 @@
 						</ul>
 					</div>
 					<hr style="border: 1px dotted lightgrey;">
+					<div class="karna_container">
+						<div class="slideshow">
+							<input type="radio" name="images" id="i1">
+							<input type="radio" name="images" id="i2">
+							<input type="radio" name="images" id="i3">
+							<div class="slides" id="one">
+								<div class="slide_image_container1">
+									<h2>Earn 10$ To 99$ Per Hour by Typing Online With No Investment.</h2>
+									<ul>
+										<li style="list-style: none;"><a href="https://www.alltechnotricks.com/free-online-typing-jobs.html" target="_blank" rel="noopener">ReadMore</a></li>
+									</ul>
+								</div>
+								<label for="i3" class="prev"><span></span></label>
+								<label for="i2" class="next"><span></span></label>
+							</div>
+							<div class="slides" id="two">
+								<div class="slide_image_container2">
+									<h2>Megatypers Online Typing Job To Work From Home.</h2>
+									<ul>
+										<li style="list-style: none;"><a href="https://www.alltechnotricks.com/megatypers.html" target="_blank" rel="noopener">ReadMore</a></li>
+									</ul>
+								</div>
+								<label for="i1" class="prev"><span></span></label>
+								<label for="i3" class="next"><span></span></label>
+							</div>
+							<div class="slides" id="three">
+								<div class="slide_image_container3">
+									<h2>Qlinkgroup Online Typing Job With Zero Registration Fee.</h2>
+									<ul>
+										<li style="list-style: none;"><a href="https://www.alltechnotricks.com/qlinkgroup.html" target="_blank" rel="noopener">ReadMore</a></li>
+									</ul>
+								</div>
+								<label for="i2" class="prev"><span></span></label>
+								<label for="i1" class="next"><span></span></label>
+							</div>
+							<div class="nav">
+								<label for="i1" class="dots" id="dot1"></label>
+								<label for="i2" class="dots" id="dot2"></label>
+								<label for="i3" class="dots" id="dot3"></label>
+							</div>
+						</div>
+					</div>
+					<br>
 					<div id="disqus_thread" style="border: 1px solid lightgrey; padding: 10px; border-radius: 5px;"></div>
 					<script>
 						/**
@@ -933,8 +1323,44 @@
 		<p>@ Copyright 2018. This theme is highly customized and rediculously designed by Karunakar_Patel. </p>
 	</div>
 </body>
+<script>
+	let anchorlinks = document.querySelectorAll('a[href^="#"]')
+	for (let item of anchorlinks) { // relitere
+		item.addEventListener('click', (e) => {
+			let hashval = item.getAttribute('href')
+			let target = document.querySelector(hashval)
+			target.scrollIntoView({
+				behavior: 'smooth'
+				, block: 'start'
+			})
+			history.pushState(null, null, hashval)
+			e.preventDefault()
+		})
+	}
+</script>
 <style>
 	@keyframes vanishIn {
+		0% {
+			opacity: 0;
+			-webkit-transform-origin: 50% 50%;
+			transform-origin: 50% 50%;
+			-webkit-transform: scale(2, 2);
+			transform: scale(2, 2);
+			-webkit-filter: blur(90px);
+			filter: blur(90px);
+		}
+		100% {
+			opacity: 1;
+			-webkit-transform-origin: 50% 50%;
+			transform-origin: 50% 50%;
+			-webkit-transform: scale(1, 1);
+			transform: scale(1, 1);
+			-webkit-filter: blur(0px);
+			filter: blur(0px);
+		}
+	}
+
+	@-webkit-keyframes vanishIn {
 		0% {
 			opacity: 0;
 			-webkit-transform-origin: 50% 50%;
@@ -976,6 +1402,27 @@
 		}
 	}
 
+	@-webkit-keyframes puffIn {
+		0% {
+			opacity: 0;
+			-webkit-transform-origin: 50% 50%;
+			transform-origin: 50% 50%;
+			-webkit-transform: scale(2, 2);
+			transform: scale(2, 2);
+			-webkit-filter: blur(2px);
+			filter: blur(2px);
+		}
+		100% {
+			opacity: 1;
+			-webkit-transform-origin: 50% 50%;
+			transform-origin: 50% 50%;
+			-webkit-transform: scale(1, 1);
+			transform: scale(1, 1);
+			-webkit-filter: blur(0px);
+			filter: blur(0px);
+		}
+	}
+
 	@keyframes spaceOutUp {
 		0% {
 			opacity: 1;
@@ -993,7 +1440,39 @@
 		}
 	}
 
+	@-webkit-keyframes spaceOutUp {
+		0% {
+			opacity: 1;
+			-webkit-transform-origin: 50% 0%;
+			transform-origin: 50% 0%;
+			-webkit-transform: scale(1) translate(0%, 0%);
+			transform: scale(1) translate(0%, 0%);
+		}
+		100% {
+			opacity: 0;
+			-webkit-transform-origin: 50% 0%;
+			transform-origin: 50% 0%;
+			-webkit-transform: scale(.2) translate(0%, -200%);
+			transform: scale(.2) translate(0%, -200%);
+		}
+	}
+
 	@keyframes perspectiveDownReturn {
+		0% {
+			-webkit-transform-origin: 0 100%;
+			transform-origin: 0 100%;
+			-webkit-transform: perspective(800px) rotateX(-180deg);
+			transform: perspective(800px) rotateX(-180deg);
+		}
+		100% {
+			-webkit-transform-origin: 0 100%;
+			transform-origin: 0 100%;
+			-webkit-transform: perspective(800px) rotateX(0deg);
+			transform: perspective(800px) rotateX(0deg);
+		}
+	}
+
+	@-webkit-keyframes perspectiveDownReturn {
 		0% {
 			-webkit-transform-origin: 0 100%;
 			transform-origin: 0 100%;
@@ -1029,7 +1508,50 @@
 		}
 	}
 
+	@-webkit-keyframes openUpRightOut {
+		0% {
+			opacity: 1;
+			-webkit-transform-origin: top right;
+			transform-origin: top right;
+			-webkit-transform: rotate(0deg);
+			transform: rotate(0deg);
+			-webkit-animation-timing-function: ease-out;
+			animation-timing-function: ease-out;
+		}
+		100% {
+			opacity: 0;
+			-webkit-transform-origin: top right;
+			transform-origin: top right;
+			-webkit-transform: rotate(-110deg);
+			transform: rotate(-110deg);
+			-webkit-animation-timing-function: ease-in-out;
+			animation-timing-function: ease-in-out;
+		}
+	}
+
 	@keyframes tinRightIn {
+		0% {
+			opacity: 0;
+			-webkit-transform: scale(1, 1) translateX(900%);
+			transform: scale(1, 1) translateX(900%);
+		}
+		50%,
+		70%,
+		90% {
+			opacity: 1;
+			-webkit-transform: scale(1.1, 1.1) translateX(0);
+			transform: scale(1.1, 1.1) translateX(0);
+		}
+		60%,
+		80%,
+		100% {
+			opacity: 1;
+			-webkit-transform: scale(1, 1) translateX(0);
+			transform: scale(1, 1) translateX(0);
+		}
+	}
+
+	@-webkit-keyframes tinRightIn {
 		0% {
 			opacity: 0;
 			-webkit-transform: scale(1, 1) translateX(900%);
@@ -1073,7 +1595,51 @@
 		}
 	}
 
+	@-webkit-keyframes tinRightOut {
+		0%,
+		20%,
+		40%,
+		50% {
+			opacity: 1;
+			-webkit-transform: scale(1, 1) translateX(0);
+			transform: scale(1, 1) translateX(0);
+		}
+		10%,
+		30% {
+			opacity: 1;
+			-webkit-transform: scale(1.1, 1.1) translateX(0);
+			transform: scale(1.1, 1.1) translateX(0);
+		}
+		100% {
+			opacity: 0;
+			-webkit-transform: scale(1, 1) translateX(900%);
+			transform: scale(1, 1) translateX(900%);
+		}
+	}
+
 	@keyframes tinUpIn {
+		0% {
+			opacity: 0;
+			-webkit-transform: scale(1, 1) translateY(-900%);
+			transform: scale(1, 1) translateY(-900%);
+		}
+		50%,
+		70%,
+		90% {
+			opacity: 1;
+			-webkit-transform: scale(1.1, 1.1) translateY(0);
+			transform: scale(1.1, 1.1) translateY(0);
+		}
+		60%,
+		80%,
+		100% {
+			opacity: 1;
+			-webkit-transform: scale(1, 1) translateY(0);
+			transform: scale(1, 1) translateY(0);
+		}
+	}
+
+	@-webkit-keyframes tinUpIn {
 		0% {
 			opacity: 0;
 			-webkit-transform: scale(1, 1) translateY(-900%);
@@ -1117,7 +1683,47 @@
 		}
 	}
 
+	@-webkit-keyframes tinUpOut {
+		0%,
+		20%,
+		40%,
+		50% {
+			opacity: 1;
+			-webkit-transform: scale(1, 1) translateY(0);
+			transform: scale(1, 1) translateY(0);
+		}
+		10%,
+		30% {
+			opacity: 1;
+			-webkit-transform: scale(1.1, 1.1) translateY(0);
+			transform: scale(1.1, 1.1) translateY(0);
+		}
+		100% {
+			opacity: 0;
+			-webkit-transform: scale(1, 1) translateY(-900%);
+			transform: scale(1, 1) translateY(-900%);
+		}
+	}
+
 	@keyframes falling {
+		0% {
+			-webkit-transform: translateY(-50%);
+			transform: translateY(-50%);
+			opacity: 0;
+		}
+		50% {
+			-webkit-transform: translateY(0%);
+			transform: translateY(0%);
+			opacity: 1;
+		}
+		100% {
+			-webkit-transform: translateY(50%);
+			transform: translateY(50%);
+			opacity: 0;
+		}
+	}
+
+	@-webkit-keyframes falling {
 		0% {
 			-webkit-transform: translateY(-50%);
 			transform: translateY(-50%);
@@ -1149,6 +1755,20 @@
 		}
 	}
 
+	@-webkit-keyframes burst {
+		0% {
+			opacity: .6;
+		}
+		50% {
+			-webkit-transform: scale(1.8);
+			transform: scale(1.8);
+			opacity: 0;
+		}
+		100% {
+			opacity: 0;
+		}
+	}
+
 	@keyframes passing-reverse {
 		0% {
 			-webkit-transform: translateX(50%);
@@ -1167,7 +1787,43 @@
 		}
 	}
 
+	@-webkit-keyframes passing-reverse {
+		0% {
+			-webkit-transform: translateX(50%);
+			transform: translateX(50%);
+			opacity: 0;
+		}
+		50% {
+			-webkit-transform: translateX(0%);
+			transform: translateX(0%);
+			opacity: 1;
+		}
+		100% {
+			-webkit-transform: translateX(-50%);
+			transform: translateX(-50%);
+			opacity: 0;
+		}
+	}
+
 	@keyframes passing {
+		0% {
+			-webkit-transform: translateX(-50%);
+			transform: translateX(-50%);
+			opacity: 0;
+		}
+		50% {
+			-webkit-transform: translateX(0%);
+			transform: translateX(0%);
+			opacity: 1;
+		}
+		100% {
+			-webkit-transform: translateX(50%);
+			transform: translateX(50%);
+			opacity: 0;
+		}
+	}
+
+	@-webkit-keyframes passing {
 		0% {
 			-webkit-transform: translateX(-50%);
 			transform: translateX(-50%);
@@ -1213,7 +1869,50 @@
 		}
 	}
 
+	@-webkit-keyframes tada {
+		0% {
+			-webkit-transform: scale(1);
+			transform: scale(1);
+		}
+		10%,
+		20% {
+			-webkit-transform: scale(.9) rotate(-8deg);
+			transform: scale(.9) rotate(-8deg);
+		}
+		30%,
+		50%,
+		70% {
+			-webkit-transform: scale(1.3) rotate(8deg);
+			transform: scale(1.3) rotate(8deg);
+		}
+		40%,
+		60% {
+			-webkit-transform: scale(1.3) rotate(-8deg);
+			transform: scale(1.3) rotate(-8deg);
+		}
+		80%,
+		100% {
+			-webkit-transform: scale(1) rotate(0);
+			transform: scale(1) rotate(0);
+		}
+	}
+
 	@keyframes pulse {
+		0% {
+			-webkit-transform: scale(1);
+			transform: scale(1);
+		}
+		50% {
+			-webkit-transform: scale(0.8);
+			transform: scale(0.8);
+		}
+		100% {
+			-webkit-transform: scale(1);
+			transform: scale(1);
+		}
+	}
+
+	@-webkit-keyframes pulse {
 		0% {
 			-webkit-transform: scale(1);
 			transform: scale(1);
@@ -1243,6 +1942,21 @@
 		}
 	}
 
+	@-webkit-keyframes float {
+		0% {
+			-webkit-transform: translateY(0);
+			transform: translateY(0);
+		}
+		50% {
+			-webkit-transform: translateY(-6px);
+			transform: translateY(-6px);
+		}
+		100% {
+			-webkit-transform: translateY(0);
+			transform: translateY(0);
+		}
+	}
+
 	@keyframes spin {
 		0% {
 			-webkit-transform: rotate(0deg);
@@ -1254,7 +1968,38 @@
 		}
 	}
 
+	@-webkit-keyframes spin {
+		0% {
+			-webkit-transform: rotate(0deg);
+			transform: rotate(0deg);
+		}
+		100% {
+			-webkit-transform: rotate(358deg);
+			transform: rotate(358deg);
+		}
+	}
+
 	@keyframes bounce {
+		0%,
+		10%,
+		20%,
+		50%,
+		80%,
+		100% {
+			-webkit-transform: translateY(0);
+			transform: translateY(0);
+		}
+		40% {
+			-webkit-transform: translateY(-15px);
+			transform: translateY(-15px);
+		}
+		60% {
+			-webkit-transform: translateY(-15px);
+			transform: translateY(-15px);
+		}
+	}
+
+	@-webkit-keyframes bounce {
 		0%,
 		10%,
 		20%,
@@ -1334,11 +2079,75 @@
 		}
 	}
 
+	@-webkit-keyframes horizontal {
+		0% {
+			-webkit-transform: translate(0, 0);
+			transform: translate(0, 0);
+		}
+		6% {
+			-webkit-transform: translate(5px, 0);
+			transform: translate(5px, 0);
+		}
+		12% {
+			-webkit-transform: translate(0, 0);
+			transform: translate(0, 0);
+		}
+		18% {
+			-webkit-transform: translate(5px, 0);
+			transform: translate(5px, 0);
+		}
+		24% {
+			-webkit-transform: translate(0, 0);
+			transform: translate(0, 0);
+		}
+		30% {
+			-webkit-transform: translate(5px, 0);
+			transform: translate(5px, 0);
+		}
+		36%,
+		100% {
+			-webkit-transform: translate(0, 0);
+			transform: translate(0, 0);
+		}
+	}
+
 	.vertical {
 		animation: vertical 4s infinite alternate;
 	}
 
 	@keyframes vertical {
+		0% {
+			-webkit-transform: translate(0, -3px);
+			transform: translate(0, -3px);
+		}
+		4% {
+			-webkit-transform: translate(0, 3px);
+			transform: translate(0, 3px);
+		}
+		8% {
+			-webkit-transform: translate(0, -3px);
+			transform: translate(0, -3px);
+		}
+		12% {
+			-webkit-transform: translate(0, 3px);
+			transform: translate(0, 3px);
+		}
+		16% {
+			-webkit-transform: translate(0, -3px);
+			transform: translate(0, -3px);
+		}
+		20% {
+			-webkit-transform: translate(0, 3px);
+			transform: translate(0, 3px);
+		}
+		22%,
+		100% {
+			-webkit-transform: translate(0, 0);
+			transform: translate(0, 0);
+		}
+	}
+
+	@-webkit-keyframes vertical {
 		0% {
 			-webkit-transform: translate(0, -3px);
 			transform: translate(0, -3px);
@@ -1422,11 +2231,123 @@
 		}
 	}
 
+	@-webkit-keyframes ring {
+		0% {
+			-webkit-transform: rotate(-15deg);
+			transform: rotate(-15deg);
+		}
+		2% {
+			-webkit-transform: rotate(15deg);
+			transform: rotate(15deg);
+		}
+		4% {
+			-webkit-transform: rotate(-18deg);
+			transform: rotate(-18deg);
+		}
+		6% {
+			-webkit-transform: rotate(18deg);
+			transform: rotate(18deg);
+		}
+		8% {
+			-webkit-transform: rotate(-22deg);
+			transform: rotate(-22deg);
+		}
+		10% {
+			-webkit-transform: rotate(22deg);
+			transform: rotate(22deg);
+		}
+		12% {
+			-webkit-transform: rotate(-18deg);
+			transform: rotate(-18deg);
+		}
+		14% {
+			-webkit-transform: rotate(18deg);
+			transform: rotate(18deg);
+		}
+		16% {
+			-webkit-transform: rotate(-12deg);
+			transform: rotate(-12deg);
+		}
+		18% {
+			-webkit-transform: rotate(12deg);
+			transform: rotate(12deg);
+		}
+		20%,
+		100% {
+			-webkit-transform: rotate(0deg);
+			transform: rotate(0deg);
+		}
+	}
+
 	.wrench {
 		animation: wrench 3s ease-in-out infinite;
 	}
 
 	@keyframes wrench {
+		0% {
+			-webkit-transform: rotate(-12deg);
+			transform: rotate(-12deg);
+		}
+		8% {
+			-webkit-transform: rotate(12deg);
+			transform: rotate(12deg);
+		}
+		10% {
+			-webkit-transform: rotate(24deg);
+			transform: rotate(24deg);
+		}
+		18% {
+			-webkit-transform: rotate(-24deg);
+			transform: rotate(-24deg);
+		}
+		20% {
+			-webkit-transform: rotate(-24deg);
+			transform: rotate(-24deg);
+		}
+		28% {
+			-webkit-transform: rotate(24deg);
+			transform: rotate(24deg);
+		}
+		30% {
+			-webkit-transform: rotate(24deg);
+			transform: rotate(24deg);
+		}
+		38% {
+			-webkit-transform: rotate(-24deg);
+			transform: rotate(-24deg);
+		}
+		40% {
+			-webkit-transform: rotate(-24deg);
+			transform: rotate(-24deg);
+		}
+		48% {
+			-webkit-transform: rotate(24deg);
+			transform: rotate(24deg);
+		}
+		50% {
+			-webkit-transform: rotate(24deg);
+			transform: rotate(24deg);
+		}
+		58% {
+			-webkit-transform: rotate(-24deg);
+			transform: rotate(-24deg);
+		}
+		60% {
+			-webkit-transform: rotate(-24deg);
+			transform: rotate(-24deg);
+		}
+		68% {
+			-webkit-transform: rotate(24deg);
+			transform: rotate(24deg);
+		}
+		75%,
+		100% {
+			-webkit-transform: rotate(0deg);
+			transform: rotate(0deg);
+		}
+	}
+
+	@-webkit-keyframes wrench {
 		0% {
 			-webkit-transform: rotate(-12deg);
 			transform: rotate(-12deg);
@@ -1584,5 +2505,18 @@
 		}
 	}
 </style>
+<script>
+	onload = start;
+
+	function start() {
+		var i = 1;
+
+		function Move() {
+			i = (i % 4) + 1; // 4 is the Number of image in slider
+			document.getElementById('i' + i).checked = true;
+		}
+		setInterval(Move, 3000); //change img in 3 sec
+	}
+</script>
 
 </html>
