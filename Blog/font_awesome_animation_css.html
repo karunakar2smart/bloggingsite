@@ -32,8 +32,61 @@
 		}
 		window.dataLayer = window.dataLayer || [], gtag("js", new Date), gtag("config", "UA-115951250-1")
 	</script>
-	<script type="application/ld+json"> { "@context": "http://schema.org", "@type": "Article", "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.alltechnotricks.com/Blog/font_awesome_animation_css.html" }, "headline": "Animate All Font Awesome Icons With Pure CSS to Get Visitors Attention.", "image": [ "https://www.alltechnotricks.com/images/free-online-typing-jobs.jpg" ], "datePublished": "2018-12-17", "dateModified": "2018-12-29", "author": { "@type": "Person", "name": "Karunakar" }, "publisher": { "@type": "Organization", "name": "Techno Tricks", "logo": { "@type": "ImageObject", "url": "https://www.alltechnotricks.com/fevicon.ico" } }, "description": "Font awesome icons with CSS animations would help to increase the engagement of the visitors. I included simple pure CSS code using font awesome CDN's where you can directly copy pure CSS code and paste in to use to animate all font awesome icons and use in your website for free. There are different types of animations for you to select and use for free. Learn more at font awesome icons with pure CSS animations." } </script>
+	<script type="application/ld+json"> { "@context": "http://schema.org", "@type": "Article", "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.alltechnotricks.com/Blog/font_awesome_animation_css.html" }, "headline": "Animate All Font Awesome Icons With Pure CSS to Get Visitors Attention.", "image": [ "https://www.alltechnotricks.com/images/free-online-typing-jobs.jpg" ], "datePublished": "2018-12-17", "dateModified": "2018-12-31", "author": { "@type": "Person", "name": "Karunakar" }, "publisher": { "@type": "Organization", "name": "Techno Tricks", "logo": { "@type": "ImageObject", "url": "https://www.alltechnotricks.com/fevicon.ico" } }, "description": "Font awesome icons with CSS animations would help to increase the engagement of the visitors. I included simple pure CSS code using font awesome CDN's where you can directly copy pure CSS code and paste in to use to animate all font awesome icons and use in your website for free. There are different types of animations for you to select and use for free. Learn more at font awesome icons with pure CSS animations." } </script>
 	<style>
+		.logo_container {
+			width: 100%;
+			height: 150px;
+			display: flex;
+			flex-grow: 1;
+			flex-basis: 100px;
+			flex-direction: column;
+			flex-wrap: wrap;
+			margin: auto;
+			text-align: center;
+			background: url('../images/page-bg.png') no-repeat center center/cover;
+			position: relative;
+			margin-bottom: 5px;
+		}
+
+		.animated {
+			color: white;
+			font-size: 72px;
+			text-align: center;
+			display: inline-block;
+			flex-grow: 1;
+			align-content: center;
+			justify-content: center;
+			text-align: center;
+			margin: auto;
+			padding: 20px 0px 0px 0px;
+			font-variant: small-caps;
+			font-family: charm, cursive;
+			background: url('../images/text-bg.png') no-repeat;
+			background-clip: text;
+			-webkit-background-clip: text;
+			color: transparent;
+			animation: moveBg 90s linear infinite;
+		}
+
+		@keyframes moveBg {
+			0% {
+				background-position: 0% 30%;
+			}
+			100% {
+				background-position: 100% 50%;
+			}
+		}
+
+		@-webkit-keyframes moveBg {
+			0% {
+				background-position: 0% 30%;
+			}
+			100% {
+				background-position: 100% 50%;
+			}
+		}
+
 		body {
 			background-color: rgba(238, 238, 238, 0.23);
 			padding: 0px;
@@ -119,7 +172,7 @@
 			position: absolute;
 			left: 0;
 			bottom: 0;
-			top: 80px;
+			top: 200px;
 			width: 50px;
 			position: fixed;
 		}
@@ -751,6 +804,14 @@
 				animation-play-state: paused;
 				cursor: pointer;
 			}
+			.logo_container {
+				height: 80px;
+				border-radius: 5px;
+				margin-bottom: 2px;
+			}
+			.animated {
+				font-size: 32px !important;
+			}
 		}
 
 		@media only screen and (max-width:900px) {
@@ -856,6 +917,8 @@
 
 <body>
 	<div class="large_container">
+		<div class="logo_container">
+			<h1 class="animated">AllTechnoTricks</h1> </div>
 		<div class="navigation">
 			<ul>
 				<li><a href="https://www.alltechnotricks.com/" target="_top">Home</a></li>
