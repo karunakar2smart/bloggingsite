@@ -31,8 +31,26 @@
 		}
 		window.dataLayer = window.dataLayer || [], gtag("js", new Date), gtag("config", "UA-115951250-1")
 	</script>
-	<script type="application/ld+json"> { "@context": "http://schema.org", "@type": "NewsArticle", "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.alltechnotricks.com/Blog.html" }, "headline": "Karunakar Patel's Blog. Authur at Technotricks.com", "image": [ "https://www.alltechnotricks.com/images/earn-money-online-typing-jobs.jpg" ], "datePublished": "2019-01-02", "dateModified": "2019-01-02", "author": { "@type": "Person", "name": "Karunakar" }, "publisher": { "@type": "Organization", "name": "Techno Tricks", "logo": { "@type": "ImageObject", "url": "https://www.alltechnotricks.com/fevicon.ico" } }, "description": "All Techno Tricks is a good useful website which help you to define the difference between legitimate and illegitimate process to earn money online. All techno tricks also helps you to learn all the tricks, tips and techniques to earn money online through blogging, free online jobs and many more." } </script>
+	<script type="application/ld+json"> { "@context": "http://schema.org", "@type": "NewsArticle", "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.alltechnotricks.com/Blog.html" }, "headline": "Karunakar Patel's Blog. Authur at Technotricks.com", "image": [ "https://www.alltechnotricks.com/images/earn-money-online-typing-jobs.jpg" ], "datePublished": "2019-01-03", "dateModified": "2019-01-02", "author": { "@type": "Person", "name": "Karunakar" }, "publisher": { "@type": "Organization", "name": "Techno Tricks", "logo": { "@type": "ImageObject", "url": "https://www.alltechnotricks.com/fevicon.ico" } }, "description": "All Techno Tricks is a good useful website which help you to define the difference between legitimate and illegitimate process to earn money online. All techno tricks also helps you to learn all the tricks, tips and techniques to earn money online through blogging, free online jobs and many more." } </script>
 	<style>
+		@keyframes moveBg {
+			0% {
+				background-position: 0% 30%;
+			}
+			100% {
+				background-position: 100% 50%;
+			}
+		}
+
+		@-webkit-keyframes moveBg {
+			0% {
+				background-position: 0% 30%;
+			}
+			100% {
+				background-position: 100% 50%;
+			}
+		}
+
 		#myBtn {
 			display: none;
 			position: fixed;
@@ -80,28 +98,13 @@
 		}
 
 		.navigation {
-			border: 1px dotted #317ec9;
+			border-radius: 5px;
 			background-color: #317ec9;
 			width: 100%;
-			height: 60px;
+			height: 100%;
+			padding: 0px;
 			margin-bottom: 10px;
 			position: relative;
-		}
-
-		.navigation::after {
-			content: "";
-			display: block;
-			background: transparent;
-			position: absolute;
-			top: 0;
-			right: 50%;
-			left: 50%;
-			bottom: 0;
-			margin: auto;
-			border-top: 1px solid transparent;
-			border-right: 1px solid white;
-			border-left: 1px solid transparent;
-			border-bottom: 1px solid transparent;
 		}
 
 		.navigation ul {
@@ -109,17 +112,28 @@
 			text-align: center;
 			display: flex;
 			flex-basis: 100px;
+			/*			border: 1px solid red;*/
+			padding: 0px;
+			margin: 0px;
 		}
 
 		.navigation li {
-			line-height: 1em;
 			flex-grow: 1;
-			font-size: 19px;
-			color: white;
+			cursor: pointer;
+			font-size: 21px;
+			padding: 10px;
+			border-right: 1px solid white;
 		}
 
-		.navigation li a {
+		.navigation a {
 			color: white;
+			flex-grow: 1;
+		}
+
+		.navigation a:hover {
+			background-color: salmon;
+			transition: all 320ms ease-in-out;
+			color: black;
 		}
 
 		#small_container {
@@ -236,30 +250,61 @@
 		}
 
 		.copyright {
-			width: 100%;
-			height: 40px;
+			height: 60px;
 			background-color: #317ec9;
+			text-align: center;
+			border-radius: 1px;
+			margin-top: 10px;
 		}
 
 		.copyright p {
 			color: white;
+			padding: 20px 0px 0px 0px;
+			margin: auto;
+			font-size: 18px;
+			font-variant: small-caps;
+			line-height: 1.2em;
+		}
+
+		.logo_container {
+			width: 100%;
+			height: 150px;
+			display: flex;
+			flex-grow: 1;
+			flex-basis: 100px;
+			flex-direction: column;
+			flex-wrap: wrap;
+			margin: auto;
 			text-align: center;
-			padding: 10px 0px 10px 0px;
-			margin: 0px;
+			background: url('images/page-bg.png') no-repeat center center/cover;
+			position: relative;
+			margin-bottom: 5px;
+		}
+
+		.animated {
+			color: white;
+			font-size: 72px;
+			text-align: center;
+			display: inline-block;
+			flex-grow: 1;
+			align-content: center;
+			justify-content: center;
+			text-align: center;
+			margin: auto;
+			padding: 20px 0px 0px 0px;
+			font-variant: small-caps;
+			font-family: charm, cursive;
+			background: url('images/text-bg.png') no-repeat;
+			background-clip: text;
+			-webkit-background-clip: text;
+			color: transparent;
+			animation: moveBg 90s linear infinite;
 		}
 
 		@media only screen and (max-width:768px) {
-			.navigation {
-				height: 50px;
-			}
 			.navigation li {
 				font-size: 16px;
-				padding: 0px;
-				margin-left: -10px;
 				text-align: center;
-			}
-			.navigation li:nth-child(1) {
-				margin-left: -25px;
 			}
 			.article_container {
 				width: 100%;
@@ -291,6 +336,21 @@
 			.article_sidebar {
 				display: none;
 			}
+			.logo_container {
+				height: 80px;
+				border-radius: 5px;
+				margin-bottom: 2px;
+			}
+			.animated {
+				font-size: 42px !important;
+			}
+			.copyright {
+				height: auto;
+			}
+			.copyright p {
+				padding: 5px;
+				line-height: 1.22em;
+			}
 		}
 
 		@media only screen and (max-width:900px) {
@@ -309,6 +369,12 @@
 			}
 			.article_sidebar {
 				display: none;
+			}
+			.logo_container {
+				height: 100px;
+			}
+			.animated {
+				font-size: 52px;
 			}
 		}
 
@@ -358,20 +424,28 @@
 
 <body id="top-page">
 	<div id="large_container">
+		<div class="logo_container">
+			<h1 class="animated">AllTechnoTricks</h1> </div>
 		<div class="navigation">
 			<ul>
-				<li><a href="https://www.alltechnotricks.com/" target="_top">Home</a></li>
-				<li><a href="https://www.alltechnotricks.com/" target="_top">Contact Me</a></li>
+				<a href="https://www.alltechnotricks.com/" target="_top">
+					<li>Home</li>
+				</a>
+				<a href="https://www.alltechnotricks.com/Blog.html" target="_top">
+					<li>Blog</li>
+				</a>
+				<a href="https://www.alltechnotricks.com/" target="_top">
+					<li>Contact Me</li>
+				</a>
 			</ul>
 		</div>
 		<div id="small_container">
 			<div class="article_container">
 				<div class="article">
 					<h2><a href="https://www.alltechnotricks.com/Blog/build_wikipedia_backlinks.html" target="_blank" rel="noopener">Build and Create EverLasting  Wikipedia Backlinks To Skyrocket Your SEO Rankings. 🎉</a></h2>
-
-				<p>Getting <b>backlinks</b> from <b>Wikipedia</b> not only helps to increase direct traffic but also gets awesome <b>SEO</b> juice to our blog. Important tactics like <a href="https://www.alltechnotricks.com/Blog/build_wikipedia_backlinks.html#dead-link-method" target="_top">dead link method</a>, broken link method or <a href="https://www.alltechnotricks.com/Blog/build_wikipedia_backlinks.html#wikipedia-backlink" target="_top">improving Wikipedia page</a> by inserting our link as a moderator by just creating an account for free helps to get everlasting <b>backlinks</b> from <b>Wikipedia</b>. Once you know how to get a backlink from Wikipedia, we can create as many links as possible but <b>Wikipedia</b> only accepts the changes that add value to their articles, Information needs to be factual, well-researched and error-free.</p>
-				<p>In here, we are talking about <b>building</b> long-lasting <b>Wikipedia backlinks</b> by inserting a <b>link</b> in Wikipedia article to somewhere on your website which needs to be a reliable source for a claim that's already been made on <b>Wikipedia</b> before. Creating backlinks at Wikipedia is an easy task by following these simple tactics which I had posted briefly in here.</p>
-				<p>There are a number of bloggers, journalists, students, and others in control of Web content who rely on some combination of Google and Wikipedia to research a topic. As Wikipedia has <b>no-follow links</b>, getting links included on a Wikipedia page may likely offer little direct ranking advantage for your site.</p>
+					<p>Getting <b>backlinks</b> from <b>Wikipedia</b> not only helps to increase direct traffic but also gets awesome <b>SEO</b> juice to our blog. Important tactics like <a href="https://www.alltechnotricks.com/Blog/build_wikipedia_backlinks.html#dead-link-method" target="_top">dead link method</a>, broken link method or <a href="https://www.alltechnotricks.com/Blog/build_wikipedia_backlinks.html#wikipedia-backlink" target="_top">improving Wikipedia page</a> by inserting our link as a moderator by just creating an account for free helps to get everlasting <b>backlinks</b> from <b>Wikipedia</b>. Once you know how to get a backlink from Wikipedia, we can create as many links as possible but <b>Wikipedia</b> only accepts the changes that add value to their articles, Information needs to be factual, well-researched and error-free.</p>
+					<p>In here, we are talking about <b>building</b> long-lasting <b>Wikipedia backlinks</b> by inserting a <b>link</b> in Wikipedia article to somewhere on your website which needs to be a reliable source for a claim that's already been made on <b>Wikipedia</b> before. Creating backlinks at Wikipedia is an easy task by following these simple tactics which I had posted briefly in here.</p>
+					<p>There are a number of bloggers, journalists, students, and others in control of Web content who rely on some combination of Google and Wikipedia to research a topic. As Wikipedia has <b>no-follow links</b>, getting links included on a Wikipedia page may likely offer little direct ranking advantage for your site.</p>
 					<p>Learn More at <a href="https://www.alltechnotricks.com/Blog/build_wikipedia_backlinks.html" target="_blank" rel="noopener">Build and Create EverLasting  Wikipedia Backlinks To Skyrocket Your SEO Rankings. 🎉</a>.</p>
 					<div class="article_footer">
 						<ul>
@@ -390,8 +464,6 @@
 						</script>
 					</div>
 				</div>
-
-
 			</div>
 			<div class="article_sidebar">
 				<div class="sidebar_items">
@@ -404,7 +476,7 @@
 			</div>
 		</div>
 		<div class="copyright">
-			<p>This website is rediculously designed by Karunakar_Patel.</p> <span>
+			<p>@ Copyright 2018. This Theme Is Highly Customized And Rediculously Designed By Karunakar_Patel. </p> <span>
 <a href="#top-page" id="myBtn" onclick="topFuntionc()" style="text-decoration: none; padding: 5px; margin: 0px;">
 	<svg style="width: 30px; height: 30px;" fill="white" viewBox="0 0 320 512"><path d="M177 159.7l136 136c9.4 9.4 9.4 24.6 0 33.9l-22.6 22.6c-9.4 9.4-24.6 9.4-33.9 0L160 255.9l-96.4 96.4c-9.4 9.4-24.6 9.4-33.9 0L7 329.7c-9.4-9.4-9.4-24.6 0-33.9l136-136c9.4-9.5 24.6-9.5 34-.1z"/></svg>
 </a>

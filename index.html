@@ -32,8 +32,26 @@
 		}
 		window.dataLayer = window.dataLayer || [], gtag("js", new Date), gtag("config", "UA-115951250-1")
 	</script>
-	<script type="application/ld+json"> { "@context": "http://schema.org", "@type": "NewsArticle", "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.alltechnotricks.com/" }, "headline": "All Techno Tricks - Blogging, Make Money Online, Tips & Tricks.", "image": [ "https://www.alltechnotricks.com/images/earn-money-online-typing-jobs.jpg" ], "datePublished": "2018-07-05", "dateModified": "2019-01-02", "author": { "@type": "Person", "name": "Karunakar Patel" }, "publisher": { "@type": "Organization", "name": "Techno Tricks", "logo": { "@type": "ImageObject", "url": "https://www.alltechnotricks.com/fevicon.ico" } }, "description": "All Techno Tricks is a good useful website which help you to define the difference between legitimate and illegitimate process to earn money online. All techno tricks also helps you to learn all the tricks, tips and techniques to earn money online through blogging, free online jobs and many more." } </script>
+	<script type="application/ld+json"> { "@context": "http://schema.org", "@type": "NewsArticle", "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.alltechnotricks.com/" }, "headline": "All Techno Tricks - Blogging, Make Money Online, Tips & Tricks.", "image": [ "https://www.alltechnotricks.com/images/earn-money-online-typing-jobs.jpg" ], "datePublished": "2018-07-05", "dateModified": "2019-01-03", "author": { "@type": "Person", "name": "Karunakar Patel" }, "publisher": { "@type": "Organization", "name": "Techno Tricks", "logo": { "@type": "ImageObject", "url": "https://www.alltechnotricks.com/fevicon.ico" } }, "description": "All Techno Tricks is a good useful website which help you to define the difference between legitimate and illegitimate process to earn money online. All techno tricks also helps you to learn all the tricks, tips and techniques to earn money online through blogging, free online jobs and many more." } </script>
 	<style>
+		@keyframes moveBg {
+			0% {
+				background-position: 0% 30%;
+			}
+			100% {
+				background-position: 100% 50%;
+			}
+		}
+
+		@-webkit-keyframes moveBg {
+			0% {
+				background-position: 0% 30%;
+			}
+			100% {
+				background-position: 100% 50%;
+			}
+		}
+
 		#myBtn {
 			display: none;
 			position: fixed;
@@ -82,27 +100,13 @@
 
 		.navigation {
 			border: 1px dotted #317ec9;
+			border-radius: 5px;
 			background-color: #317ec9;
 			width: 100%;
-			height: 60px;
+			height: 100%;
+			padding: 0px;
 			margin-bottom: 10px;
 			position: relative;
-		}
-
-		.navigation::after {
-			content: "";
-			display: block;
-			background: transparent;
-			position: absolute;
-			top: 0;
-			right: 50%;
-			left: 50%;
-			bottom: 0;
-			margin: auto;
-			border-top: 1px solid transparent;
-			border-right: 1px solid white;
-			border-left: 1px solid transparent;
-			border-bottom: 1px solid transparent;
 		}
 
 		.navigation ul {
@@ -110,17 +114,28 @@
 			text-align: center;
 			display: flex;
 			flex-basis: 100px;
+			/*			border: 1px solid red;*/
+			padding: 0px;
+			margin: 0px;
 		}
 
 		.navigation li {
-			line-height: 1em;
 			flex-grow: 1;
-			font-size: 19px;
-			color: white;
+			cursor: pointer;
+			font-size: 21px;
+			padding: 10px;
+			border-right: 1px solid white;
 		}
 
-		.navigation li a {
+		.navigation a {
 			color: white;
+			flex-grow: 1;
+		}
+
+		.navigation a:hover {
+			background-color: salmon;
+			transition: all 320ms ease-in-out;
+			color: black;
 		}
 
 		#small_container {
@@ -237,30 +252,96 @@
 		}
 
 		.copyright {
-			width: 100%;
-			height: 40px;
+			height: 60px;
 			background-color: #317ec9;
+			text-align: center;
+			border-radius: 1px;
+			margin-top: 10px;
 		}
 
 		.copyright p {
 			color: white;
+			padding: 20px 0px 0px 0px;
+			margin: auto;
+			font-size: 18px;
+			font-variant: small-caps;
+			line-height: 1.2em;
+		}
+
+		.logo_container {
+			width: 100%;
+			height: 150px;
+			display: flex;
+			flex-grow: 1;
+			flex-basis: 100px;
+			flex-direction: column;
+			flex-wrap: wrap;
+			margin: auto;
 			text-align: center;
-			padding: 10px 0px 10px 0px;
+			background: url('images/page-bg.png') no-repeat center center/cover;
+			position: relative;
+			margin-bottom: 5px;
+		}
+
+		.animated {
+			color: white;
+			font-size: 72px;
+			text-align: center;
+			display: inline-block;
+			flex-grow: 1;
+			align-content: center;
+			justify-content: center;
+			text-align: center;
+			margin: auto;
+			padding: 20px 0px 0px 0px;
+			font-variant: small-caps;
+			font-family: charm, cursive;
+			background: url('images/text-bg.png') no-repeat;
+			background-clip: text;
+			-webkit-background-clip: text;
+			color: transparent;
+			animation: moveBg 90s linear infinite;
+		}
+
+		#view_blog ul {
+			width: 100%;
+			height: auto;
+			position: relative;
+			padding: 0px;
 			margin: 0px;
+		}
+
+		#view_blog li {
+			border: 1px solid lightgrey;
+			border-radius: 3px;
+			color: black;
+			background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+			text-align: center;
+			padding: 10px;
+			margin: 0px;
+			list-style: none;
+			width: 70%;
+			margin: auto;
+			font-size: 22px;
+			font-variant: small-caps;
 		}
 
 		@media only screen and (max-width:768px) {
 			.navigation {
-				height: 50px;
+				height: auto;
 			}
 			.navigation li {
-				font-size: 16px;
-				padding: 0px;
+				font-size: 17px;
+				padding: 10px;
 				margin-left: -10px;
 				text-align: center;
 			}
-			.navigation li:nth-child(1) {
-				margin-left: -25px;
+			.copyright {
+				height: auto;
+			}
+			.copyright p {
+				padding: 5px;
+				line-height: 1.22em;
 			}
 			.article_container {
 				width: 100%;
@@ -292,6 +373,14 @@
 			.article_sidebar {
 				display: none;
 			}
+			.logo_container {
+				height: 80px;
+				border-radius: 5px;
+				margin-bottom: 2px;
+			}
+			.animated {
+				font-size: 42px !important;
+			}
 		}
 
 		@media only screen and (max-width:900px) {
@@ -310,6 +399,12 @@
 			}
 			.article_sidebar {
 				display: none;
+			}
+			.logo_container {
+				height: 100px;
+			}
+			.animated {
+				font-size: 52px;
 			}
 		}
 
@@ -359,10 +454,19 @@
 
 <body id="top-page">
 	<div id="large_container">
+		<div class="logo_container">
+			<h1 class="animated">AllTechnoTricks</h1> </div>
 		<div class="navigation">
 			<ul>
-				<li><a href="https://www.alltechnotricks.com/" target="_top">Home</a></li>
-				<li><a href="https://www.alltechnotricks.com/" target="_top">Contact Me</a></li>
+				<a href="https://www.alltechnotricks.com/" target="_top">
+					<li> Home </li>
+				</a>
+				<a href="https://www.alltechnotricks.com/Blog.html" target="_top">
+					<li>Blog</li>
+				</a>
+				<a href="https://www.alltechnotricks.com/" target="_top">
+					<li>Contact Me</li>
+				</a>
 			</ul>
 		</div>
 		<div id="small_container">
@@ -670,6 +774,11 @@
 						</script>
 					</div>
 				</div>
+				<ul id="view_blog">
+					<a href="https://www.alltechnotricks.com/Blog.html" target="_top" rel="noopener">
+						<li>View Blog</li>
+					</a>
+				</ul>
 			</div>
 			<div class="article_sidebar">
 				<div class="sidebar_items">
@@ -682,7 +791,7 @@
 			</div>
 		</div>
 		<div class="copyright">
-			<p>This website is rediculously designed by Karunakar_Patel.</p> <span>
+			<p>@ Copyright 2018. This Theme Is Highly Customized And Rediculously Designed By Karunakar_Patel. </p> <span>
 <a href="#top-page" id="myBtn" onclick="topFuntionc()" style="text-decoration: none; padding: 5px; margin: 0px;">
 	<svg style="width: 30px; height: 30px;" fill="white" viewBox="0 0 320 512"><path d="M177 159.7l136 136c9.4 9.4 9.4 24.6 0 33.9l-22.6 22.6c-9.4 9.4-24.6 9.4-33.9 0L160 255.9l-96.4 96.4c-9.4 9.4-24.6 9.4-33.9 0L7 329.7c-9.4-9.4-9.4-24.6 0-33.9l136-136c9.4-9.5 24.6-9.5 34-.1z"/></svg>
 </a>
