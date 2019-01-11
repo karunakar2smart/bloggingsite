@@ -939,7 +939,7 @@
 					<ul>
 						<a href="https://www.alltechnotricks.com/megatypers.html" target="_blank" rel="noopener">
 							<li>
-								<div class="linkout_inside"> <img src="uploads_svg/megatypers.svg">
+								<div class="linkout_inside"> <img src="blank.gif" data-src="uploads_svg/megatypers.svg" class="lazy">
 									<div>
 										<h3>Megatypers Online Typing Job - Work From Home.</h3> </div>
 								</div>
@@ -947,7 +947,7 @@
 						</a>
 						<a href="https://www.alltechnotricks.com/qlinkgroup.html" target="_blank" rel="noopener">
 							<li>
-								<div class="linkout_inside"> <img src="uploads_svg/qlinkgroup.svg">
+								<div class="linkout_inside"> <img src="blank.gif" class="lazy" data-src="uploads_svg/qlinkgroup.svg">
 									<div>
 										<h3>Qlinkgroup Online Typing Job For 100% Signup Free.</h3> </div>
 								</div>
@@ -955,7 +955,7 @@
 						</a>
 						<a href="https://www.alltechnotricks.com/kolotibablo.html" target="_blank" rel="noopener">
 							<li>
-								<div class="linkout_inside"> <img src="uploads_svg/kolotibablo.svg">
+								<div class="linkout_inside"> <img src="blank.gif" class="lazy" data-src="uploads_svg/kolotibablo.svg">
 									<div>
 										<h3>Kolotibablo Online Typing Job - Receive Weekly Payments.</h3> </div>
 								</div>
@@ -1030,17 +1030,67 @@
 	}
 </script>
 <script>
-	onload = start;
+	/* lazyload.js (c) Lorenzo Giuliani
+	 * MIT License (http://www.opensource.org/licenses/mit-license.html)
+	 *
+	 * expects a list of:
+	 * `<img src="blank.gif" data-src="my_image.png" width="600" height="400" class="lazy">`
+	 */
+	! function (window) {
+		var $q = function (q, res) {
+				if (document.querySelectorAll) {
+					res = document.querySelectorAll(q);
+				}
+				else {
+					var d = document
+						, a = d.styleSheets[0] || d.createStyleSheet();
+					a.addRule(q, 'f:b');
+					for (var l = d.all, b = 0, c = [], f = l.length; b < f; b++) l[b].currentStyle.f && c.push(l[b]);
+					a.removeRule(0);
+					res = c;
+				}
+				return res;
+			}
+			, addEventListener = function (evt, fn) {
+				window.addEventListener ? this.addEventListener(evt, fn, false) : (window.attachEvent) ? this.attachEvent('on' + evt, fn) : this['on' + evt] = fn;
+			}
+			, _has = function (obj, key) {
+				return Object.prototype.hasOwnProperty.call(obj, key);
+			};
 
-	function start() {
-		var i = 1;
-
-		function Move() {
-			i = (i % 4) + 1; // 4 is the Number of image in slider
-			document.getElementById('i' + i).checked = true;
+		function loadImage(el, fn) {
+			var img = new Image()
+				, src = el.getAttribute('data-src');
+			img.onload = function () {
+				if (!!el.parent) el.parent.replaceChild(img, el)
+				else el.src = src;
+				fn ? fn() : null;
+			}
+			img.src = src;
 		}
-		setInterval(Move, 3000); //change img in 3 sec
-	}
+
+		function elementInViewport(el) {
+			var rect = el.getBoundingClientRect()
+			return (rect.top >= 0 && rect.left >= 0 && rect.top <= (window.innerHeight || document.documentElement.clientHeight))
+		}
+		var images = new Array()
+			, query = $q('img.lazy')
+			, processScroll = function () {
+				for (var i = 0; i < images.length; i++) {
+					if (elementInViewport(images[i])) {
+						loadImage(images[i], function () {
+							images.splice(i, i);
+						});
+					}
+				};
+			};
+		// Array.prototype.slice.call is not callable under our lovely IE8
+		for (var i = 0; i < query.length; i++) {
+			images.push(query[i]);
+		};
+		processScroll();
+		addEventListener('scroll', processScroll);
+	}(this);
 </script>
 
 </html>
