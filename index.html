@@ -24,7 +24,6 @@
 	<meta property="og:url" content="https://www.alltechnotricks.com/" />
 	<meta property="og:site_name" content="Techno Tricks" />
 	<meta property="og:image" content="https://www.alltechnotricks.com/images/earn-money-online-typing-jobs.jpg" />
-	<link rel="canonical" href="https:www.alltechnotricks.com/Blog.html" />
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-115951250-1"></script>
 	<script>
 		function gtag() {
@@ -32,1037 +31,833 @@
 		}
 		window.dataLayer = window.dataLayer || [], gtag("js", new Date), gtag("config", "UA-115951250-1")
 	</script>
-	<script type="application/ld+json"> { "@context": "http://schema.org", "@type": "NewsArticle", "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.alltechnotricks.com/" }, "headline": "All Techno Tricks - Blogging, Make Money Online, Tips & Tricks.", "image": [ "https://www.alltechnotricks.com/images/earn-money-online-typing-jobs.jpg" ], "datePublished": "2018-07-05", "dateModified": "2019-02-09", "author": { "@type": "Person", "name": "Karunakar Patel" }, "publisher": { "@type": "Organization", "name": "Techno Tricks", "logo": { "@type": "ImageObject", "url": "https://www.alltechnotricks.com/fevicon.ico" } }, "description": "All Techno Tricks is a good useful website which help you to define the difference between legitimate and illegitimate process to earn money online. All techno tricks also helps you to learn all the tricks, tips and techniques to earn money online through blogging, free online jobs and many more." } </script>
+	<script type="application/ld+json"> { "@context": "http://schema.org", "@type": "NewsArticle", "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.alltechnotricks.com/" }, "headline": "All Techno Tricks - Blogging, Make Money Online, Tips & Tricks.", "image": [ "https://www.alltechnotricks.com/images/earn-money-online-typing-jobs.jpg" ], "datePublished": "2018-07-05", "dateModified": "2019-02-11", "author": { "@type": "Person", "name": "Karunakar Patel" }, "publisher": { "@type": "Organization", "name": "Techno Tricks", "logo": { "@type": "ImageObject", "url": "https://www.alltechnotricks.com/fevicon.ico" } }, "description": "All Techno Tricks is a good useful website which help you to define the difference between legitimate and illegitimate process to earn money online. All techno tricks also helps you to learn all the tricks, tips and techniques to earn money online through blogging, free online jobs and many more." } </script>
 	<style>
-		@keyframes moveBg {
-			0% {
-				background-position: 0% 30%;
-			}
-			100% {
-				background-position: 100% 50%;
-			}
-		}
-
-		@-webkit-keyframes moveBg {
-			0% {
-				background-position: 0% 30%;
-			}
-			100% {
-				background-position: 100% 50%;
-			}
-		}
-
-		#myBtn {
-			display: none;
-			position: fixed;
-			bottom: 20px;
-			right: 30px;
-			z-index: 99;
-			border: none;
-			outline: none;
-			color: white;
-			background: #555;
-			cursor: pointer;
-			border-radius: 5px;
+		body {
 			padding: 0px;
-			line-height: 1.115em;
-		}
-
-		#myBtn:hover {
-			background-color: blue;
+			margin: 3px;
+			font-family: 'Roboto', 'sans-serif';
 		}
 
 		* {
 			box-sizing: border-box;
 		}
 
+		html {
+			font-family: 'Roboto', 'sans-serif';
+			-moz-osx-smoothing: greyscale;
+			-webkit-font-smoothing: antialiased;
+		}
+
+		h2 {
+			font-size: 24px;
+		}
+
+		h3 {
+			font-size: 20px;
+		}
+
+		h4 {
+			font-size: 18px;
+		}
+
+		h2,
+		h3,
+		h4,
+		h5,
+		h6 {
+			line-height: 2em;
+		}
+
+		html,
+		h4,
+		h5,
+		h6 {
+			font-size: 14px;
+		}
+
 		a {
-			color: #317ec9;
+			color: #4184f3;
 			text-decoration: none;
 		}
 
-		a:hover {
-			color: #000;
-		}
-
-		body {
-			background-color: #efefef;
-			padding: 1px;
-			margin: 1px;
-			word-wrap: break-word;
-			font-family: 'Nunito Sans', sans-serif;
-		}
-
-		#large_container {
-			padding: 0px;
-			margin: 0px;
-		}
-
-		.navigation {
-			border: 1px dotted #317ec9;
-			border-radius: 5px;
-			background-color: #317ec9;
+		.footer {
+			height: auto;
+			margin-top: 10px;
 			width: 100%;
-			height: 100%;
-			padding: 0px;
-			margin-bottom: 10px;
-			position: relative;
-		}
-
-		.navigation ul {
-			list-style: none;
-			text-align: center;
+			flex-shrink: 100px;
 			display: flex;
+			flex-direction: row;
+			flex-grow: 1;
 			flex-basis: 100px;
-			/*			border: 1px solid red;*/
-			padding: 0px;
-			margin: 0px;
+			flex-wrap: wrap;
+			padding: 5px;
 		}
 
-		.navigation li {
+		.column-1,
+		.column-2,
+		.column-3 {
 			flex-grow: 1;
-			cursor: pointer;
-			font-size: 21px;
+			border: 1px solid white;
 			padding: 10px;
-			border-right: 1px solid white;
-		}
-
-		.navigation a {
-			color: white;
-			flex-grow: 1;
-		}
-
-		.navigation a:hover {
-			background-color: salmon;
-			transition: all 320ms ease-in-out;
-			color: black;
-		}
-
-		#small_container {
 			position: relative;
-			width: 100%;
-			height: auto;
+			flex-wrap: wrap;
+			flex-basis: 300px;
 		}
 
-		.article_container {
-			position: relative;
-			width: 85%;
-			height: auto;
+		.subs_form {
 			padding: 10px;
-		}
-
-		.article {
 			border: 1px solid #317ec9;
-			border-radius: 10px;
+			margin: auto;
+			background-color: #317ec9;
+			border-radius: 5px;
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		}
+
+		.subs_form p {
+			color: white;
+			font-size: 17px;
+			text-align: center;
+			font-stretch: ultra-expanded;
+			font-weight: bolder;
+		}
+
+		.subs_form input {
 			width: 100%;
-			height: auto;
-			margin-bottom: 20px;
-			background: #ffff;
-			padding: 10px 10px 10px 20px;
+			height: 45px;
+			border: none;
+			border-radius: 5px;
+			margin-bottom: 13px;
 		}
 
-		.article h2 {
-			color: #317ec9;
-			font-weight: 600;
-			font-size: 30px;
-			line-height: 1.2em;
+		.subs_form input[type=text] {
+			text-align: center;
+			font-weight: bold;
+			font-size: 15px;
+		}
+
+		.subs_form input[type=submit] {
+			background-color: salmon;
+			color: white;
 			font-variant: small-caps;
+			font-size: 20px;
 		}
 
-		.article p {
-			font-size: 17.4px;
-			line-height: 1.7em;
-			font-weight: 400;
-			color: #3a3a3a;
+		.subs_form input[type=submit]:hover {
+			background-color: blue;
+			transition: all 900ms linear;
+			cursor: pointer;
 		}
 
-		.article ul {
+		.column-links {
+			border: 1px solid #317ec9;
+			padding: 15px;
+			width: 100%;
+			height: 360px;
+			background: #317ec9;
+			border-radius: 5px;
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		}
+
+		.column-links p {
+			padding: 0px;
+			margin: 0px;
+			text-align: center;
+			font-size: 19px;
+			font-style: italic;
+			color: white;
+			font-stretch: ultra-expanded;
+			font-weight: bolder;
+		}
+
+		.column-links ul {
 			list-style: square;
-			list-style-position: inside;
-			padding: 0px 5px 0px 25px;
-			margin: 0px;
+			display: inline-block;
+			color: white;
 		}
 
-		.article li {
-			color: #3a3a3a;
+		.column-links ul li {
 			padding: 0px;
-			margin: 0px;
-			font-weight: 400;
+			margin-bottom: 8px;
+		}
+
+		.column-links li a {
+			text-decoration: none;
+			padding: 10px;
 			font-size: 17px;
-			padding: 5px;
-			line-height: 1.8em;
+			color: white;
 		}
 
-		.article_footer {
-			padding: 0px;
-			margin-bottom: 15px;
-		}
-
-		.article_footer ul {
-			list-style: none;
-			display: flex;
-			flex-basis: 50px;
-			padding: 0px;
-			margin: 0px;
-		}
-
-		.article_footer li {
-			font-size: 17px;
-			padding: 0px;
-			margin: 0px;
-			flex-grow: 1;
-		}
-
-		.article_footer li:nth-child(2) {
-			text-align: right;
-			padding-right: 30px;
-			font-size: 18px;
-		}
-
-		.article_sidebar {
-			width: 15%;
-			height: auto;
-			position: absolute;
-			right: 0;
-			bottom: 0;
-			top: 0;
-			padding: 5px;
-			/*						border: 1px solid red;*/
-		}
-
-		.sidebar_items {
-			height: 600px;
-			width: 170px;
+		.column_inside {
 			border: 1px solid lightgrey;
 			border-radius: 2px;
-			background-color: #ffff;
-			position: sticky;
-			top: 10px;
+			height: 280px;
+			width: 336px;
+			position: absolute;
+			top: 0;
+			right: 0;
+			bottom: 0;
+			left: 0;
 			margin: auto;
-		}
-
-		.article_ads {
-			width: 100%;
-			height: auto;
-			padding: inherit;
-			background: #ffff;
-			margin-bottom: 20px;
-			border: 1px solid lightgrey;
-			border-radius: 5px;
+			outline: 15px solid #317ec9;
+			background: white;
+			outline-offset: 3px;
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 		}
 
 		.copyright {
-			height: 60px;
-			background-color: #317ec9;
-			text-align: center;
-			border-radius: 1px;
+			width: 100%;
+			height: auto;
 			margin-top: 10px;
-		}
-
-		.copyright p {
-			color: white;
-			padding: 20px 0px 0px 0px;
-			margin: auto;
-			font-size: 18px;
-			font-variant: small-caps;
-			line-height: 1.2em;
-		}
-
-		.logo_container {
-			width: 100%;
-			height: 150px;
-			display: flex;
-			flex-grow: 1;
-			flex-basis: 100px;
-			flex-direction: column;
-			flex-wrap: wrap;
-			margin: auto;
-			text-align: center;
-			background: url('images/page-bg.png') no-repeat center center/cover;
-			position: relative;
-			margin-bottom: 5px;
-		}
-
-		.animated {
-			color: white;
-			font-size: 72px;
-			text-align: center;
-			display: inline-block;
-			flex-grow: 1;
-			align-content: center;
-			justify-content: center;
-			text-align: center;
-			margin: auto;
-			padding: 20px 0px 0px 0px;
-			font-variant: small-caps;
-			font-family: charm, cursive;
-			background: url('images/text-bg.png') no-repeat;
-			background-clip: text;
-			-webkit-background-clip: text;
-			color: transparent;
-			animation: moveBg 90s linear infinite;
-		}
-
-		#view_blog ul {
-			width: 100%;
-			height: auto;
-			position: relative;
-			padding: 0px;
-			margin: 0px;
-		}
-
-		#view_blog li {
 			border: 1px solid lightgrey;
-			border-radius: 3px;
-			color: black;
-			background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+			outline: 10px solid rgba(0, 0, 0, 0.19);
+			outline-offset: 5px;
 			text-align: center;
-			padding: 10px;
-			margin: 0px;
-			list-style: none;
-			width: 70%;
-			margin: auto;
-			font-size: 22px;
-			font-variant: small-caps;
+			border-radius: 5px;
+			font-size: 18px;
+			background: #06f;
+			color: white;
 		}
 
-		.container {
-			width: 100%;
-			height: auto;
-			padding: 20px;
+		.content__menu {
+			position: absolute;
+			left: 0;
+			top: 0;
+			position: fixed;
+			width: 300px;
+			height: 300px;
+			pointer-events: none;
+			transform: rotate(180deg);
+			-webkit-transform: rotate(180deg);
+			cursor: pointer;
+		}
+
+		.crc-sm,
+		.svg__link {
+			pointer-events: auto;
+		}
+
+		.anim_container {
+			position: absolute;
+			top: 30%;
+			right: 30px;
+			left: auto;
+			bottom: auto;
+			position: fixed;
+		}
+
+		#show_hide {
+			border: 1px solid white;
+			padding: 15px;
+			cursor: pointer;
+			border-radius: 50%;
+			background: none;
+			float: right;
+			z-index: 1;
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 			background: white;
 		}
 
-		.semrush_container {
-			border: 1px solid lightgrey;
-			width: 900px;
-			height: 500px;
-			margin: auto;
+		#links_container {
 			border-radius: 5px;
 			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-			position: relative;
+			width: 420px;
+			height: auto;
+			background: #fff;
+			margin: 20px;
+			margin-top: 0px;
+			margin-right: 75px;
+			z-index: 1;
+			padding: 20px;
+			display: none;
 		}
 
-		.semrush_container h2 {
+		#links_container ul {
+			padding: 0px 0px 0px 20px;
+			margin: 0px;
+			text-align: left;
+		}
+
+		#links_container li {
+			padding: 0px 5px;
+			margin: 0px;
 			color: #06f;
-			text-align: center;
-			font-variant: small-caps;
-			font-size: 30px;
+			list-style: disc;
+			list-style-position: outside;
 		}
 
-		.semrush_container p {
-			/*			border: 1px solid red;*/
-			font-size: 17px;
-			padding: 0px 10px 10px 15px;
-			line-height: 1.732em;
+		#links_container a {
+			text-decoration: none;
+			color: #267dff;
+			line-height: 24px;
+			font-size: 15px;
 		}
 
-		.semrush_container li {
-			list-style: none;
+		#back_to_top {
+			list-style: none !important;
 			text-align: center;
+			margin-top: 10px !important;
+		}
+
+		.large_container {
+			margin: 0px;
+			padding: 25px;
+			margin-top: 60px;
+		}
+
+		.flex_box {
+			display: flex;
+			flex-grow: 1;
+			flex-basis: 100px;
+			flex-shrink: 100px;
+			flex-wrap: wrap;
+			/*						border: 1px solid blue;*/
+		}
+
+		.one,
+		.two,
+		.three,
+		.four {
+			flex-grow: 1;
+			flex-basis: 500px;
+			flex-shrink: 50px;
+			width: 100%;
+			height: auto;
+			padding: 0px;
+			margin-bottom: 100px;
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+			outline: 10px solid lightgrey;
+			outline-offset: 10px;
+		}
+
+		.one,
+		.three {
+			margin-right: 55px;
+		}
+
+		.five {
+			border: 1px solid lightgrey;
+			width: 336px;
+			height: 280px;
+			margin-right: 50px;
 			margin: auto;
+			outline: 10px solid salmon;
+			outline-offset: 7px;
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 		}
 
-		.semrush_container a {
+		.blog {
 			border-radius: 5px;
-			background: #06f;
-			color: white;
-			padding: 15px;
-			font-size: 19px;
-			font-variant: small-caps;
-			-webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+			border: 1px solid lightgrey;
+			outline: 8px dashed #06f;
+			outline-offset: 6px;
+			width: 500px;
+			height: 250px;
+			margin: auto;
+			text-align: center;
+			margin-top: 50px;
+			margin-bottom: 50px;
+			display: flex;
+			flex-grow: 1;
+			flex-basis: 100px;
+			flex-shrink: 100px;
+			flex-wrap: wrap;
+			flex-flow: column;
+			justify-content: center;
+			align-content: center;
 		}
 
-		.circle {
-			width: 40px;
-			height: 40px;
-			border: 20px solid #06f;
+		.blog p {
+			font-size: 32px;
+			padding: 0px;
+			margin-top: -20px;
+		}
+
+		#blog {
+			width: 75px;
+			height: 75px;
 			border-radius: 50%;
-			animation: burst 1.5s ease-in-out infinite;
-			position: absolute;
-			top: -20px;
-			right: 0;
-			left: -20px;
-			bottom: 0;
+			border: 1px solid salmon;
+			background-color: salmon;
+			color: white;
+			font-size: 20px;
+			cursor: pointer;
+			font-variant: small-caps;
+			box-shadow: 0 0 0 0 salmon;
+			background-size: cover;
+			background-repeat: no-repeat;
+			cursor: pointer;
+			-webkit-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+			-moz-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+			-ms-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+			animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
 		}
 
-		#heart_svg {
-			position: absolute;
-			right: 0;
-			bottom: 60px;
-			left: 70%;
-			right: 0;
-			width: 40px;
-			height: 40px;
-			fill: red;
-			animation: pulse 1s ease-in-out infinite;
+		#blog:hover {
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+			-webkit-animation: none;
+			-moz-animation: none;
+			-ms-animation: none;
+			animation: none;
 		}
 
-		@keyframes pulse {
-			0% {
-				-webkit-transform: scale(1.1);
-				transform: scale(1.1);
-			}
-			50% {
-				-webkit-transform: scale(0.8);
-				transform: scale(0.8);
-			}
-			100% {
-				-webkit-transform: scale(1.1);
-				transform: scale(1.1);
-			}
+		.back_top {
+			padding: 6px 20px;
+			color: white !important;
+			background: salmon;
+			border-radius: 5px;
 		}
 
-		@keyframes burst {
-			0% {
-				opacity: .6;
-			}
-			50% {
-				-webkit-transform: scale(1.8);
-				transform: scale(1.8);
-				opacity: 0;
-			}
-			100% {
-				opacity: 0;
-			}
+		.back_top:hover {
+			background: lightgrey;
 		}
 
-		@media only screen and (max-width:768px) {
-			.navigation {
+		article {
+			border: 1px solid lightgrey;
+			border-radius: 3px;
+			padding: 15px;
+		}
+
+		article h1 {
+			font-size: 37px;
+			font-weight: 700;
+			text-align: center;
+			margin: 0px;
+			padding: 10px 1px 3px 1px;
+			line-height: 1.3em;
+			color: #06f;
+			font-family: 'Rubik', 'Lato', "Lucida Grande", "Lucida Sans Unicode", Tahoma, Sans-Serif;
+		}
+
+		article p {
+			padding: 5px 10px 5px 10px;
+			font-family: 'Roboto', 'sans-serif';
+			line-height: 31px;
+			color: rgba(0, 0, 0, .87);
+			font-size: 17px;
+		}
+
+		article li {
+			font-family: 'Roboto', 'sans-serif';
+			margin: 3px;
+			font-size: 18px;
+			line-height: 1.73em;
+		}
+
+		#notes {
+			background-color: #e7f3fe;
+			border-left: 10px solid #2196F3;
+			border-right: 10px solid #2196F3;
+			padding: 19px;
+		}
+
+		@media only screen and (max-width:760px) {
+			.footer {
+				padding: 0px;
+				margin-top: 15px;
+				margin-bottom: 15px;
+				display: block;
+				width: 100%;
 				height: auto;
 			}
-			.navigation li {
-				font-size: 17px;
-				padding: 10px;
-				margin-left: -10px;
-				text-align: center;
+			.column-1,
+			.column-2,
+			.column-3 {
+				display: block;
 			}
-			.copyright {
-				height: auto;
+			.column-2 {
+				position: none;
+				width: 100%;
+				height: 350px;
 			}
 			.copyright p {
-				padding: 5px;
-				line-height: 1.22em;
+				font-size: 15px;
 			}
-			.article_container {
+			.anim_container {
+				top: auto;
+				bottom: 10%;
+				right: 15px;
+				left: auto;
+			}
+			#links_container {
+				margin-top: -250px;
+				margin-right: 10px;
+				width: 320px;
+				height: auto;
+				padding: 15px;
+				box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+			}
+			.back_top {
+				padding: 5px 20px;
+				color: black !important;
+				background: rgba(0, 0, 0, 0.19);
+				border-radius: 4px;
+			}
+			.content__menu {
+				width: 200px;
+				height: 200px;
+			}
+			.large_container {
 				width: 100%;
-				padding: 1px !important;
+				height: auto;
+				padding: 0px;
+			}
+			.flex_box {
+				width: 100%;
+				height: auto;
+				display: block;
+				padding: 1px;
 				margin: 0px;
 			}
-			.article {
-				padding: 5px 4px 5px 10px;
-				margin-bottom: 5px;
+			article {
+				width: 100%;
+				height: auto;
+				padding: 5px;
+				margin: 0px;
 			}
-			.article h2 {
-				font-size: 20px;
-				padding: 0px;
-				line-height: 1.3em;
-			}
-			.article p {
+			article li {
 				font-size: 16px;
 			}
-			.article ul {
-				padding: 5px;
-			}
-			.article li {
-				list-style-position: inside;
-			}
-			.article_ads {
+			.one,
+			.two,
+			.three,
+			.four {
 				width: 100%;
 				height: auto;
-			}
-			.article_sidebar {
-				display: none;
-			}
-			.logo_container {
-				height: 80px;
-				border-radius: 5px;
-				margin-bottom: 2px;
-			}
-			.animated {
-				font-size: 42px !important;
-			}
-			.container {
+				margin: 0px;
 				padding: 0px;
-				margin-bottom: 15px;
+				display: block;
+				outline: none;
+				margin-bottom: 33px;
 			}
-			.semrush_container {
-				width: 100%;
-				height: auto;
+			.two,
+			.four {
+				margin-bottom: 50px;
 			}
-			.semrush_container h2 {
+			article h1 {
 				font-size: 25px;
+				line-height: 1.4em;
+				padding: 15px 0px 0px 0px;
+				margin: 0px;
+			}
+			article p {
 				padding: 5px;
+				font-size: 17px;
 			}
-			.semrush_container p {
-				font-size: 16px;
-				padding: 9px;
+			.five {
+				width: 336px;
+				height: 280px;
+				display: block;
+				margin-bottom: 50px;
+				outline: 10px solid salmon;
+				outline-offset: 6px;
 			}
-		}
-
-		@media only screen and (max-width:900px) {
-			.article_container {
-				width: 100%;
-				height: auto;
-				padding: 3px;
+			.three {
+				margin-top: -60px;
 			}
-			.article {
-				padding: 5px 5px 5px 10px;
-				margin-bottom: 8px;
+			.blog {
+				width: 340px;
+				height: 200px;
+				outline: 6px dashed #06f;
+				outline-offset: 5px;
+				border-radius: 5px;
+				box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 			}
-			.article_ads {
-				margin-top: 10px;
-				margin-bottom: 10px;
-			}
-			.article_sidebar {
-				display: none;
-			}
-			.logo_container {
-				height: 100px;
-			}
-			.animated {
-				font-size: 52px;
-			}
-			.container {
+			.blog p {
+				font-size: 21px;
+				margin-top: -20px;
 				padding: 10px;
-				margin-bottom: 20px;
-			}
-			.semrush_container {
-				width: 100%;
-				height: auto;
 			}
 		}
 
-		@media only screen and (max-width:1024px) {
-			.article_container {
+		@media only screen and (max-width: 900px) {
+			.one,
+			.two,
+			.three,
+			.four {
 				width: 100%;
 				height: auto;
-				padding: 3px;
+				margin: 0px;
+				margin-bottom: 60px;
 			}
-			.article {
-				padding: 5px 5px 5px 10px;
-				margin-bottom: 8px;
-			}
-			.article_ads {
-				margin-top: 10px;
-				margin-bottom: 10px;
-			}
-			.article_sidebar {
-				display: none;
+			.five:nth-child(3) {
+				margin-top: 50px;
 			}
 		}
-		/*		Google ADS are Here....!*/
 
 		.karna_g_ads {
 			width: 336px;
 			height: 280px;
-			/*			border: 1px solid red;*/
-		}
-
-		@media(min-width: 500px) {
-			.karna_g_ads {
-				width: 728px;
-				height: 90px;
-				/*				border: 1px solid black;*/
-			}
-		}
-
-		@media(min-width: 800px) {
-			.karna_g_ads {
-				width: 728px;
-				height: 90px;
-				/*				border: 1px solid orange;*/
-			}
 		}
 	</style>
 </head>
 
-<body id="top-page">
-	<div id="large_container">
-		<div class="logo_container">
-			<h1 class="animated">AllTechnoTricks</h1> </div>
-		<div class="navigation">
-			<ul>
-				<a href="https://www.alltechnotricks.com/" target="_top">
-					<li> Home </li>
-				</a>
-				<a href="https://www.alltechnotricks.com/Blog.html" target="_top">
-					<li>Blog</li>
-				</a>
-				<a href="https://www.alltechnotricks.com/contact.html" target="_top">
-					<li>Contact Me</li>
-				</a>
-			</ul>
-		</div>
-
-
-		<div class="container">
-			<div class="semrush_container">
-				<h2>A Complete Guide To Audit Your Site For Mobile SEO.</h2>
-				<p>Mobile phones are changing the world day by day rapidly. Nowadays, everyone has mobile phones constantly searching for information and communicating with each other. On the internet, more people are browsing using their mobile devices in such a way that in many countries the number of desktops has been replaced by smartphones. So having a mobile-friendly website is becoming more than just a must, in which mobile SEO plays a vital role in ranking of the websites.</p>
-				<p>This guide will walk you through the process, including every method to audit your website for mobile SEO in order to increase rankings in search engines of your blog repeatedly and reliably. When it comes to Mobile SEO, our goal is to increase the ranking on organic search rankings and then turning that traffic into recurring readers.</p>
-				<br>
-				<li> <a href="https://www.alltechnotricks.com/Blog/complete_guide_to_audit_mobile_seo.html" target="_blank" rel="noopener">ReadMore.</a></li>
-				<div class="circle"></div>
-				<svg id="heart_svg" viewBox="0 0 512 512">
-					<path d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z" /> </svg>
-				<br>
-				<br> </div>
-		</div>
-		<div id="small_container">
-			<div class="article_container">
-				<div class="article">
-					<h2><a href="https://www.alltechnotricks.com/free-online-typing-jobs.html" target="_blank" rel="noopener">Top 6 Best Free Online Typing Jobs To Work From Home</a>.</h2>
-					<p>Do you really want to know how to earn money online by doing simple <b>online typing jobs</b> by just working from home?. Yes, we can really start earning serious money online without paying any money to register.</p>
-					<p>In here we need to type a 9 letter word within the respective time period which is an easy task, everyone can do this job done. The main reason for these online free typing jobs as 100% legitimate is that I personally <b>got paid</b> through one of these typing jobs. Yes, I have received payments from these jobs where I had published my payment in the payment section.</p>
+<body id="top">
+	<div class="large_container">
+		<div class="flex_box">
+			<div class="one">
+				<article>
+					<h1 id="free-online-typing-jobs">Free Online Typing Jobs Without Investment & Registration Fee.</h1>
+					<p>Do you really want to know how to <b>earn money online</b> by doing simple online typing jobs by just working from home?. Yes, we can really start earning serious money online without paying any money to register.</p>
+					<p>In here we need to type a 9 letter word within the respective time period which is an easy task, everyone can do this job done. The main reason for these <b>online free typing jobs</b> as 100% legitimate is that I personally got paid through one of these typing jobs. Yes, I have received payments from these jobs where I had published my payment in the payment section.</p>
 					<ul>
-						<li>There is no need to pay any <b>Registration Fees</b>.</li>
-						<li>All these typing jobs are <b>100% Free</b> to <b>signup</b>.</li>
-						<li>We will receive <b>payments</b> on weekly basis with a minimum payout of 1$ only.</li>
+						<li>There is no need to pay any Registration Fees.</li>
+						<li>All these typing jobs are 100% Free to signup.</li>
+						<li>We will receive payments on weekly basis with a minimum payout of 1$ only.</li>
 					</ul>
-					<p>Importantly, we can either work in their respective official website or in the <b>captcha entry software</b> provided for <b>free</b> of cost. There is no previous experience needed, all you need to have a PC with minimum internet connection and payment processors to receive payments.</p>
-					<p>We don't need to wait too long to get paid. All the payments are on <b>weekly basis</b> with a 1$ minimum payout. There is no fixed timings to do these typing jobs, we can work at any time as long as possible.</p>
-					<p>Learn More at <a href="https://www.alltechnotricks.com/free-online-typing-jobs.html" target="_blank" rel="noopener">Free Online Typing Jobs blog post</a>.</p>
-					<div class="article_footer">
-						<ul>
-							<li>By. Karunakar Patel</li>
-							<li>
-								<svg style="width: 22px; height: 22px; margin-bottom: -5px; margin-right: 10px;" fill="#317ec9" viewBox="0 0 512 512">
-									<path d="M428.8 137.6h-86.177a115.52 115.52 0 0 0 2.176-22.4c0-47.914-35.072-83.2-92-83.2-45.314 0-57.002 48.537-75.707 78.784-7.735 12.413-16.994 23.317-25.851 33.253l-.131.146-.129.148C135.662 161.807 127.764 168 120.8 168h-2.679c-5.747-4.952-13.536-8-22.12-8H32c-17.673 0-32 12.894-32 28.8v230.4C0 435.106 14.327 448 32 448h64c8.584 0 16.373-3.048 22.12-8h2.679c28.688 0 67.137 40 127.2 40h21.299c62.542 0 98.8-38.658 99.94-91.145 12.482-17.813 18.491-40.785 15.985-62.791A93.148 93.148 0 0 0 393.152 304H428.8c45.435 0 83.2-37.584 83.2-83.2 0-45.099-38.101-83.2-83.2-83.2zm0 118.4h-91.026c12.837 14.669 14.415 42.825-4.95 61.05 11.227 19.646 1.687 45.624-12.925 53.625 6.524 39.128-10.076 61.325-50.6 61.325H248c-45.491 0-77.21-35.913-120-39.676V215.571c25.239-2.964 42.966-21.222 59.075-39.596 11.275-12.65 21.725-25.3 30.799-39.875C232.355 112.712 244.006 80 252.8 80c23.375 0 44 8.8 44 35.2 0 35.2-26.4 53.075-26.4 70.4h158.4c18.425 0 35.2 16.5 35.2 35.2 0 18.975-16.225 35.2-35.2 35.2zM88 384c0 13.255-10.745 24-24 24s-24-10.745-24-24 10.745-24 24-24 24 10.745 24 24z" /> </svg> <a href="https://www.alltechnotricks.com/free-online-typing-jobs.html" target="_blank" rel="noopener">Read More.</a> </li>
-						</ul>
-					</div>
-				</div>
-				<div class="article_ads">
-					<div style="margin: auto; text-align: center; ">
-						<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> <ins class="adsbygoogle karna_g_ads" style="display:inline-block" data-ad-client="ca-pub-2687924945894784" data-ad-slot="2901800287"> </ins>
-						<script>
-							(adsbygoogle = window.adsbygoogle || []).push({});
-						</script>
-					</div>
-				</div>
-				<div class="article">
-					<h2><a href="https://www.alltechnotricks.com/earn-money-online.html" target="_blank" rel="noopener">The Best Way To Earn Money Online For 100% Free.</a></h2>
-					<p>Hi, are you searching for the top best ways to <b>earn money online without investment and registration fee</b>?. Yes, you are in a good place. In here we learn 100% legitimate ways to start earning money online.</p>
-					<p>Importantly, there is no previous experience needed. All you need to follow these simple techniques as published in the <b>earn money online</b> blog post and start a second income. </p>
+					<p>We don't need to wait too long to get paid. All the <b>payments</b> are on weekly basis with a 1$ minimum payout. There is no fixed timings to do these typing jobs, we can work at any time as long as possible.</p>
+					<p id="notes">Learn more at <a href="https://www.alltechnotricks.com/free-online-typing-jobs.html" target="_blank" rel="noopener">Free Online Typing Jobs With Zero Investment and Registration Fee.</a></p>
+				</article>
+			</div>
+			<div class="two">
+				<article>
+					<h1 id="earn-money-online">Earn Money Online Without Investment & Registration Fee.</h1>
+					<p>Hi, are you searching for the <b>top best ways to earn money online without investment and registration fee?</b>. Yes, you are in a good place. In here we learn 100% legitimate ways to start earning money online.</p>
 					<p>These jobs are fantastic for people who stay at home, students, housewives and for those who start second income. There are no fixed timings, we can work at any hour as long as possible.</p>
 					<ul>
-						<li>All the ways which we were making money are <b>100 % Legitimate</b>.</li>
-						<li>There is <b>no registration fee</b> required to join in this various kinds of online job portals.</li>
-						<li>Yes, Indeed. It's <b>free</b> to signup.</li>
+						<li>There is no registration fee required to join in this various kinds of online job portals which were 100% legitimate.</li>
+						<li>Yes, Indeed. It's free to signup.</li>
 						<li>All the payment process with the International payment processors like PAYPAL, PAYZA, WEB MONEY etc.</li>
-						<li>All these payment processors will transfer your money directly to your bank accounts.</li>
 					</ul>
-					<p>Honestly, all these jobs are <b>100% free to register</b>. Yes, we can start earning money online without paying any registration fee and investment. I got paid through some of these jobs and I had pasted my <b>payment proofs</b> in the payment section of the respective blog post.</p>
-					<p>Seriously, all these jobs are <b>100% legitimate</b> and are really worth trying.</p>
-					<p>Learn more at <a href="https://www.alltechnotricks.com/earn-money-online.html" target="_blank" rel="noopener">earn money online blog post</a>.</p>
-					<div class="article_footer">
-						<ul>
-							<li>By. Karunakar Patel</li>
-							<li>
-								<svg style="width: 22px; height: 22px; margin-bottom: -5px; margin-right: 10px;" fill="#317ec9" viewBox="0 0 512 512">
-									<path d="M428.8 137.6h-86.177a115.52 115.52 0 0 0 2.176-22.4c0-47.914-35.072-83.2-92-83.2-45.314 0-57.002 48.537-75.707 78.784-7.735 12.413-16.994 23.317-25.851 33.253l-.131.146-.129.148C135.662 161.807 127.764 168 120.8 168h-2.679c-5.747-4.952-13.536-8-22.12-8H32c-17.673 0-32 12.894-32 28.8v230.4C0 435.106 14.327 448 32 448h64c8.584 0 16.373-3.048 22.12-8h2.679c28.688 0 67.137 40 127.2 40h21.299c62.542 0 98.8-38.658 99.94-91.145 12.482-17.813 18.491-40.785 15.985-62.791A93.148 93.148 0 0 0 393.152 304H428.8c45.435 0 83.2-37.584 83.2-83.2 0-45.099-38.101-83.2-83.2-83.2zm0 118.4h-91.026c12.837 14.669 14.415 42.825-4.95 61.05 11.227 19.646 1.687 45.624-12.925 53.625 6.524 39.128-10.076 61.325-50.6 61.325H248c-45.491 0-77.21-35.913-120-39.676V215.571c25.239-2.964 42.966-21.222 59.075-39.596 11.275-12.65 21.725-25.3 30.799-39.875C232.355 112.712 244.006 80 252.8 80c23.375 0 44 8.8 44 35.2 0 35.2-26.4 53.075-26.4 70.4h158.4c18.425 0 35.2 16.5 35.2 35.2 0 18.975-16.225 35.2-35.2 35.2zM88 384c0 13.255-10.745 24-24 24s-24-10.745-24-24 10.745-24 24-24 24 10.745 24 24z" /> </svg> <a href="https://www.alltechnotricks.com/earn-money-online.html" target="_blank" rel="noopener">Read More.</a> </li>
-						</ul>
-					</div>
-				</div>
-				<div class="article_ads">
-					<div style="margin: auto; text-align: center; ">
-						<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> <ins class="adsbygoogle karna_g_ads" style="display:inline-block" data-ad-client="ca-pub-2687924945894784" data-ad-slot="2901800287"> </ins>
-						<script>
-							(adsbygoogle = window.adsbygoogle || []).push({});
-						</script>
-					</div>
-				</div>
-				<div class="article">
-					<h2><a href="https://www.alltechnotricks.com/megatypers.html" target="_blank" rel="noopener">Megatypers Online Typing Job Without Investment and Registration Fee</a>.</h2>
-					<p><b>Megatypers</b> is one of the <b>best online captcha typing job</b> portal in which we earn money for every correct captcha input. Megatypers schedules are flexible, we can work at any hour that we need and as long as possible.</p>
-					<p>At megatypers, we really need to type a captcha image into words within a specified time limit. A captcha image consists of a 5-6 character word in it where we need to type correctly before submitting.</p>
-					<p>We <b>earn</b> money for every correct captcha input and conversely decrease earning for every incorrect captcha. It is really an easy task, everyone can get the job done within the time.</p>
-					<p>In here, you will learn about</p>
-					<ul>
-						<li>Using the <b>invitation code { <span style="color: red;">EB9D</span> }</b> to signup for free.</li>
-						<li>How to download and use <b>Megatypers captcha entry software</b>.</li>
-						<li>Check megatypers payment proofs and payment reviews.</li>
-					</ul>
-					<p>In here, we can either work in their official megatypers website or in the <b>free captcha software</b> provided by them. The quicker we type the more money we earn. All we need to have a computer with internet connection and ability to type at least 10 words per minute.</p>
-					<p>Importantly, no previous experience needed and all the payments are on a weekly basis of minimum payout 1$. Megatypers is 100% <b>legitimate typing job</b> and is really worth trying.</p>
-					<p>Learn more at <a href="https://www.alltechnotricks.com/megatypers.html" target="_blank" rel="noopener">megatypers online typing job.</a></p>
-					<div class="article_footer">
-						<ul>
-							<li>By. Karunakar Patel</li>
-							<li>
-								<svg style="width: 22px; height: 22px; margin-bottom: -5px; margin-right: 10px;" fill="#317ec9" viewBox="0 0 512 512">
-									<path d="M428.8 137.6h-86.177a115.52 115.52 0 0 0 2.176-22.4c0-47.914-35.072-83.2-92-83.2-45.314 0-57.002 48.537-75.707 78.784-7.735 12.413-16.994 23.317-25.851 33.253l-.131.146-.129.148C135.662 161.807 127.764 168 120.8 168h-2.679c-5.747-4.952-13.536-8-22.12-8H32c-17.673 0-32 12.894-32 28.8v230.4C0 435.106 14.327 448 32 448h64c8.584 0 16.373-3.048 22.12-8h2.679c28.688 0 67.137 40 127.2 40h21.299c62.542 0 98.8-38.658 99.94-91.145 12.482-17.813 18.491-40.785 15.985-62.791A93.148 93.148 0 0 0 393.152 304H428.8c45.435 0 83.2-37.584 83.2-83.2 0-45.099-38.101-83.2-83.2-83.2zm0 118.4h-91.026c12.837 14.669 14.415 42.825-4.95 61.05 11.227 19.646 1.687 45.624-12.925 53.625 6.524 39.128-10.076 61.325-50.6 61.325H248c-45.491 0-77.21-35.913-120-39.676V215.571c25.239-2.964 42.966-21.222 59.075-39.596 11.275-12.65 21.725-25.3 30.799-39.875C232.355 112.712 244.006 80 252.8 80c23.375 0 44 8.8 44 35.2 0 35.2-26.4 53.075-26.4 70.4h158.4c18.425 0 35.2 16.5 35.2 35.2 0 18.975-16.225 35.2-35.2 35.2zM88 384c0 13.255-10.745 24-24 24s-24-10.745-24-24 10.745-24 24-24 24 10.745 24 24z" /> </svg> <a href="https://www.alltechnotricks.com/megatypers.html" target="_blank" rel="noopener">Read More.</a> </li>
-						</ul>
-					</div>
-				</div>
-				<div class="article_ads">
-					<div style="margin: auto; text-align: center; ">
-						<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> <ins class="adsbygoogle karna_g_ads" style="display:inline-block" data-ad-client="ca-pub-2687924945894784" data-ad-slot="2901800287"> </ins>
-						<script>
-							(adsbygoogle = window.adsbygoogle || []).push({});
-						</script>
-					</div>
-				</div>
-				<div class="article">
-					<h2><a href="https://www.alltechnotricks.com/qlinkgroup.html" target="_blank" rel="noopener">Qlinkgroup Online Captcha Typing Job For 100% Free.</a></h2>
-					<p><b>Qlinkgroup</b> is <b>online captcha typing job</b> where we need to type 5-6 character captcha image into words within time. The more we type the more money we make. This job is really fantastic for students, housewives, teens etc. for those who need to start their part-time job.</p>
-					<p>In here we can work at any time we need and as long as possible with no previous experience needed. Importantly, there is no any registration fees to signup. All the features from qlinkgroup are 100% <b>free</b> of cost.</p>
-					<p>You will learn more about</p>
-					<ul>
-						<li>Free registration process at <b>qlinkgroup online typing job</b>. </li>
-						<li>All the important tricks to get first payment without getting banned. </li>
-						<li>Free download and installation of Qlinkgroup online <b>captcha typing software</b>. </li>
-						<li>Much more about qlinkgroup payment proof, qlinkgroup reviews etc. </li>
-					</ul>
-					<p>Unlike other captcha typing jobs, at qlinkgroup, we cannot work on their official website rather than we can work in qlinkgroup captcha software provided for us for free available on all supportable platforms.</p>
-					<p>Honestly, I personally got paid by qlinkgroup captcha typing job. All the payments are on Fridays processed through international payment processor PAYPAL. </p>
-					<p>Learn more at <a href="https://www.alltechnotricks.com/qlinkgroup.html" target="_blank" rel="noopener">Qlinkgroup online captcha typing job.</a></p>
-					<div class="article_footer">
-						<ul>
-							<li>By. Karunakar Patel</li>
-							<li>
-								<svg style="width: 22px; height: 22px; margin-bottom: -5px; margin-right: 10px;" fill="#317ec9" viewBox="0 0 512 512">
-									<path d="M428.8 137.6h-86.177a115.52 115.52 0 0 0 2.176-22.4c0-47.914-35.072-83.2-92-83.2-45.314 0-57.002 48.537-75.707 78.784-7.735 12.413-16.994 23.317-25.851 33.253l-.131.146-.129.148C135.662 161.807 127.764 168 120.8 168h-2.679c-5.747-4.952-13.536-8-22.12-8H32c-17.673 0-32 12.894-32 28.8v230.4C0 435.106 14.327 448 32 448h64c8.584 0 16.373-3.048 22.12-8h2.679c28.688 0 67.137 40 127.2 40h21.299c62.542 0 98.8-38.658 99.94-91.145 12.482-17.813 18.491-40.785 15.985-62.791A93.148 93.148 0 0 0 393.152 304H428.8c45.435 0 83.2-37.584 83.2-83.2 0-45.099-38.101-83.2-83.2-83.2zm0 118.4h-91.026c12.837 14.669 14.415 42.825-4.95 61.05 11.227 19.646 1.687 45.624-12.925 53.625 6.524 39.128-10.076 61.325-50.6 61.325H248c-45.491 0-77.21-35.913-120-39.676V215.571c25.239-2.964 42.966-21.222 59.075-39.596 11.275-12.65 21.725-25.3 30.799-39.875C232.355 112.712 244.006 80 252.8 80c23.375 0 44 8.8 44 35.2 0 35.2-26.4 53.075-26.4 70.4h158.4c18.425 0 35.2 16.5 35.2 35.2 0 18.975-16.225 35.2-35.2 35.2zM88 384c0 13.255-10.745 24-24 24s-24-10.745-24-24 10.745-24 24-24 24 10.745 24 24z" /> </svg> <a href="https://www.alltechnotricks.com/qlinkgroup.html" target="_blank" rel="noopener">Read More.</a> </li>
-						</ul>
-					</div>
-				</div>
-				<div class="article_ads">
-					<div style="margin: auto; text-align: center; ">
-						<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> <ins class="adsbygoogle karna_g_ads" style="display:inline-block" data-ad-client="ca-pub-2687924945894784" data-ad-slot="2901800287"> </ins>
-						<script>
-							(adsbygoogle = window.adsbygoogle || []).push({});
-						</script>
-					</div>
-				</div>
-				<div class="article">
-					<h2><a href="https://www.alltechnotricks.com/kolotibablo.html" target="_blank" rel="noopener">Kolotibablo Online Captcha Entry Work With Zero Investment.</a></h2>
-					<p>Kolotibablo is an another best place to <b>earn money</b> by typing captchas online. For every beginner, <b>kolotibablo online typing job</b> is a good choice, because the submitting time for every captcha input is high.</p>
-					<p>Luckily, incorrect captcha input does not affect our earning and there is no account ban, where else it is different for other types of <b>captcha entry jobs</b>. Yes, this is cool right. Kolotibablo is running more than ten years and paying always accurately.</p>
-					<p>Importantly, Kolotibablo uses a system of high rating. The higher Kalotibablo's member rating the nominal value that you <b>earn</b> can also be higher. The rating obtained on the basis of the number of Captchas that has been inputted.</p>
-					<p>As always, the <b>payments</b> of kolotibablo is on weekly basis with a minimum payout of less than 1$. Likewise, we can work on their official website or in the captcha entry software provided for free of cost.</p>
-					<p>You will learn more about </p>
-					<ul>
-						<li><b>Free registration</b> at Kolotibablo captcha entry work. </li>
-						<li>Free download and installation of <b>kolotibablo captcha entry software</b>. </li>
-						<li>Read kolotibablo customer reviews and also the payment proofs of kolotibablo captcha entry job. </li>
-					</ul>
-					<p>Kolotibablo is a 100% legitimate <b>online captcha typing job</b>. Yes, I personally, had received payment from kolotibablo as I have posted in this article. Honestly, no previous experience needed. This typing job is fantastic for students, housewives and also for those who need a second income.</p>
-					<p>Learn more at <a href="https://www.alltechnotricks.com/kolotibablo.html" target="_blank" rel="noopener">Kolotibablo captcha entry software</a>.</p>
-					<div class="article_footer">
-						<ul>
-							<li>By. Karunakar Patel</li>
-							<li>
-								<svg style="width: 22px; height: 22px; margin-bottom: -5px; margin-right: 10px;" fill="#317ec9" viewBox="0 0 512 512">
-									<path d="M428.8 137.6h-86.177a115.52 115.52 0 0 0 2.176-22.4c0-47.914-35.072-83.2-92-83.2-45.314 0-57.002 48.537-75.707 78.784-7.735 12.413-16.994 23.317-25.851 33.253l-.131.146-.129.148C135.662 161.807 127.764 168 120.8 168h-2.679c-5.747-4.952-13.536-8-22.12-8H32c-17.673 0-32 12.894-32 28.8v230.4C0 435.106 14.327 448 32 448h64c8.584 0 16.373-3.048 22.12-8h2.679c28.688 0 67.137 40 127.2 40h21.299c62.542 0 98.8-38.658 99.94-91.145 12.482-17.813 18.491-40.785 15.985-62.791A93.148 93.148 0 0 0 393.152 304H428.8c45.435 0 83.2-37.584 83.2-83.2 0-45.099-38.101-83.2-83.2-83.2zm0 118.4h-91.026c12.837 14.669 14.415 42.825-4.95 61.05 11.227 19.646 1.687 45.624-12.925 53.625 6.524 39.128-10.076 61.325-50.6 61.325H248c-45.491 0-77.21-35.913-120-39.676V215.571c25.239-2.964 42.966-21.222 59.075-39.596 11.275-12.65 21.725-25.3 30.799-39.875C232.355 112.712 244.006 80 252.8 80c23.375 0 44 8.8 44 35.2 0 35.2-26.4 53.075-26.4 70.4h158.4c18.425 0 35.2 16.5 35.2 35.2 0 18.975-16.225 35.2-35.2 35.2zM88 384c0 13.255-10.745 24-24 24s-24-10.745-24-24 10.745-24 24-24 24 10.745 24 24z" /> </svg> <a href="https://www.alltechnotricks.com/kolotibablo.html" target="_blank" rel="noopener">Read More.</a> </li>
-						</ul>
-					</div>
-				</div>
-				<div class="article_ads">
-					<div style="margin: auto; text-align: center; ">
-						<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> <ins class="adsbygoogle karna_g_ads" style="display:inline-block" data-ad-client="ca-pub-2687924945894784" data-ad-slot="2901800287"> </ins>
-						<script>
-							(adsbygoogle = window.adsbygoogle || []).push({});
-						</script>
-					</div>
-				</div>
-				<div class="article">
-					<h2><a href="https://www.alltechnotricks.com/Blog/github-pages-custom-domain.html" target="_blank" rel="noopener">Host a Website For Free Using Github Pages With a Custom URL and Godaddy Domain.</a></h2>
-					<p>Are you sure that you want to <b>host</b> your website for <b>Free</b> of cost? Yes, we can achieve it by using <b>Github pages</b>. In here we can host a website for free with an unlimited space.</p>
-					<p>Yes, indeed we can share and publish our ideas on the blog for free using Github. In the end, you will publish your own website within 5 min of time, all you need is to spend time reading my complete blog post.</p>
-					<p>In here you will learn more about </p>
-					<ul>
-						<li>Creating A <b>Github Repository</b>. </li>
-						<li>Adding and uploading <b>CNAME</b> file to GitHub. </li>
-						<li>Making changes using Gitpush, Gitcommit etc.. commands. </li>
-						<li>Configuration of <b>DNS servers</b> at domain name registrar. </li>
-					</ul>
-					<p>Whenever you want to make changes to your website, you just need to commit the changes and then push the files up to your GitHub repository. Your changes will be published automatically!</p>
-					<p>Learn more at <a href="https://www.alltechnotricks.com/Blog/github-pages-custom-domain.html" target="_blank" rel="noopener">Host a website for free using Github pages.</a></p>
-					<div class="article_footer">
-						<ul>
-							<li>By. Karunakar</li>
-							<li>
-								<svg style="width: 22px; height: 22px; margin-bottom: -5px; margin-right: 10px;" fill="#317ec9" viewBox="0 0 512 512">
-									<path d="M428.8 137.6h-86.177a115.52 115.52 0 0 0 2.176-22.4c0-47.914-35.072-83.2-92-83.2-45.314 0-57.002 48.537-75.707 78.784-7.735 12.413-16.994 23.317-25.851 33.253l-.131.146-.129.148C135.662 161.807 127.764 168 120.8 168h-2.679c-5.747-4.952-13.536-8-22.12-8H32c-17.673 0-32 12.894-32 28.8v230.4C0 435.106 14.327 448 32 448h64c8.584 0 16.373-3.048 22.12-8h2.679c28.688 0 67.137 40 127.2 40h21.299c62.542 0 98.8-38.658 99.94-91.145 12.482-17.813 18.491-40.785 15.985-62.791A93.148 93.148 0 0 0 393.152 304H428.8c45.435 0 83.2-37.584 83.2-83.2 0-45.099-38.101-83.2-83.2-83.2zm0 118.4h-91.026c12.837 14.669 14.415 42.825-4.95 61.05 11.227 19.646 1.687 45.624-12.925 53.625 6.524 39.128-10.076 61.325-50.6 61.325H248c-45.491 0-77.21-35.913-120-39.676V215.571c25.239-2.964 42.966-21.222 59.075-39.596 11.275-12.65 21.725-25.3 30.799-39.875C232.355 112.712 244.006 80 252.8 80c23.375 0 44 8.8 44 35.2 0 35.2-26.4 53.075-26.4 70.4h158.4c18.425 0 35.2 16.5 35.2 35.2 0 18.975-16.225 35.2-35.2 35.2zM88 384c0 13.255-10.745 24-24 24s-24-10.745-24-24 10.745-24 24-24 24 10.745 24 24z" /> </svg> <a href="https://www.alltechnotricks.com/Blog/github-pages-custom-domain.html" target="_blank" rel="noopener">Read More.</a> </li>
-						</ul>
-					</div>
-				</div>
-				<div class="article_ads">
-					<div style="margin: auto; text-align: center; ">
-						<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> <ins class="adsbygoogle karna_g_ads" style="display:inline-block" data-ad-client="ca-pub-2687924945894784" data-ad-slot="2901800287"> </ins>
-						<script>
-							(adsbygoogle = window.adsbygoogle || []).push({});
-						</script>
-					</div>
-				</div>
-				<div class="article">
-					<h2><a href="https://www.alltechnotricks.com/Blog/captchatypers_online_jobs.html" target="_blank" rel="noopener">Captchatypers Online Typing Jobs withou Investment And Registration Fee.</a></h2>
-					<p>Captchatypers is one of the best <b>online typing jobs</b> where we can earn money by doing simple typing jobs. Either, there is no registration fee nor the investment. Yes, we can signup for free and receive payments on a weekly basis without having any previous experience.</p>
-					<p>We need to type captcha's within the specified time. The more we enter captcha's correctly, the more money we make. <b>Captchatypers</b> timings are flexible, there is no fixed timing to do the job, we can work at any time and as long as possible.</p>
-					<p>Importantly, payments from captchatypers are on a <b>weekly basis</b>. We receive payments on a weekly basis with a minimum payout of 1$. I received payment from captchatypers online typing job. All payments are processed through international payment processors like PAYPAL, PAYZA etc.</p>
-					<p>Captchatypers also provides <b>captcha entry software</b> for <b>free</b> of cost. Unlike, other online typing jobs we cannot work on captchatypers official website, rather than we can work on the captcha entry software provided for free of cost.</p>
-					<p>This article guides you all tips and tricks to make money and learn more about captchatypers online typing job free registration, captchatypers payment proof, captchatypers captcha entry software etc.</p>
-					<p>Learn More at <a href="https://www.alltechnotricks.com/Blog/captchatypers_online_jobs.html" target="_blank" rel="noopener">Captchatypers online jobs.</a></p>
-					<div class="article_footer">
-						<ul>
-							<li>By. Karunakar</li>
-							<li>
-								<svg style="width: 22px; height: 22px; margin-bottom: -5px; margin-right: 10px;" fill="#317ec9" viewBox="0 0 512 512">
-									<path d="M428.8 137.6h-86.177a115.52 115.52 0 0 0 2.176-22.4c0-47.914-35.072-83.2-92-83.2-45.314 0-57.002 48.537-75.707 78.784-7.735 12.413-16.994 23.317-25.851 33.253l-.131.146-.129.148C135.662 161.807 127.764 168 120.8 168h-2.679c-5.747-4.952-13.536-8-22.12-8H32c-17.673 0-32 12.894-32 28.8v230.4C0 435.106 14.327 448 32 448h64c8.584 0 16.373-3.048 22.12-8h2.679c28.688 0 67.137 40 127.2 40h21.299c62.542 0 98.8-38.658 99.94-91.145 12.482-17.813 18.491-40.785 15.985-62.791A93.148 93.148 0 0 0 393.152 304H428.8c45.435 0 83.2-37.584 83.2-83.2 0-45.099-38.101-83.2-83.2-83.2zm0 118.4h-91.026c12.837 14.669 14.415 42.825-4.95 61.05 11.227 19.646 1.687 45.624-12.925 53.625 6.524 39.128-10.076 61.325-50.6 61.325H248c-45.491 0-77.21-35.913-120-39.676V215.571c25.239-2.964 42.966-21.222 59.075-39.596 11.275-12.65 21.725-25.3 30.799-39.875C232.355 112.712 244.006 80 252.8 80c23.375 0 44 8.8 44 35.2 0 35.2-26.4 53.075-26.4 70.4h158.4c18.425 0 35.2 16.5 35.2 35.2 0 18.975-16.225 35.2-35.2 35.2zM88 384c0 13.255-10.745 24-24 24s-24-10.745-24-24 10.745-24 24-24 24 10.745 24 24z" /> </svg> <a href="https://www.alltechnotricks.com/Blog/captchatypers_online_jobs.html" target="_blank" rel="noopener">Read More.</a> </li>
-						</ul>
-					</div>
-				</div>
-				<div class="article_ads">
-					<div style="margin: auto; text-align: center; ">
-						<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> <ins class="adsbygoogle karna_g_ads" style="display:inline-block" data-ad-client="ca-pub-2687924945894784" data-ad-slot="2901800287"> </ins>
-						<script>
-							(adsbygoogle = window.adsbygoogle || []).push({});
-						</script>
-					</div>
-				</div>
-				<div class="article">
-					<h2><a href="https://www.alltechnotricks.com/Blog/add-HTTPS-Github-Pages-custom-domain.html" target="_blank" rel="noopener">Adding HTTPS To Github Pages with a Custom URL For Free.</a></h2>
-					<p>Do you know the website's having <b>HTTPS/SSL certificates</b> rank much higher than other websites who don't have? Yes, it has an impact on <b>SEO</b> of our website. </p>
-					<p>In here we add "HTTPS" to Github pages with a custom domain for free of cost. I added HTTPS to my personal blog(<a href="https://www.alltechnotricks.com/" target="_top">All Technotricks</a>) by following these techniques. I have posted all tricks to add an <b>SSL</b> certificate to Github pages.</p>
-					<p>HTTPS encrypts traffic between GitHub’s servers and your browser giving you confidence that the page you asked for is the page you’re reading, from the site you think it is, and that others can’t snoop on or modify its contents along the way.</p>
-					<p>The principal motivation for <b>HTTPS</b> is authentication of the accessed website and protection of the privacy and integrity of the exchanged data while in transit. </p>
-					<p>Learn more at <a href="https://www.alltechnotricks.com/Blog/add-HTTPS-Github-Pages-custom-domain.html" target="_blank" rel="noopener">adding HTTPS to Github pages.</a></p>
-					<div class="article_footer">
-						<ul>
-							<li>By. Karunakar Patel</li>
-							<li>
-								<svg style="width: 22px; height: 22px; margin-bottom: -5px; margin-right: 10px;" fill="#317ec9" viewBox="0 0 512 512">
-									<path d="M428.8 137.6h-86.177a115.52 115.52 0 0 0 2.176-22.4c0-47.914-35.072-83.2-92-83.2-45.314 0-57.002 48.537-75.707 78.784-7.735 12.413-16.994 23.317-25.851 33.253l-.131.146-.129.148C135.662 161.807 127.764 168 120.8 168h-2.679c-5.747-4.952-13.536-8-22.12-8H32c-17.673 0-32 12.894-32 28.8v230.4C0 435.106 14.327 448 32 448h64c8.584 0 16.373-3.048 22.12-8h2.679c28.688 0 67.137 40 127.2 40h21.299c62.542 0 98.8-38.658 99.94-91.145 12.482-17.813 18.491-40.785 15.985-62.791A93.148 93.148 0 0 0 393.152 304H428.8c45.435 0 83.2-37.584 83.2-83.2 0-45.099-38.101-83.2-83.2-83.2zm0 118.4h-91.026c12.837 14.669 14.415 42.825-4.95 61.05 11.227 19.646 1.687 45.624-12.925 53.625 6.524 39.128-10.076 61.325-50.6 61.325H248c-45.491 0-77.21-35.913-120-39.676V215.571c25.239-2.964 42.966-21.222 59.075-39.596 11.275-12.65 21.725-25.3 30.799-39.875C232.355 112.712 244.006 80 252.8 80c23.375 0 44 8.8 44 35.2 0 35.2-26.4 53.075-26.4 70.4h158.4c18.425 0 35.2 16.5 35.2 35.2 0 18.975-16.225 35.2-35.2 35.2zM88 384c0 13.255-10.745 24-24 24s-24-10.745-24-24 10.745-24 24-24 24 10.745 24 24z" /> </svg> <a href="https://www.alltechnotricks.com/Blog/add-HTTPS-Github-Pages-custom-domain.html" target="_blank" rel="noopener">Read More.</a> </li>
-						</ul>
-					</div>
-				</div>
-				<div class="article_ads">
-					<div style="margin: auto; text-align: center; ">
-						<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> <ins class="adsbygoogle karna_g_ads" style="display:inline-block" data-ad-client="ca-pub-2687924945894784" data-ad-slot="2901800287"> </ins>
-						<script>
-							(adsbygoogle = window.adsbygoogle || []).push({});
-						</script>
-					</div>
-				</div>
-				<div class="article">
-					<h2><a href="https://www.alltechnotricks.com/Blog/font_awesome_animation_css.html" target="_blank" rel="noopener">Best CSS Animations Of Font Awesome Icons Using CDN To Grab Visitor Attention.</a></h2>
-					<p><b>Font Awesome</b> is a font and icon toolkit based on <b>CSS</b> and <b>LESS</b>. The use of font awesome icons in web design is a proven method to modernize a website and help direct user flow. Adding icons to your site’s content helps a user better process the information you’re trying to convey and provides a visual focal point that grounds a user to a specific section.</p>
-					<p>Importantly, adding <b>animations</b> to <b>font awesome icons</b> would largely increase the user engagement to the visitor. In here, there are different types of CSS animations applied to different font awesome <b>icons</b> in which you can directly <b>copy</b> the pure <b>CSS code</b> and use it in your website for free.</p>
-					<p>Learn more at <a href="https://www.alltechnotricks.com/Blog/font_awesome_animation_css.html" target="_blank" rel="noopener">Best CSS font awesome Icons</a>.</p>
-					<div class="karna_animations" style="border: 1px solid lightgrey; height: auto; border-radius: 8px;">
-						<ul style="display: flex; flex-basis: 50px; flex-wrap: wrap; list-style: none;">
-							<li style="flex-grow: 1;">
-								<svg style="width: 60px; height: 60px; animation: pulse 1s infinite;" fill="red" viewBox="0 0 512 512">
-									<path d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z" /> </svg>
-							</li>
-							<li style="flex-grow: 1;">
-								<svg style="width: 60px; height: 60px; animation: spin 3s infinite;" fill="dodgerblue" viewBox="0 0 512 512">
-									<path d="M274.835 12.646l25.516 62.393c4.213 10.301 16.671 14.349 26.134 8.492l57.316-35.479c15.49-9.588 34.808 4.447 30.475 22.142l-16.03 65.475c-2.647 10.81 5.053 21.408 16.152 22.231l67.224 4.987c18.167 1.348 25.546 24.057 11.641 35.826L441.81 242.26c-8.495 7.19-8.495 20.289 0 27.479l51.454 43.548c13.906 11.769 6.527 34.478-11.641 35.826l-67.224 4.987c-11.099.823-18.799 11.421-16.152 22.231l16.03 65.475c4.332 17.695-14.986 31.73-30.475 22.142l-57.316-35.479c-9.463-5.858-21.922-1.81-26.134 8.492l-25.516 62.393c-6.896 16.862-30.774 16.862-37.67 0l-25.516-62.393c-4.213-10.301-16.671-14.349-26.134-8.492l-57.317 35.479c-15.49 9.588-34.808-4.447-30.475-22.142l16.03-65.475c2.647-10.81-5.053-21.408-16.152-22.231l-67.224-4.987c-18.167-1.348-25.546-24.057-11.641-35.826L70.19 269.74c8.495-7.19 8.495-20.289 0-27.479l-51.454-43.548c-13.906-11.769-6.527-34.478 11.641-35.826l67.224-4.987c11.099-.823 18.799-11.421 16.152-22.231l-16.03-65.475c-4.332-17.695 14.986-31.73 30.475-22.142l57.317 35.479c9.463 5.858 21.921 1.81 26.134-8.492l25.516-62.393c6.896-16.861 30.774-16.861 37.67 0zM392 256c0-74.991-61.01-136-136-136-74.991 0-136 61.009-136 136s61.009 136 136 136c74.99 0 136-61.009 136-136zm-32 0c0 57.346-46.654 104-104 104s-104-46.654-104-104 46.654-104 104-104 104 46.654 104 104z" /> </svg>
-							</li>
-							<li style="flex-grow: 1;">
-								<svg style="width: 50px; height: 50px; animation: ring 2s infinite;" fill="black" viewBox="0 0 448 512">
-									<path d="M224 512c35.32 0 63.97-28.65 63.97-64H160.03c0 35.35 28.65 64 63.97 64zm215.39-149.71c-19.32-20.76-55.47-51.99-55.47-154.29 0-77.7-54.48-139.9-127.94-155.16V32c0-17.67-14.32-32-31.98-32s-31.98 14.33-31.98 32v20.84C118.56 68.1 64.08 130.3 64.08 208c0 102.3-36.15 133.53-55.47 154.29-6 6.45-8.66 14.16-8.61 21.71.11 16.4 12.98 32 32.1 32h383.8c19.12 0 32-15.6 32.1-32 .05-7.55-2.61-15.27-8.61-21.71z" /> </svg>
-							</li>
-							<li style="flex-grow: 1;">
-								<svg style="width: 50px; height: 50px; animation: tada 3s infinite;" fill="#317ec9" viewBox="0 0 512 512">
-									<path d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z" /> </svg>
-							</li>
-							<li style="flex-grow: 1;">
-								<svg style="width: 50px; height: 50px; animation: tinUpOut 3s infinite;" fill="orange" viewBox="0 0 576 512">
-									<path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z" /> </svg>
-							</li>
-						</ul>
-					</div>
-					<br>
-					<div class="article_footer">
-						<ul>
-							<li>By. Karunakar Patel</li>
-							<li>
-								<svg style="width: 22px; height: 22px; margin-bottom: -5px; margin-right: 10px;" fill="#317ec9" viewBox="0 0 512 512">
-									<path d="M428.8 137.6h-86.177a115.52 115.52 0 0 0 2.176-22.4c0-47.914-35.072-83.2-92-83.2-45.314 0-57.002 48.537-75.707 78.784-7.735 12.413-16.994 23.317-25.851 33.253l-.131.146-.129.148C135.662 161.807 127.764 168 120.8 168h-2.679c-5.747-4.952-13.536-8-22.12-8H32c-17.673 0-32 12.894-32 28.8v230.4C0 435.106 14.327 448 32 448h64c8.584 0 16.373-3.048 22.12-8h2.679c28.688 0 67.137 40 127.2 40h21.299c62.542 0 98.8-38.658 99.94-91.145 12.482-17.813 18.491-40.785 15.985-62.791A93.148 93.148 0 0 0 393.152 304H428.8c45.435 0 83.2-37.584 83.2-83.2 0-45.099-38.101-83.2-83.2-83.2zm0 118.4h-91.026c12.837 14.669 14.415 42.825-4.95 61.05 11.227 19.646 1.687 45.624-12.925 53.625 6.524 39.128-10.076 61.325-50.6 61.325H248c-45.491 0-77.21-35.913-120-39.676V215.571c25.239-2.964 42.966-21.222 59.075-39.596 11.275-12.65 21.725-25.3 30.799-39.875C232.355 112.712 244.006 80 252.8 80c23.375 0 44 8.8 44 35.2 0 35.2-26.4 53.075-26.4 70.4h158.4c18.425 0 35.2 16.5 35.2 35.2 0 18.975-16.225 35.2-35.2 35.2zM88 384c0 13.255-10.745 24-24 24s-24-10.745-24-24 10.745-24 24-24 24 10.745 24 24z" /> </svg> <a href="https://www.alltechnotricks.com/Blog/font_awesome_animation_css.html" target="_blank" rel="noopener">Read More.</a> </li>
-						</ul>
-					</div>
-				</div>
-				<div class="article_ads">
-					<div style="margin: auto; text-align: center; ">
-						<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> <ins class="adsbygoogle karna_g_ads" style="display:inline-block" data-ad-client="ca-pub-2687924945894784" data-ad-slot="2901800287"> </ins>
-						<script>
-							(adsbygoogle = window.adsbygoogle || []).push({});
-						</script>
-					</div>
-				</div>
-				<div class="article">
-					<h2><a href="https://www.alltechnotricks.com/Blog/2captcha_online_typing_jobs.html" target="_blank" rel="noopener">2Captcha Online Typing Job Without Investment and Registration Fee.</a></h2>
-					<p><b>2Captcha online typing job</b> is one of the best online jobs offering typing jobs without investment and registration fee. Yes, we can signup for free and receive payments on a weekly basis without having any previous experience. 💛 </p>
-					<p>There is no registration fee to get register at <b>2captcha typing jobs</b>. Yes, indeed all the services from 2captcha online typing job are 100% free of cost. If you are interested then click on the 2captcha <b>online typing job link</b>, to get registered at 2captcha online job for free.</p>
-					<p>This article guides you all tips and tricks to make money and learn more about 2captcha online typing job free registration and much more about <b>2cpatcha payment proof</b>, <b>2captcha review</b>, <b>payment proof</b> etc.</p>
-					<p>Learn More at <a href="https://www.alltechnotricks.com/Blog/2captcha_online_typing_jobs.html" target="_blank" rel="noopener">2captcha online typing jobs</a>.</p>
-					<div class="article_footer">
-						<ul>
-							<li>By. Karunakar Patel</li>
-							<li>
-								<svg style="width: 22px; height: 22px; margin-bottom: -5px; margin-right: 10px;" fill="#317ec9" viewBox="0 0 512 512">
-									<path d="M428.8 137.6h-86.177a115.52 115.52 0 0 0 2.176-22.4c0-47.914-35.072-83.2-92-83.2-45.314 0-57.002 48.537-75.707 78.784-7.735 12.413-16.994 23.317-25.851 33.253l-.131.146-.129.148C135.662 161.807 127.764 168 120.8 168h-2.679c-5.747-4.952-13.536-8-22.12-8H32c-17.673 0-32 12.894-32 28.8v230.4C0 435.106 14.327 448 32 448h64c8.584 0 16.373-3.048 22.12-8h2.679c28.688 0 67.137 40 127.2 40h21.299c62.542 0 98.8-38.658 99.94-91.145 12.482-17.813 18.491-40.785 15.985-62.791A93.148 93.148 0 0 0 393.152 304H428.8c45.435 0 83.2-37.584 83.2-83.2 0-45.099-38.101-83.2-83.2-83.2zm0 118.4h-91.026c12.837 14.669 14.415 42.825-4.95 61.05 11.227 19.646 1.687 45.624-12.925 53.625 6.524 39.128-10.076 61.325-50.6 61.325H248c-45.491 0-77.21-35.913-120-39.676V215.571c25.239-2.964 42.966-21.222 59.075-39.596 11.275-12.65 21.725-25.3 30.799-39.875C232.355 112.712 244.006 80 252.8 80c23.375 0 44 8.8 44 35.2 0 35.2-26.4 53.075-26.4 70.4h158.4c18.425 0 35.2 16.5 35.2 35.2 0 18.975-16.225 35.2-35.2 35.2zM88 384c0 13.255-10.745 24-24 24s-24-10.745-24-24 10.745-24 24-24 24 10.745 24 24z" /> </svg> <a href="https://www.alltechnotricks.com/Blog/2captcha_online_typing_jobs.html" target="_blank" rel="noopener">Read More.</a> </li>
-						</ul>
-					</div>
-				</div>
-				<div class="article_ads">
-					<div style="margin: auto; text-align: center; ">
-						<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> <ins class="adsbygoogle karna_g_ads" style="display:inline-block" data-ad-client="ca-pub-2687924945894784" data-ad-slot="2901800287"> </ins>
-						<script>
-							(adsbygoogle = window.adsbygoogle || []).push({});
-						</script>
-					</div>
-				</div>
-				<ul id="view_blog">
-					<a href="https://www.alltechnotricks.com/Blog.html" target="_top" rel="noopener">
-						<li>View Blog</li>
-					</a>
-				</ul>
+					<p>Honestly, all these jobs are 100% free to register. Yes, we can start earning money online without paying any registration fee and investment. I got paid through some of these jobs and I had pasted my <b>payment proofs</b> in the payment section of the respective blog post.</p>
+					<p id="notes">Learn more at <a href="https://www.alltechnotricks.com/earn-money-online.html" target="_blank" rel="noopener">Earn Money Online Without Investment and Registration Fee.</a></p>
+				</article>
 			</div>
-			<div class="article_sidebar">
-				<div class="sidebar_items">
-					<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-					<!-- New sidebar ad { 160 * 600 ) Responsive text + display --><ins class="adsbygoogle" style="display:inline-block;width:160px;height:600px" data-ad-client="ca-pub-2687924945894784" data-ad-slot="1924648583"></ins>
+		</div>
+		<div class="flex_box">
+			<div class="five">
+				<div style="margin: auto; text-align: center;">
+					<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> <ins class="adsbygoogle karna_g_ads" style="display:inline-block" data-ad-client="ca-pub-2687924945894784" data-ad-slot="2901800287"> </ins>
+					<script>
+						(adsbygoogle = window.adsbygoogle || []).push({});
+					</script>
+				</div>
+			</div>
+			<div class="five">
+				<div style="margin: auto; text-align: center;">
+					<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> <ins class="adsbygoogle karna_g_ads" style="display:inline-block" data-ad-client="ca-pub-2687924945894784" data-ad-slot="2901800287"> </ins>
+					<script>
+						(adsbygoogle = window.adsbygoogle || []).push({});
+					</script>
+				</div>
+			</div>
+			<div class="five">
+				<div style="margin: auto; text-align: center;">
+					<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> <ins class="adsbygoogle karna_g_ads" style="display:inline-block" data-ad-client="ca-pub-2687924945894784" data-ad-slot="2901800287"> </ins>
 					<script>
 						(adsbygoogle = window.adsbygoogle || []).push({});
 					</script>
 				</div>
 			</div>
 		</div>
+		<div class="flex_box" style="margin-top: 85px;">
+			<div class="three">
+				<article>
+					<h1 id="megatypers">Megatypers Online Typing Jobs Without Investment & Registration Fee.</h1>
+					<p><b>Megatypers</b> is one of the <b>best online captcha typing job</b> portal in which we earn money for every correct captcha input. Megatypers schedules are flexible, we can work at any hour that we need and as long as possible.</p>
+					<p>At megatypers, we really need to type a captcha image into words within a specified time limit. A captcha image consists of a 5-6 character word in it where we need to type correctly before submitting.</p>
+					<p>We <b>earn money</b> for every correct captcha input and conversely decrease earning for every incorrect captcha. It is really an easy task, everyone can get the job done within the time.</p>
+					<ul>
+						<li>By Using the <b>invitation code</b> { <span style="color: red; font-weight: bolder;">EB9D</span> } to signup for free.</li>
+						<li>How to download and use Megatypers captcha entry software.</li>
+						<li>Check megatypers payment proofs and payment reviews.</li>
+					</ul>
+					<p>Importantly, no previous experience needed and all the payments are on a weekly basis of minimum payout 1$. <b>Megatypers</b> is 100% legitimate <b>typing job</b> and is really worth trying.</p>
+					<p id="notes">Learn more at <a href="https://www.alltechnotricks.com/megatypers.html" target="_blank" rel="noopener">Megatypers Free Online Typing Job.</a></p>
+				</article>
+			</div>
+			<div class="four">
+				<article>
+					<h1 id="kolotibablo">Kolotibablo Online Captcha Entry Work With Zero Investment.</h1>
+					<p>Kolotibablo is an another best place to earn money by typing captchas online. For every beginner, <b>kolotibablo online typing job</b> is a good choice, because the submitting time for every captcha input is high.</p>
+					<p>Luckily, incorrect captcha input does not affect our earning and there is no account ban, where else it is different for other types of <b>captcha entry jobs</b>. Yes, this is cool right. Kolotibablo is running more than ten years and paying always accurately.</p>
+					<ul>
+						<li>Free registration at Kolotibablo captcha entry work.</li>
+						<li>Free download and installation of kolotibablo captcha entry software.</li>
+						<li>Read kolotibablo customer reviews and also the payment proofs of kolotibablo captcha entry job.</li>
+					</ul>
+					<p>Kolotibablo is a 100% legitimate <b>online captcha typing job</b>. Yes, I personally, had received payment from kolotibablo as I have posted in this article. Honestly, no previous experience needed. This typing job is fantastic for students, housewives and also for those who need a second income.</p>
+					<p id="notes">Learn more at <a href="https://www.alltechnotricks.com/kolotibablo.html" target="_blank" rel="noopener">Kolotibablo Online Captcha Entry Work With Zero Registration And Investment.</a></p>
+				</article>
+			</div>
+		</div>
+		<div class="flex_box">
+			<div class="five">
+				<div style="margin: auto; text-align: center;">
+					<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> <ins class="adsbygoogle karna_g_ads" style="display:inline-block" data-ad-client="ca-pub-2687924945894784" data-ad-slot="2901800287"> </ins>
+					<script>
+						(adsbygoogle = window.adsbygoogle || []).push({});
+					</script>
+				</div>
+			</div>
+			<div class="five">
+				<div style="margin: auto; text-align: center;">
+					<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> <ins class="adsbygoogle karna_g_ads" style="display:inline-block" data-ad-client="ca-pub-2687924945894784" data-ad-slot="2901800287"> </ins>
+					<script>
+						(adsbygoogle = window.adsbygoogle || []).push({});
+					</script>
+				</div>
+			</div>
+			<div class="five">
+				<div style="margin: auto; text-align: center;">
+					<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> <ins class="adsbygoogle karna_g_ads" style="display:inline-block" data-ad-client="ca-pub-2687924945894784" data-ad-slot="2901800287"> </ins>
+					<script>
+						(adsbygoogle = window.adsbygoogle || []).push({});
+					</script>
+				</div>
+			</div>
+		</div>
+	</div>
+	<hr style="border: 1px dotted lightgrey;">
+	<div class="blog">
+		<div>
+			<p>Loved it? Wanna learn more? Then Open it.</p>
+		</div>
+		<div>
+			<a href="https://www.alltechnotricks.com/Blog.html" target="_blank" rel="noopener">
+				<button id="blog">Blog</button>
+			</a>
+		</div>
+	</div>
+	<hr style="border: 1px dotted lightgrey;">
+	<div class="footer">
+		<div class="column-1">
+			<div style="outline: 10px solid salmon; padding: 5px; ">
+				<div class="subs_form">
+					<p>Like To Build Our Bond?</p>
+					<p>Subscribe to Our Blog To Be The First One To View Our Content.</p>
+					<div>
+						<script type="text/javascript">
+							var submitted = false;
+						</script>
+						<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {window.location='./thankyou.html';}"></iframe>
+						<form action="https://docs.google.com/forms/d/e/1FAIpQLSeviKIBv3aO2bh46_mGqyQ0PUT_o9SKxxwyAG4tTr2UOmPnNg/formResponse" method="post" target="hidden_iframe" onsubmit="submitted=true;">
+							<input type="text" placeholder="Your Lovable Name In Here." name="entry.2005620554">
+							<br>
+							<input type="text" placeholder="Your Email In Here." name="entry.1045781291">
+							<br>
+							<input type="submit" value="Subscribe"> </form>
+					</div>
+					<p style="font-style: italic;">I promise not to spam you.</p>
+				</div>
+			</div>
+		</div>
+		<div class="column-2">
+			<div class="column_inside">
+				<div style="margin: auto; text-align: center;">
+					<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> <ins class="adsbygoogle karna_g_ads_desktop" style="display:inline-block" data-ad-client="ca-pub-2687924945894784" data-ad-slot="2901800287"> </ins>
+					<script>
+						(adsbygoogle = window.adsbygoogle || []).push({});
+					</script>
+				</div>
+			</div>
+		</div>
+		<div class="column-3">
+			<div style="outline: 10px solid rgba(0, 0, 0, 0.19); padding: 5px;">
+				<div class="column-links">
+					<p>Important Links</p>
+					<ul>
+						<li><a href="https://www.alltechnotricks.com/sitemap.xml" target="_blank" rel="noopener">Sitemap.xml File.</a></li>
+						<li><a href="https://www.alltechnotricks.com/sitemap.html" target="_blank" rel="noopener">Sitemap.html</a></li>
+						<li><a href="https://www.alltechnotricks.com/Blog.html" target="_blank" rel="noopener">Blog</a></li>
+						<li><a href="https://www.alltechnotricks.com/" target="_top" rel="noopner">Home</a></li>
+						<li><a href="https://www.alltechnotricks.com/contact.html" target="_blank" rel="noopener">Contact Me</a></li>
+					</ul>
+					<hr style="border: 2px solid white;">
+					<p>Find Me On</p>
+					<ul>
+						<li><a href="https://www.facebook.com/KarunakarPatel.001" target="_blank" rel="noopener">Facebook</a></li>
+						<li><a href="https://twitter.com/Karna_Patel_" target="_blank" rel="noopener">Twitter</a></li>
+						<li><a href="https://www.linkedin.com/in/karunakarpatel/" target="_blank" rel="noopener">Linkedin</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div style="padding: 10px;">
 		<div class="copyright">
-			<p>@ Copyright 2018. This Theme Is Highly Customized And Rediculously Designed By Karunakar_Patel. </p> <span>
-<a href="#top-page" id="myBtn" onclick="topFuntionc()" style="text-decoration: none; padding: 5px; margin: 0px;">
-	<svg style="width: 30px; height: 30px;" fill="white" viewBox="0 0 320 512"><path d="M177 159.7l136 136c9.4 9.4 9.4 24.6 0 33.9l-22.6 22.6c-9.4 9.4-24.6 9.4-33.9 0L160 255.9l-96.4 96.4c-9.4 9.4-24.6 9.4-33.9 0L7 329.7c-9.4-9.4-9.4-24.6 0-33.9l136-136c9.4-9.5 24.6-9.5 34-.1z"/></svg>
-</a>
-</span> </div>
+			<p>@ Copyright 2018. This Theme Is Highly Customized And Rediculously Designed By Karunakar_Patel. </p>
+		</div>
+	</div>
+	<div class="anim_container">
+		<button id="show_hide">
+			<svg style="width: 29px; height: 29px;" fill="#06f" viewBox="0 0 384 512">
+				<path d="M377.33 375.429L293.906 288H328c21.017 0 31.872-25.207 17.448-40.479L262.79 160H296c20.878 0 31.851-24.969 17.587-40.331l-104-112.003c-9.485-10.214-25.676-10.229-35.174 0l-104 112.003C56.206 134.969 67.037 160 88 160h33.21l-82.659 87.521C24.121 262.801 34.993 288 56 288h34.094L6.665 375.429C-7.869 390.655 2.925 416 24.025 416H144c0 32.781-11.188 49.26-33.995 67.506C98.225 492.93 104.914 512 120 512h144c15.086 0 21.776-19.069 9.995-28.494-19.768-15.814-33.992-31.665-33.995-67.496V416h119.97c21.05 0 31.929-25.309 17.36-40.571z" /> </svg>
+		</button>
+		<div id="links_container">
+			<ul>
+				<li style="list-style-position: inside;"><a href="#free-online-typing-jobs" class="test">Free Online Typing Jobs.</a></li>
+				<li style="list-style-position: inside;"><a href="#earn-money-online" class="test">Earn Money Online With No Investment.</a></li>
+				<li style="list-style-position: inside;"><a href="#megatypers" class="test">Megatypers Online Typing Job.</a></li>
+				<li style="list-style-position: inside;"><a href="#kolotibablo" class="test">Kolotibablo Online Typing Job.</a></li>
+				<li style="list-style-position: inside;"><a href="https://www.alltechnotricks.com" target="_top" rel="noopener" class="test">Home.</a></li>
+				<li style="list-style-position: inside;"><a href="https://www.alltechnotricks.com/Blog.html" target="_top" rel="noopener" class="test">Blog.</a></li>
+				<li id="back_to_top"><a href="#top" class="test back_top">Back To Top.</a></li>
+			</ul>
+		</div>
+	</div>
+	<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="0" height="0" display="none">
+		<symbol id="comments" viewBox="0 0 512 512">
+			<path d="M17.7 332.3h412.7v22c0 37.7-29.3 68-65.3 68h-19L259.3 512v-89.7H83c-36 0-65.3-30.3-65.3-68v-22zm0-23.6h412.7v-85H17.7v85zm0-109.4h412.7v-85H17.7v85zM365 0H83C47 0 17.7 30.3 17.7 67.7V90h412.7V67.7C430.3 30.3 401 0 365 0z"></path>
+		</symbol>
+		<symbol id="codepen" viewBox="0 0 512 512">
+			<path d="M144 208c-17.7 0-32 14.3-32 32s14.3 32 32 32 32-14.3 32-32-14.3-32-32-32zm112 0c-17.7 0-32 14.3-32 32s14.3 32 32 32 32-14.3 32-32-14.3-32-32-32zm112 0c-17.7 0-32 14.3-32 32s14.3 32 32 32 32-14.3 32-32-14.3-32-32-32zM256 32C114.6 32 0 125.1 0 240c0 47.6 19.9 91.2 52.9 126.3C38 405.7 7 439.1 6.5 439.5c-6.6 7-8.4 17.2-4.6 26S14.4 480 24 480c61.5 0 110-25.7 139.1-46.3C192 442.8 223.2 448 256 448c141.4 0 256-93.1 256-208S397.4 32 256 32zm0 368c-26.7 0-53.1-4.1-78.4-12.1l-22.7-7.2-19.5 13.8c-14.3 10.1-33.9 21.4-57.5 29 7.3-12.1 14.4-25.7 19.9-40.2l10.6-28.1-20.6-21.8C69.7 314.1 48 282.2 48 240c0-88.2 93.3-160 208-160s208 71.8 208 160-93.3 160-208 160z"></path>
+		</symbol>
+		<symbol id="home" viewBox="0 0 512 512">
+			<path d="M488 312.7V456c0 13.3-10.7 24-24 24H348c-6.6 0-12-5.4-12-12V356c0-6.6-5.4-12-12-12h-72c-6.6 0-12 5.4-12 12v112c0 6.6-5.4 12-12 12H112c-13.3 0-24-10.7-24-24V312.7c0-3.6 1.6-7 4.4-9.3l188-154.8c4.4-3.6 10.8-3.6 15.3 0l188 154.8c2.7 2.3 4.3 5.7 4.3 9.3zm83.6-60.9L488 182.9V44.4c0-6.6-5.4-12-12-12h-56c-6.6 0-12 5.4-12 12V117l-89.5-73.7c-17.7-14.6-43.3-14.6-61 0L4.4 251.8c-5.1 4.2-5.8 11.8-1.6 16.9l25.5 31c4.2 5.1 11.8 5.8 16.9 1.6l235.2-193.7c4.4-3.6 10.8-3.6 15.3 0l235.2 193.7c5.1 4.2 12.7 3.5 16.9-1.6l25.5-31c4.2-5.2 3.4-12.7-1.7-16.9z"></path>
+		</symbol>
+	</svg>
+	<div class="content__menu">
+		<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320">
+			<circle class="crc-bg" cx="320" cy="320" r="100" fill="#fff"></circle>
+			<circle class="crc-arc" cx="320" cy="320" r="150" fill="none" visibility="hidden" stroke-width="200" stroke="#E81B59" stroke-dasharray="10, 350" stroke-dashoffset="-230"></circle>
+			<a class="svg__link" target="_top" xlink:href="https://www.alltechnotricks.com/Blog.html">
+				<use class="link-cdpn" xlink:href="#codepen" style="transform: rotateZ(180deg);" width="60" height="60" x="340" y="340" fill="black"></use>
+			</a>
+			<a class="svg__link" target="_top" xlink:href="https://www.alltechnotricks.com">
+				<use class="link-drbl" xlink:href="#home" width="50" height="50" x="350" style="transform: rotateZ(180deg);" y="350" fill="#fff"></use>
+			</a>
+			<a class="svg__link" target="_top" xlink:href="https://www.alltechnotricks.com/Blog.html">
+				<use class="link-twtr" xlink:href="#comments" width="50" height="50" x="330" y="330" style="transform: rotateZ(180deg);" fill="#06f"></use>
+			</a>
+			<radialGradient id="grd">
+				<stop offset="0" style="stop-color:rgba(0,0,0, 0)"> </stop>
+				<stop offset="0.85" style="stop-color:rgba(0,0,0, 0.85)"> </stop>
+				<stop offset="1" style="stop-color:rgba(0,0,0, 0)"> </stop>
+			</radialGradient>
+			<circle class="crc-sd" cx="320" cy="320" r="105" fill=url(#grd)></circle>
+			<circle class="crc-sm" cx="320" cy="320" r="100" fill="#fff"></circle>
+			<g class="burger">
+				<line class="brgr-top" stroke-width="5.5" stroke="#21264b" stroke-linecap="round" x1="270" y1="270" x2="296" y2="270"></line>
+				<line class="brgr-mid" stroke-width="5.5" stroke="#21264b" stroke-linecap="round" x1="270" y1="282" x2="296" y2="282"></line>
+				<line class="brgr-bot" stroke-width="5.5" stroke="#21264b" stroke-linecap="round" x1="270" y1="294" x2="296" y2="294"></line>
+			</g>
+		</svg>
 	</div>
 </body>
-<style>
-	@keyframes tinUpOut {
-		0%,
-		20%,
-		40%,
-		50% {
-			opacity: 1;
-			-webkit-transform: scale(1, 1) translateY(0);
-			transform: scale(1, 1) translateY(0);
-		}
-		10%,
-		30% {
-			opacity: 1;
-			-webkit-transform: scale(1.1, 1.1) translateY(0);
-			transform: scale(1.1, 1.1) translateY(0);
-		}
-		100% {
-			opacity: 0;
-			-webkit-transform: scale(1, 1) translateY(-900%);
-			transform: scale(1, 1) translateY(-900%);
-		}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js">
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+	function () {
+		$(this).hasClass("active") ? ($(this).removeClass("active"), $(".article__menu-block").fadeOut(200)) : ($(this).addClass("active"), $(".article__menu-block").fadeIn(200))
 	}
-
-	@keyframes tada {
-		0% {
-			-webkit-transform: scale(1);
-			transform: scale(1);
-		}
-		10%,
-		20% {
-			-webkit-transform: scale(.9) rotate(-8deg);
-			transform: scale(.9) rotate(-8deg);
-		}
-		30%,
-		50%,
-		70% {
-			-webkit-transform: scale(1.3) rotate(8deg);
-			transform: scale(1.3) rotate(8deg);
-		}
-		40%,
-		60% {
-			-webkit-transform: scale(1.3) rotate(-8deg);
-			transform: scale(1.3) rotate(-8deg);
-		}
-		80%,
-		100% {
-			-webkit-transform: scale(1) rotate(0);
-			transform: scale(1) rotate(0);
-		}
-	}
-
-	@keyframes ring {
-		0% {
-			-webkit-transform: rotate(-15deg);
-			transform: rotate(-15deg);
-		}
-		2% {
-			-webkit-transform: rotate(15deg);
-			transform: rotate(15deg);
-		}
-		4% {
-			-webkit-transform: rotate(-18deg);
-			transform: rotate(-18deg);
-		}
-		6% {
-			-webkit-transform: rotate(18deg);
-			transform: rotate(18deg);
-		}
-		8% {
-			-webkit-transform: rotate(-22deg);
-			transform: rotate(-22deg);
-		}
-		10% {
-			-webkit-transform: rotate(22deg);
-			transform: rotate(22deg);
-		}
-		12% {
-			-webkit-transform: rotate(-18deg);
-			transform: rotate(-18deg);
-		}
-		14% {
-			-webkit-transform: rotate(18deg);
-			transform: rotate(18deg);
-		}
-		16% {
-			-webkit-transform: rotate(-12deg);
-			transform: rotate(-12deg);
-		}
-		18% {
-			-webkit-transform: rotate(12deg);
-			transform: rotate(12deg);
-		}
-		20%,
-		100% {
-			-webkit-transform: rotate(0deg);
-			transform: rotate(0deg);
-		}
-	}
-
-	@keyframes spin {
-		0% {
-			-webkit-transform: rotate(0deg);
-			transform: rotate(0deg);
-		}
-		100% {
-			-webkit-transform: rotate(359deg);
-			transform: rotate(359deg);
-		}
-	}
-
-	@keyframes pulse {
-		0% {
-			-webkit-transform: scale(1.1);
-			transform: scale(1.1);
-		}
-		50% {
-			-webkit-transform: scale(0.8);
-			transform: scale(0.8);
-		}
-		100% {
-			-webkit-transform: scale(1.1);
-			transform: scale(1.1);
-		}
-	}
-</style>
+</script>
+<script>
+	$(document).ready(function () {
+		$("#show_hide").click(function () {
+			$("#links_container").toggle()
+		});
+	});
+</script>
+<script>
+	$(document).ready(function () {
+		$(".test").click(function () {
+			$("#show_hide").show();
+			$("#links_container").hide();
+		});
+	});
+</script>
 <script>
 	let anchorlinks = document.querySelectorAll('a[href^="#"]')
 	for (let item of anchorlinks) { // relitere
@@ -1079,23 +874,227 @@
 	}
 </script>
 <script>
-	window.onscroll = function () {
-		scrollFunction()
+	var qs = document.querySelector.bind(document);
+	var menuParts = {
+		crcSm: qs(".crc-sm")
+		, crcBg: qs(".crc-bg")
+		, crcArc: qs(".crc-arc")
+		, crcSd: qs(".crc-sd")
+		, brgr: qs(".burger")
+		, brgrTop: qs(".brgr-top")
+		, brgrMid: qs(".brgr-mid")
+		, brgrBot: qs(".brgr-bot")
+		, linkDrbl: qs(".link-drbl")
+		, linkCdpn: qs(".link-cdpn")
+		, linkTwtr: qs(".link-twtr")
+		, colBg: "#21264b"
 	};
-
-	function scrollFunction() {
-		if (document.body.scrollTop > 1000 || document.documentElement.scrollTop > 1000) {
-			document.getElementById("myBtn").style.display = "block";
-		}
-		else {
-			document.getElementById("myBtn").style.display = "none";
-		}
-	}
-
-	function topFunction() {
-		document.body.scrollTop = 0;
-		document.documentElement.scrollTop = 0;
-	}
+	(function () {
+		TweenMax.set(menuParts.crcArc, {
+			transformOrigin: "50% 50%"
+			, x: 120
+			, y: 120
+			, visibility: "visible"
+		});
+		TweenMax.set([
+  menuParts.crcBg, menuParts.crcSm, menuParts.crcArc, menuParts.crcSd
+  , menuParts.brgrTop, menuParts.brgrMid, menuParts.brgrBot], {
+			transformOrigin: "50% 50%"
+		});
+		//TweenMax.globalTimeScale(0.5);
+	})();
+	var menuOn = function menuOn(onComplete) {
+		var tl = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : new TimelineMax();
+		var brgrShft = 10;
+		var brgrRt = 12;
+		tl.
+		to(menuParts.crcBg, 1.2, {
+			scale: 2.5
+			, ease: Elastic.easeOut.config(1.2, 0.5)
+		}, 0).
+		to(menuParts.crcSm, 0.8, {
+			scale: 1.3
+			, ease: Elastic.easeOut.config(5, 1)
+		}, 0.1).
+		to(menuParts.crcSd, 0.8, {
+			scale: 1.3
+			, ease: Elastic.easeOut.config(5, 1)
+		}, 0.1).
+		to(menuParts.crcSm, 0.6, {
+			ease: Power4.easeOut
+			, fill: menuParts.colBg
+		}, 0.1).
+		to(menuParts.brgr, 0.3, {
+			x: -brgrShft
+			, y: -brgrShft
+		}, 0.2).
+		to(menuParts.brgrTop, 0.2, {
+			y: brgrRt
+		}, 0.1).
+		to(menuParts.brgrBot, 0.2, {
+			y: -brgrRt
+		}, 0.1).
+		to(menuParts.brgrTop, 0.4, {
+			rotation: 45
+			, stroke: "#fff"
+		}, 0.1).
+		to(menuParts.brgrMid, 0.4, {
+			rotation: 45
+			, stroke: "rgba(255,255,255,0)"
+		}, 0.1).
+		to(menuParts.brgrBot, 0.4, {
+			rotation: -45
+			, stroke: "#fff"
+		}, 0.1).
+		to(menuParts.crcArc, 0.4, {
+			x: 0
+			, y: 0
+			, ease: Power3.easeOut
+		}, 0.2).
+		to(menuParts.crcArc, 0.3, {
+			strokeDasharray: "85, 275"
+			, strokeDashoffset: "-186"
+		}, 0.6).
+		to(menuParts.linkCdpn, 0.25, {
+			x: -190
+			, y: -40
+			, ease: Power1.easeOut
+		}, "-=0.75").
+		to(menuParts.linkDrbl, 0.25, {
+			x: -138
+			, y: -138
+			, ease: Power1.easeOut
+		}, "-=0.65").
+		to(menuParts.linkTwtr, 0.25, {
+			x: -40
+			, y: -190
+			, ease: Power1.easeOut
+		}, "-=0.55").
+		set(menuParts.brgrBot, {
+			onComplete: onComplete
+		}).
+		pause();
+		return tl;
+	};
+	var menuOff = function menuOff(onComplete) {
+		var tl = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : new TimelineMax();
+		tl.
+		to(menuParts.linkTwtr, 0.25, {
+			x: 0
+			, y: 0
+			, ease: Power2.easeIn
+		}).
+		to(menuParts.linkDrbl, 0.25, {
+			x: 0
+			, y: 0
+			, ease: Power2.easeIn
+		}, "-=0.1").
+		to(menuParts.linkCdpn, 0.25, {
+			x: 0
+			, y: 0
+			, ease: Power2.easeIn
+		}, "-=0.1").
+		to(menuParts.crcBg, 0.55, {
+			scale: 1
+			, ease: Back.easeIn.config(3)
+		}, 0.05).
+		to(menuParts.crcSm, 0.45, {
+			fill: "#fff"
+			, ease: Power4.easeIn
+		}, 0.15).
+		to(menuParts.crcSm, 0.45, {
+			scale: 1
+			, ease: Back.easeIn.config(3)
+		}, 0.15).
+		to(menuParts.crcSd, 0.45, {
+			scale: 1
+			, ease: Back.easeIn.config(3)
+		}, 0.15).
+		to(menuParts.crcArc, 0.4, {
+			strokeDasharray: "0, 359"
+			, strokeDashoffset: "-240"
+		}, 0.1).
+		set(menuParts.crcArc, {
+			strokeDasharray: "10, 350"
+			, strokeDashoffset: "-230"
+			, x: 120
+			, y: 120
+		}, 0.51).
+		to(menuParts.brgr, 0.4, {
+			x: 0
+			, y: 0
+			, ease: Power1.easeIn
+		}, 0.2).
+		to(menuParts.brgrTop, 0.3, {
+			rotation: 0
+			, stroke: menuParts.colBg
+			, ease: Power1.easeIn
+		}, 0.2).
+		to(menuParts.brgrMid, 0.3, {
+			rotation: 0
+			, stroke: menuParts.colBg
+			, ease: Power1.easeIn
+		}, 0.2).
+		to(menuParts.brgrBot, 0.3, {
+			rotation: 0
+			, stroke: menuParts.colBg
+			, ease: Power1.easeIn
+		}, 0.2).
+		to(menuParts.brgrTop, 0.1, {
+			y: 0
+		}, 0.5).
+		to(menuParts.brgrBot, 0.1, {
+			y: 0
+		}, 0.5).
+		set(menuParts.brgrBot, {
+			onComplete: onComplete
+		}).
+		pause();
+		return tl;
+	};
+	var toggle = function toggle() {
+		var on = false;
+		var time = true;
+		var onComplete = function onComplete() {
+			time = true;
+		};
+		var tlOff = menuOff(onComplete);
+		var tlOn = menuOn(onComplete);
+		return function (e) {
+			if (time) {
+				time = false;
+				on ? tlOff.play(0) : tlOn.play(0);
+				on = !on;
+			}
+		};
+	};
+	menuParts.crcSm.addEventListener("click", toggle());
 </script>
+<style>
+	@import url('https://fonts.googleapis.com/css?family=Roboto');
+	@-webkit-keyframes pulse {
+		to {
+			box-shadow: 0 0 0 45px rgba(232, 76, 61, 0);
+		}
+	}
+
+	@-moz-keyframes pulse {
+		to {
+			box-shadow: 0 0 0 45px rgba(232, 76, 61, 0);
+		}
+	}
+
+	@-ms-keyframes pulse {
+		to {
+			box-shadow: 0 0 0 45px rgba(232, 76, 61, 0);
+		}
+	}
+
+	@keyframes pulse {
+		to {
+			box-shadow: 0 0 0 45px rgba(232, 76, 61, 0);
+		}
+	}
+</style>
 
 </html>
