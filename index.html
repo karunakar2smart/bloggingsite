@@ -31,7 +31,7 @@
 		}
 		window.dataLayer = window.dataLayer || [], gtag("js", new Date), gtag("config", "UA-115951250-1")
 	</script>
-	<script type="application/ld+json"> { "@context": "http://schema.org", "@type": "NewsArticle", "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.alltechnotricks.com/" }, "headline": "All Techno Tricks - Blogging, Make Money Online, Tips & Tricks.", "image": [ "https://www.alltechnotricks.com/images/earn-money-online-typing-jobs.jpg" ], "datePublished": "2018-07-05", "dateModified": "2019-02-11", "author": { "@type": "Person", "name": "Karunakar Patel" }, "publisher": { "@type": "Organization", "name": "Techno Tricks", "logo": { "@type": "ImageObject", "url": "https://www.alltechnotricks.com/fevicon.ico" } }, "description": "All Techno Tricks is a good useful website which help you to define the difference between legitimate and illegitimate process to earn money online. All techno tricks also helps you to learn all the tricks, tips and techniques to earn money online through blogging, free online jobs and many more." } </script>
+	<script type="application/ld+json"> { "@context": "http://schema.org", "@type": "NewsArticle", "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.alltechnotricks.com/" }, "headline": "All Techno Tricks - Blogging, Make Money Online, Tips & Tricks.", "image": [ "https://www.alltechnotricks.com/images/earn-money-online-typing-jobs.jpg" ], "datePublished": "2018-07-05", "dateModified": "2019-02-17", "author": { "@type": "Person", "name": "Karunakar Patel" }, "publisher": { "@type": "Organization", "name": "Techno Tricks", "logo": { "@type": "ImageObject", "url": "https://www.alltechnotricks.com/fevicon.ico" } }, "description": "All Techno Tricks is a good useful website which help you to define the difference between legitimate and illegitimate process to earn money online. All techno tricks also helps you to learn all the tricks, tips and techniques to earn money online through blogging, free online jobs and many more." } </script>
 	<style>
 		body {
 			padding: 0px;
@@ -299,53 +299,6 @@
 			margin-top: 10px !important;
 		}
 
-		.large_container {
-			margin: 0px;
-			padding: 25px;
-			margin-top: 60px;
-		}
-
-		.flex_box {
-			display: flex;
-			flex-grow: 1;
-			flex-basis: 100px;
-			flex-shrink: 100px;
-			flex-wrap: wrap;
-			/*						border: 1px solid blue;*/
-		}
-
-		.one,
-		.two,
-		.three,
-		.four {
-			flex-grow: 1;
-			flex-basis: 500px;
-			flex-shrink: 50px;
-			width: 100%;
-			height: auto;
-			padding: 0px;
-			margin-bottom: 100px;
-			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-			outline: 10px solid lightgrey;
-			outline-offset: 10px;
-		}
-
-		.one,
-		.three {
-			margin-right: 55px;
-		}
-
-		.five {
-			border: 1px solid lightgrey;
-			width: 336px;
-			height: 280px;
-			margin-right: 50px;
-			margin: auto;
-			outline: 10px solid salmon;
-			outline-offset: 7px;
-			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-		}
-
 		.blog {
 			border-radius: 5px;
 			border: 1px solid lightgrey;
@@ -419,13 +372,14 @@
 		}
 
 		article h1 {
-			font-size: 37px;
+			font-size: 36px;
 			font-weight: 700;
 			text-align: center;
 			margin: 0px;
 			padding: 10px 1px 3px 1px;
 			line-height: 1.3em;
 			color: #06f;
+			font-variant: small-caps;
 			font-family: 'Rubik', 'Lato', "Lucida Grande", "Lucida Sans Unicode", Tahoma, Sans-Serif;
 		}
 
@@ -449,6 +403,41 @@
 			border-left: 10px solid #2196F3;
 			border-right: 10px solid #2196F3;
 			padding: 19px;
+		}
+
+		.large_container {
+			padding: 0px;
+		}
+
+		.container {
+			width: 100%;
+			height: auto;
+			display: flex;
+			padding: 20px;
+			position: relative;
+			margin-top: 60px;
+		}
+
+		.container article {
+			width: 73%;
+			height: auto;
+			outline: 10px solid lightgrey;
+			outline-offset: 5px;
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		}
+
+		.ad_container {
+			width: 300px;
+			height: 600px;
+			border: 1px solid lightgrey;
+			position: absolute;
+			top: 10%;
+			right: 1%;
+			bottom: auto;
+			outline-offset: 4px;
+			outline: 10px solid salmon;
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+			border-radius: 5px;
 		}
 
 		@media only screen and (max-width:760px) {
@@ -502,37 +491,30 @@
 				height: auto;
 				padding: 0px;
 			}
-			.flex_box {
+			.container {
 				width: 100%;
 				height: auto;
 				display: block;
-				padding: 1px;
-				margin: 0px;
+				padding: 5px;
+				margin-top: 30px;
 			}
-			article {
+			.ad_container {
+				position: static;
+				margin: auto;
+				width: 336px !important;
+				height: 280px !important;
+				margin-top: 40px;
+			}
+			.container article {
 				width: 100%;
 				height: auto;
 				padding: 5px;
 				margin: 0px;
-			}
-			article li {
-				font-size: 16px;
-			}
-			.one,
-			.two,
-			.three,
-			.four {
-				width: 100%;
-				height: auto;
-				margin: 0px;
-				padding: 0px;
-				display: block;
 				outline: none;
-				margin-bottom: 33px;
+				box-shadow: none;
 			}
-			.two,
-			.four {
-				margin-bottom: 50px;
+			.container article li {
+				font-size: 16px;
 			}
 			article h1 {
 				font-size: 25px;
@@ -543,17 +525,6 @@
 			article p {
 				padding: 5px;
 				font-size: 17px;
-			}
-			.five {
-				width: 336px;
-				height: 280px;
-				display: block;
-				margin-bottom: 50px;
-				outline: 10px solid salmon;
-				outline-offset: 6px;
-			}
-			.three {
-				margin-top: -60px;
 			}
 			.blog {
 				width: 340px;
@@ -571,136 +542,132 @@
 		}
 
 		@media only screen and (max-width: 900px) {
-			.one,
-			.two,
-			.three,
-			.four {
+			.container {
 				width: 100%;
 				height: auto;
-				margin: 0px;
-				margin-bottom: 60px;
+				display: block;
+				margin-top: 20px;
 			}
-			.five:nth-child(3) {
+			.container article {
+				width: 100%;
+				height: auto;
+				display: block;
+			}
+			.ad_container {
+				position: static;
+				width: 728px;
+				height: 90px;
+				margin: auto;
 				margin-top: 50px;
 			}
 		}
 
-		.karna_g_ads {
-			width: 336px;
-			height: 280px;
+		.ad_largeskyscraper {
+			width: 300px;
+			height: 600px;
+		}
+
+		@media only screen and (max-width:900px) {
+			.ad_largeskyscraper {
+				width: 728px;
+				height: 90px;
+			}
+		}
+
+		@media only screen and (max-width: 760px) {
+			.ad_largeskyscraper {
+				width: 336px;
+				height: 280px;
+			}
 		}
 	</style>
 </head>
 
 <body id="top">
 	<div class="large_container">
-		<div class="flex_box">
-			<div class="one">
-				<article>
-					<h1 id="free-online-typing-jobs">Free Online Typing Jobs Without Investment & Registration Fee.</h1>
-					<p>Do you really want to know how to <b>earn money online</b> by doing simple online typing jobs by just working from home?. Yes, we can really start earning serious money online without paying any money to register.</p>
-					<p>In here we need to type a 9 letter word within the respective time period which is an easy task, everyone can do this job done. The main reason for these <b>online free typing jobs</b> as 100% legitimate is that I personally got paid through one of these typing jobs. Yes, I have received payments from these jobs where I had published my payment in the payment section.</p>
-					<ul>
-						<li>There is no need to pay any Registration Fees.</li>
-						<li>All these typing jobs are 100% Free to signup.</li>
-						<li>We will receive payments on weekly basis with a minimum payout of 1$ only.</li>
-					</ul>
-					<p>We don't need to wait too long to get paid. All the <b>payments</b> are on weekly basis with a 1$ minimum payout. There is no fixed timings to do these typing jobs, we can work at any time as long as possible.</p>
-					<p id="notes">Learn more at <a href="https://www.alltechnotricks.com/free-online-typing-jobs.html" target="_blank" rel="noopener">Free Online Typing Jobs With Zero Investment and Registration Fee.</a></p>
-				</article>
-			</div>
-			<div class="two">
-				<article>
-					<h1 id="earn-money-online">Earn Money Online Without Investment & Registration Fee.</h1>
-					<p>Hi, are you searching for the <b>top best ways to earn money online without investment and registration fee?</b>. Yes, you are in a good place. In here we learn 100% legitimate ways to start earning money online.</p>
-					<p>These jobs are fantastic for people who stay at home, students, housewives and for those who start second income. There are no fixed timings, we can work at any hour as long as possible.</p>
-					<ul>
-						<li>There is no registration fee required to join in this various kinds of online job portals which were 100% legitimate.</li>
-						<li>Yes, Indeed. It's free to signup.</li>
-						<li>All the payment process with the International payment processors like PAYPAL, PAYZA, WEB MONEY etc.</li>
-					</ul>
-					<p>Honestly, all these jobs are 100% free to register. Yes, we can start earning money online without paying any registration fee and investment. I got paid through some of these jobs and I had pasted my <b>payment proofs</b> in the payment section of the respective blog post.</p>
-					<p id="notes">Learn more at <a href="https://www.alltechnotricks.com/earn-money-online.html" target="_blank" rel="noopener">Earn Money Online Without Investment and Registration Fee.</a></p>
-				</article>
-			</div>
-		</div>
-		<div class="flex_box">
-			<div class="five">
-				<div style="margin: auto; text-align: center;">
-					<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> <ins class="adsbygoogle karna_g_ads" style="display:inline-block" data-ad-client="ca-pub-2687924945894784" data-ad-slot="2901800287"> </ins>
-					<script>
-						(adsbygoogle = window.adsbygoogle || []).push({});
-					</script>
-				</div>
-			</div>
-			<div class="five">
-				<div style="margin: auto; text-align: center;">
-					<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> <ins class="adsbygoogle karna_g_ads" style="display:inline-block" data-ad-client="ca-pub-2687924945894784" data-ad-slot="2901800287"> </ins>
-					<script>
-						(adsbygoogle = window.adsbygoogle || []).push({});
-					</script>
-				</div>
-			</div>
-			<div class="five">
-				<div style="margin: auto; text-align: center;">
-					<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> <ins class="adsbygoogle karna_g_ads" style="display:inline-block" data-ad-client="ca-pub-2687924945894784" data-ad-slot="2901800287"> </ins>
+		<div class="container">
+			<article>
+				<h1 id="free-online-typing-jobs">Free Online Typing Jobs Without Investment & Registration Fee.</h1>
+				<p>Do you really want to know how to <b>earn money online</b> by doing simple online typing jobs by just working from home?. Yes, we can really start earning serious money online without paying any money to register.</p>
+				<p>In here we need to type a 9 letter word within the respective time period which is an easy task, everyone can do this job done. The main reason for these <b>online free typing jobs</b> as 100% legitimate is that I personally got paid through one of these typing jobs. Yes, I have received payments from these jobs where I had published my payment in the payment section.</p>
+				<ul>
+					<li>There is no need to pay any Registration Fees.</li>
+					<li>All these typing jobs are 100% Free to signup.</li>
+					<li>We will receive payments on weekly basis with a minimum payout of 1$ only.</li>
+				</ul>
+				<p>We don't need to wait too long to get paid. All the <b>payments</b> are on weekly basis with a 1$ minimum payout. There is no fixed timings to do these typing jobs, we can work at any time as long as possible.</p>
+				<p id="notes">Learn more at <a href="https://www.alltechnotricks.com/free-online-typing-jobs.html" target="_blank" rel="noopener">Free Online Typing Jobs With Zero Investment and Registration Fee.</a></p>
+			</article>
+			<div class="ad_container">
+				<div style="margin: auto; text-align: center; ">
+					<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> <ins class="adsbygoogle ad_largeskyscraper" style="display:inline-block" data-ad-client="ca-pub-2687924945894784" data-ad-slot="2901800287"> </ins>
 					<script>
 						(adsbygoogle = window.adsbygoogle || []).push({});
 					</script>
 				</div>
 			</div>
 		</div>
-		<div class="flex_box" style="margin-top: 85px;">
-			<div class="three">
-				<article>
-					<h1 id="megatypers">Megatypers Online Typing Jobs Without Investment & Registration Fee.</h1>
-					<p><b>Megatypers</b> is one of the <b>best online captcha typing job</b> portal in which we earn money for every correct captcha input. Megatypers schedules are flexible, we can work at any hour that we need and as long as possible.</p>
-					<p>At megatypers, we really need to type a captcha image into words within a specified time limit. A captcha image consists of a 5-6 character word in it where we need to type correctly before submitting.</p>
-					<p>We <b>earn money</b> for every correct captcha input and conversely decrease earning for every incorrect captcha. It is really an easy task, everyone can get the job done within the time.</p>
-					<ul>
-						<li>By Using the <b>invitation code</b> { <span style="color: red; font-weight: bolder;">EB9D</span> } to signup for free.</li>
-						<li>How to download and use Megatypers captcha entry software.</li>
-						<li>Check megatypers payment proofs and payment reviews.</li>
-					</ul>
-					<p>Importantly, no previous experience needed and all the payments are on a weekly basis of minimum payout 1$. <b>Megatypers</b> is 100% legitimate <b>typing job</b> and is really worth trying.</p>
-					<p id="notes">Learn more at <a href="https://www.alltechnotricks.com/megatypers.html" target="_blank" rel="noopener">Megatypers Free Online Typing Job.</a></p>
-				</article>
-			</div>
-			<div class="four">
-				<article>
-					<h1 id="kolotibablo">Kolotibablo Online Captcha Entry Work With Zero Investment.</h1>
-					<p>Kolotibablo is an another best place to earn money by typing captchas online. For every beginner, <b>kolotibablo online typing job</b> is a good choice, because the submitting time for every captcha input is high.</p>
-					<p>Luckily, incorrect captcha input does not affect our earning and there is no account ban, where else it is different for other types of <b>captcha entry jobs</b>. Yes, this is cool right. Kolotibablo is running more than ten years and paying always accurately.</p>
-					<ul>
-						<li>Free registration at Kolotibablo captcha entry work.</li>
-						<li>Free download and installation of kolotibablo captcha entry software.</li>
-						<li>Read kolotibablo customer reviews and also the payment proofs of kolotibablo captcha entry job.</li>
-					</ul>
-					<p>Kolotibablo is a 100% legitimate <b>online captcha typing job</b>. Yes, I personally, had received payment from kolotibablo as I have posted in this article. Honestly, no previous experience needed. This typing job is fantastic for students, housewives and also for those who need a second income.</p>
-					<p id="notes">Learn more at <a href="https://www.alltechnotricks.com/kolotibablo.html" target="_blank" rel="noopener">Kolotibablo Online Captcha Entry Work With Zero Registration And Investment.</a></p>
-				</article>
+		<div class="container">
+			<article>
+				<h1 id="earn-money-online">Earn Money Online Without Investment & Registration Fee.</h1>
+				<p>Hi, are you searching for the <b>top best ways to earn money online without investment and registration fee?</b>. Yes, you are in a good place. In here we learn 100% legitimate ways to start earning money online.</p>
+				<p>These jobs are fantastic for people who stay at home, students, housewives and for those who start second income. There are no fixed timings, we can work at any hour as long as possible.</p>
+				<ul>
+					<li>There is no registration fee required to join in this various kinds of online job portals which were 100% legitimate.</li>
+					<li>Yes, Indeed. It's free to signup.</li>
+					<li>All the payment process with the International payment processors like PAYPAL, PAYZA, WEB MONEY etc.</li>
+				</ul>
+				<p>Honestly, all these jobs are 100% free to register. Yes, we can start earning money online without paying any registration fee and investment. I got paid through some of these jobs and I had pasted my <b>payment proofs</b> in the payment section of the respective blog post.</p>
+				<p id="notes">Learn more at <a href="https://www.alltechnotricks.com/earn-money-online.html" target="_blank" rel="noopener">Earn Money Online Without Investment and Registration Fee.</a></p>
+			</article>
+			<div class="ad_container">
+				<div style="margin: auto; text-align: center; ">
+					<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> <ins class="adsbygoogle ad_largeskyscraper" style="display:inline-block" data-ad-client="ca-pub-2687924945894784" data-ad-slot="2901800287"> </ins>
+					<script>
+						(adsbygoogle = window.adsbygoogle || []).push({});
+					</script>
+				</div>
 			</div>
 		</div>
-		<div class="flex_box">
-			<div class="five">
-				<div style="margin: auto; text-align: center;">
-					<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> <ins class="adsbygoogle karna_g_ads" style="display:inline-block" data-ad-client="ca-pub-2687924945894784" data-ad-slot="2901800287"> </ins>
+		<div class="container">
+			<article>
+				<h1 id="megatypers">Megatypers Online Typing Jobs Without Investment & Registration Fee.</h1>
+				<p><b>Megatypers</b> is one of the <b>best online captcha typing job</b> portal in which we earn money for every correct captcha input. Megatypers schedules are flexible, we can work at any hour that we need and as long as possible.</p>
+				<p>At megatypers, we really need to type a captcha image into words within a specified time limit. A captcha image consists of a 5-6 character word in it where we need to type correctly before submitting.</p>
+				<p>We <b>earn money</b> for every correct captcha input and conversely decrease earning for every incorrect captcha. It is really an easy task, everyone can get the job done within the time.</p>
+				<ul>
+					<li>By Using the <b>invitation code</b> { <span style="color: red; font-weight: bolder;">EB9D</span> } to signup for free.</li>
+					<li>How to download and use Megatypers captcha entry software.</li>
+					<li>Check megatypers payment proofs and payment reviews.</li>
+				</ul>
+				<p>Importantly, no previous experience needed and all the payments are on a weekly basis of minimum payout 1$. <b>Megatypers</b> is 100% legitimate <b>typing job</b> and is really worth trying.</p>
+				<p id="notes">Learn more at <a href="https://www.alltechnotricks.com/megatypers.html" target="_blank" rel="noopener">Megatypers Free Online Typing Job.</a></p>
+			</article>
+			<div class="ad_container">
+				<div style="margin: auto; text-align: center; ">
+					<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> <ins class="adsbygoogle ad_largeskyscraper" style="display:inline-block" data-ad-client="ca-pub-2687924945894784" data-ad-slot="2901800287"> </ins>
 					<script>
 						(adsbygoogle = window.adsbygoogle || []).push({});
 					</script>
 				</div>
 			</div>
-			<div class="five">
-				<div style="margin: auto; text-align: center;">
-					<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> <ins class="adsbygoogle karna_g_ads" style="display:inline-block" data-ad-client="ca-pub-2687924945894784" data-ad-slot="2901800287"> </ins>
-					<script>
-						(adsbygoogle = window.adsbygoogle || []).push({});
-					</script>
-				</div>
-			</div>
-			<div class="five">
-				<div style="margin: auto; text-align: center;">
-					<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> <ins class="adsbygoogle karna_g_ads" style="display:inline-block" data-ad-client="ca-pub-2687924945894784" data-ad-slot="2901800287"> </ins>
+		</div>
+		<div class="container">
+			<article>
+				<h1 id="kolotibablo">Kolotibablo Online Captcha Entry Work With Zero Investment.</h1>
+				<p>Kolotibablo is an another best place to earn money by typing captchas online. For every beginner, <b>kolotibablo online typing job</b> is a good choice, because the submitting time for every captcha input is high.</p>
+				<p>Luckily, incorrect captcha input does not affect our earning and there is no account ban, where else it is different for other types of <b>captcha entry jobs</b>. Yes, this is cool right. Kolotibablo is running more than ten years and paying always accurately.</p>
+				<ul>
+					<li>Free registration at Kolotibablo captcha entry work.</li>
+					<li>Free download and installation of kolotibablo captcha entry software.</li>
+					<li>Read kolotibablo customer reviews and also the payment proofs of kolotibablo captcha entry job.</li>
+				</ul>
+				<p>Kolotibablo is a 100% legitimate <b>online captcha typing job</b>. Yes, I personally, had received payment from kolotibablo as I have posted in this article. Honestly, no previous experience needed. This typing job is fantastic for students, housewives and also for those who need a second income.</p>
+				<p id="notes">Learn more at <a href="https://www.alltechnotricks.com/kolotibablo.html" target="_blank" rel="noopener">Kolotibablo Online Captcha Entry Work With Zero Registration And Investment.</a></p>
+			</article>
+			<div class="ad_container">
+				<div style="margin: auto; text-align: center; ">
+					<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> <ins class="adsbygoogle ad_largeskyscraper" style="display:inline-block" data-ad-client="ca-pub-2687924945894784" data-ad-slot="2901800287"> </ins>
 					<script>
 						(adsbygoogle = window.adsbygoogle || []).push({});
 					</script>
@@ -708,7 +675,6 @@
 			</div>
 		</div>
 	</div>
-	<hr style="border: 1px dotted lightgrey;">
 	<div class="blog">
 		<div>
 			<p>Loved it? Wanna learn more? Then Open it.</p>
