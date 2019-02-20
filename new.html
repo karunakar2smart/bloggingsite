@@ -7,9 +7,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="theme-color" content="#008000" />
-	<script src="sw.js"></script>
 	<link rel="manifest" href="manifest.json">
-	<link href="sw.js">
 	<style>
 		* {
 			box-sizing: border-box;
@@ -27,24 +25,6 @@
 <body>
 	<h1> this is some of teh progressive web page ananlysis.</h1>
 	<p>here is the some of the paragraph text.</p>
-	<script>
-		if ('serviceWorker' in navigator) {
-			navigator.serviceWorker.register('/sw.js').then(function () {
-				console.log('Service Worker Registered');
-			});
-		}
-	</script>
-	<script>
-		const messaging = firebase.messaging();
-		messaging.requestPermission().then(function () {
-			console.log('Notification permission granted.');
-			return messaging.getToken();
-		}).then(function (token) {
-			console.log(token);
-		}).catch(function (err) {
-			console.log('Unable to get permission to notify.', err);
-		})
-	</script>
 </body>
 
 </html>
