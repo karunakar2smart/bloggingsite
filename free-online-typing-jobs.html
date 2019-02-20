@@ -4,7 +4,9 @@
 <head>
 	<title>Free Online Typing Jobs Without Investment and Registration Fees.</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=Yes" />
-	<meta charset="UTF-8" />
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="theme-color" content="#fff" />
 	<meta name="description" content="Best ways to earn money online by free online typing jobs with no investment and no registration fee. These typing jobs are 100% legit & receive daily payments through simple online data entry typing jobs by just working from home. These typing jobs are free to register & signup where we can start making money online by free online typing jobs." />
 	<meta name="robots" content="index, follow" />
 	<meta name="google-site-verification" content="bUkCZHa4Gm1pjRcCm-LOGKkXNUfmkSIpf5zPeYWHlcA" />
@@ -79,7 +81,7 @@
 		}
 
 		a {
-			color: #4184f3;
+			color: #06f;
 			text-decoration: none;
 		}
 
@@ -485,7 +487,7 @@
 			position: fixed;
 		}
 
-		#show_hide {
+		#show {
 			border: 1px solid white;
 			padding: 15px;
 			cursor: pointer;
@@ -960,16 +962,16 @@
 				<div class="inside_links">
 					<ul>
 						<a class="w-inline-block social-share-btn fb" href="https://www.facebook.com/sharer/sharer.php?u=&t=" title="Share on Facebook" target="_blank" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(document.URL) + '&t=' + encodeURIComponent(document.URL)); return false;">
-							<li>Facebook</li>
+							<ul><li>Facebook</li></ul>
 						</a>
 						<a class="w-inline-block social-share-btn tw" href="https://twitter.com/intent/tweet?" target="_blank" title="Tweet" onclick="window.open('https://twitter.com/intent/tweet?text= Do%20you%20want%20to%20earn%20money%20online%20by%20Typing%20jobs.%20Yes,%20indeed%20we%20%20can%20earn%20money%20by%20typing%20online%20and%20receive%20payments%20on%20weekly%20basis.' + encodeURIComponent(document.title) + ':%20 ' + encodeURIComponent(document.URL)); return false;">
-							<li>Twitter</li>
+							<ul><li>Twitter</li></ul>
 						</a>
 						<a class="w-inline-block social-share-btn lnk" href="http://www.linkedin.com/shareArticle?mini=true&url=&title=&summary=&source=" target="_blank" title="Share on LinkedIn" onclick="window.open('http://www.linkedin.com/shareArticle?mini=true&url=' + encodeURIComponent(document.URL) + '&title=' + encodeURIComponent(document.title)); return false;">
-							<li>Linkedin</li>
+							<ul><li>Linkedin</li></ul>
 						</a>
 						<a class="w-inline-block social-share-btn redd" href="http://www.reddit.com/submit?url=&title=" target="_blank" title="Submit to Reddit" onclick="window.open('http://www.reddit.com/submit?url=' + encodeURIComponent(document.URL) + '&title=' + encodeURIComponent(document.title)); return false;">
-							<li>Reddit</li>
+							<ul><li>Reddit</li></ul>
 						</a>
 					</ul>
 				</div>
@@ -981,7 +983,7 @@
 			<div class="section_column_1_inside">
 				<p id="title">Free Online Typing Jobs Without Investment and Registration Fee.</p>
 				<p>Do you really want to know how to earn money online by doing simple online typing jobs by just working from home?. Yes, we can really start earning serious money online without paying any money to register. In here we need to type a 9 letter word within the respective time period which is an easy task, everyone can do this job done. I got payment too. </p>
-				<li><a href="https://www.alltechnotricks.com/free-online-typing-jobs.html" target="_blank" rel="noopener">Open</a></li>
+				<ul><li><a href="https://www.alltechnotricks.com/free-online-typing-jobs.html" target="_blank" rel="noopener">Open</a></li></ul>
 			</div>
 		</div>
 		<div class="section_column_2">
@@ -1055,7 +1057,7 @@
 		</div>
 	</div>
 	<div class="anim_container">
-		<button id="show_hide">
+		<button id="show">
 			<svg style="width: 29px; height: 29px;" fill="#06f" viewBox="0 0 384 512">
 				<path d="M377.33 375.429L293.906 288H328c21.017 0 31.872-25.207 17.448-40.479L262.79 160H296c20.878 0 31.851-24.969 17.587-40.331l-104-112.003c-9.485-10.214-25.676-10.229-35.174 0l-104 112.003C56.206 134.969 67.037 160 88 160h33.21l-82.659 87.521C24.121 262.801 34.993 288 56 288h34.094L6.665 375.429C-7.869 390.655 2.925 416 24.025 416H144c0 32.781-11.188 49.26-33.995 67.506C98.225 492.93 104.914 512 120 512h144c15.086 0 21.776-19.069 9.995-28.494-19.768-15.814-33.992-31.665-33.995-67.496V416h119.97c21.05 0 31.929-25.309 17.36-40.571z" /> </svg>
 		</button>
@@ -1111,6 +1113,13 @@
 		</svg>
 	</div>
 </body>
+	<script>
+		if ('serviceWorker' in navigator) {
+			navigator.serviceWorker.register('/sw.js').then(function () {
+				console.log('Service Worker Registered');
+			});
+		}
+	</script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js">
 </script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -1121,7 +1130,7 @@
 </script>
 <script>
 	$(document).ready(function () {
-		$("#show_hide").click(function () {
+		$("#show").click(function () {
 			$("#links_container").toggle()
 		});
 	});
@@ -1129,7 +1138,7 @@
 <script>
 	$(document).ready(function () {
 		$(".test").click(function () {
-			$("#show_hide").show();
+			$("#show").show();
 			$("#links_container").hide();
 		});
 	});
