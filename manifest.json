@@ -2,9 +2,9 @@
   "name": "All Techno Tricks",
   "short_name": "TechTricks",
   "theme_color": "#2196f3",
-  "background_color": "#2196f3",
+  "background_color": "#ccc",
   "display": "standalone",
-  "Scope": "/index.html",
+  "Scope": "/",
   "start_url": "/index.html",
   "icons": [
     {
