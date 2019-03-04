@@ -1,37 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-	<title>PWA TEST PAGE.</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="theme-color" content="#008000" />
-	<style>
-		* {
-			box-sizing: border-box;
-		}
-
-		body {
-			padding: 0px;
-			margin: 0px;
-			background: #eee;
-			text-align: center;
-		}
-	</style>
-	<script src="/sw.js"></script>
-	<link rel="manifest" href="manifest.json"> </head>
+	<title>this is simple code done.</title>
+</head>
 
 <body>
-	<h1> this is some of teh progressive web page ananlysis.</h1>
-	<p>here is the some of the paragraph text.</p>
-	<script>
-		if ('serviceWorker' in navigator) {
-			navigator.serviceWorker.register('/sw.js').then(function () {
-				console.log('Service Worker Registered');
-			});
-		}
-	</script>
+	<div id="fb-root"></div>
+	<script async defer src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v3.2&appId=232723290923729&autoLogAppEvents=1"></script>
+	<div>
+		<div class="fb-share-button" data-href="https://www.alltechnotricks.com" data-layout="button_count" data-size="large" data-mobile-iframe="true"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.alltechnotricks.com%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
+	</div>
 </body>
 
 </html>
