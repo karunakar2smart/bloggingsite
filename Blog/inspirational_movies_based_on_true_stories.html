@@ -33,7 +33,7 @@
 		}
 		window.dataLayer = window.dataLayer || [], gtag("js", new Date), gtag("config", "UA-115951250-1")
 	</script>
-	<script type="application/ld+json"> { "@context": "http://schema.org", "@type": "Article", "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.alltechnotricks.com/Blog/inspirational_movies_based_on_true_stories.html" }, "headline": "Top 10+ Best Inspirational & Motivational Movies Based On Real & True Stories - 2019.", "image": [ "https://www.alltechnotricks.com/uploads/top-inspirational-movies-posture.png" ], "datePublished": "2019-03-05", "dateModified": "2019-03-09", "author": { "@type": "Person", "name": "Karunakar Patel" }, "publisher": { "@type": "Organization", "name": "Techno Tricks", "logo": { "@type": "ImageObject", "url": "https://www.alltechnotricks.com/fevicon.ico" } }, "description": "Here are the best inspirational and motivational movies based on true and real stories so far following the year 2019. These movies are inspired by true-life stories of famous persons. Get inspired by watching these motivational movies in your free time." } </script>
+	<script type="application/ld+json"> { "@context": "http://schema.org", "@type": "Article", "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.alltechnotricks.com/Blog/inspirational_movies_based_on_true_stories.html" }, "headline": "Top 10+ Best Inspirational & Motivational Movies Based On Real & True Stories - 2019.", "image": [ "https://www.alltechnotricks.com/uploads/top-inspirational-movies-posture.png" ], "datePublished": "2019-03-05", "dateModified": "2019-03-11", "author": { "@type": "Person", "name": "Karunakar Patel" }, "publisher": { "@type": "Organization", "name": "Techno Tricks", "logo": { "@type": "ImageObject", "url": "https://www.alltechnotricks.com/fevicon.ico" } }, "description": "Here are the best inspirational and motivational movies based on true and real stories so far following the year 2019. These movies are inspired by true-life stories of famous persons. Get inspired by watching these motivational movies in your free time." } </script>
 	<script src="/sw.js"></script>
 	<link rel="manifest" href="/manifest.json">
 	<style>
@@ -453,22 +453,16 @@
 			padding: 15px;
 			cursor: pointer;
 			border-radius: 50%;
-			background: white;
+			background: #25D366;
 			float: right;
 			clear: both;
 			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 			margin-top: 210px;
+			border: 1px solid #25D366;
 		}
 
-		#show:hover {
-			background: lightgrey;
-			border: 1px solid lightgrey;
-			transition: 1s ease-in-out;
-			-webkit-transition: 1s ease-in-out;
-		}
-
-		#show svg:hover {
-			fill: salmon;
+		#show svg {
+			fill: white;
 		}
 
 		#links_container {
@@ -515,9 +509,9 @@
 
 		#links_container ul:nth-child(2) li {
 			display: inline-block;
-			border: 1px solid salmon;
+			border: 1px solid #25D366;
 			border-radius: 2px;
-			background: salmon;
+			background: #25D366;
 			padding: 3px;
 			margin: 20px 10px 10px 0px;
 			animation: vertical 6s linear infinite;
@@ -591,25 +585,6 @@
 			outline-offset: 6px;
 		}
 		/*		EXCESS*/
-
-		.video {
-			width: 60%;
-			height: 100%;
-			max-width: 560px;
-			max-height: 315px;
-			margin: auto;
-			border: 1px solid lightgrey;
-			border-radius: 5px;
-			outline-offset: 5px;
-			outline: 10px solid lightgrey;
-			margin-bottom: 20px;
-		}
-
-		.video iframe {
-			width: 560px;
-			height: 315px;
-			display: none;
-		}
 
 		.wrapper {
 			width: 560px;
@@ -841,16 +816,22 @@
 				font-size: 23px;
 				margin-bottom: 21px;
 			}
-			.video {
+			.wrapper {
 				width: 100%;
-				height: 350px;
+				height: auto;
 				outline-offset: 2px;
 				outline-width: 8px;
 			}
-			.video iframe {
+			.youtube {
+				width: 100%;
+				height: auto;
+				margin: 0px;
+			}
+			.youtube img {
 				width: 100%;
 				height: 100%;
-				border: 1px solid lightgrey;
+				max-width: 100%;
+				max-height: 350px;
 			}
 		}
 
@@ -863,7 +844,6 @@
 				margin-bottom: 10px;
 			}
 		}
-		/*		Google ADS are Here....!*/
 
 		.karna_g_ads,
 		.karna_g_ads_desktop {
@@ -882,7 +862,6 @@
 			.karna_g_ads {
 				width: 728px;
 				height: 90px;
-				/*								border: 1px solid black;*/
 			}
 		}
 
@@ -890,7 +869,6 @@
 			.karna_g_ads {
 				width: 728px;
 				height: 90px;
-				/*								border: 1px solid orange;*/
 			}
 		}
 	</style>
