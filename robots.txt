@@ -1,4 +1,5 @@
 User-Agent: *
+allow: https://www.alltechnotricks.com/uploads/earn-money-online.jpg
 Disallow: /event-script/
 Disallow: /uploads/
 User-agent: Rogerbot 
