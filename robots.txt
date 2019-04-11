@@ -86,4 +86,3 @@ User-agent: Xaldon\ WebSpider
 User-agent: Zeus
     Disallow: /
 Sitemap: https://www.alltechnotricks.com/sitemap.xml
-Images: https://www.alltechnotricks.com/image.xml
