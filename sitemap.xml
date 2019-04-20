@@ -12,7 +12,7 @@
 		</url>
 		<url>
 			<loc>https://www.alltechnotricks.com</loc>
-			<lastmod>2019-04-14</lastmod>
+			<lastmod>2019-04-20</lastmod>
 			<priority>1.00</priority>
 		</url>
 		<url>
@@ -103,6 +103,16 @@
 		<url>
 			<loc>https://www.alltechnotricks.com/Blog/pages/2.html</loc>
 			<lastmod>2019-04-14</lastmod>
+			<priority>1.00</priority>
+		</url>
+		<url>
+			<loc>https://www.alltechnotricks.com/404.html</loc>
+			<lastmod>2019-04-20</lastmod>
+			<priority>1.00</priority>
+		</url>
+		<url>
+			<loc>https://www.alltechnotricks.com/sitemap.html</loc>
+			<lastmod>2019-04-20</lastmod>
 			<priority>1.00</priority>
 		</url>
 	</urlset>
