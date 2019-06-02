@@ -34,12 +34,44 @@
 		.comments-container {
 			border: 1px dashed salmon;
 			width: 90%;
-			height: 90%;
+			height: auto;
 			margin: auto;
 			border-radius: 5px;
 			padding: 40px;
+			text-align: center;
+		}
+
+		#disqus_thread a {
+			border: 1px solid grey;
+			text-decoration: none;
+			margin: auto;
+			padding: 15px;
+			font-size: 21px;
+			color: black;
+			border-radius: 9px;
 		}
 	</style>
+	<script type="text/javascript">
+		// Replace labnol with your disqus shortname
+		var disqus_shortname = "Alltechnotricks";
+		// Put the permalink of your web page / blog post
+		var disqus_url = "https://www.alltechnotricks.com/Blog/sample.html";
+		// Put the permalink of your web page / blog post
+		var disqus_identifier = "https://www.alltechnotricks.com/Blog/sample.html";
+		var disqus_loaded = false;
+		// This is the function that will load Disqus comments on demand
+		function disqus() {
+			if (!disqus_loaded) {
+				// This is to ensure that Disqus widget is loaded only once
+				disqus_loaded = true;
+				var e = document.createElement("script");
+				e.type = "text/javascript";
+				e.async = true;
+				e.src = "//" + disqus_shortname + ".disqus.com/embed.js";
+				(document.getElementsByTagName("head")[0] || document.getElementsByTagName("body")[0]).appendChild(e);
+			}
+		}
+	</script>
 </head>
 
 <body>
@@ -47,16 +79,7 @@
 		<div class="small-container">
 			<h2>Disqus comments in use.</h2>
 			<div class="comments-container">
-				<div id="disqus_thread"></div>
-				<script>
-					(function () { // DON'T EDIT BELOW THIS LINE
-						var d = document
-							, s = d.createElement('script');
-						s.src = 'https://ask-karunalar-patel.disqus.com/embed.js';
-						s.setAttribute('data-timestamp', +new Date());
-						(d.head || d.body).appendChild(s);
-					})();
-				</script>
+				<div id="disqus_thread"> <a href="#" onclick="disqus();return false;">Show Comments</a> </div>
 			</div>
 		</div>
 	</div>
