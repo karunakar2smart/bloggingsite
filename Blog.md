@@ -2,13 +2,14 @@
 layout: homepage
 name: Blog page
 permalink: Blog
+datemodified: "2019-07-21"
 
 ---
 
 {% for post in site.posts %}
 <div class="article-container">
 	<div class="article-image">
-		<a href="{{ post.url | relative_url }}"> <img src="#" data-src="{{post.image}}" class="lazy" alt="free-online-typing-jobs" title="Free-online-typing-jobs"> </a>
+		<a href="{{ post.url | relative_url }}"> <img src="#" data-src="{{post.image}}" class="lazy" alt="{{post.title}}" title="{{post.title}}"> </a>
 	</div>
 	<article>
 		<h1><strong>{{post.title}}</strong></h1>
