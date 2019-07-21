@@ -6,7 +6,7 @@ layout: post
 image: upload/amazon-mechanical-turk-mturk.png
 description: "Amazon Mechanical Turk(MTurk) offers various types of online jobs to make money online by accepting HITs from requesters and earn rewards by getting the job done as a worker within its time limit. No registration and investment required to signup at MTurk online jobs as it is 100% legitimate job considered by reviews."
 datemodified: "2019-06-25"
-datepublished: "2019-07-21"
+last_modified_at: "2019-07-21"
 margin-top: -250px
 
 ---

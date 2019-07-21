@@ -2,10 +2,10 @@
 title: Add HTTPS to Github pages with a custom domain for Free.
 permalink: Blog/add-HTTPS-Github-Pages-custom-domain.html
 layout: post
-image: upload/https-image-with-lock.jpg
+image: upload/add-https-image-with-lock.jpg
 description: "We learn about adding HTTPS to Github Pages with a Custom Domain. Yes, I learned all the tricks about Adding HTTPS to Github pages, what is https, the purpose of HTTPS, and also about Github Pages."
 datepublished: "2018-12-09"
-datemodified: "2019-07-21"
+last_modified_at: "2019-07-21"
 margin-top: -190px
 
 ---
@@ -22,7 +22,7 @@ margin-top: -190px
 </div>
 
 <div class="header-image">
-<img src="#" data-src="../upload/https-image-with-lock.jpg" class="lazy" alt="add-HTTPS-to-github-page-custom-domain" title="add-HTTPS-to-github-page-custom-domain">
+<img src="#" data-src="../upload/add-https-image-with-lock.jpg" class="lazy" alt="add-HTTPS-to-github-page-custom-domain" title="add-HTTPS-to-github-page-custom-domain">
 </div>	
 
 In here, we learn all the steps required to **add HTTPS with a custom URL using Github pages**. Yes, we can add "**HTTPS**" or **SSL certificate** to our own website using **Github pages** without paying any money. Most importantly, my website([https://www.alltechnotricks.com](https://www.alltechnotricks.com/){: target="_blank" rel="noopener"}) has also added **HTTPS** by using these techniques.
