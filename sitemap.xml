@@ -1,0 +1,17 @@
+---
+permalink: /sitemap.xml
+layout: null
+
+---
+
+<urlset>
+{% for post in site.posts %}
+<url>
+<loc>{{post.url | absolute_url }}</loc>
+<lastmod>{{post.last_modified_at}}</lastmod>
+</url>
+{% endfor %}
+<url>
+<loc>https://www.alltechnotricks.com/ads.txt</loc>
+</url>
+</urlset>
