@@ -45,7 +45,7 @@ Ok, let's get started.
 
 If you are interested in [kolotibablo online typing job](https://www.alltechnotricks.com/kolotibablo.html){: target="_blank" rel="noopener"}, click on this [link](http://getcaptchajob.com/ajo7bx0cur){: target="_blank" rel="noopener"} to get a new registration for free of cost. Yes, it is 100% free of cost.
 
-All you need to have an [email account](https://en.wikipedia.org/wiki/Email){: target="_blank" rel="noopener"} and a Payment processing account just like [PayPal](https://en.wikipedia.org/wiki/PayPal){: target="_blank" rel="noopener"}, [Payza](https://www.payza.eu/india){: target="_blank" rel="noopener"}, [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin){: target="_blank" rel="noopener"}, [WebMoney](https://en.wikipedia.org/wiki/WebMoney){: target="_blank" rel="noopener"} etc...!
+All you need to have an [email account](https://en.wikipedia.org/wiki/Email){: target="_blank" rel="noopener"} and a Payment processing account just like [PayPal](https://en.wikipedia.org/wiki/PayPal){: target="_blank" rel="noopener"}, [Payza](https://www.payza.eu/india){: target="_blank" rel="noopener"}, [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin){: target="_blank" rel="noopener"}, [WebMoney](https://en.wikipedia.org/wiki/WebMoney){: target="_blank" rel="noopener"}
 
 Here are the few steps to get a new registration at [kolotibablo](https://www.alltechnotricks.com/kolotibablo.html){: target="_blank" rel="noopener"}.
 
