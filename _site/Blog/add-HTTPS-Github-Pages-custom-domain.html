@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<title>Add HTTPS to Github pages with a custom domain for Free.</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=Yes" />
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="theme-color" content="#fff" />
+	<meta name="description" content="We learn about adding HTTPS to Github Pages with a Custom Domain. Yes, I learned all the tricks about Adding HTTPS to Github pages, what is https, the purpose of HTTPS, and also about Github Pages." />
+	<meta name="robots" content="index, follow" />
+	<meta name="google-site-verification" content="bUkCZHa4Gm1pjRcCm-LOGKkXNUfmkSIpf5zPeYWHlcA" />
+	<meta property="og:locale" content="en_US" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:description" content="We learn about adding HTTPS to Github Pages with a Custom Domain. Yes, I learned all the tricks about Adding HTTPS to Github pages, what is https, the purpose of HTTPS, and also about Github Pages." />
+	<meta name="twitter:title" content="Add HTTPS to Github pages with a custom domain for Free." />
+	<meta name="twitter:site" content="https://twitter.com/Karna_Patel_" />
+	<meta name="twitter:creator" content="https://twitter.com/Karna_Patel_" />
+	<meta property="twitter:account_id" content="https://twitter.com/Karna_Patel_" />
+	<meta property="fb:admins" content="karunakar2smart@gmail.com" />
+	<meta property="fb:pages" content="https://www.facebook.com/KarunakarPatel.001" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="Add HTTPS to Github pages with a custom domain for Free." />
+	<meta property="og:description" content="We learn about adding HTTPS to Github Pages with a Custom Domain. Yes, I learned all the tricks about Adding HTTPS to Github pages, what is https, the purpose of HTTPS, and also about Github Pages." />
+	<meta property="og:url" content="http://localhost:4000/Blog/add-HTTPS-Github-Pages-custom-domain.html" />
+	<meta property="og:site_name" content="Alltechnotricks" />
+	<meta property="og:image" content="http://localhost:4000/upload/https-image-with-lock.jpg" />
+	<link href="/fevicon.ico" rel="icon" type="image/gif" />
+
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-115951250-1"></script>
+	<script>
+		function gtag() {
+			dataLayer.push(arguments)
+		}
+		window.dataLayer = window.dataLayer || [], gtag("js", new Date), gtag("config", "UA-115951250-1")
+	</script>
+	<!--SEARCH BOX IS SEARCH RESULTS. -->
+	<script type="application/ld+json"> { "@context": "https://schema.org/", "@type": "WebSite", "name": "Alltechnotricks - The Best place to master making money online.", "url": "https://www.alltechnotricks.com", "potentialAction": { "@type": "SearchAction", "target": "https://www.alltechnotricks.com/{search_term_string}", "query-input": "required name=search_term_string" } } </script>
+	<!--Breadcrumb-->
+	<script type="application/ld+json"> { "@context": "https://schema.org/", "@type": "BreadcrumbList", "itemListElement": [{ "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.alltechnotricks.com/index.html" },{ "@type": "ListItem", "position": 2, "name": "Add HTTPS to Github pages with a custom domain for Free.", "item": "http://localhost:4000/Blog/add-HTTPS-Github-Pages-custom-domain.html" }] } </script>
+	<!-- Website SCHEMA.ORG -->
+	<script type="application/ld+json"> { "@context": "https://schema.org", "@type": "BlogPosting", "mainEntityOfPage": { "@type": "WebPage", "@id": "http://localhost:4000/Blog/add-HTTPS-Github-Pages-custom-domain.html" }, "headline": "Add HTTPS to Github pages with a custom domain for Free.", "description": "We learn about adding HTTPS to Github Pages with a Custom Domain. Yes, I learned all the tricks about Adding HTTPS to Github pages, what is https, the purpose of HTTPS, and also about Github Pages.", "image": { "@type": "ImageObject", "url": "http://localhost:4000/upload/https-image-with-lock.jpg", "width": 1200, "height": 628 }, "author": { "@type": "Person", "name": "Karunakar Patel" }, "publisher": { "@type": "Organization", "name": "Karunakar Patel", "logo": { "@type": "ImageObject", "url": "https://www.alltechnotricks.com/fevicon.ico", "width": 16, "height": 16 } }, "datePublished": "2018-12-09", "dateModified": "2019-07-21" } </script>
+
+	<style>	body{padding:0;margin:3px;background:#fff}*{box-sizing:border-box}html{font-family:"Lato","Helvetica Neue",Helvetica,Arial,sans-serif;font-weight:400}h2,h3,h4,h5,h6{line-height:1.2em;font-weight:bold;font-family:"Roboto Slab","Museo","Helvetica Neue",Helvetica,Arial,sans-serif;font-size:23px;margin-top:2em;margin-bottom:2em;color:#3c4243}h2{font-size:22px}h3{font-size:21px;font-weight:bold}a{color:#148cbc;font-weight:normal;text-decoration:none}a:hover{text-decoration:underline}.article_container{width:100%;height:auto;padding:10px;margin-top:20px;position:relative}.navigation{width:88%;height:auto;margin:auto;border-radius:8px;margin-bottom:10px}.breadcrumb ol,.navigation ol{padding:10px 16px;list-style:none;text-align:center;background-color:#eee;margin-bottom:30px}.breadcrumb ol li,.navigation ol li{display:inline-block;font-size:18px;padding:0 5px 0 0}.breadcrumb ol li+li:before,.navigation ol li+li:before{padding:8px;color:black;content:"/\00a0"}.breadcrumb ol li a,.navigation ol li a{color:#0275d8;text-decoration:none}.breadcrumb ol li a:hover,.navigation ol li a:hover{color:#01447e;text-decoration:underline}.article{width:83%;height:auto;margin:auto;padding:15px 55px}.article h1{font-size:41px;font-weight:700;text-align:center;margin:5px auto 27px auto;line-height:1.3em;padding:0;font-family:'Rubik','Lato',"Lucida Grande","Lucida Sans Unicode",Tahoma,Sans-Serif}.article p{font-family:'Lato','Helvetica Neue',Helvetica,Arial,'sans-serif';font-weight:normal;color:rgba(0,0,0,.84);font-size:20px;font-weight:400;line-height:1.9;letter-spacing:-0.003em}.header-image img{width:60%;height:auto;background-color:none;margin:auto;box-shadow:0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);outline:10px solid lightgrey;outline-offset:5px;display:flex;flex-grow:1;margin-top:20px}.article-image img{width:93%;height:auto;margin:auto;margin-top:20px;margin-bottom:20px;border-radius:5px;display:flex;flex-grow:1;background-color:rgba(0,0,0,0.19);box-shadow:0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)}.imp_container{border:10px solid #f5f5f5;margin-top:10px;padding:15px;text-align:center;word-break:break-all}.important_links{text-align:left}.important_links ol{color:#06f;width:80%;margin:auto}.important_links li{padding:5px;color:black;list-style:disc}.important_links a{text-decoration:none;padding:5px}.important_links h2:hover{text-decoration:underline}.important_links h2{font-size:15px;display:inline-block;color:#317ec9;padding:0;margin:0}.article_inside_links ol{font-size:20px;color:rgba(0,0,0,.84)}.article_inside_links li{line-height:1.9;list-style:square}.article_inside_notes{display:inline-flex;border:1px solid lightgrey;border-radius:5px;width:100%;height:auto;padding:15px}.article_inside_notes:hover{box-shadow:0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);transition:all 900ms ease-in-out}.article_inside_notes svg{width:60px;height:60px;margin:auto;padding:0;flex-grow:1;margin-right:20px}.article_inside_notes p{flex-grow:3;margin-left:30px}.footer{height:auto;margin-top:10px;width:100%;flex-shrink:100px;display:flex;flex-direction:row;flex-grow:1;flex-basis:100px;flex-wrap:wrap;padding:5px}.column-1,.column-2,.column-3{flex-grow:1;border:1px solid white;padding:10px;position:relative;flex-wrap:wrap;flex-basis:300px}.subs_form{padding:10px;border:1px solid #317ec9;margin:auto;background-color:#317ec9;border-radius:5px;box-shadow:0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)}.subs_form p{color:white;font-size:17px;text-align:center;font-stretch:ultra-expanded;font-weight:bolder}.subs_form input{width:100%;height:45px;border:0;border-radius:5px;margin-bottom:13px}.subs_form input[type=text]{text-align:center;font-weight:bold;font-size:15px}.subs_form input[type=submit]{background-color:salmon;color:white;font-variant:small-caps;font-size:20px}.subs_form input[type=submit]:hover{background-color:blue;transition:all 900ms linear;cursor:pointer}.column-links{border:1px solid #317ec9;padding:0;margin:0;width:100%;height:auto;background:#317ec9;border-radius:5px;box-shadow:0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)}.column-links p{padding:0;margin:0;text-align:center;font-size:19px;font-style:italic;color:white;font-stretch:ultra-expanded;font-weight:bolder}.column-links ol{list-style:none;display:inline-block;color:white;padding:3px 0 0 35px;margin:0}.column-links ol li{padding:5px;margin-bottom:8px}.column-links li::before{content:'☑';display:inline-block}.column-links li a{text-decoration:none;padding:0 0 0 10px;font-size:17px;color:white;margin:0}.column_inside{border:1px solid lightgrey;border-radius:2px;height:280px;width:336px;position:absolute;top:0;right:0;bottom:0;left:0;margin:auto;outline:15px solid #317ec9;background:white;outline-offset:3px;box-shadow:0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)}.copyright{width:100%;height:auto;margin-top:10px;border:1px solid lightgrey;outline:10px solid rgba(0,0,0,0.19);outline-offset:5px;text-align:center;border-radius:5px;font-size:18px;background:#06f;color:white}.section{border:10px solid #f5f5f5;margin-top:20px;width:100%;height:auto;display:flex;flex-basis:100px;flex-wrap:wrap;padding:10px;margin-bottom:20px}.section_column_1{flex-grow:1;padding:15px}.section_column_2{flex-grow:1;padding:10px;text-align:center}.section_column_2_inside{height:280px;width:336px;border:1px solid lightgrey;border-radius:5px;box-shadow:0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);margin:auto;outline:10px solid salmon;outline-offset:5px;margin-top:40px}.sharing-container{padding:0;border:1px solid lightgrey;border-radius:5px;width:400px;height:auto;margin:auto;box-shadow:0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)}.sharing-container img{border-bottom:7px solid #ffdb15;outline:0;background-color:rgba(0,0,0,0.19);width:100%;height:auto}.sharing-container h5{display:block;font-size:21px;text-align:center;font-variant:small-caps;color:#111;line-height:1.5em;margin:0}.sharing-container p{font-size:20px;display:block;line-height:1.5em;padding:10px 1px 4px 5px;margin:0}.sharing-container ul{list-style:none;padding:10px;text-align:center}.sharing-container li{border:1px solid #e20087;border-radius:5px 12px 7px 10px;display:inline-block;padding:5px;margin:0 5px 0 5px}.sharing-container a{font-size:19px;text-decoration:none;margin:0;padding:10px;color:#111;font-weight:bolder}.sharing-container a:hover{text-decoration:underline}.anim_container{position:absolute;top:30%;right:30px;left:auto;bottom:auto;position:fixed;z-index:99}#show{border:1px solid white;padding:15px;cursor:pointer;border-radius:50%;background:0;float:right;z-index:1;box-shadow:0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);margin-top:210px;background-image:linear-gradient(to right,#6a11cb 0,#2575fc 100%)}#show svg{fill:#fff}#links_container{border-radius:5px;box-shadow:0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);width:420px;height:auto;background:#fff;margin:20px;margin-top:-20px;margin-right:70px;z-index:1;padding:20px;display:none}#links_container ol{padding:0 0 0 30px;margin:0;text-align:left}#links_container li{padding:0 5px;margin:0;list-style:disc;list-style-position:outside}#links_container a{text-decoration:none;line-height:24px;font-size:15px}#links_container a:hover{text-decoration:underline}#links_container ol:nth-child(2){list-style:none;margin:auto;padding:0;text-align:center}#links_container ol:nth-child(2) li{display:inline-block;border:1px solid white;background-image:linear-gradient(to right,#6a11cb 0,#2575fc 100%);border-radius:5px;padding:3px;margin:20px 10px 10px 0;animation:vertical 6s linear infinite;-webkit-animation:vertical 6s linear infinite}#links_container ol:nth-child(2) li:nth-child(2){-webkit-animation-delay:2s;animation-delay:2s}#links_container ol:nth-child(2) li:nth-child(3){animation:vertical 3s linear infinite;-webkit-animation:vertical 3s linear infinite}#links_container ol:nth-child(2) li a{color:white;font-size:20px;font-weight:bolder;font-variant:small-caps;padding:10px}#links_container ol:nth-child(2) li a:hover{text-decoration:none}.karna-sharing{width:123px;height:50px;z-index:9999999;position:absolute;top:auto;right:auto;left:1%;bottom:5%;position:fixed;background:white;border-radius:3px;padding:3px}.learn-more ul{padding:15px;list-style:none;font-size:19px;color:#06f;border-left:5px solid #2196f3}.learn-more ul svg{width:40px;height:40px;animation:float 650ms ease-in-out infinite;-webkit-animation:float 650ms ease-in-out infinite}.learn-more li{margin:15px;padding:5px;color:#3c4243;list-style:disc}.learn-more li a{line-height:1.5em;font-weight:500;font-family:"Roboto Slab","Museo","Helvetica Neue",Helvetica,Arial,sans-serif;font-size:23px}.comments-container{outline:8px solid #f3f3f3;outline-offset:5px;width:100%;height:auto;margin:auto;border-radius:5px;padding:30px;text-align:center}#disqus_thread a{text-decoration:none;margin:auto;padding:15px;font-size:19px;border-radius:9px;background-image:linear-gradient(to right,#6a11cb 0,#2575fc 100%);color:#317ec9}#disqus_thread a:nth-child(1){color:white}#disqus_thread a:nth-child(1):hover{transition:all 300ms ease-in-out;color:white;background-image:linear-gradient(135deg,#667eea 0,#764ba2 100%)}#disqus_thread a:hover{color:#317ec9}hr{border:1px dotted lightgrey}@media only screen and (max-width:760px){*{font-family:'Lato',sans-serif}h2{font-size:24px;line-height:1.5em;font-weight:700;margin-top:1.5em;margin-bottom:1.5em}h3{font-size:20px;line-height:1.2em;font-weight:700;margin-top:1.5em;margin-bottom:1.5em}.article{width:100%;outline:0;outline-offset:0;padding:10px;border-radius:none;border-top:5px solid #06f;border-bottom:5px solid #06f;margin-top:20px}.article-image img,.header-image img{outline:5px solid #e8e8e8;width:98%;height:auto}.navigation{width:98%;height:auto;border-radius:10px}.breadcrumb ol li{display:inline;font-size:15px}.article h1{font-size:23px;font-weight:700;text-align:center;line-height:1.735em;font-family:inherit;margin-bottom:10px}.article p{font-size:17px;line-height:1.9em;overflow-wrap:break-word}.article_container{padding:0}.important_links{width:100%;font-size:14px;word-break:keep-all;word-wrap:normal}.imp_container{padding:5px}.important_links ol{margin:0;width:100%;font-size:17px;padding:0}.important_links li a{font-size:16px;line-height:20px}.article_inside_links li{font-size:17px;list-style-position:inside;line-height:1.9}.article_inside_notes{display:block;text-align:center}.article_inside_notes svg{margin:0;width:40px;height:40px;margin-bottom:10px}.article_inside_notes p{margin:0}.section{padding:0;margin:0;margin-top:15px;border:0;border-bottom:5px solid #06f;border-radius:5px}.section_column_1,.section_column_2{margin-bottom:15px}.sharing-container ul{padding:0}.sharing-container li{margin:0;padding:5px}.sharing-container a{font-size:16px}.footer{padding:0;margin-top:15px;margin-bottom:15px;display:block;width:100%;height:auto}.column-1,.column-2,.column-3{display:block}.column-2{position:none;width:100%;height:350px}.copyright p{font-size:15px}.anim_container{top:auto;bottom:7%;right:15px;left:auto}#links_container{margin-top:-190px;margin-right:20px;width:320px;height:auto;padding:15px;box-shadow:0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)}#links_container ol:nth-child(2){list-style:none;margin:5px 0}#links_container ol:nth-child(2) li{margin:auto;margin-right:5px;margin-top:9px;font-size:19px}#links_container ol:nth-child(2) li a{font-size:17px}.share_buttons{top:10%}#show{z-index:999;margin-right:30px;margin-top:0;margin-bottom:10px;background-image:linear-gradient(to right,#6a11cb 0,#2575fc 100%)}#show svg{width:25px!important;height:25px!important;fill:white}.article_inside_links ol{padding:10px}.article img{width:100%;height:auto}.learn-more ul{padding:10px}.learn-more li a{font-size:18px}.karna-sharing{bottom:3px;position:absolute;top:auto;left:3px;position:fixed}.sharing-container{width:100%;height:auto}.sharing-container ol{padding:0;text-align:center}.comments-container{border:1px solid lightgrey}#disqus_thread a{font-size:16px}}@media only screen and (max-width:900px){.article{width:100%;height:auto}.section_column_1{margin-bottom:10px}}.karna_g_ads,.karna_g_ads_desktop{width:336px;height:280px}.karna_g_ads{outline:8px solid rgba(211,211,211,0.22);outline-offset:5px;border-radius:5px;border:1px solid rgba(211,211,211,0.43)}@media(min-width:500px){.karna_g_ads{width:728px;height:90px}}@media(min-width:800px){.karna_g_ads{width:728px;height:90px}} </style>
+</head>
+
+<body id="top">
+	<div class="navigation">
+	<ol>
+		<li><a href="https://www.alltechnotricks.com/" target="_top" rel="noopener">Home</a></li>
+		<li><a href="https://www.alltechnotricks.com/Blog.html" target="_top" rel="noopener">Blog</a></li>
+		<li><a href="https://www.alltechnotricks.com/contact.html" target="_top" rel="noopener">Contact Me</a></li>
+	</ol>
+</div>
+	<div class="article_container">
+		<div class="article">
+			<h1>Add HTTPS to Github pages with a custom domain for Free.</h1>
+			<div class="breadcrumb">
+				<ol>
+					<li><a href="https://www.alltechnotricks.com/" target="_blank" rel="noopener">Home</a></li>
+					<li>Add HTTPS to Github pages with a custom domain for Free.</li>
+				</ol>
+			</div>
+			<div class="imp_container">
+<div class="important_links">
+					<ol>
+						<li style="font-weight: bold; list-style: none;">Adding "HTTPS" To Github Pages With a Custom Domain.</li>
+						<li style="list-style-position: inside;"><a href="#what-is-HTTPS"><h2><strong>What is HTTPS?</strong></h2></a></li>
+						<li style="list-style-position: inside;"><a href="#purpose-of-HTTPS"><h2><strong>What is Purpose of HTTPS?</strong></h2></a></li>
+						<li style="list-style-position: inside;"><a href="#add-HTTPS-Github-Pages"><h2><strong>Add HTTPS to Github Pages.</strong></h2></a></li>
+					</ol>
+				</div>
+</div>
+
+<div class="header-image">
+<img src="#" data-src="../upload/https-image-with-lock.jpg" class="lazy" alt="add-HTTPS-to-github-page-custom-domain" title="add-HTTPS-to-github-page-custom-domain" />
+</div>
+
+<p>In here, we learn all the steps required to <strong>add HTTPS with a custom URL using Github pages</strong>. Yes, we can add “<strong>HTTPS</strong>” or <strong>SSL certificate</strong> to our own website using <strong>Github pages</strong> without paying any money. Most importantly, my website(<a href="https://www.alltechnotricks.com/" target="_blank" rel="noopener">https://www.alltechnotricks.com</a>) has also added <strong>HTTPS</strong> by using these techniques.</p>
+
+<p>All we need to have a <strong>custom domain</strong> name hosted using Github Pages. I do blogging through this technique without paying any fee. As always, there is no charge for adding <strong>SSL certificate</strong> to <strong>Github pages</strong>.</p>
+
+<div style="margin: auto; text-align: center; padding: 25px 0px;">
+	<script async="" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> <ins class="adsbygoogle karna_g_ads" style="display:inline-block" data-ad-client="ca-pub-2687924945894784" data-ad-slot="2901800287"> </ins>
+	<script>
+		(adsbygoogle = window.adsbygoogle || []).push({});
+	</script>
+</div>
+
+<h2 id="what-is-HTTPS"><strong>1. What is HTTPS?</strong></h2>
+
+<p><strong>Hypertext Transfer Protocol Secure (HTTPS)</strong> is an extension of the <strong>Hypertext Transfer Protocol (HTTP)</strong> for secure communication over a computer network and is widely used on the Internet.</p>
+
+<p>In <strong>HTTPS</strong>, the communication protocol is encrypted using Transport Layer Security (TLS), or formerly, its predecessor, <strong>Secure Sockets Layer (SSL)</strong>. The protocol is therefore also often referred to as HTTP over TLS, or <strong>HTTP</strong> over <strong>SSL</strong>.</p>
+
+<h2 id="purpose-of-HTTPS"><strong>2. What is the Purpose of HTTPS?</strong></h2>
+
+<p><strong>HTTPS</strong> encrypts traffic between GitHub’s servers and your browser giving you confidence that the page you asked for is the page you’re reading, from the site you think it is, and that others can’t snoop on or modify its contents along the way.</p>
+
+<p>The principal motivation for <strong>HTTPS</strong> is authentication of the accessed website and protection of the privacy and integrity of the exchanged data while in transit.</p>
+
+<p>It protects against man-in-the-middle attacks. The bidirectional encryption of communications between a client and server protects against eavesdropping and tampering of the communication.</p>
+
+<p>In practice, this provides a reasonable assurance that one is communicating without interference by attackers with the website that one intended to communicate with, as opposed to an impostor.</p>
+
+<div style="margin: auto; text-align: center; padding: 25px 0px;">
+	<script async="" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	<!-- Responsive [ Text + Display ] = Default == 3 --><ins class="adsbygoogle karna_g_ads" style="display:inline-block" data-ad-client="ca-pub-2687924945894784" data-ad-slot="1394577880"></ins>
+	<script>
+		(adsbygoogle = window.adsbygoogle || []).push({});
+	</script>
+</div>
+
+<h2 id="add-HTTPS-Github-Pages"><strong>3. Adding "HTTPS" to Github Pages with Custom Domain.</strong></h2>
+
+<p>Adding <strong>HTTPS</strong> to Github pages with a <strong>custom domain</strong> is as easy as adding a CNAME file to Github. Importantly, we are going to add an SSL certificate to our custom domain using Github pages.</p>
+
+<p>All we need to follow these steps respectively. Ok, let us get started.</p>
+
+<p>After creating and uploading <strong>CNAME file</strong> with a custom domain name in it as shown in the previous post, login into Github repository page then, scroll down to the repository settings page, then you will find a section called “<strong>Github Pages</strong>” as shown in the image below.</p>
+
+<div class="article-image">
+<img src="#" data-src="../uploads/setting-enforce-https-github-pages.png" class="lazy" alt="setting-enforce-https-github-pages" title="setting-enforce-https-github-pages" />
+</div>
+
+<p>Make sure that you have checked “<strong>Enforce HTTPS</strong>” button and hit the save button. That’s it, after a while our custom domain website runs with <strong>HTTPS</strong> request, ensuring users who request your site over HTTP are upgraded to HTTPS.</p>
+
+<div style="margin: auto; text-align: center;padding: 25px 0px;">
+	<script async="" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	<!-- Responsive [ Text + Display ] = Default == 5 --><ins class="adsbygoogle karna_g_ads" style="display:inline-block" data-ad-client="ca-pub-2687924945894784" data-ad-slot="5572182966"></ins>
+	<script>
+		(adsbygoogle = window.adsbygoogle || []).push({});
+	</script>
+</div>
+
+<h3><strong>Github Public Announcement.</strong></h3>
+
+<p>Github has partnered with the certificate authority Let’s Encrypt on this project. As supporters of <a href="https://letsencrypt.org/" target="_blank" rel="noopener">Let’s Encrypt’s mission</a> to make the web more secure for everyone, we’ve officially become Silver-level sponsors of the initiative.</p>
+
+<p>Thank you for reading this tutorial.</p>
+
+<div style="margin: auto; text-align: center; padding: 25px 0px;">
+	<script async="" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	<!-- Responsive [ Text + Display ] = Default == 3 --><ins class="adsbygoogle karna_g_ads" style="display:inline-block" data-ad-client="ca-pub-2687924945894784" data-ad-slot="1394577880"></ins>
+	<script>
+		(adsbygoogle = window.adsbygoogle || []).push({});
+	</script>
+</div>
+
+<hr />
+<div class="anim_container">
+<button id="show">
+			<svg style="width: 35px; height: 35px; animation: vertical 1s linear infinite;" fill="#06f" viewbox="0 0 320 512">
+				<path d="M313.553 119.669L209.587 7.666c-9.485-10.214-25.676-10.229-35.174 0L70.438 119.669C56.232 134.969 67.062 160 88.025 160H152v272H68.024a11.996 11.996 0 0 0-8.485 3.515l-56 56C-4.021 499.074 1.333 512 12.024 512H208c13.255 0 24-10.745 24-24V160h63.966c20.878 0 31.851-24.969 17.587-40.331z" /> </svg>
+		</button>
+<div id="links_container">
+			<ol>
+				<li><a href="#what-is-HTTPS" class="test"><strong>What is HTTPS?</strong></a></li>
+				<li><a href="#purpose-of-HTTPS" class="test"><strong>What is Purpose of HTTPS?</strong></a></li>
+				<li><a href="#add-HTTPS-Github-Pages" class="test"><strong>Add HTTPS to Github Pages.</strong></a></li>
+				<li><a href="#disqus_thread" class="test"><strong>Throw a comment.</strong></a></li>
+			</ol>
+			<ol>
+				<li><a href="https://www.alltechnotricks.com" target="_top" class="test">Home</a></li>
+				<li><a href="https://www.alltechnotricks.com/Blog.html" target="_top" class="test">Blog</a></li>
+				<li><a href="#top" class="test">Back To Top</a></li>
+			</ol>
+		</div>
+</div>
+
+
+			<div class="learn-more">
+				<ul>
+					<svg viewbox="0 0 384 512">
+						<path d="M197.8 427.8c12.9 11.7 33.7 33.3 33.2 50.7 0 .8-.1 1.6-.1 2.5-1.8 19.8-18.8 31.1-39.1 31-25-.1-39.9-16.8-38.7-35.8 1-16.2 20.5-36.7 32.4-47.6 2.3-2.1 2.7-2.7 5.6-3.6 3.4 0 3.9.3 6.7 2.8zM331.9 67.3c-16.3-25.7-38.6-40.6-63.3-52.1C243.1 4.5 214-.2 192 0c-44.1 0-71.2 13.2-81.1 17.3C57.3 45.2 26.5 87.2 28 158.6c7.1 82.2 97 176 155.8 233.8 1.7 1.6 4.5 4.5 6.2 5.1l3.3.1c2.1-.7 1.8-.5 3.5-2.1 52.3-49.2 140.7-145.8 155.9-215.7 7-39.2 3.1-72.5-20.8-112.5zM186.8 351.9c-28-51.1-65.2-130.7-69.3-189-3.4-47.5 11.4-131.2 69.3-136.7v325.7zM328.7 180c-16.4 56.8-77.3 128-118.9 170.3C237.6 298.4 275 217 277 158.4c1.6-45.9-9.8-105.8-48-131.4 88.8 18.3 115.5 98.1 99.7 153z" /> </svg> <span style="padding: 5px; margin-top: -8px; font-size: 21px; color: black;">Recommended Articles - </span>
+					<br>
+					<br>
+
+					<li><a href="http://localhost:4000/earn-money-online.html">Top Best Ways To Earn Money Online Without Investment and Registration Fee.</a></li>
+
+					<li><a href="http://localhost:4000/Blog/amazon_mechanical_turk_mturk.html">Amazon Mechanical Turk(MTurk) - Ultimate 2019 Guide To Make Money Online From Home.</a></li>
+
+					<li><a href="http://localhost:4000/Blog/github_beginners_guide.html">Github for beginners- right from the command line to hosting a website(2019).</a></li>
+
+					<li><a href="http://localhost:4000/Blog/inspirational_movies_based_on_true_stories.html">Top 10+ Best Inspirational & Motivational Movies Based On Real & True Stories - 2019.</a></li>
+
+					<li><a href="http://localhost:4000/Blog/complete_guide_to_audit_mobile_seo.html">Audit Your Site For Mobile SEO(2019) - This Complete guide will shock you.</a></li>
+
+					<li><a href="http://localhost:4000/Blog/build_wikipedia_backlinks.html">Build Wikipedia Backlinks - This Tested Method Will Blow Your Mind Away.</a></li>
+
+					<li><a href="http://localhost:4000/Blog/font_awesome_animation_css.html">Animate All Font Awesome Icons With Pure CSS to Get Visitors Attention.</a></li>
+
+					<li><a href="http://localhost:4000/Blog/add-HTTPS-Github-Pages-custom-domain.html">Add HTTPS to Github pages with a custom domain for Free.</a></li>
+
+					<li><a href="http://localhost:4000/Blog/2captcha_online_typing_jobs.html">2Captcha Online Job Without Investment and Registration Fee.</a></li>
+
+					<li><a href="http://localhost:4000/Blog/captchatypers_online_jobs.html">Captchatypers Online Jobs Without Investment and Registration Fee.</a></li>
+
+					<li><a href="http://localhost:4000/Blog/github-pages-custom-domain.html">Host a website using Github pages with a custom URL and Godaddy Domain.</a></li>
+
+					<li><a href="http://localhost:4000/kolotibablo.html">Kolotibablo Online Money Earning Service Without Investment and Registration Fee.</a></li>
+
+					<li><a href="http://localhost:4000/qlinkgroup.html">Qlinkgroup Online Typing Job With Zero Registration Fee and Zero Investment.</a></li>
+
+					<li><a href="http://localhost:4000/megatypers.html">Megatypers Online Job Without Investment and Registration Fee.</a></li>
+
+					<li><a href="http://localhost:4000/free-online-typing-jobs.html">Free Online Typing Jobs Without Investment and Registration Fees.</a></li>
+
+					<li><a href="http://localhost:4000/Blog/oscar_winners_full_list_2019.html">Oscars Awards 2019 - Full List Of 91st Academy Award Winners In Detail.</a></li>
+
+				</ul>
+			</div>
+			<br>
+			<div class="comments-container">
+				<div id="disqus_thread"> <a href="#" onclick="disqus();return false;">Load Comments</a> </div>
+			</div>
+			<br> </div>
+		<div class="sharethis-inline-share-buttons karna-sharing"></div>
+	</div>
+	<div class="section">
+		<div class="section_column_2">
+			<div class="section_column_2_inside">
+				<div style="margin: auto; text-align: center; display: block; width: inherit; height: inherit;">
+					<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+					<!-- Responsive ads [ text + display ] = Default == 2 --><ins class="adsbygoogle karna_g_ads_desktop" style="display:inline-block" data-ad-client="ca-pub-2687924945894784" data-ad-slot="1586149574"></ins>
+					<script>
+						(adsbygoogle = window.adsbygoogle || []).push({});
+					</script>
+				</div>
+			</div>
+		</div>
+		<div class="section_column_1">
+			<div class="sharing-container"> <img src="#" data-src="/upload/https-image-with-lock.jpg" class="lazy" alt="Add HTTPS to Github pages with a custom domain for Free." title="Add HTTPS to Github pages with a custom domain for Free."> <span style="display: block; margin: auto; text-align: center;">
+					<svg style="width: 40px; height: 40px; animation: pulse2 1s ease-in-out infinite;" fill="red" viewbox="0 0 512 512"><path d="M320.2 243.8l-49.7 99.4c-6 12.1-23.4 11.7-28.9-.6l-56.9-126.3-30 71.7H60.6l182.5 186.5c7.1 7.3 18.6 7.3 25.7 0L451.4 288H342.3l-22.1-44.2zM473.7 73.9l-2.4-2.5c-51.5-52.6-135.8-52.6-187.4 0L256 100l-27.9-28.5c-51.5-52.7-135.9-52.7-187.4 0l-2.4 2.4C-10.4 123.7-12.5 203 31 256h102.4l35.9-86.2c5.4-12.9 23.6-13.2 29.4-.4l58.2 129.3 49-97.9c5.9-11.8 22.7-11.8 28.6 0l27.6 55.2H481c43.5-53 41.4-132.3-7.3-182.1z"/></svg>
+				</span>
+				<h5>Add HTTPS to Github pages with a custom domain for Free.</h5>
+				<p style="text-align: center;">Help me by sharing this card.</p>
+				<ol>
+					<li><a class="w-inline-block social-share-btn fb" href="https://www.facebook.com/sharer/sharer.php?u=&t=" title="Share on Facebook" target="_blank" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(document.URL) + '&t=' + encodeURIComponent(document.URL)); return false;">
+Facebook</a></li>
+					<li><a class="w-inline-block social-share-btn tw" href="https://twitter.com/intent/tweet?" target="_blank" title="Tweet" onclick="window.open('https://twitter.com/intent/tweet?text=%Best%ways%to%earn%money%online%by%free%online%typing%jobs%with%no%investment%and%no%registration%fee.%These%typing%jobs%are%100%%legit%&%receive%daily%payments%through%simple%online%data%entry%typing%jobs%by%just%working%from%home' + encodeURIComponent(document.title) + ':%20 ' + encodeURIComponent(document.URL)); return false;">Twitter</a></li>
+					<li><a class="w-inline-block social-share-btn lnk" href="http://www.linkedin.com/shareArticle?mini=true&url=&title=&summary=&source=" target="_blank" title="Share on LinkedIn" onclick="window.open('http://www.linkedin.com/shareArticle?mini=true&url=' + encodeURIComponent(document.URL) + '&title=' + encodeURIComponent(document.title)); return false;">Linkedin</a></li>
+				</ol>
+			</div>
+		</div>
+		<div class="section_column_2">
+			<div class="section_column_2_inside">
+				<div style="margin: auto; text-align: center; display: block; width: inherit; height: inherit;">
+					<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> <ins class="adsbygoogle karna_g_ads_desktop" style="display:inline-block" data-ad-client="ca-pub-2687924945894784" data-ad-slot="2901800287"> </ins>
+					<script>
+						(adsbygoogle = window.adsbygoogle || []).push({});
+					</script>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+		<div class="column-1">
+			<div style="outline: 10px solid salmon; padding: 5px; ">
+				<div class="subs_form">
+					<p>Like To Build Our Bond?</p>
+					<p>Subscribe to Our Blog To Be The First One To View Our Content.</p>
+					<div>
+						<script type="text/javascript">
+							var submitted = false;
+						</script>
+						<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {window.location='./thankyou.html';}"></iframe>
+						<form action="https://docs.google.com/forms/d/e/1FAIpQLSeviKIBv3aO2bh46_mGqyQ0PUT_o9SKxxwyAG4tTr2UOmPnNg/formResponse" method="post" target="hidden_iframe" onsubmit="submitted=true;">
+							<input type="text" placeholder="Your Lovable Name In Here." name="entry.2005620554">
+							<br>
+							<input type="text" placeholder="Your Email In Here." name="entry.1045781291">
+							<br>
+							<input type="submit" value="Subscribe"> </form>
+					</div>
+					<p style="font-style: italic;">I promise not to spam you.</p>
+				</div>
+			</div>
+		</div>
+		<div class="column-2">
+			<div class="column_inside">
+				<div style="margin: auto; text-align: center;">
+					<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+					<!-- Responsive [ Text + Display ] = Default == 4 --><ins class="adsbygoogle karna_g_ads_desktop" style="display:inline-block" data-ad-client="ca-pub-2687924945894784" data-ad-slot="6087844827"></ins>
+					<script>
+						(adsbygoogle = window.adsbygoogle || []).push({});
+					</script>
+				</div>
+			</div>
+		</div>
+		<div class="column-3">
+			<div style="outline: 10px solid rgba(0, 0, 0, 0.19); padding: 5px;">
+				<div class="column-links">
+					<p>Important Links</p>
+					<ol>
+						<li><a href="https://www.alltechnotricks.com/" target="_blank" rel="noopner">Home</a></li>
+						<li><a href="https://www.alltechnotricks.com/Blog.html" target="_blank" rel="noopener">Blog</a></li>
+						<li><a href="https://www.alltechnotricks.com/contact.html" target="_blank" rel="noopener">Contact Me</a></li>
+						<li><a href="https://www.alltechnotricks.com/sitemap.html" target="_blank" rel="noopener">Sitemap.html</a></li>
+						<li><a href="https://www.alltechnotricks.com/sitemap.xml" target="_blank" rel="noopener">Sitemap.xml File.</a></li>
+					</ol>
+					<hr style="border: 2px solid white;">
+					<p>Find Me On</p>
+					<ol>
+						<li><a href="https://www.facebook.com/KarunakarPatel.001" target="_blank" rel="noopener">Facebook</a></li>
+						<li><a href="https://twitter.com/Karna_Patel_" target="_blank" rel="noopener">Twitter</a></li>
+						<li><a href="https://www.linkedin.com/in/karunakarpatel/" target="_blank" rel="noopener">Linkedin</a></li>
+					</ol>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div style="padding: 10px;">
+		<div class="copyright">
+			<p>@ Copyright 2019. This Theme Is Highly Customized And Rediculously Designed By <a href="https://www.alltechnotricks.com" target="_blank" rel="noopener" style="color: white; text-decoration: none;">Karunakar Patel</a>. </p>
+		</div>
+	</div>
+</body>
+<script>
+	if ('serviceWorker' in navigator) {
+		navigator.serviceWorker.register('/sw.js').then(function () {
+			console.log('Service Worker Registered');
+		});
+	}
+</script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript" src="//platform-api.sharethis.com/js/sharethis.js#property=5b6543baf3815e0011ed25e0&product=inline-share-buttons"></script>
+<script>
+	function () {
+		$(this).hasClass("active") ? ($(this).removeClass("active"), $(".article__menu-block").fadeOut(200)) : ($(this).addClass("active"), $(".article__menu-block").fadeIn(200))
+	}
+</script>
+<script>
+	$(document).ready(function () {
+		$("#show").click(function () {
+			$("#links_container").toggle()
+		});
+	});
+</script>
+<script>
+	$(document).ready(function () {
+		$(".test").click(function () {
+			$("#show").show();
+			$("#links_container").hide();
+		});
+	});
+</script>
+<script>
+	let anchorlinks = document.querySelectorAll('a[href^="#"]')
+	for (let item of anchorlinks) { // relitere
+		item.addEventListener('click', (e) => {
+			let hashval = item.getAttribute('href')
+			let target = document.querySelector(hashval)
+			target.scrollIntoView({
+				behavior: 'smooth'
+				, block: 'start'
+			})
+			history.pushState(null, null, hashval)
+			e.preventDefault()
+		})
+	}
+</script>
+<script>
+	! function (window) {
+		var $q = function (q, res) {
+				if (document.querySelectorAll) {
+					res = document.querySelectorAll(q);
+				}
+				else {
+					var d = document
+						, a = d.styleSheets[0] || d.createStyleSheet();
+					a.addRule(q, 'f:b');
+					for (var l = d.all, b = 0, c = [], f = l.length; b < f; b++) l[b].currentStyle.f && c.push(l[b]);
+					a.removeRule(0);
+					res = c;
+				}
+				return res;
+			}
+			, addEventListener = function (evt, fn) {
+				window.addEventListener ? this.addEventListener(evt, fn, false) : (window.attachEvent) ? this.attachEvent('on' + evt, fn) : this['on' + evt] = fn;
+			}
+			, _has = function (obj, key) {
+				return Object.prototype.hasOwnProperty.call(obj, key);
+			};
+
+		function loadImage(el, fn) {
+			var img = new Image()
+				, src = el.getAttribute('data-src');
+			img.onload = function () {
+				if (!!el.parent) el.parent.replaceChild(img, el)
+				else el.src = src;
+				fn ? fn() : null;
+			}
+			img.src = src;
+		}
+
+		function elementInViewport(el) {
+			var rect = el.getBoundingClientRect()
+			return (rect.top >= 0 && rect.left >= 0 && rect.top <= (window.innerHeight || document.documentElement.clientHeight))
+		}
+		var images = new Array()
+			, query = $q('img.lazy')
+			, processScroll = function () {
+				for (var i = 0; i < images.length; i++) {
+					if (elementInViewport(images[i])) {
+						loadImage(images[i], function () {
+							images.splice(i, i);
+						});
+					}
+				};
+			};
+		// Array.prototype.slice.call is not callable under our lovely IE8
+		for (var i = 0; i < query.length; i++) {
+			images.push(query[i]);
+		};
+		processScroll();
+		addEventListener('scroll', processScroll);
+	}(this);
+</script>
+<script type="text/javascript">
+	var disqus_shortname = "ask-karunalar-patel";
+	var disqus_url = "http://localhost:4000/Blog/add-HTTPS-Github-Pages-custom-domain.html";
+	var disqus_identifier = "http://localhost:4000/Blog/add-HTTPS-Github-Pages-custom-domain.html";
+	var disqus_loaded = false;
+
+	function disqus() {
+		if (!disqus_loaded) {
+			disqus_loaded = true;
+			var e = document.createElement("script");
+			e.type = "text/javascript";
+			e.async = true;
+			e.src = "//" + disqus_shortname + ".disqus.com/embed.js";
+			(document.getElementsByTagName("head")[0] || document.getElementsByTagName("body")[0]).appendChild(e);
+		}
+	}
+</script>
+
+
+	<style>
+@keyframes vertical {
+0% {
+-webkit-transform: translate(0,-3px);
+transform: translate(0,-3px);
+}
+4% {
+-webkit-transform: translate(0,3px);
+transform: translate(0,3px);
+}
+8% {
+-webkit-transform: translate(0,-3px);
+transform: translate(0,-3px);
+}
+12% {
+-webkit-transform: translate(0,3px);
+transform: translate(0,3px);
+}
+16% {
+-webkit-transform: translate(0,-3px);
+transform: translate(0,-3px);
+}
+20% {
+-webkit-transform: translate(0,3px);
+transform: translate(0,3px);
+}
+22%, 100% {
+-webkit-transform: translate(0,0);
+transform: translate(0,0);
+}
+}
+-webkit-@keyframes vertical {
+0% {
+-webkit-transform: translate(0,-3px);
+transform: translate(0,-3px);
+}
+4% {
+-webkit-transform: translate(0,3px);
+transform: translate(0,3px);
+}
+8% {
+-webkit-transform: translate(0,-3px);
+transform: translate(0,-3px);
+}
+12% {
+-webkit-transform: translate(0,3px);
+transform: translate(0,3px);
+}
+16% {
+-webkit-transform: translate(0,-3px);
+transform: translate(0,-3px);
+}
+20% {
+-webkit-transform: translate(0,3px);
+transform: translate(0,3px);
+}
+22%, 100% {
+-webkit-transform: translate(0,0);
+transform: translate(0,0);
+}
+}
+@keyframes wrench {
+0% {
+-webkit-transform: rotate(-12deg);
+transform: rotate(-12deg);
+}
+8% {
+-webkit-transform: rotate(12deg);
+transform: rotate(12deg);
+}
+10% {
+-webkit-transform: rotate(24deg);
+transform: rotate(24deg);
+}
+18% {
+-webkit-transform: rotate(-24deg);
+transform: rotate(-24deg);
+}
+20% {
+-webkit-transform: rotate(-24deg);
+transform: rotate(-24deg);
+}
+28% {
+-webkit-transform: rotate(24deg);
+transform: rotate(24deg);
+}
+30% {
+-webkit-transform: rotate(24deg);
+transform: rotate(24deg);
+}
+38% {
+-webkit-transform: rotate(-24deg);
+transform: rotate(-24deg);
+}
+40% {
+-webkit-transform: rotate(-24deg);
+transform: rotate(-24deg);
+}
+48% {
+-webkit-transform: rotate(24deg);
+transform: rotate(24deg);
+}
+50% {
+-webkit-transform: rotate(24deg);
+transform: rotate(24deg);
+}
+58% {
+-webkit-transform: rotate(-24deg);
+transform: rotate(-24deg);
+}
+60% {
+-webkit-transform: rotate(-24deg);
+transform: rotate(-24deg);
+}
+68% {
+-webkit-transform: rotate(24deg);
+transform: rotate(24deg);
+}
+75%, 100% {
+-webkit-transform: rotate(0deg);
+transform: rotate(0deg);
+}
+}
+-webkit-@keyframes wrench {
+0% {
+-webkit-transform: rotate(-12deg);
+transform: rotate(-12deg);
+}
+8% {
+-webkit-transform: rotate(12deg);
+transform: rotate(12deg);
+}
+10% {
+-webkit-transform: rotate(24deg);
+transform: rotate(24deg);
+}
+18% {
+-webkit-transform: rotate(-24deg);
+transform: rotate(-24deg);
+}
+20% {
+-webkit-transform: rotate(-24deg);
+transform: rotate(-24deg);
+}
+28% {
+-webkit-transform: rotate(24deg);
+transform: rotate(24deg);
+}
+30% {
+-webkit-transform: rotate(24deg);
+transform: rotate(24deg);
+}
+38% {
+-webkit-transform: rotate(-24deg);
+transform: rotate(-24deg);
+}
+40% {
+-webkit-transform: rotate(-24deg);
+transform: rotate(-24deg);
+}
+48% {
+-webkit-transform: rotate(24deg);
+transform: rotate(24deg);
+}
+50% {
+-webkit-transform: rotate(24deg);
+transform: rotate(24deg);
+}
+58% {
+-webkit-transform: rotate(-24deg);
+transform: rotate(-24deg);
+}
+60% {
+-webkit-transform: rotate(-24deg);
+transform: rotate(-24deg);
+}
+68% {
+-webkit-transform: rotate(24deg);
+transform: rotate(24deg);
+}
+75%, 100% {
+-webkit-transform: rotate(0deg);
+transform: rotate(0deg);
+}
+}
+@keyframes pulse2 {
+0% {
+-webkit-transform: scale(1.1);
+transform: scale(1.1);
+}
+50% {
+-webkit-transform: scale(0.8);
+transform: scale(0.8);
+}
+100% {
+-webkit-transform: scale(1.1);
+transform: scale(1.1);
+}
+}
+-webkit-@keyframes pulse2 {
+0% {
+-webkit-transform: scale(1.1);
+transform: scale(1.1);
+}
+50% {
+-webkit-transform: scale(0.8);
+transform: scale(0.8);
+}
+100% {
+-webkit-transform: scale(1.1);
+transform: scale(1.1);
+}
+}
+	</style>
+
+</html>
+
