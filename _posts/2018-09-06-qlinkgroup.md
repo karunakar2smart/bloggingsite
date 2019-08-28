@@ -1,31 +1,14 @@
---- 
-title: Qlinkgroup Online Typing Job With Zero Registration Fee and Zero Investment. 
+---
+title: Qlinkgroup Online Typing Job With Zero Registration Fee and Zero Investment.
 permalink: /qlinkgroup.html
-layout: post 
+layout: post
 image: upload/qlinkgroup-online-captcha-typing-job.png
-description: "Qlinkgroup is the best online captcha typing job as we can earn money by doing simple online typing job. We can download captcha entry software and get register for free with no investment and no registration fee. Having receiving daily payments and many reviews prove that qlinkgroup online captcha typing job is 100% legit." 
-datepublished: "2018-09-06" 
-last_modified_at: "2019-07-21"
+description: "Qlinkgroup is the best online captcha typing job as we can earn money by doing simple online typing job. We can download captcha entry software and get register for free with no investment and no registration fee. Having receiving daily payments and many reviews prove that qlinkgroup online captcha typing job is 100% legit."
+datepublished: "2018-09-06"
+datemodified: "2019-08-28"
 margin-top: -250px
 
 ---
-<div class="imp_container">
-<div class="important_links">
-					<ol>
-						<li style="font-weight: bold; list-style: none;">Qlinkgroup Online Typing Job Without Investment & Registration Fee.</li>
-						<li style="list-style-position: inside;"><a href="#qlinkgroup-register"><h2><strong>Qlinkgroup New Register (2019).</strong></h2></a></li>
-						<li style="list-style-position: inside;"><a href="#qlinkgroup-software"><h2><strong>Qlinkgroup Software(2019).</strong></h2></a></li>
-						<li style="list-style-position: inside;"><a href="#install-qlinkgroup-software"><h2><strong>How to install qlinkgroup software?</strong></h2></a></li>
-						<li style="list-style-position: inside;"><a href="#qlinkgroup-requirements"><h2><strong>Qlinkgroup Minimum Requirements.</strong></h2></a></li>
-						<li style="list-style-position: inside;"><a href="#qlinkgroup-payment"><h2><strong>Qlinkgroup Payment Proof.</strong></h2></a></li>
-						<li style="list-style-position: inside;"><a href="#qlinkgroup-review"><h2><strong>Qlinkgroup Review(2019).</strong></h2></a></li>
-					</ol>
-				</div>
-</div>
-
-<div class="header-image">
-<img src="#" data-src="./upload/qlinkgroup-online-captcha-typing-job.png" class="lazy" alt="qlinkgroup-online-typing-job" title="Qlinkgroup-Online-Typing-Jobs-Without-Investment-And-Registration-Fee.">
-</div>	
 
 Hi, <a href="http://www.qlinkgroup.com/op/login" target="_blank" rel="noopener">Qlinkgroup</a> is a simple online captcha typing job in which you need to type at least 10 words in a minute.
 
@@ -39,12 +22,11 @@ Yes, It is 100% free.
 
 Ok, Let's get started.
 
-<h3><strong>What is meant by CAPTCHA?</strong></h3>
+<h3><strong>What is meant by CAPTCHA?</strong></h3> <br>
 
->CAPTCHA @ [wiki](https://en.wikipedia.org/wiki/CAPTCHA){: target="_blank" rel="noopener"}
-<br>"Completely Automated Public Turing test to tell Computers and Humans Apart"
+<blockquote>CAPTCHA @ <a href="https://en.wikipedia.org/wiki/CAPTCHA" target="_blank" rel="noopener">wiki</a> <br />“Completely Automated Public Turing test to tell Computers and Humans Apart” </blockquote>
 
-[CAPTCHA](https://en.wikipedia.org/wiki/CAPTCHA){: target="_blank" rel="noopener"} means a computer program or system intended to distinguish human from machine input, typically as a way of thwarting spam and automated extraction of data from websites. 
+[CAPTCHA](https://en.wikipedia.org/wiki/CAPTCHA){: target="_blank" rel="noopener"} means a computer program or system intended to distinguish human from machine input, typically as a way of thwarting spam and automated extraction of data from websites.
 
 Its just differentiate human from machine.
 
@@ -53,26 +35,24 @@ Its just differentiate human from machine.
 A captcha will have
 
 <div style="margin: auto; text-align: center; width: 100%; height: auto;">
-<img src="#" data-src="uploads/captcha-sample-image.png" class="lazy" alt="captcha-sample-image" title="Captcha-Sample-Image.">
+<img src="uploads/captcha-sample-image.png" data-src="uploads/captcha-sample-image.png" class="lazy" alt="captcha-sample-image" title="Captcha-Sample-Image.">
 </div>
 
 For example, here, one would write **sclt** was here.
 
 Here are the most important links to qlinkgroup captcha entry work.
-			
+
 <h3><strong>Qlinkgroup Minimum Requirements.</strong></h3>
 
-<div class="article_inside_links">
 <ol>
 <li> Anyone of the <a href="https://en.wikipedia.org/wiki/PayPal" target="_blank" rel="noopener">PAYPAL</a> or <a href="https://en.wikipedia.org/wiki/Bitcoin" target="_blank" rel="noopener">BITCOIN</a> or <a href="https://en.wikipedia.org/wiki/Litecoin" target="_blank" rel="noopener">LITECOIN</a>.</li>
 <li> An <a href="https://en.wikipedia.org/wiki/Email" target="_blank" rel="noopener">email</a> account.</li>
 <li> A PC with internet connection.</li>
 <li> An above average Typing speed.</li>
 </ol>
-</div>
 
----
-			
+{% include googlead3.html %}
+
 <h2 id="qlinkgroup-register"><strong>1. Qlinkgroup register.</strong></h2>
 
 There are no registration fees to [signup](http://www.qlinkgroupsupervisor.com/register){: target="_blank" rel="noopener"}. All the services from qlinkgroup is always for free of cost.
@@ -87,19 +67,16 @@ Note: Don’t buy qlinkgroup account id's from any third party sites. All the se
 
 [Click here](http://www.qlinkgroupsupervisor.com/register){: target="_blank" rel="noopener"} to [register](http://www.qlinkgroupsupervisor.com/register){: target="_blank" rel="noopener"} at official [qlinkgroup website](http://www.qlinkgroupsupervisor.com/register){: target="_blank" rel="noopener"}.
 
-<div class="article_inside_notes">
-<svg viewbox="0 0 384 512">
-<path d="M377 105L279.1 7c-4.5-4.5-10.6-7-17-7H256v128h128v-6.1c0-6.3-2.5-12.4-7-16.9zm-153 31V0H24C10.7 0 0 10.7 0 24v464c0 13.3 10.7 24 24 24h336c13.3 0 24-10.7 24-24V160H248c-13.2 0-24-10.8-24-24zM64 72c0-4.42 3.58-8 8-8h80c4.42 0 8 3.58 8 8v16c0 4.42-3.58 8-8 8H72c-4.42 0-8-3.58-8-8V72zm0 80v-16c0-4.42 3.58-8 8-8h80c4.42 0 8 3.58 8 8v16c0 4.42-3.58 8-8 8H72c-4.42 0-8-3.58-8-8zm144 263.88V440c0 4.42-3.58 8-8 8h-16c-4.42 0-8-3.58-8-8v-24.29c-11.29-.58-22.27-4.52-31.37-11.35-3.9-2.93-4.1-8.77-.57-12.14l11.75-11.21c2.77-2.64 6.89-2.76 10.13-.73 3.87 2.42 8.26 3.72 12.82 3.72h28.11c6.5 0 11.8-5.92 11.8-13.19 0-5.95-3.61-11.19-8.77-12.73l-45-13.5c-18.59-5.58-31.58-23.42-31.58-43.39 0-24.52 19.05-44.44 42.67-45.07V232c0-4.42 3.58-8 8-8h16c4.42 0 8 3.58 8 8v24.29c11.29.58 22.27 4.51 31.37 11.35 3.9 2.93 4.1 8.77.57 12.14l-11.75 11.21c-2.77 2.64-6.89 2.76-10.13.73-3.87-2.43-8.26-3.72-12.82-3.72h-28.11c-6.5 0-11.8 5.92-11.8 13.19 0 5.95 3.61 11.19 8.77 12.73l45 13.5c18.59 5.58 31.58 23.42 31.58 43.39 0 24.53-19.05 44.44-42.67 45.07z" /> </svg>
-<p>Register at Qlinkgroup online captcha typing job for 100% free at <a href="http://www.qlinkgroupsupervisor.com/register" target="_blank" rel="noopener">Qlinkgroup Online Captcha Solving Job.</a></p>
-</div>
+<blockquote>Register at Qlinkgroup online captcha typing job for 100% free at <a href="http://www.qlinkgroupsupervisor.com/register" target="_blank" rel="noopener">Qlinkgroup Online Captcha Solving Job.</a></blockquote>
 
 This is how the official [qlinkgroup registration](http://www.qlinkgroupsupervisor.com/register){: target="_blank" rel="noopener"} form looks like.
 
-<div class="article-image">
-<img src="#" data-src="uploads/qlinkgroup-registration-form.png" class="lazy" alt="qlinkgroup-registration-form" title="Qlinkgroup-Registration-Form.">
-</div>
+<figure>
+<img src="uploads/qlinkgroup-registration-form.png" data-src="uploads/qlinkgroup-registration-form.png" class="lazy" alt="qlinkgroup-registration-form" title="Qlinkgroup-Registration-Form.">
+<figcaption>Qlinkgroup Online Typing Job Registration Form.</figcaption>
+</figure>
 
----
+{% include googlead4.html %}
 
 <h2 id="qlinkgroup-software"><strong>2. Qlinkgroup Software.</strong></h2>
 
@@ -109,35 +86,29 @@ Qlinkgroup software is 100% free. It supports all the platforms.
 
 Just [click here](http://www.qlinkgroup.com/op/login){: target="_blank" rel="noopener"} to download qlinkgroup captcha software, and follow the instructions to install the Qlinkgroup software.
 
-<div class="article_inside_notes">
-<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 512 512">
-<path d="M216 0h80c13.3 0 24 10.7 24 24v168h87.7c17.8 0 26.7 21.5 14.1 34.1L269.7 378.3c-7.5 7.5-19.8 7.5-27.3 0L90.1 226.1c-12.6-12.6-3.7-34.1 14.1-34.1H192V24c0-13.3 10.7-24 24-24zm296 376v112c0 13.3-10.7 24-24 24H24c-13.3 0-24-10.7-24-24V376c0-13.3 10.7-24 24-24h146.7l49 49c20.1 20.1 52.5 20.1 72.6 0l49-49H488c13.3 0 24 10.7 24 24zm-124 88c0-11-9-20-20-20s-20 9-20 20 9 20 20 20 20-9 20-20zm64 0c0-11-9-20-20-20s-20 9-20 20 9 20 20 20 20-9 20-20z" /> </svg>
-<p>Download qlinkgroup captcha typing software for free at 100% free by just clicking on <a href="http://www.qlinkgroup.com/op/login" target="_blank" rel="noopener">Qlinkgroup captcha typing software (2019)</a></p>
-</div>
+<blockquote>Download qlinkgroup captcha typing software for free at 100% free by just clicking on <a href="http://www.qlinkgroup.com/op/login" target="_blank" rel="noopener">Qlinkgroup captcha typing software (2019)</a></blockquote>
+
 
 This is how qlinkgroup captcha software looks like.
 
-<div class="article-image">
-<img src="#" data-src="uploads/qlinkgroup-login-screen.png" class="lazy" alt="qlinkgroup-login-screen" title="Qlinkgroup-login-screen">
-</div>
+<figure>
+<img src="uploads/qlinkgroup-login-screen.png" data-src="uploads/qlinkgroup-login-screen.png" class="lazy" alt="qlinkgroup-login-screen" title="Qlinkgroup-login-screen">
+<figcaption>Qlinkgroup Typing Job Login Screen.</figcaption>
+</figure>
 
 {% include googlead3.html %}
 
 <h2 id="install-qlinkgroup-software"><strong>3. How to install Qlinkgroup Software?</strong></h2>
 
-<div class="article_inside_links">
 <ol>
 <li>Double click <a href="http://static.qlinkgroup.com/files/qlink_client.exe" target="_blank" rel="noopener">qlink_client.exe</a> to extract archives at preferred location. </li>
 <li>(Optional) Create a shortcut on your desktop that points to the <a href="http://static.qlinkgroup.com/files/qlink_client.exe" target="_blank" rel="noopener">qlink.exe</a> file. </li>
 <li>Open the Qlink Client to start working. If it doesn't work, ensure you meet all requirements below. </li>
 </ol>
-</div>
-
----
 
 <h2 id="qlinkgroup-requirements"><strong>4. System Requirements to Qlinkgroup Software</strong></h2>
 
-<div class="article_inside_links">
+
 <ol>
 <li><a href="https://www.microsoft.com/en-us/download/details.aspx?id=48130" target="_blank" rel="noopener">Microsoft .Net 4.6</a> </li>
 <li><a href="https://www.microsoft.com/en-us/download/details.aspx?id=40784" target="_blank" rel="noopener">Visual C++ Redistributable Packages for Visual Studio 2013</a> </li>
@@ -149,7 +120,6 @@ This is how qlinkgroup captcha software looks like.
 <li>CPU requirements, minimum Intel Pentium dual-core recommended. </li>
 <li>It's recommended to click on <span style="color: black; font-weight: 600; font-style: italic;">"Boost"</span> button to login to a Gmail account. Once done, this will help you solve more images! </li>
 </ol>
-</div>
 
 {% include googlead2.html %}
 
@@ -157,17 +127,17 @@ This is how qlinkgroup captcha software looks like.
 
 After all, downloading and installing the qlinkgroup captcha software, you need to enter your credentials to log in.
 
-<div class="article-image">
-<img src="#" data-src="uploads/qlinkgroup-login-screen-filled.png" class="lazy" alt="uploads/qlinkgroup-login-screen-filled-image" title="uploads/qlinkgroup-login-screen-filled-image">
-</div>	
+<figure>
+<img src="uploads/qlinkgroup-login-screen-filled.png" data-src="uploads/qlinkgroup-login-screen-filled.png" class="lazy" alt="uploads/qlinkgroup-login-screen-filled-image" title="uploads/qlinkgroup-login-screen-filled-image">
+</figure>
 
 After entering your correct credentials press login.
 
 After login lets start work by pressing the start button and pause whenever you need to.
 
-<div class="article-image">
-<img src="#" data-src="uploads/qlinkgroup-main-screen.png" class="lazy" alt="qlinkgroup-main-screen" title="qlinkgroup-main-screen">
-</div>
+<figure>
+<img src="uploads/qlinkgroup-main-screen.png" data-src="uploads/qlinkgroup-main-screen.png" class="lazy" alt="qlinkgroup-main-screen" title="qlinkgroup-main-screen">
+</figure>
 
 After pressing enter, there will be a flow of continuous captchas in the software, you need to give correct input within the specified time.
 
@@ -179,9 +149,9 @@ You won't receive any [payments](https://www.alltechnotricks.com/#qlinkgroup-pay
 
 So, be careful whenever you are submitting captchas. If the captcha has not been understood, then press the **_escape_** button. Don’t press the **"esc"** button continuously, this may also result in an account ban.
 
-<div class="article-image">
-<img src="#" data-src="uploads/qlinkgroup-solving.png" class="lazy" alt="qlinkgroup-solving" title="qlinkgroup-solving">
-</div>	
+<figure>
+<img src="uploads/qlinkgroup-solving.png" data-src="uploads/qlinkgroup-solving.png" class="lazy" alt="qlinkgroup-solving" title="qlinkgroup-solving">
+</figure>
 
 You can earn much money in the little amount of time. Importantly, high credits will be added at night times.
 
@@ -192,9 +162,9 @@ Pay rates for solving token/ case-sensitive captchas is higher than typing norma
 
 Case-sensitive captchas will be notified automatically in the <a href="https://www.alltechnotricks.com/qlinkgroup.html#qlinkgroup-software" target="_top">software</a>.
 
-<div class="article-image">
-<img src="#" data-src="uploads/qlinkgroup-token-soliving.jpg" class="lazy" alt="qlinkgroup-token-soliving" title="qlinkgroup-token-soliving">
-</div>
+<figure>
+<img src="uploads/qlinkgroup-token-soliving.jpg" data-src="uploads/qlinkgroup-token-soliving.jpg" class="lazy" alt="qlinkgroup-token-soliving" title="qlinkgroup-token-soliving">
+</figure>
 
 {% include googlead1.html %}
 
@@ -202,16 +172,12 @@ Case-sensitive captchas will be notified automatically in the <a href="https://w
 
 
 **Current Pay rates:** This tells you the current rate of captcha you will earn per 1 correct input.
-			
+
 **Server time:** The rate of captchas depend on different server time. For more details login in [here](http://www.qlinkgroup.com/op/login){: target="_blank" rel="noopener"}.
-			
+
 **Latency rate:** This tells you the speed of flow of captchas. The higher the latency, the flow of captchas is also higher.
 
-<div class="article_inside_notes">
-<svg viewbox="0 0 384 512">
-<path d="M377 105L279.1 7c-4.5-4.5-10.6-7-17-7H256v128h128v-6.1c0-6.3-2.5-12.4-7-16.9zm-153 31V0H24C10.7 0 0 10.7 0 24v464c0 13.3 10.7 24 24 24h336c13.3 0 24-10.7 24-24V160H248c-13.2 0-24-10.8-24-24zM64 72c0-4.42 3.58-8 8-8h80c4.42 0 8 3.58 8 8v16c0 4.42-3.58 8-8 8H72c-4.42 0-8-3.58-8-8V72zm0 80v-16c0-4.42 3.58-8 8-8h80c4.42 0 8 3.58 8 8v16c0 4.42-3.58 8-8 8H72c-4.42 0-8-3.58-8-8zm144 263.88V440c0 4.42-3.58 8-8 8h-16c-4.42 0-8-3.58-8-8v-24.29c-11.29-.58-22.27-4.52-31.37-11.35-3.9-2.93-4.1-8.77-.57-12.14l11.75-11.21c2.77-2.64 6.89-2.76 10.13-.73 3.87 2.42 8.26 3.72 12.82 3.72h28.11c6.5 0 11.8-5.92 11.8-13.19 0-5.95-3.61-11.19-8.77-12.73l-45-13.5c-18.59-5.58-31.58-23.42-31.58-43.39 0-24.52 19.05-44.44 42.67-45.07V232c0-4.42 3.58-8 8-8h16c4.42 0 8 3.58 8 8v24.29c11.29.58 22.27 4.51 31.37 11.35 3.9 2.93 4.1 8.77.57 12.14l-11.75 11.21c-2.77 2.64-6.89 2.76-10.13.73-3.87-2.43-8.26-3.72-12.82-3.72h-28.11c-6.5 0-11.8 5.92-11.8 13.19 0 5.95 3.61 11.19 8.77 12.73l45 13.5c18.59 5.58 31.58 23.42 31.58 43.39 0 24.53-19.05 44.44-42.67 45.07z" /> </svg>
-<p>All the payments will be on Fridays, so on Thursday there will be of 90% account ban even for 5 mistakes. Be careful on Thursdays, it's, better not to work on Thursdays.</p>
-</div>
+<blockquote>All the payments will be on Fridays, so on Thursday there will be of 90% account ban even for 5 mistakes. Be careful on Thursdays, it's, better not to work on Thursdays.</blockquote>
 
 {% include googlead4.html %}
 
@@ -221,9 +187,10 @@ Qlinkgroup has been paying their customers without any delay. All the payment of
 
 If your account has banned then there is no payment. If not I am 100% sure you will get paid through your payment processors.
 
-<div class="article-image">
-<img src="#" data-src="uploads/megatypers-payment-proof-1.png" class="lazy" alt="qlinkgroup-payment-proof" title="qlinkgroup-payment-proof.">
-</div>	
+<figure>
+<img src="uploads/megatypers-payment-proof-1.png" data-src="uploads/megatypers-payment-proof-1.png" class="lazy" alt="qlinkgroup-payment-proof" title="qlinkgroup-payment-proof.">
+<figcaption>Qlinkgroup Payment Proof</figcaption>
+</figure>
 
 <h2 id="qlinkgroup-review"><strong>6. Qlinkgroup Review.</strong></h2>
 
@@ -237,33 +204,36 @@ Qlinkgroup is 100% legitimate CAPTCHA typing job. It pays 100% for sure for cust
 
 Honestly, I got paid through this company.
 
-{% include googlead1.html %}
-
----
 
 <div class="anim_container">
-		<button id="show">
-			<svg style="width: 35px; height: 35px; animation: wrench 2s linear infinite; " fill="#06f" viewbox="0 0 320 512">
-				<path d="M313.553 119.669L209.587 7.666c-9.485-10.214-25.676-10.229-35.174 0L70.438 119.669C56.232 134.969 67.062 160 88.025 160H152v272H68.024a11.996 11.996 0 0 0-8.485 3.515l-56 56C-4.021 499.074 1.333 512 12.024 512H208c13.255 0 24-10.745 24-24V160h63.966c20.878 0 31.851-24.969 17.587-40.331z" /> </svg>
-		</button>
+<button id="show">
+<svg width="24" height="20" viewBox="0 0 24 20">
+<path d="M3 0H1C0.4 0 0 0.4 0 1V3C0 3.6 0.4 4 1 4H3C3.6 4 4 3.6 4 3V1C4 0.4 3.6 0 3 0Z"
+									fill="#0066FF" />
+								<path d="M3 0H1C0.4 0 0 0.4 0 1V3C0 3.6 0.4 4 1 4H3C3.6 4 4 3.6 4 3V1C4 0.4 3.6 0 3 0Z"
+									transform="translate(0 8)" fill="#0066FF" />
+								<path d="M3 0H1C0.4 0 0 0.4 0 1V3C0 3.6 0.4 4 1 4H3C3.6 4 4 3.6 4 3V1C4 0.4 3.6 0 3 0Z"
+									transform="translate(0 16)" fill="#0066FF" />
+								<path
+									d="M15 0H1C0.4 0 0 0.4 0 1V3C0 3.6 0.4 4 1 4H15C15.6 4 16 3.6 16 3V1C16 0.4 15.6 0 15 0Z"
+									transform="translate(8)" fill="#0066FF" />
+								<path
+									d="M15 0H1C0.4 0 0 0.4 0 1V3C0 3.6 0.4 4 1 4H15C15.6 4 16 3.6 16 3V1C16 0.4 15.6 0 15 0Z"
+									transform="translate(8 8)" fill="#0066FF" />
+								<path
+									d="M15 0H1C0.4 0 0 0.4 0 1V3C0 3.6 0.4 4 1 4H15C15.6 4 16 3.6 16 3V1C16 0.4 15.6 0 15 0Z"
+									transform="translate(8 16)" fill="#0066FF" />
+							</svg>
+						</button>
 		<div id="links_container">
 			<ol>
-				<li><a href="#qlinkgroup-register" class="test"><strong>Qlinkgroup New Register(2019).</strong></a></li>
-				<li><a href="#qlinkgroup-software" class="test"><strong>Qlinkgroup Software(2019).</strong></a></li>
-				<li><a href="#install-qlinkgroup-software" class="test"><strong>How to install qlinkgroup software?</strong></a></li>
-				<li><a href="#qlinkgroup-requirements" class="test"><strong>Qlinkgroup Minimum Requirements.</strong></a></li>
-				<li><a href="#qlinkgroup-payment" class="test"><strong>Qlinkgroup Payment Proof.</strong></a></li>
-				<li><a href="#qlinkgroup-review" class="test"><strong>Qlinkgroup Review(2019).</strong></a></li>
-				<li><a href="#disqus_thread" class="test"><strong>Throw a comment.</strong></a></li>
-			</ol>
-			<ol>
-				<li><a href="https://www.alltechnotricks.com" target="_top" class="test">Home</a></li>
-				<li><a href="https://www.alltechnotricks.com/Blog.html" target="_top" class="test">Blog</a></li>
-				<li><a href="#top" class="test">Back To Top</a></li>
+				<li><a href="#qlinkgroup-register" class="test"><b>Qlinkgroup New Register(2019).</b></a></li>
+				<li><a href="#qlinkgroup-software" class="test"><b>Qlinkgroup Software(2019).</b></a></li>
+				<li><a href="#install-qlinkgroup-software" class="test"><b>How to install qlinkgroup software?</b></a></li>
+				<li><a href="#qlinkgroup-requirements" class="test"><b>Qlinkgroup Minimum Requirements.</b></a></li>
+				<li><a href="#qlinkgroup-payment" class="test"><b>Qlinkgroup Payment Proof.</b></a></li>
+				<li><a href="#qlinkgroup-review" class="test"><b>Qlinkgroup Review(2019).</b></a></li>
+				<li><a href="#discourse-comments" class="test"><b>Throw a comment.</b></a></li>
 			</ol>
 		</div>
 	</div>
-			
-			
-
-			

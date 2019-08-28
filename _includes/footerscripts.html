@@ -1,40 +1,76 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script type="text/javascript" src="//platform-api.sharethis.com/js/sharethis.js#property=5b6543baf3815e0011ed25e0&product=inline-share-buttons"></script>
+
+<!-- Animation Container -->
+
 <script>
-	function () {
-		$(this).hasClass("active") ? ($(this).removeClass("active"), $(".article__menu-block").fadeOut(200)) : ($(this).addClass("active"), $(".article__menu-block").fadeIn(200))
+ $(document).ready(function () {
+  $("#show").click(function () {
+   $("#links_container").toggle()
+  });
+ });
+</script>
+<script>
+ $(document).ready(function () {
+  $(".test").click(function () {
+   $("#show").show();
+   $("#links_container").hide();
+  });
+ });
+</script>
+
+<!-- Custom hash tag animation -->
+
+
+<script>
+ $(document).ready(function () {
+  $('a[href^="#"]').click(function () {
+   var target = $(this.hash);
+   if (target.length == 0) target = $('a[name="' + this.hash.substr(1) + '"]');
+   if (target.length == 0) target = $('html');
+   $('html, body').animate({
+    scrollTop: target.offset().top - 50
+   }, 1050);
+   return false,
+    function () {
+     window.location.hash = target;
+    }
+  });
+ });
+</script>
+
+
+<!-- Scroll Indicator -->
+
+<script type="text/javascript">
+ window.addEventListener('scroll', moveScrollIndicator);
+ const scrollIndicatorElt = document.getElementById('scrollIndicator');
+ const maxScrollableHeight = window.document.body.scrollHeight - window.innerHeight;
+
+ function moveScrollIndicator(e) {
+  const percentage = ((window.scrollY) / maxScrollableHeight) * 100;
+  scrollIndicatorElt.style.width = percentage + '%';
+ }
+</script>
+
+<!-- Disqus on click load function -->
+<script type="text/javascript">
+	var disqus_shortname = "ask-karunalar-patel";
+	var disqus_url = "{{page.url | absolute_url}}";
+	var disqus_identifier = "{{page.url | absolute_url}}";
+	var disqus_loaded = false;
+
+	function disqus() {
+		if (!disqus_loaded) {
+			disqus_loaded = true;
+			var e = document.createElement("script");
+			e.type = "text/javascript";
+			e.async = true;
+			e.src = "//" + disqus_shortname + ".disqus.com/embed.js";
+			(document.getElementsByTagName("head")[0] || document.getElementsByTagName("body")[0]).appendChild(e);
+		}
 	}
 </script>
-<script>
-	$(document).ready(function () {
-		$("#show").click(function () {
-			$("#links_container").toggle()
-		});
-	});
-</script>
-<script>
-	$(document).ready(function () {
-		$(".test").click(function () {
-			$("#show").show();
-			$("#links_container").hide();
-		});
-	});
-</script>
-<script>
-	let anchorlinks = document.querySelectorAll('a[href^="#"]')
-	for (let item of anchorlinks) { // relitere
-		item.addEventListener('click', (e) => {
-			let hashval = item.getAttribute('href')
-			let target = document.querySelector(hashval)
-			target.scrollIntoView({
-				behavior: 'smooth'
-				, block: 'start'
-			})
-			history.pushState(null, null, hashval)
-			e.preventDefault()
-		})
-	}
-</script>
+<!-- Lazy Loading -->
 <script>
 	! function (window) {
 		var $q = function (q, res) {
@@ -91,21 +127,4 @@
 		processScroll();
 		addEventListener('scroll', processScroll);
 	}(this);
-</script>
-<script type="text/javascript">
-	var disqus_shortname = "ask-karunalar-patel";
-	var disqus_url = "{{page.url | absolute_url}}";
-	var disqus_identifier = "{{page.url | absolute_url}}";
-	var disqus_loaded = false;
-
-	function disqus() {
-		if (!disqus_loaded) {
-			disqus_loaded = true;
-			var e = document.createElement("script");
-			e.type = "text/javascript";
-			e.async = true;
-			e.src = "//" + disqus_shortname + ".disqus.com/embed.js";
-			(document.getElementsByTagName("head")[0] || document.getElementsByTagName("body")[0]).appendChild(e);
-		}
-	}
 </script>

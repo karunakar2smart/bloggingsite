@@ -5,30 +5,10 @@ layout: post
 image: upload/earn-money-online.jpg
 description: "Best ways to earn money online without investment and registration fee by just working from home as a part-time job. These are 100% proven legit online jobs which is useful for students, housewives & those who start earning money online by working from home. Here may include making money online from typing job, online surveys, PTC sites and many more."
 datepublished: "2018-07-05"
-last_modified_at: "2019-07-21"
-margin-top: -315px
+datemodified: "2019-08-28"
+margin-top: -250px
 
 ---
-
-<div class="imp_container">
-	<div class="important_links">
-					<ol>
-						<li style="font-weight: bold; list-style: none;">{{page.title}}</li>
-						<li style="list-style-position: inside;"><a href="#free-online-typing-jobs"><h2><strong>Free Online Typing Jobs.</strong></h2></a></li>
-						<li style="list-style-position: inside;"><a href="#freelancer-money"><h2><strong>Earn Money By Freelancing.</strong></h2></a></li>
-						<li style="list-style-position: inside;"><a href="#online-paid-surveys"><h2><strong>Earn Money By Online Paid Surveys.</strong></h2></a></li>
-						<li style="list-style-position: inside;"><a href="#blogging-money"><h2><strong>Make Money By Blogging.</strong></h2></a></li>
-						<li style="list-style-position: inside;"><a href="#money-ptc-sites"><h2><strong>Earn Money Online By PTC Sites.</strong></h2></a></li>
-						<li style="list-style-position: inside;"><a href="#affiliate-marketing"><h2><strong>Earn Money By Affiliate Marketing.</strong></h2></a></li>
-						<li style="list-style-position: inside;"><a href="#event-blogging"><h2><strong>Make Money From Event Blogging.</strong></h2></a></li>
-						<li style="list-style-position: inside;"><a href="#web-developer"><h2><strong>Earn Money As WebDeveloper.</strong></h2></a></li>
-					</ol>
-				</div>
-</div>
-
-<div class="header-image">
-		<img src="{{page.image | relative_url }}" alt="{{page.title}}" title="{{page.title}}" class="lazy">
-</div>
 
 Is there any way to earn money online?. Yes, indeed we can earn money online with zero investment. I just included various type of online money making jobs to receive payment on a weekly basis without paying any registration fees.
 
@@ -46,15 +26,15 @@ All the jobs offered through these sites include online/offline typing jobs, dat
 
 All these online money making sites had passed through these following guidelines.
 
-<div class="article_inside_links">
+
 <ol>
 					<li>All the ways which we were making money are 100 % Legitimate...!</li>
 					<li>There is no registration fee required to join in this various kinds of online job portals...! </li>
 					<li>Yes, Indeed. It's free to signup.</li>
 					<li>All the payment process with the International payment processors like <a href="https://www.paypal.com/in/home" target="_blank" rel="noopener">PAYPAL</a>, <a href="https://www.payza.eu/india" target="_blank" rel="noopener">PAYZA</a>, <a href="https://www.wmtransfer.com/" target="_blank" rel="noopener"> WEB MONEY</a> etc...!.</li>
 					<li>All these payment processors will transfer your money directly to your bank accounts.</li>
-				</ol>
-</div>
+</ol>
+
 
 This is the best article which helps you to find out to start making money online. I think I was successful in this attempt. I have been divided these into many categories because of the latest news and updates.
 
@@ -66,15 +46,18 @@ I'm sure it will be extremely useful for Teenagers, Housewives and to the people
 
 The exposition of this site is extremely lucid. I am sure that who visits and reads this post in an appropriate manner will find this online money making process extremely useful.
 
-Here is the list of different ways to earn money online. Ok, let's get started.
+Here is the list of different ways to earn money online.
 
----
+Ok, let's get started.
+
 
 <h2 id="free-online-typing-jobs"><strong>1. Best Free Online Typing Jobs Without Investment & Registration Fee.</strong></h2>
 
-<div class="header-image">
-		<img src="../upload/free-online-typing-jobs.png" alt="free-online-typing-jobs" title="Free-online-typing-jobs" class="lazy">
-</div>
+<figure><img src="/upload/free-online-typing-jobs.png" data-src="/upload/free-online-typing-jobs.png" alt="free-online-typing-jobs" title="Free-online-typing-jobs" class="lazy" />
+<figcaption>Free Online Typing Jobs With Zero Investment and Registration Fee.
+</figcaption>
+</figure>
+
 
 Here we can earn money by doing simple online typing jobs. We just need to type a 5-6 character word within the specified time limit. The more we type the more money we make.
 
@@ -88,11 +71,9 @@ We can either work on their official website or in the captcha software provided
 
 I have written a jaw-dropping article on best free online typing jobs where we will find all the essential tricks and tips to start making money online by free online typing jobs with zero investment.
 
-<div class="article_inside_notes">
-		<svg viewbox="0 0 288 512">
-					<path d="M209.2 233.4l-108-31.6C88.7 198.2 80 186.5 80 173.5c0-16.3 13.2-29.5 29.5-29.5h66.3c12.2 0 24.2 3.7 34.2 10.5 6.1 4.1 14.3 3.1 19.5-2l34.8-34c7.1-6.9 6.1-18.4-1.8-24.5C238 74.8 207.4 64.1 176 64V16c0-8.8-7.2-16-16-16h-32c-8.8 0-16 7.2-16 16v48h-2.5C45.8 64-5.4 118.7.5 183.6c4.2 46.1 39.4 83.6 83.8 96.6l102.5 30c12.5 3.7 21.2 15.3 21.2 28.3 0 16.3-13.2 29.5-29.5 29.5h-66.3C100 368 88 364.3 78 357.5c-6.1-4.1-14.3-3.1-19.5 2l-34.8 34c-7.1 6.9-6.1 18.4 1.8 24.5 24.5 19.2 55.1 29.9 86.5 30v48c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16v-48.2c46.6-.9 90.3-28.6 105.7-72.7 21.5-61.6-14.6-124.8-72.5-141.7z" /> </svg>
-		<p>Learn more about typing jobs at <a href="https://www.alltechnotricks.com/free-online-typing-jobs.html" target="_blank" rel="noopener"><b>free online typing jobs without investment and registration fee.</b></a></p>
-</div>
+
+<blockquote>Learn more about typing jobs at <a href="https://www.alltechnotricks.com/free-online-typing-jobs.html" target="_blank" rel="noopener"><b>free online typing jobs without investment and registration fee.</b></a></blockquote>
+
 
 {% include googlead1.html %}
 
@@ -148,7 +129,7 @@ While this is pretty obvious it is also a stumbling block for many PreBloggers w
 
 If you need a little help I would highly recommend you check out my article How to Start a Blog in which I run through the steps you need to take to get up and keep running.
 
-It's really not as hard as you might think! 
+It's really not as hard as you might think!
 
 {% include googlead4.html %}
 
@@ -168,11 +149,9 @@ In my case, I had coded my own script on Independence Day. Yeah, it really has b
 
 Here it is my Independence Day script. See how it works.
 
-<div class="article_inside_notes">
-				<svg viewbox="0 0 288 512">
-					<path d="M209.2 233.4l-108-31.6C88.7 198.2 80 186.5 80 173.5c0-16.3 13.2-29.5 29.5-29.5h66.3c12.2 0 24.2 3.7 34.2 10.5 6.1 4.1 14.3 3.1 19.5-2l34.8-34c7.1-6.9 6.1-18.4-1.8-24.5C238 74.8 207.4 64.1 176 64V16c0-8.8-7.2-16-16-16h-32c-8.8 0-16 7.2-16 16v48h-2.5C45.8 64-5.4 118.7.5 183.6c4.2 46.1 39.4 83.6 83.8 96.6l102.5 30c12.5 3.7 21.2 15.3 21.2 28.3 0 16.3-13.2 29.5-29.5 29.5h-66.3C100 368 88 364.3 78 357.5c-6.1-4.1-14.3-3.1-19.5 2l-34.8 34c-7.1 6.9-6.1 18.4 1.8 24.5 24.5 19.2 55.1 29.9 86.5 30v48c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16v-48.2c46.6-.9 90.3-28.6 105.7-72.7 21.5-61.6-14.6-124.8-72.5-141.7z" /> </svg>
-				<p>Check out Independence Day Script at <a href="https://www.alltechnotricks.com/event-script/independence-day-2018.html" target="_blank" rel="noopener">Independence Day Event Script</a></p>
-</div>
+
+<blockquote>Check out Independence Day Script at <a href="https://www.alltechnotricks.com/event-script/independence-day-2018.html" target="_blank" rel="noopener">Independence Day Event Script</a></blockquote>
+
 
 {% include googlead5.html %}
 
@@ -226,36 +205,44 @@ If you are...!
 
 Then there are the top 10 legitimate free sites which make you earn money online as a web developer.
 
-{% include googlead2.html %}
-
----
-
 <div class="anim_container">
-		<button id="show">
-			<svg style="width: 35px; height: 35px; animation: wrench 2s linear infinite; " fill="#06f" viewbox="0 0 320 512">
-				<path d="M313.553 119.669L209.587 7.666c-9.485-10.214-25.676-10.229-35.174 0L70.438 119.669C56.232 134.969 67.062 160 88.025 160H152v272H68.024a11.996 11.996 0 0 0-8.485 3.515l-56 56C-4.021 499.074 1.333 512 12.024 512H208c13.255 0 24-10.745 24-24V160h63.966c20.878 0 31.851-24.969 17.587-40.331z" /> </svg>
-		</button>
-		<div id="links_container">
-			<ol>
-				<li><a href="#free-online-typing-jobs" class="test"><strong>Free Online Typing Jobs.</strong></a></li>
-				<li><a href="#freelancer-money" class="test"><strong>Earn Money By Freelancing.</strong></a></li>
-				<li><a href="#online-paid-surveys" class="test"><strong>Earn Money By Online Paid Surveys.</strong></a></li>
-				<li><a href="#blogging-money" class="test"><strong>Make Money By Blogging.</strong></a></li>
-				<li><a href="#money-ptc-sites" class="test"><strong>Earn Money Online By PTC Sites.</strong></a></li>
-				<li><a href="#affiliate-marketing" class="test"><strong>Earn Money By Affiliate Marketing.</strong></a></li>
-				<li><a href="#event-blogging" class="test"><strong>Make Money From Event Blogging.</strong></a></li>
-				<li><a href="#web-developer" class="test"><strong>Earn Money As WebDeveloper.</strong></a></li>
-				<li><a href="#disqus_thread" class="test"><strong>Throw a comment</strong></a></li>
-			</ol>
-			<ol>
-				<li><a href="https://www.alltechnotricks.com" target="_top" class="test">Home</a></li>
-				<li><a href="https://www.alltechnotricks.com/Blog.html" target="_top" class="test">Blog</a></li>
-				<li><a href="#top" class="test">Back To Top</a></li>
-			</ol>
-		</div>
+<button id="show">
+<svg width="24" height="20" viewBox="0 0 24 20">
+<path d="M3 0H1C0.4 0 0 0.4 0 1V3C0 3.6 0.4 4 1 4H3C3.6 4 4 3.6 4 3V1C4 0.4 3.6 0 3 0Z"
+									fill="#0066FF" />
+								<path d="M3 0H1C0.4 0 0 0.4 0 1V3C0 3.6 0.4 4 1 4H3C3.6 4 4 3.6 4 3V1C4 0.4 3.6 0 3 0Z"
+									transform="translate(0 8)" fill="#0066FF" />
+								<path d="M3 0H1C0.4 0 0 0.4 0 1V3C0 3.6 0.4 4 1 4H3C3.6 4 4 3.6 4 3V1C4 0.4 3.6 0 3 0Z"
+									transform="translate(0 16)" fill="#0066FF" />
+								<path
+									d="M15 0H1C0.4 0 0 0.4 0 1V3C0 3.6 0.4 4 1 4H15C15.6 4 16 3.6 16 3V1C16 0.4 15.6 0 15 0Z"
+									transform="translate(8)" fill="#0066FF" />
+								<path
+									d="M15 0H1C0.4 0 0 0.4 0 1V3C0 3.6 0.4 4 1 4H15C15.6 4 16 3.6 16 3V1C16 0.4 15.6 0 15 0Z"
+									transform="translate(8 8)" fill="#0066FF" />
+								<path
+									d="M15 0H1C0.4 0 0 0.4 0 1V3C0 3.6 0.4 4 1 4H15C15.6 4 16 3.6 16 3V1C16 0.4 15.6 0 15 0Z"
+									transform="translate(8 16)" fill="#0066FF" />
+							</svg>
+						</button><div id="links_container">
+							<ol>
+								<li><a href="#free-online-typing-jobs" class="test"><b>Free Online Typing
+											Jobs.</b></a></li>
+								<li><a href="#freelancer-money" class="test"><b>Earn Money By
+											Freelancing.</b></a></li>
+								<li><a href="#online-paid-surveys" class="test"><b>Earn Money By Online Paid
+											Surveys.</b></a></li>
+								<li><a href="#blogging-money" class="test"><b>Make Money By Blogging.</b></a>
+								</li>
+								<li><a href="#money-ptc-sites" class="test"><b>Earn Money Online By PTC
+											Sites.</b></a></li>
+								<li><a href="#affiliate-marketing" class="test"><b>Earn Money By Affiliate
+											Marketing.</b></a></li>
+								<li><a href="#event-blogging" class="test"><b>Make Money From Event
+											Blogging.</b></a></li>
+								<li><a href="#web-developer" class="test"><b>Earn Money As
+											WebDeveloper.</b></a></li>
+								<li><a href="#discourse-comments" class="test"><b>Throw a comment</b></a></li>
+							</ol>
+						</div>
 </div>
-
-
-
-
-

@@ -1,14 +1,13 @@
 ---
-permalink: /sitemap.xml
-layout: null
-
+permalink: sitemap.xml
+layout: none
 ---
 
 <urlset>
 {% for post in site.posts %}
 <url>
 <loc>{{post.url | absolute_url }}</loc>
-<lastmod>{{post.last_modified_at}}</lastmod>
+<lastmod>{{post.datemodified}}</lastmod>
 </url>
 {% endfor %}
 <url>

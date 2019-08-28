@@ -1,164 +1,52 @@
+---
+layout: compress
+---
 <!DOCTYPE html>
-<html>
-	<head>
-{% include header.html %}
-<style>{% include style.min.css %}</style>
+<html lang="en">
 
-	</head>
+<head>
 
-	<body>
-		{% include navigation.html %}
-	<div class="large-container">
-		{{content}}
-		<div class="sidebar">
-			<div class="side-ads">
-				<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> <ins class="adsbygoogle karna-ads" style="display:inline-block" data-ad-client="ca-pub-2687924945894784" data-ad-slot="2901800287"> </ins>
-				<script>
-					(adsbygoogle = window.adsbygoogle || []).push({});
-				</script>
-			</div>
-			<div class="side-ads">
-				<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> <ins class="adsbygoogle karna-ads" style="display:inline-block" data-ad-client="ca-pub-2687924945894784" data-ad-slot="2901800287"> </ins>
-				<script>
-					(adsbygoogle = window.adsbygoogle || []).push({});
-				</script>
-			</div>
-			<div class="side-ads" style="position: sticky; top: 20px;">
-				<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> <ins class="adsbygoogle karna-ads" style="display:inline-block" data-ad-client="ca-pub-2687924945894784" data-ad-slot="2901800287"> </ins>
-				<script>
-					(adsbygoogle = window.adsbygoogle || []).push({});
-				</script>
-			</div>
-		</div>
-	</div>
-	<div class="section">
-		<div>
-			<p>Loved it?</p>
-			<p>Wanna learn more?</p>
-			<p>Then click on the button.</p>
-		</div>
-		<div class="section-card">
-			<a href="https://www.alltechnotricks.com/Blog.html" target="_top" rel="noopener">
-				<button>Blog</button>
-			</a>
-		</div>
-	</div>
-	<div class="footer">
-		<div class="column-1">
-			<div style="outline: 10px solid salmon; padding: 5px; ">
-				<div class="subs_form">
-					<p>Like To Build Our Bond?</p>
-					<p>Subscribe to Our Blog To Be The First One To View Our Content.</p>
-					<div>
-						<script type="text/javascript">
-							var submitted = false;
-						</script>
-						<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {window.location='./thankyou.html';}"></iframe>
-						<form action="https://docs.google.com/forms/d/e/1FAIpQLSeviKIBv3aO2bh46_mGqyQ0PUT_o9SKxxwyAG4tTr2UOmPnNg/formResponse" method="post" target="hidden_iframe" onsubmit="submitted=true;">
-							<input type="text" placeholder="Your Lovable Name In Here." name="entry.2005620554">
-							<br>
-							<input type="text" placeholder="Your Email In Here." name="entry.1045781291">
-							<br>
-							<input type="submit" value="Subscribe"> </form>
-					</div>
-					<p style="font-style: italic;">I promise not to spam you.</p>
-				</div>
-			</div>
-		</div>
-		<div class="column-2">
-			<div class="column_inside">
-				<div style="margin: auto; text-align: center;">
-					<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> <ins class="adsbygoogle" style="display:inline-block; width: 336px; height: 280px;" data-ad-client="ca-pub-2687924945894784" data-ad-slot="2901800287"> </ins>
-					<script>
-						(adsbygoogle = window.adsbygoogle || []).push({});
-					</script>
-				</div>
-			</div>
-		</div>
-		<div class="column-3">
-			<div style="outline: 10px solid rgba(0, 0, 0, 0.19); padding: 5px;">
-				<div class="column-links">
-					<p>Important Links</p>
-					<ol>
-						<li><a href="https://www.alltechnotricks.com/" target="_blank" rel="noopner">Home</a></li>
-						<li><a href="https://www.alltechnotricks.com/Blog.html" target="_blank" rel="noopener">Blog</a></li>
-						<li><a href="https://www.alltechnotricks.com/contact.html" target="_blank" rel="noopener">Contact Me</a></li>
-						<li><a href="https://www.alltechnotricks.com/sitemap.html" target="_blank" rel="noopener">Sitemap.html</a></li>
-						<li><a href="https://www.alltechnotricks.com/sitemap.xml" target="_blank" rel="noopener">Sitemap.xml File.</a></li>
-					</ol>
-					<hr style="border: 2px solid white;">
-					<p>Find Me On</p>
-					<ol>
-						<li><a href="https://www.facebook.com/KarunakarPatel.001" target="_blank" rel="noopener">Facebook</a></li>
-						<li><a href="https://twitter.com/Karna_Patel_" target="_blank" rel="noopener">Twitter</a></li>
-						<li><a href="https://www.linkedin.com/in/karunakarpatel/" target="_blank" rel="noopener">Linkedin</a></li>
-					</ol>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div style="padding: 10px;">
-		<div class="copyright">
-			<p>@ Copyright 2019. This Theme Is Highly Customized And Rediculously Designed By <a href="https://www.alltechnotricks.com/Blog.html" target="_blank" rel="author" style="color: white; text-decoration: none;">Karunakar_Patel.</a> </p>
-		</div>
-	</div>
+  {% include header.html %}
+
+<style>{% include karnadesign.min.css %}</style>
+
+</head>
+
+<body class="home-template">
+
+  <div class="site-wrapper">
+
+    {% include navigation.html %}
+
+
+
+    <main id="site-main" class="site-main outer">
+      <div class="line" id="scrollIndicator"></div>
+      <div class="inner">
+        <div class="post-feed">
+
+{{content}}
+
+
+        </div>
+        <!-- <div class="read-more-row">
+          <button id="readMoreBtn"><a href="https://www.alltechnotricks.com/Blog.html">Load more articles</a></button>
+        </div> -->
+      </div>
+    </main>
+
+
+
+
+    {% include footer.html %}
+
+  </div>
+
+
+
+
 </body>
-<script>
-	! function (window) {
-		var $q = function (q, res) {
-				if (document.querySelectorAll) {
-					res = document.querySelectorAll(q);
-				}
-				else {
-					var d = document
-						, a = d.styleSheets[0] || d.createStyleSheet();
-					a.addRule(q, 'f:b');
-					for (var l = d.all, b = 0, c = [], f = l.length; b < f; b++) l[b].currentStyle.f && c.push(l[b]);
-					a.removeRule(0);
-					res = c;
-				}
-				return res;
-			}
-			, addEventListener = function (evt, fn) {
-				window.addEventListener ? this.addEventListener(evt, fn, false) : (window.attachEvent) ? this.attachEvent('on' + evt, fn) : this['on' + evt] = fn;
-			}
-			, _has = function (obj, key) {
-				return Object.prototype.hasOwnProperty.call(obj, key);
-			};
 
-		function loadImage(el, fn) {
-			var img = new Image()
-				, src = el.getAttribute('data-src');
-			img.onload = function () {
-				if (!!el.parent) el.parent.replaceChild(img, el)
-				else el.src = src;
-				fn ? fn() : null;
-			}
-			img.src = src;
-		}
-
-		function elementInViewport(el) {
-			var rect = el.getBoundingClientRect()
-			return (rect.top >= 0 && rect.left >= 0 && rect.top <= (window.innerHeight || document.documentElement.clientHeight))
-		}
-		var images = new Array()
-			, query = $q('img.lazy')
-			, processScroll = function () {
-				for (var i = 0; i < images.length; i++) {
-					if (elementInViewport(images[i])) {
-						loadImage(images[i], function () {
-							images.splice(i, i);
-						});
-					}
-				};
-			};
-		// Array.prototype.slice.call is not callable under our lovely IE8
-		for (var i = 0; i < query.length; i++) {
-			images.push(query[i]);
-		};
-		processScroll();
-		addEventListener('scroll', processScroll);
-	}(this);
-</script>
+{% include footerscripts.html %}
 
 </html>
