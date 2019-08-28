@@ -6,7 +6,7 @@ image: upload/add-https-image-with-lock.jpg
 description: "We learn about adding HTTPS to Github Pages with a Custom Domain. Yes, I learned all the tricks about Adding HTTPS to Github pages, what is https, the purpose of HTTPS, and also about Github Pages."
 datepublished: "2018-12-09"
 datemodified: "2019-08-28"
-margin-top: -190px
+margin-top: -170px
 
 ---
 

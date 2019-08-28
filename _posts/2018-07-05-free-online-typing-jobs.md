@@ -6,7 +6,7 @@ image: upload/free-online-typing-jobs.png
 description: "Best ways to earn money online by free online typing jobs with no investment and no registration fee. These typing jobs are 100% legit & receive daily payments through simple online data entry typing jobs by just working from home. These typing jobs are free to register & signup."
 datepublished: "2018-07-06"
 datemodified: "2019-08-28"
-margin-top: -280px
+margin-top: -260px
 
 ---
 

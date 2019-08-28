@@ -2869,7 +2869,7 @@ Usage (In Ghost editor):
 
 .line {
   background: #038eff;
-  height: 5px;
+  height: 6px;
   border-radius: 3px;
   width: 0px;
   position: fixed;
@@ -2951,7 +2951,7 @@ Usage (In Ghost editor):
   .anim_container {
     top: auto;
     bottom: 8%;
-    right: 5%;
+    right: 2%;
     left: auto;
     z-index: 9999;
   }
@@ -2959,16 +2959,17 @@ Usage (In Ghost editor):
 
   #show {
     z-index: 999;
-    right: 10px;
-    left: auto;
-    bottom: 20px;
-    float: right;
     padding: 12px;
+    position: absolute;
+    bottom: -21px;
+    right: 22px;
+    left: auto;
+    top: auto;
   }
 
   #links_container {
     margin-top: {{page.margin-top}};
-    margin-right: 5px;
+    margin-right: 14px;
     width: 330px;
     height: auto;
     padding: 15px;

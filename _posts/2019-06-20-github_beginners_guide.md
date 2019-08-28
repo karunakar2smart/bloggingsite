@@ -6,7 +6,7 @@ image: upload/github-guide-for-beginners.png
 description: "In this Github for beginners post, you will get introduced to Github & its various commands. It talks about Github pages, repo, installs Git, Git commands & desktop, hosting with Jekyll, etc for complete newbies."
 datepublished: "2019-06-20"
 datemodified: "2019-08-28"
-margin-top: -505px
+margin-top: -555px
 
 ---
 
