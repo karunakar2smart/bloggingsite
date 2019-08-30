@@ -5,7 +5,7 @@ layout: post
 image: upload/css-animation-fontawesome-icons.png
 description: "Font awesome icons with CSS animations would help to increase the engagement of the visitors. I included simple pure CSS code using font awesome CDN's where you can directly copy pure CSS code and paste in to use to animate all font awesome icons and use in your website for free. There are different types of animations for you to select and use for free. Learn more at font awesome icons with pure CSS animations."
 datepublished: "2018-12-17"
-datemodified: "2019-08-28"
+datemodified: "2019-08-30"
 margin-top: -180px
 
 ---
@@ -373,7 +373,7 @@ Here is the list of best <b>font awesome css animations</b> listed below. Click 
 			<ol>
 				<li><a href="#font-awesome-CDN" class="test"><b>What is Font Awesome CDN?</b></a></li>
 				<li><a href="#font-awesome-icons-animation" class="test"><b>Font Awesome Icons Animations With Pure CSS.</b></a></li>
-				<li><a href="#discourse-comments" class="test"><b>Throw a comment.</b></a></li>
+				<li><a href="#disqus_thread" class="test"><b>Throw a comment.</b></a></li>
 			</ol>
 		</div>
 	</div>

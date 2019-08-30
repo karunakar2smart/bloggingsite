@@ -2697,13 +2697,13 @@ Usage (In Ghost editor):
 
 /* 12. discourse integration-------------------------------------- */
 
-#discourse-comments {
+#disqus_thread {
   border: 1px solid #eeeef0;
   padding: 70px 100px;
 }
 
 @media (max-width: 1170px) {
-  #discourse-comments {
+  #disqus_thread {
     padding: 5vw 7vw;
   }
 }
@@ -2752,16 +2752,16 @@ Usage (In Ghost editor):
 }
 
 .social-row .email {
-  border: 2px solid #d7493c;
-  background: #d7493c;
+  border: 2px solid #4875B4;
+  background: #4875B4;
   color: white;
   fill: white;
 }
 
 .social-row .email:hover {
   background: white;
-  color: #d7493c;
-  fill: #d7493c;
+  color: #4875B4;
+  fill: #4875B4;
 }
 
 .social-row .facebook {

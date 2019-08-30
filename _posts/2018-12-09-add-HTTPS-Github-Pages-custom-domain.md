@@ -5,7 +5,7 @@ layout: post
 image: upload/add-https-image-with-lock.jpg
 description: "We learn about adding HTTPS to Github Pages with a Custom Domain. Yes, I learned all the tricks about Adding HTTPS to Github pages, what is https, the purpose of HTTPS, and also about Github Pages."
 datepublished: "2018-12-09"
-datemodified: "2019-08-28"
+datemodified: "2019-08-30"
 margin-top: -170px
 
 ---
@@ -83,7 +83,7 @@ Thank you for reading this tutorial.
 				<li><a href="#what-is-HTTPS" class="test"><b>What is HTTPS?</b></a></li>
 				<li><a href="#purpose-of-HTTPS" class="test"><b>What is Purpose of HTTPS?</b></a></li>
 				<li><a href="#add-HTTPS-Github-Pages" class="test"><b>Add HTTPS to Github Pages.</b></a></li>
-				<li><a href="#discourse-comments" class="test"><b>Throw a comment.</b></a></li>
+				<li><a href="#disqus_thread" class="test"><b>Throw a comment.</b></a></li>
 			</ol>
 		</div>
 </div>

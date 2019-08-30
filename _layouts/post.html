@@ -79,26 +79,17 @@ layout: compress
 
 
 					{% include sharingbuttons.html %}
-
-					<div id="discourse-comments">
-						<button id="trigger-load-comments"> <a href="#" onclick="disqus();return false;">Show
-								Comments</a> </button>
-					</div>
-				</article>
+						<div id="disqus_thread">
+						<button id="trigger-load-comments">
+						<a href="" class="comments-holder" onclick="loadDisqus();return false;">Show/Post Comments</a>
+						</button>
+						</div>
+						</article>
 			</div>
 		</main>
-
-
-
-
-		{% include footer.html %}
-
+			{% include footer.html %}
 	</div>
-
-
-
 </body>
-
 {% include footerscripts.html %}
 
 </html>

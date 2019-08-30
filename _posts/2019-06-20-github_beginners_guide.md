@@ -5,9 +5,9 @@ layout: post
 image: upload/github-guide-for-beginners.png
 description: "In this Github for beginners post, you will get introduced to Github & its various commands. It talks about Github pages, repo, installs Git, Git commands & desktop, hosting with Jekyll, etc for complete newbies."
 datepublished: "2019-06-20"
-datemodified: "2019-08-28"
+datemodified: "2019-08-30"
 margin-top: -555px
-
+tags: [Github guide]
 ---
 
 Do you ever ask yourself, <b>"What is GitHub?"</b> or wish you had an opportunity to learn the basics of Git? If you’ve always wanted to use GitHub, but haven’t quite been able to get up to speed. In this "Github for beginners" post, you will get introduced to Github &amp; its various commands. It talks about Github pages, repo, installs Git, Git commands &amp; desktop, hosting with Jekyll, etc for complete newbies. This beginner-friendly article is for you.
@@ -229,7 +229,7 @@ If your site exceeds these usage quotas, we may not be able to serve your site, 
 				<li><a href="#custom-domain-to-github-pages" class="test"><b>Adding a custom domain to Github Pages?</b></a></li>
 				<li><a href="#github-pages-with-HTTPS" class="test"><b>How to secure the Github Pages site with HTTPS?</b></a></li>
 				<li><a href="#usage-limits-of-github-pages" class="test"><b>What are the usage limits of Github Pages?</b></a></li>
-				<li><a href="#discourse-comments" class="test"><b>Throw a Comment.</b></a></li>
+				<li><a href="#disqus_thread" class="test"><b>Throw a Comment.</b></a></li>
 			</ol>
 		</div>
 </div>

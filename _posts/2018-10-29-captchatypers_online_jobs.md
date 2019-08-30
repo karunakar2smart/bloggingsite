@@ -5,7 +5,7 @@ layout: post
 image: upload/captchatypers-online-jobs.png
 description: "Captchatypers is best online typing job as we get new registration without investment and registration fee. Either we can work in the app or in the software downloaded for free & receive payments regularly. Many payment proofs and customer reviews make captchatypers is 100% legit and best online captcha typing job."
 datepublished: "2018-10-29"
-datemodified: "2019-08-28"
+datemodified: "2019-08-30"
 margin-top: -190px
 
 ---
@@ -123,7 +123,7 @@ I leave the final decision in your hands. Good luck and choose wisely.
 				<li><a href="#captchatypers-captcha-software" class="test"><b>Captchatypers Software(2019).</b></a></li>
 				<li><a href="#captchatypers-payment-proof" class="test"><b>Captchatypers Payment Proof(2019).</b></a></li>
 				<li><a href="#captchatypers-review" class="test"><b>Captchatypers Review(2019).</b></a></li>
-				<li><a href="#discourse-comments" class="test"><b>Throw a comment.</b></a></li>
+				<li><a href="#disqus_thread" class="test"><b>Throw a comment.</b></a></li>
 			</ol>
 		</div>
 </div>

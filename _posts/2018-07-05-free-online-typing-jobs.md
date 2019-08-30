@@ -5,7 +5,7 @@ layout: post
 image: upload/free-online-typing-jobs.png
 description: "Best ways to earn money online by free online typing jobs with no investment and no registration fee. These typing jobs are 100% legit & receive daily payments through simple online data entry typing jobs by just working from home. These typing jobs are free to register & signup."
 datepublished: "2018-07-06"
-datemodified: "2019-08-28"
+datemodified: "2019-08-30"
 margin-top: -260px
 
 ---
@@ -192,7 +192,7 @@ We must complete at least one placement evaluation before you can be considered 
 				<li><a href="#twocaptcha" class="test"><b>2captcha Online Typing Job.</b></a></li>
 				<li><a href="#Lionbridge" class="test"><b>Lionbridge Online Typing Job.</b></a></li>
 				<li><a href="#amazon-mechanical-turk-mturk" class="test"><b>Amazon mechanical turk(mturk).</b></a></li>
-				<li><a href="#discourse-comments" class="test"><b>Throw a Comment.</b></a></li>
+				<li><a href="#disqus_thread" class="test"><b>Throw a Comment.</b></a></li>
 			</ol>
 		</div>
 	</div>

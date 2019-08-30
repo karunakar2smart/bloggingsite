@@ -5,7 +5,7 @@ layout: post
 image: upload/kolotibablo-online-typing-job.png
 description: "Kolotibablo is the best online captcha typing job as we can earn money online by working from home by completing free new registration. We use kolotibablo app(bot) & software to work in android mobile and pc respectively & receive weekly payments. Many kolotibablo reviews & payment proofs prove that kolotibablo is the best online captcha typing job."
 datepublished: "2018-09-25"
-datemodified: "2019-08-28"
+datemodified: "2019-08-30"
 margin-top: -250px
 
 ---
@@ -173,7 +173,7 @@ I leave the final decision in your hands. Good luck and choose wisely.
 				<li><a href="#kolotibablo-review" class="test"><b>Kolotibablo Reviews (2019).</b></a></li>
 				<li><a href="#kolotibablo-bot" class="test"><b>Kolotibablo bot (apk, app).</b></a></li>
 				<li><a href="#kolotibablo-not-scam" class="test"><b>Is Kolotibablo genuine?</b></a></li>
-				<li><a href="#discourse-comments" class="test"><b>Throw a comment.</b></a></li>
+				<li><a href="#disqus_thread" class="test"><b>Throw a comment.</b></a></li>
 			</ol>
 		</div>
 </div>

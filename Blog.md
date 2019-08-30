@@ -1,10 +1,12 @@
 ---
 layout: homepage
-name: Blog page
+title: Karunakar Patel Blog - The Best Place To Master Making Money Online.
 permalink: Blog.html
+description: "Alltechnotricks is the best place on the internet where you learn all the tips & tricks right from starting a blog to making money online legitimately for free of cost."
+image: upload/karunakar-patel-blog-image.png
+datepublished: "2018-07-05"
+datemodified: "2019-08-30"
 ---
-
-
 {% for post in site.posts %}
 
 <article

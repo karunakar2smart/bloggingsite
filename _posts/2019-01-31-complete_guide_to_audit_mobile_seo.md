@@ -5,9 +5,9 @@ layout: post
 image: uploads/mobile-friendly.png
 description: "This complete post guides you to audit your site for mobile SEO. Mobile optimization is more than a responsive site design, it's about ensuring that visitors to your site from mobile devices have a high-quality experience.  With Google now role out to google mobile first indexing in the search rankings, now is the time to ensure optimal mobile performance by conducting a mobile usability audit."
 datepublished: "2019-01-31"
-datemodified: "2019-08-28"
+datemodified: "2019-08-30"
 margin-top: -300px
-
+tags: [Mobile SEO]
 ---
 
 Mobile phones are changing the world day by day rapidly. Nowadays, everyone has mobile phones constantly searching for information and communicating with each other. On the internet, more people are browsing using their mobile devices in such a way that in many countries the number of desktops has been replaced by smartphones. So having a mobile-friendly website is becoming more than just a must, in which <b>mobile SEO</b> plays a vital role in ranking of the websites.
@@ -725,7 +725,7 @@ What about you? Do you want to share any secret tip for mobile SEO in 2019? Do s
 				<li><a href="#mobile-off-page-seo" class="test"><b>Mobile's Off-Page SEO.</b></a></li>
 				<li><a href="#mobile-technical-seo" class="test"><b>Mobile's Technical SEO.</b></a></li>
 				<li><a href="#check-mobile-friendly-websites" class="test"><b>Create And Check Mobile Friendly Websites.</b></a></li>
-				<li><a href="#discourse-comments" class="test"><b>Throw a Comment.</b></a></li>
+				<li><a href="#disqus_thread" class="test"><b>Throw a Comment.</b></a></li>
 			</ol>
 		</div>
 </div>

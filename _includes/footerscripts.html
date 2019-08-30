@@ -3,128 +3,117 @@
 <!-- Animation Container -->
 
 <script>
- $(document).ready(function () {
-  $("#show").click(function () {
-   $("#links_container").toggle()
-  });
- });
+    $(document).ready(function () {
+        $("#show").click(function () {
+            $("#links_container").toggle()
+        });
+    });
 </script>
 <script>
- $(document).ready(function () {
-  $(".test").click(function () {
-   $("#show").show();
-   $("#links_container").hide();
-  });
- });
+    $(document).ready(function () {
+        $(".test").click(function () {
+            $("#show").show();
+            $("#links_container").hide();
+        });
+    });
 </script>
 
 <!-- Custom hash tag animation -->
 
 
 <script>
- $(document).ready(function () {
-  $('a[href^="#"]').click(function () {
-   var target = $(this.hash);
-   if (target.length == 0) target = $('a[name="' + this.hash.substr(1) + '"]');
-   if (target.length == 0) target = $('html');
-   $('html, body').animate({
-    scrollTop: target.offset().top - 50
-   }, 1050);
-   return false,
-    function () {
-     window.location.hash = target;
-    }
-  });
- });
+    $(document).ready(function () {
+        $('a[href^="#"]').click(function () {
+            var target = $(this.hash);
+            if (target.length == 0) target = $('a[name="' + this.hash.substr(1) + '"]');
+            if (target.length == 0) target = $('html');
+            $('html, body').animate({
+                scrollTop: target.offset().top - 50
+            }, 1050);
+            return false,
+                function () {
+                    window.location.hash = target;
+                }
+        });
+    });
 </script>
 
 
 <!-- Scroll Indicator -->
 
 <script type="text/javascript">
- window.addEventListener('scroll', moveScrollIndicator);
- const scrollIndicatorElt = document.getElementById('scrollIndicator');
- const maxScrollableHeight = window.document.body.scrollHeight - window.innerHeight;
+    window.addEventListener('scroll', moveScrollIndicator);
+    const scrollIndicatorElt = document.getElementById('scrollIndicator');
+    const maxScrollableHeight = window.document.body.scrollHeight - window.innerHeight;
 
- function moveScrollIndicator(e) {
-  const percentage = ((window.scrollY) / maxScrollableHeight) * 100;
-  scrollIndicatorElt.style.width = percentage + '%';
- }
+    function moveScrollIndicator(e) {
+        const percentage = ((window.scrollY) / maxScrollableHeight) * 100;
+        scrollIndicatorElt.style.width = percentage + '%';
+    }
 </script>
 
 <!-- Disqus on click load function -->
-<script type="text/javascript">
-	var disqus_shortname = "ask-karunalar-patel";
-	var disqus_url = "{{page.url | absolute_url}}";
-	var disqus_identifier = "{{page.url | absolute_url}}";
-	var disqus_loaded = false;
 
-	function disqus() {
-		if (!disqus_loaded) {
-			disqus_loaded = true;
-			var e = document.createElement("script");
-			e.type = "text/javascript";
-			e.async = true;
-			e.src = "//" + disqus_shortname + ".disqus.com/embed.js";
-			(document.getElementsByTagName("head")[0] || document.getElementsByTagName("body")[0]).appendChild(e);
-		}
-	}
-</script>
-<!-- Lazy Loading -->
+
 <script>
-	! function (window) {
-		var $q = function (q, res) {
-				if (document.querySelectorAll) {
-					res = document.querySelectorAll(q);
-				}
-				else {
-					var d = document
-						, a = d.styleSheets[0] || d.createStyleSheet();
-					a.addRule(q, 'f:b');
-					for (var l = d.all, b = 0, c = [], f = l.length; b < f; b++) l[b].currentStyle.f && c.push(l[b]);
-					a.removeRule(0);
-					res = c;
-				}
-				return res;
-			}
-			, addEventListener = function (evt, fn) {
-				window.addEventListener ? this.addEventListener(evt, fn, false) : (window.attachEvent) ? this.attachEvent('on' + evt, fn) : this['on' + evt] = fn;
-			}
-			, _has = function (obj, key) {
-				return Object.prototype.hasOwnProperty.call(obj, key);
-			};
+    var disqus_shortname = "ask-karunakar-patel";
+    var disqus_config = function () {
+        this.page.url = '{{page.url | absolute_url}}';
+        this.page.identifier = '{{page.url | absolute_url }}';
+    };
+    var is_disqus_loaded = false;
 
-		function loadImage(el, fn) {
-			var img = new Image()
-				, src = el.getAttribute('data-src');
-			img.onload = function () {
-				if (!!el.parent) el.parent.replaceChild(img, el)
-				else el.src = src;
-				fn ? fn() : null;
-			}
-			img.src = src;
-		}
+    function loadDisqus() {
+        if (!is_disqus_loaded) {
+            is_disqus_loaded = true;
+            var d = document,
+                s = d.createElement('script');
+            s.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+        }
 
-		function elementInViewport(el) {
-			var rect = el.getBoundingClientRect()
-			return (rect.top >= 0 && rect.left >= 0 && rect.top <= (window.innerHeight || document.documentElement.clientHeight))
-		}
-		var images = new Array()
-			, query = $q('img.lazy')
-			, processScroll = function () {
-				for (var i = 0; i < images.length; i++) {
-					if (elementInViewport(images[i])) {
-						loadImage(images[i], function () {
-							images.splice(i, i);
-						});
-					}
-				};
-			};
-		// Array.prototype.slice.call is not callable under our lovely IE8
-		for (var i = 0; i < query.length; i++) {
-			images.push(query[i]);
-		};
-		processScroll();
-		addEventListener('scroll', processScroll);
-	}(this);
+    };
+</script>
+
+<!-- Social Sharing Dynamic Url (Jquery) -->
+<script>
+    window.onload = setShareLinks;
+
+    function setShareLinks() {
+        var pageUrl = encodeURIComponent(document.URL);
+        var description = document.querySelector("meta[name='description']").getAttribute("content");
+        var description = encodeURIComponent(description);
+
+        elements = document.querySelectorAll(".social-share.facebook");
+        Array.prototype.forEach.call(elements, function (el) {
+            el.addEventListener("click", function () {
+                url = "https://www.facebook.com/sharer.php?u=" + pageUrl;
+                socialWindow(url);
+            });
+        });
+
+        elements = document.querySelectorAll(".social-share.twitter");
+        Array.prototype.forEach.call(elements, function (el) {
+            el.addEventListener("click", function () {
+                url = "https://twitter.com/intent/tweet?url=" + pageUrl + "&text=" + description;
+                socialWindow(url);
+            });
+        });
+
+        elements = document.querySelectorAll(".social-share.linkedin");
+        Array.prototype.forEach.call(elements, function (el) {
+            el.addEventListener("click", function () {
+                url = "https://www.linkedin.com/shareArticle?mini=true&url=" + pageUrl;
+                socialWindow(url);
+            });
+        });
+    };
+
+    function socialWindow(url) {
+        var left = (screen.width - 570) / 2;
+        var top = (screen.height - 570) / 2;
+        var params = "menubar=no,toolbar=no,status=no,width=570,height=570,top=" + top + ",left=" + left;
+        window.open(url, "NewWindow", params);
+    };
 </script>

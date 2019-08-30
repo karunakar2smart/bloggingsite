@@ -5,8 +5,9 @@ layout: post
 image: upload/earn-money-online.jpg
 description: "Best ways to earn money online without investment and registration fee by just working from home as a part-time job. These are 100% proven legit online jobs which is useful for students, housewives & those who start earning money online by working from home. Here may include making money online from typing job, online surveys, PTC sites and many more."
 datepublished: "2018-07-05"
-datemodified: "2019-08-28"
+datemodified: "2019-08-30"
 margin-top: -290px
+tags: [Making Money Online]
 
 ---
 
@@ -242,7 +243,7 @@ Then there are the top 10 legitimate free sites which make you earn money online
 											Blogging.</b></a></li>
 								<li><a href="#web-developer" class="test"><b>Earn Money As
 											WebDeveloper.</b></a></li>
-								<li><a href="#discourse-comments" class="test"><b>Throw a comment</b></a></li>
+								<li><a href="#disqus_thread" class="test"><b>Throw a comment</b></a></li>
 							</ol>
 						</div>
 </div>

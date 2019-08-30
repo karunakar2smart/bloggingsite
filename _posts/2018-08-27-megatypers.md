@@ -5,9 +5,9 @@ layout: post
 image: upload/megatypers-online-typing-job.png
 description: "Megatypers is the best online captcha typing job as we can earn money by doing simple typing job & receive daily payments. We can register with an invitation code & also download captcha solver software for 100% free. Many megatypers reviews and payment proof proves that megatypers is the best online captcha typing job without investment and registration fee."
 datepublished: "2018-08-27"
-datemodified: "2019-08-28"
+datemodified: "2019-08-30"
 margin-top: -280px
-
+tags: [Online Typing Jobs]
 ---
 
 Hi, finally we are here at **megatypers free online typing job**. [Megatypers](https://www.alltechnotricks.com/megatypers.html){: target="_blank" rel="noopener"} is an online typing job portal in which we can earn money by typing online and get registered for free without paying any registration fee and receive payments on a weekly basis.
@@ -139,7 +139,7 @@ I leave the final decision in your hands. Good luck and choose wisely.
 				<li><a href="#megatypers-software" class="test"><b>Download Megatypers Software (2019).</b></a></li>
 				<li><a href="#megatypers-payment-proof" class="test"><b>Megatypers Payment Proofs.</b></a></li>
 				<li><a href="#megatypers-review" class="test"><b>Megatypers Review.</b></a></li>
-				<li><a href="#discourse-comments" class="test"><b>Throw a comment.</b></a></li>
+				<li><a href="#disqus_thread" class="test"><b>Throw a comment.</b></a></li>
 			</ol>
 		</div>
 </div>

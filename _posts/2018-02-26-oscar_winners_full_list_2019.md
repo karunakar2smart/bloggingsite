@@ -5,7 +5,7 @@ layout: post
 image: upload/oscar-winners-2019-list.png
 description: "The Oscars 2019 marked the 91st edition of the Academy Awards which were the biggest night in film. Here is the complete list of Oscar award winners of 2019 in their respective categories nominated by the Oscars 2019."
 datepublished: "2019-06-20"
-datemodified: "2019-08-28"
+datemodified: "2019-08-30"
 margin-top: -420px
 
 ---
@@ -343,7 +343,7 @@ The <b>documentary short film</b> follows a group of women in Hapur, India, whil
 				<li><a href="#blackkklansman" class="test"><b>BlacKkKlansman.</b> </a></li>
 				<li><a href="#vice" class="test"><b>Vice. </b></a></li>
 				<li><a href="#spider-man" class="test"><b>Spider-Man: Into the Spider-Verse.</b> </a></li>
-				<li><a href="#discourse-comments" class="test"><b>Throw a comment.</b></a></li>
+				<li><a href="#disqus_thread" class="test"><b>Throw a comment.</b></a></li>
 			</ol>
 		</div>
 </div>

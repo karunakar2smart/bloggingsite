@@ -6,9 +6,9 @@ layout: post
 image: upload/amazon-mechanical-turk-mturk.png
 description: "Amazon Mechanical Turk(MTurk) offers various types of online jobs to make money online by accepting HITs from requesters and earn rewards by getting the job done as a worker within its time limit. No registration and investment required to signup at MTurk online jobs as it is 100% legitimate job considered by reviews."
 datepublished: "2019-06-25"
-datemodified: "2019-08-28"
+datemodified: "2019-08-30"
 margin-top: -435px
-
+tags: [Online Typing Jobs]
 ---
 
 <strong>Amazon Mechanical Turk</strong> is the best place to <a href="https://www.alltechnotricks.com/earn-money-online.html" target="_blank" rel="noopener">make money online</a> in a market place for work where businesses (aka Requesters) publish tasks (aka HITS) where human providers (aka Workers) complete them. Amazon Mechanical Turk gives Workers a selection of thousands of tasks to complete whenever and wherever it's convenient all over the globe.
@@ -153,7 +153,7 @@ There’s an entire community of MTurk workers on Reddit who share tips and tric
 					How Do I Receive Payments From Amazon Mechanical Turk?</b></a></li>
 				<li><a href="#mturk-workers-paid" class="test"><b>How are MTurk workers paid?</b></a></li>
 				<li><a href="#mturk-review" class="test"><b>MTurk Review - My Personal thought.</b></a></li>
-				<li><a href="#discourse-comments" class="test"><b>Throw a comment.</b></a></li>
+				<li><a href="#disqus_thread" class="test"><b>Throw a comment.</b></a></li>
 			</ol>
 </div>
 </div>

@@ -5,9 +5,9 @@ layout: post
 image: upload/top-inspirational-movies-posture.png
 description: "Here are the best inspirational and motivational movies based on true and real stories so far following the year 2019. These movies are inspired by true-life stories of famous persons. Get inspired by watching these motivational movies in your free time."
 datepublished: "2019-04-14"
-datemodified: "2019-08-28"
+datemodified: "2019-08-30"
 margin-top: -510px
-
+tags: [Inspirational Movies]
 ---
 
 Here are the <strong>best top 10+ inspirational and motivational movies based and inspired by real and true stories</strong>. You would like to watch these movies because you want to, but not someone had told you to do so.
@@ -446,7 +446,7 @@ Here is the loved quote from the film [THE BLIND SIDE](https://en.wikipedia.org/
 				<li><a href="#the-shawshank-redemption" class="test"><b>The Shawshank Redemption.</b></a></li>
 				<li><a href="#the-pursuit-of-happiness" class="test"><b>The Pursuit Of Happiness.</b></a></li>
 				<li><a href="#the-blind-side" class="test"><b>The Blind Side.</b></a></li>
-				<li><a href="#discourse-comments" class="test"><b>Throw a comment.</b></a></li>
+				<li><a href="#disqus_thread" class="test"><b>Throw a comment.</b></a></li>
 			</ol>
 		</div>
 </div>

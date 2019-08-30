@@ -5,7 +5,7 @@ layout: post
 image: upload/qlinkgroup-online-captcha-typing-job.png
 description: "Qlinkgroup is the best online captcha typing job as we can earn money by doing simple online typing job. We can download captcha entry software and get register for free with no investment and no registration fee. Having receiving daily payments and many reviews prove that qlinkgroup online captcha typing job is 100% legit."
 datepublished: "2018-09-06"
-datemodified: "2019-08-28"
+datemodified: "2019-08-30"
 margin-top: -250px
 
 ---
@@ -233,7 +233,7 @@ Honestly, I got paid through this company.
 				<li><a href="#qlinkgroup-requirements" class="test"><b>Qlinkgroup Minimum Requirements.</b></a></li>
 				<li><a href="#qlinkgroup-payment" class="test"><b>Qlinkgroup Payment Proof.</b></a></li>
 				<li><a href="#qlinkgroup-review" class="test"><b>Qlinkgroup Review(2019).</b></a></li>
-				<li><a href="#discourse-comments" class="test"><b>Throw a comment.</b></a></li>
+				<li><a href="#disqus_thread" class="test"><b>Throw a comment.</b></a></li>
 			</ol>
 		</div>
 	</div>
