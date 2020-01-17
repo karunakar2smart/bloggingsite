@@ -2,16 +2,15 @@
 title: Alltechnotricks - The Best place to master making money online.
 description: "Alltechnotricks is the best place on the internet where you learn all the tips & tricks right from starting a blog to making money online legitimately for free of cost."
 image: upload/karunakar-patel-blog-image.png
-url: /
 permalink: /
 layout: homepage
 datepublished: "2018-07-05"
-datemodified: "2019-08-30"
+datemodified: "2020-01-17"
 
 ---
 
 
-{% for post in site.posts %}
+{% for post in site.categories.Blog %}
 
 <article
       class="post-card post tag-challenge tag-code tag-code-challenge tag-coding tag-css tag-html tag-interview tag-coding-interview tag-interviewing tag-javascript tag-job tag-job-hunting tag-job-interview tag-learning-to-code tag-learn-to-code ">

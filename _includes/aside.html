@@ -1,91 +1,114 @@
-	<div class="inner">
-		<div class="read-next-feed">
-			<article class="read-next-card"
+
+{% capture pageCategory %} {{page.category[0]}} {% endcapture %}
+
+<div class="inner">
+	<div class="read-next-feed">
+		<article class="read-next-card"
 				style="background-image: url(#)">
-				<header class="read-next-card-header">
+					<header class="read-next-card-header">
 					<p class="read-next-card-header-sitetitle">Countinue reading about</p>
-					<h3 class="read-next-card-header-title"><a href="https://www.alltechnotricks.com" target="_blank" rel="noopener">Making Money Online</a>
-					</h3>
-				</header>
-				<div class="read-next-card-content">
-					<ul>
-						<li><a href="https://wwww.alltechnotricks.com/free-online-typing-jobs.html">Free Online
-								Typing Jobs Without Investment and Registration Fee.</a></li>
-						<li><a href="https://www.alltechnotricks.com/megatypers.html" target="_blank" rel="noopener">Megatypers Online Job Without Investment and Registration Fee.</a></li>
-						<li><a href="https://www.alltechnotricks.com/qlinkgroup.html" target="_blank" rel="noopener">Qlinkgroup Online Typing Job With Zero Registration Fee and Zero
-								Investment.</a></li>
-					</ul>
+		<h3 class="read-next-card-header-title"><a href="https://www.alltechnotricks.com" target="_blank" rel="noopener">{{page.category[0]}}</a>
+		</h3>
+	</header>
+<div class="read-next-card-content">
+
+{% assign maxRelated = 2 %}
+{% assign minCommonTags =  2 %}
+{% assign maxRelatedCounter = 0 %}
+
+{% for post in site.posts %}
+
+			{% assign sameTagCount = 0 %}
+			{% assign commonTags = '' %}
+
+			{% for category in post.categories %}
+					{% if post.url != page.url %}
+							{% if page.categories contains category %}
+									{% assign sameTagCount = sameTagCount | plus: 1 %}
+									{% capture tagmarkup %} <span class="label label-default">{{ category }}</span> {% endcapture %}
+									{% assign commonTags = commonTags | append: tagmarkup %}
+							{% endif %}
+					{% endif %}
+			{% endfor %}
+
+			{% if sameTagCount >= minCommonTags %}
+
+			<ul>
+				<li><a href="{{ site.url }}{{ post.url }}" target="_blank">{{ post.title }}</a>  </li>
+				</ul>
+
+{% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
+					{% if maxRelatedCounter >= maxRelated %}
+							{% break %}
+					{% endif %}
+			{% endif %}
+
+	{% endfor %}
+
+	<footer class="read-next-card-footer"> <a href="https://www.alltechnotricks.com/Blog.html" target="_blank" rel="noopener">See all posts
+			→</a> </footer>
+</article>
+</div>
+</div>
+
+
+<!-- 
+{% capture pageCategory %}{{ page.category[0] }}{% endcapture %}
+
+
+<div class="inner">
+	<div class="read-next-feed">
+		<article class="read-next-card"
+			style="background-image: url(#)">
+			<header class="read-next-card-header">
+				<p class="read-next-card-header-sitetitle">Countinue reading about</p>
+				<h3 class="read-next-card-header-title"><a href="https://www.alltechnotricks.com" target="_blank" rel="noopener">{{page.category[0]}}</a>
+				</h3>
+			</header>
+			<div class="read-next-card-content">
+				{% for post in site.categories[pageCategory] plus: 2 limit: 3 %}
+									<ul>
+													<li><a href="{{post.url | absolute_url }}">{{post.title}}</a></li>
+									</ul>
+									{% endfor %}
+							</div>
+			<footer class="read-next-card-footer"> <a href="https://www.alltechnotricks.com/Blog.html" target="_blank" rel="noopener">See all posts
+					→</a> </footer>
+		</article>
+
+{% for post in site.categories[pageCategory] reversed limit: 2 %}
+
+<article class="post-card post tag-web-scraping tag-tutorial tag-beginners-guide ">
+			<a class="post-card-image-link" href="{{post.url | absolute_url}}" target="_blank" rel="noopener">
+				<img class="post-card-image" srcset="{{post.image | absolute_url}}"
+					sizes="(max-width: 1000px) 400px, 700px" onerror="this.style.display='none'"
+					alt="{{image.title}}" /> </a>
+			<div class="post-card-content">
+				<div class="post-card-content-link">
+					<header class="post-card-header">
+						<h2 class="post-card-title">
+							<a href="{{post.url | absolute_url}}" target="_blank" rel="noopener">
+								{{post.title}}
+							</a>
+						</h2>
+						<span class="post-card-tags">
+							<p>{{post.description | truncate: 180 }}</p>
+						</span>
+					</header>
 				</div>
-				<footer class="read-next-card-footer"> <a href="https://www.alltechnotricks.com/Blog.html" target="_blank" rel="noopener">See all posts
-						→</a> </footer>
-			</article>
-			<article class="post-card post tag-web-scraping tag-tutorial tag-beginners-guide ">
-				<a class="post-card-image-link" href="https://www.alltechnotricks.com/free-online-typing-jobs.html" target="_blank" rel="noopener">
-					<img class="post-card-image" srcset="/upload/free-online-typing-jobs.png"
-						sizes="(max-width: 1000px) 400px, 700px" onerror="this.style.display='none'"
-						alt="A guide to web scraping: never get blocked again" /> </a>
-				<div class="post-card-content">
-					<div class="post-card-content-link">
-						<header class="post-card-header">
-							<h2 class="post-card-title">
-								<a href="https://www.alltechnotricks.com/free-online-typing-jobs.html" target="_blank" rel="noopener">
-									Free Online Typing Jobs With Zero Investment and Registration Fees.
-								</a>
-							</h2>
-							<span class="post-card-tags">
-								<p>Hi, are you searching for free online typing jobs? then you are in a good
-									place. Yes, in here there are top legitimate typing jobs available for
-									everyone all around the world. </p>
-							</span>
-						</header>
-					</div>
-					<footer class="post-card-meta">
-						<ul class="author-list">
-							<li class="author-list-item">
-								<div class="author-name-tooltip">Karunakar Patetl</div>
-								<a href="https://www.alltechnotricks.com/Blog.html" target="_blank" rel="noopener" class="static-avatar"> <img class="author-profile-image"
-										src="/uploads/avatar.png" alt="Karunakar Patel" />
-								</a>
-							</li>
-						</ul> <a class="meta-item" href="https://www.alltechnotricks.com" target="_blank" rel="noopener">Karunakar Patel</a>
-						<time class="meta-item">{{page.datemodified | date_to_string}}</time>
-					</footer>
-				</div>
-			</article>
-			<article class="post-card post tag-github tag-terminal ">
-				<a class="post-card-image-link" href="https://www.alltechnotricks.com/kolotibablo.html" target="_blank" rel="noopener">
-					<img class="post-card-image" src="/upload/kolotibablo-online-typing-job.png"
-						sizes="(max-width: 1000px) 400px, 700px" onerror="this.style.display='none'"
-						src="https://www.alltechnotricks.com/kolotibablo.html" target="_blank" rel="noopener"
-						alt="Kolotibablo Online Money Earning Service Without Investment and Registration Fee." />
-				</a>
-				<div class="post-card-content">
-					<div class="post-card-content-link">
-						<header class="post-card-header">
-							<h2 class="post-card-title">
-								<a href="https://www.alltechnotricks.com/kolotibablo.html" target="_blank" rel="noopener">
-									Kolotibablo Online Money Earning Service Without Investment and Registration
-									Fee.
-								</a>
-							</h2>
-							<span class="post-card-tags">
-								<p>Kolotibablo offers simple online captcha typing job for free. Within
-									kolotibablo we can earn money online by doing simple online typing job
-									without paying any registration fees. </p>
-							</span>
-						</header>
-					</div>
-					<footer class="post-card-meta">
-						<ul class="author-list">
-							<li class="author-list-item">
-								<div class="author-name-tooltip">Karunakar Patel</div>
-								<a href="https://www.alltechnotricks.com" target="_blank" rel="noopener" class="static-avatar"> <img class="author-profile-image"
-										src="/uploads/avatar.png" alt="Karunakar Patel" /> </a>
-							</li>
-						</ul> <a class="meta-item" href="https://www.alltechnotricks.com/Blog.html" target="_top" rel="noopener">Karunakar Patel</a>
-						<time class="meta-item">{{page.datemodified | date_to_string }}</time>
-					</footer>
-				</div>
-			</article>
-		</div>
-	</div>
+				<footer class="post-card-meta">
+					<ul class="author-list">
+						<li class="author-list-item">
+							<div class="author-name-tooltip">Karunakar Patetl</div>
+							<a href="https://www.alltechnotricks.com/Blog.html" target="_blank" rel="noopener" class="static-avatar"> <img class="author-profile-image"
+									src="/uploads/avatar.png" alt="Karunakar Patel" />
+							</a>
+						</li>
+					</ul> <a class="meta-item" href="https://www.alltechnotricks.com" target="_blank" rel="noopener">Karunakar Patel</a>
+					<time class="meta-item">{{page.datemodified | date_to_string}}</time>
+				</footer>
+			</div>
+		</article>
+{% endfor %}
+</div>
+</div>		 -->
