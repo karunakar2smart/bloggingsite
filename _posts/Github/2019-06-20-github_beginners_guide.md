@@ -5,7 +5,7 @@ layout: post
 image: upload/github-guide-for-beginners.png
 description: "In this Github for beginners post, you will get introduced to Github & its various commands. It talks about Github pages, repo, installs Git, Git commands & desktop, hosting with Jekyll, etc for complete newbies."
 datepublished: "2019-06-20"
-datemodified: "2020-01-17"
+datemodified: "2020-06-10"
 margin-top: -555px
 category: [Github-Pages, Blog]
 ---
@@ -18,7 +18,6 @@ Github is a web-based hosting service for version control using <strong>Git</str
 
 <blockquote>GitHub is a code hosting platform for collaboration and version control. GitHub lets you (and others) work together on projects.
 <br> <strong>Github</strong> = <strong>Git</strong>(<strong>Version Control System</strong>) &amp; <strong>Hub</strong>(<strong>Code hosting platform</strong>).</blockquote>
-
 
 <h2 id="git"><strong>2. What is Git?</strong></h2>
 
@@ -33,6 +32,7 @@ VCS treats each file/change as a revision and coordinates work on those change a
 This development doesn’t depend on a single entity as VCS tends to be distributed. Each entity is treated with equal importance as others.
 
 Developers can review project history to find out:
+
 <ul>
 <li>Which changes were made?</li>
 <li>Who made the changes?</li>
@@ -40,21 +40,18 @@ Developers can review project history to find out:
 <li>Why were the changes needed?</li>
 </ul>
 
-
 {% include googlead1.html %}
 
 <h2 id="github-pages"><strong>4. What is GitHub Pages?</strong></h2>
 
 <strong>GitHub Pages</strong> is a static site hosting service designed to host your personal, organization, or project pages directly from a GitHub repository. You can create and publish GitHub Pages sites online using the Jekyll Static site generator Or if you prefer to work locally, you can use <strong>GitHub Desktop</strong> or the command line. GitHub Pages doesn't support server-side code such as PHP, Ruby, or Python.
 
-
 <blockquote>Ready to get started? <br> Build your own site from scratch or generate one for your project. <br>You get one site per GitHub account and organization, and unlimited project sites.
 <br> Let's get started at <a href="https://pages.github.com/" rel="noopener" target="_blank">Github pages.</a></blockquote>
 
-
 <h2 id="install-git-in-pc"><strong>5. How to install Git in pc?</strong></h2>
 
-Install Git on Windows. <strong>Download</strong> the [latest Git for Windows installer](https://git-scm.com/downloads){: target="_blank" rel="noopener"}. When you've successfully started the installer, you should see the Git Setup wizard screen. Open a Command Prompt (or Git Bash if during installation you elected not to use Git from the Windows Command Prompt).
+Install Git on Windows. <strong>Download</strong> the [latest Git for Windows installer](https://git-scm.com/downloads){: target="\_blank" rel="noopener"}. When you've successfully started the installer, you should see the Git Setup wizard screen. Open a Command Prompt (or Git Bash if during installation you elected not to use Git from the Windows Command Prompt).
 
 Before you start using <strong>Git</strong>, you have to make it available on your computer. Even if it’s already installed, it’s probably a good idea to update to the latest version. You can either install it as a package or via another installer or <strong>download</strong> the source code and compile it yourself.
 
@@ -63,7 +60,6 @@ Before you start using <strong>Git</strong>, you have to make it available on yo
 To use Git on the command line, you'll need to <strong>download</strong>, <strong>install</strong>, and <strong>configure Git</strong> on your computer.
 
 If you want to work with Git locally, but don't want to use the command line, you can instead download and install the <strong>GitHub Desktop</strong> client.
-
 
 <blockquote> Download &amp; install latest version of Git at official <a href="https://git-scm.com/downloads" target="_blank" rel="noopener">Git downloads</a> page. </blockquote>
 
@@ -82,7 +78,6 @@ If you want to work with Git locally, but don't want to use the command line, yo
 
 <blockquote> Extend your GitHub workflow beyond your browser with GitHub Desktop. <br> Get a unified cross-platform experience that’s completely open source and ready to customize.
 <br> Download latest version of <a href="https://desktop.github.com/" target="_blank" rel="noopener">Github desktop</a> </blockquote>
-
 
 <h2 id="install-github-desktop"><strong>7. How to Install GitHub Desktop?</strong></h2>
 
@@ -129,11 +124,9 @@ A <strong>repository</strong> is like a folder for your project. Your project's 
 </figcaption>
 </figure>
 
-
 <h2 id="host-website-using-github-pages"><strong>10. Can I host a website using Github pages?</strong></h2>
 
 Yes, we can host our <strong>personal website</strong> on Github as Github pages for free of cost. We use a static site generator called Jekyll to serve as a CMS for the publishers and the GitHub. Importantly, we can use our own <a href="https://www.alltechnotricks.com/Blog/github-pages-custom-domain.html" target="_blank" rel="noopener">custom domain</a> to get hosted on the Github.
-
 
 <blockquote> Here is the complete guide to <a href="https://www.alltechnotricks.com/Blog/github-pages-custom-domain.html" target="_blank" rel="noopener">host a website using Github pages.</a> </blockquote>
 
@@ -142,7 +135,6 @@ Yes, we can host our <strong>personal website</strong> on Github as Github pages
 <h2 id="jekyll"><strong>11. What is Jekyll?</strong></h2>
 
 <strong>Jekyll</strong> is a s<strong>tatic site generator</strong>, which in reduced terms means that it will let you develop a website with some dynamic-like functionalities like automatic navigation menus, cross-links and so on; but the end result is actually just generated as static files (files that only need to be served, not computed). <a href="https://jekyllrb.com/" target="_blank" rel="noopener">Jekyll</a> Static files only need to be hosted on a web server (which makes it cheap) and are easily deployable. You give it text written in your favorite markup language and it churns through layouts to create a static website. Throughout that process, you can tweak how you want the site URLs to look, what data gets displayed in the layout, and many more.
-
 
 <figure><img src="/uploads/github-pages-jekyll-homepage.png" data-src="/uploads/github-pages-jekyll-homepage.png" alt="github-pages-jekyll-homepage" title="github-pages-jekyll-homepage" class="lazy" />
 <figcaption>Github Pages: Jekyll Homepage.
@@ -166,7 +158,7 @@ Go to your GitHub Pages site's repository settings. Under "<strong>Custom domain
 
 <strong>HTTPS</strong> adds a layer of encryption that prevents others from snooping on or tampering with traffic to your site. You can enforce HTTPS for your <strong>GitHub Pages site</strong> to transparently redirect all HTTP requests to HTTPS.
 
- Here is how to add HTTPS to Github Pages.
+Here is how to add HTTPS to Github Pages.
 
 <ol>
 <li>On GitHub, navigate to the main page of the repository.</li>
@@ -182,6 +174,7 @@ Go to your GitHub Pages site's repository settings. Under "<strong>Custom domain
 <h2 id="usage-limits-of-github-pages"><strong>14. What are the usage limits of GitHub Pages?</strong></h2>
 
 GitHub Pages sites are subject to the following usage limits:
+
 <ol>
 <li>GitHub Page's source repositories have a recommended limit of 1GB.</li>
 <li>Published GitHub Pages sites may be no larger than 1 GB.</li>

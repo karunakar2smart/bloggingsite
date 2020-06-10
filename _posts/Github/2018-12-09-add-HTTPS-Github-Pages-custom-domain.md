@@ -5,13 +5,12 @@ layout: post
 image: upload/add-https-image-with-lock.jpg
 description: "We learn about adding HTTPS to Github Pages with a Custom Domain. Yes, I learned all the tricks about Adding HTTPS to Github pages, what is https, the purpose of HTTPS, and also about Github Pages."
 datepublished: "2018-12-09"
-datemodified: "2020-01-17"
+datemodified: "2020-06-10"
 margin-top: -170px
 category: [Github-Pages, Blog]
-
 ---
 
-In here, we learn all the steps required to **add HTTPS with a custom URL using Github pages**. Yes, we can add "**HTTPS**" or **SSL certificate** to our own website using **Github pages** without paying any money. Most importantly, my website([https://www.alltechnotricks.com](https://www.alltechnotricks.com/){: target="_blank" rel="noopener"}) has also added **HTTPS** by using these techniques.
+In here, we learn all the steps required to **add HTTPS with a custom URL using Github pages**. Yes, we can add "**HTTPS**" or **SSL certificate** to our own website using **Github pages** without paying any money. Most importantly, my website([https://www.alltechnotricks.com](https://www.alltechnotricks.com/){: target="\_blank" rel="noopener"}) has also added **HTTPS** by using these techniques.
 
 All we need to have a **custom domain** name hosted using Github Pages. I do blogging through this technique without paying any fee. As always, there is no charge for adding **SSL certificate** to **Github pages**.
 
@@ -24,7 +23,6 @@ All we need to have a **custom domain** name hosted using Github Pages. I do blo
 In **HTTPS**, the communication protocol is encrypted using Transport Layer Security (TLS), or formerly, its predecessor, **Secure Sockets Layer (SSL)**. The protocol is therefore also often referred to as HTTP over TLS, or **HTTP** over **SSL**.
 
 <h2 id="purpose-of-HTTPS"><strong>2. What is the Purpose of HTTPS?</strong></h2>
-
 
 **HTTPS** encrypts traffic between GitHub’s servers and your browser giving you confidence that the page you asked for is the page you’re reading, from the site you think it is, and that others can’t snoop on or modify its contents along the way.
 
@@ -55,7 +53,7 @@ Make sure that you have checked "**Enforce HTTPS**" button and hit the save butt
 
 <h3><strong>Github Public Announcement.</strong></h3>
 
-Github has partnered with the certificate authority Let’s Encrypt on this project. As supporters of [Let’s Encrypt’s mission](https://letsencrypt.org/){: target="_blank" rel="noopener"} to make the web more secure for everyone, we’ve officially become Silver-level sponsors of the initiative.
+Github has partnered with the certificate authority Let’s Encrypt on this project. As supporters of [Let’s Encrypt’s mission](https://letsencrypt.org/){: target="\_blank" rel="noopener"} to make the web more secure for everyone, we’ve officially become Silver-level sponsors of the initiative.
 
 Thank you for reading this tutorial.
 

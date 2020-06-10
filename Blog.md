@@ -5,7 +5,7 @@ permalink: Blog.html
 description: "Alltechnotricks is the best place on the internet where you learn all the tips & tricks right from starting a blog to making money online legitimately for free of cost."
 image: upload/karunakar-patel-blog-image.png
 datepublished: "2018-07-05"
-datemodified: "2020-01-17"
+datemodified: "2020-06-10"
 ---
 
 {% for post in site.categories.Blog %}

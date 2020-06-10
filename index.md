@@ -5,10 +5,8 @@ image: upload/karunakar-patel-blog-image.png
 permalink: /
 layout: homepage
 datepublished: "2018-07-05"
-datemodified: "2020-01-17"
-
+datemodified: "2020-06-10"
 ---
-
 
 {% for post in site.categories.Blog %}
 

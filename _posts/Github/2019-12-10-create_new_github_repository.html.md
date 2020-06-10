@@ -5,7 +5,7 @@ layout: post
 image: upload/create-first-github-repository.png
 description: "This tutorial will guide you through to create and use a new Github repository where GitHub stores each project in its own online repository. we can also create a remote repository on GitHub right from the command line, allow the user to interactively create a .gitignore file and so on."
 datepublished: "2020-01-17"
-datemodified: "2020-01-17"
+datemodified: "2020-06-10"
 margin-top: -200px
 category: [Github-Pages, Blog]
 ---
@@ -34,7 +34,6 @@ A repository is like a folder for your project. Your project’s repository cont
 </li>
 
 <li>Select Initialize this repository with a README. <br>
-
 
 <img src="/uploads/git-new-repository-5.png">
 
@@ -79,14 +78,13 @@ $ git remote -v <br>
 
 <h4>Next Step</h4>
 
-Here I demonstrated how to create a git repository using two methods: git init and git clone. All the processes we have done here had been achieved by using the command line. 
+Here I demonstrated how to create a git repository using two methods: git init and git clone. All the processes we have done here had been achieved by using the command line.
 
-Instead of using the command line, we can also use Graphic User Interface software i.e GUI named Github desktop. 
+Instead of using the command line, we can also use Graphic User Interface software i.e GUI named Github desktop.
 
 we can use <a href="https://www.alltechnotricks.com/Blog/github_desktop_windows.html" rel="noopener">GitHub Desktop</a> to manage your projects, create meaningful commits, keep the project up-to-date, and review your preferred settings and track the project's history in an app instead of on the command line.
 
 {% include googlead4.html %}
-
 
 <div class="anim_container">
 <button id="show">

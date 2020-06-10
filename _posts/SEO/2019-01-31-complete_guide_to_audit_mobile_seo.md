@@ -5,7 +5,7 @@ layout: post
 image: uploads/mobile-friendly.png
 description: "This complete post guides you to audit your site for mobile SEO. Mobile optimization is more than a responsive site design, it's about ensuring that visitors to your site from mobile devices have a high-quality experience.  With Google now role out to google mobile first indexing in the search rankings, now is the time to ensure optimal mobile performance by conducting a mobile usability audit."
 datepublished: "2019-01-31"
-datemodified: "2020-01-17"
+datemodified: "2020-06-10"
 margin-top: -300px
 category: [SEO, Blog]
 ---
@@ -41,7 +41,6 @@ Google move to <a href="https://webmasters.googleblog.com/2018/03/rolling-out-mo
 In before, Google primarily used the <b>desktop version</b> of the page's content when evaluating the relevance of a page to a search query. But, the majority of users now access Google via a mobile device, the index will primarily use the <b>mobile version</b> of a page's content.
 
 <figure> <img src="/uploads/before-mobile-first-index.png" data-src="/uploads/before-mobile-first-index.png" class="lazy" alt="before-google-mobile-first-indexing" title="before-google-mobile-first-indexing"></figure><figure> <img src="/uploads/after-mobile-first-index.png" data-src="/uploads/after-mobile-first-index.png" class="lazy" alt="after-mobile-first-indexing" title="after-mobile-first-indexing"> </figure>
-
 
 But what makes a website <b>mobile friendly</b>? And how do you know if your website is ready for the <b>Google mobile first index</b>? I’m going to cover each and everything in a step by step manner.
 
@@ -146,7 +145,6 @@ Add a viewport <code>&lt;meta&gt;</code> tag in the <code>&lt;head&gt;</code> of
 
 The width=device-width key-value pair sets the width of the viewport to the width of the device. The initial-scale=1 key-value pair sets the initial zoom level when visiting the page.
 
-
 <blockquote>Recommended article: - <a href="https://developer.mozilla.org/en-US/docs/Mozilla/Mobile/Viewport_meta_tag" target="_blank" rel="noopener">Using the viewport meta tag to control layout on mobile browsers</a> by Mozilla Developers.</blockquote>
 
 {% include googlead4.html %}
@@ -193,9 +191,7 @@ This tool can be effectively used for the following purposes:
 <li>Finding out the pages causing issues when a site is hacked by malware.</li>
 </ol>
 
-
 <blockquote>Learn more about Fetch as Google tool at <a href="https://kb.yoast.com/kb/fetch-as-googlebot/" target="_blank" rel="noopener">How to use fetch as google tool</a> at Yoast SEO Knowledge.</blockquote>
-
 
 <h3 id="boost-mobile-speed-using-cdn"><strong>Boost Mobile Speed Using CDN.</strong></h3>
 
@@ -419,7 +415,6 @@ The large-format images that contain a lot of data (often in the form of graphs 
 
 Finally, add <b>summarizes</b> and <b>answers</b> to the web most commonly asked questions.
 
-
 <h3 id="social-media-marketing"><strong>Social Media Marketing.</strong></h3>
 
 <b>Social media marketing</b> is the use of social media platforms and websites to promote a product or services as social media marketing is becoming more popular for both practitioners and researches.
@@ -546,7 +541,6 @@ Every website on the Internet should have an SSL certificate and be served over 
 
 <blockquote>Learn more about HTTPS & Add SSL certificate for free of cost by using <a href="https://www.cloudflare.com/en-in/" target="_blank" rel="noopener">Cloudflare Services.</a></blockquote>
 
-
 <h3 id="check-mobile-friendly-websites"><strong>Create and check Mobile Friendly websites : -</strong></h3>
 
 As you know it's really important to gain traffic to your website from different sources. It means that there are different types of users who prefer to search on the internet from different devices, so webmaster should always be in trend. If you have bad results of this test, your website would fail in <b>Google SERP</b>. So it's a valuable factor of ranking.
@@ -642,7 +636,6 @@ It will even tell you how many visitors you could be losing because of lower pag
 </ol>
 
 <blockquote>Access WebPageTest tool at <a href="https://www.webpagetest.org/" target="_blank" rel="noopener">WebPageTest.org</a></blockquote>
-
 
 <h3 id="gtmetrix"><strong>GT Metrix.</strong></h3>
 

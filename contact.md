@@ -30,6 +30,7 @@ var submitted = false;
 
 {% include googlead2.html %}
 
+
 <style>
 
 		.karna_form {

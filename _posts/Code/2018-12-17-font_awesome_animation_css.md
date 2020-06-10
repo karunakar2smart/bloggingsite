@@ -5,7 +5,7 @@ layout: post
 image: upload/css-animation-fontawesome-icons.png
 description: "Font awesome icons with CSS animations would help to increase the engagement of the visitors. I included simple pure CSS code using font awesome CDN's where you can directly copy pure CSS code and paste in to use to animate all font awesome icons and use in your website for free. There are different types of animations for you to select and use for free. Learn more at font awesome icons with pure CSS animations."
 datepublished: "2018-12-17"
-datemodified: "2020-01-17"
+datemodified: "2020-06-10"
 margin-top: -180px
 category: [Fun-With-Code, Blog]
 ---
@@ -52,7 +52,6 @@ After you get up and running, you can place <b>Font Awesome icons</b> just about
 You can place Font Awesome icons just about anywhere using the CSS Prefix <span style="padding: 0px 5px; border-radius: 5px; color: black; background-color: #ff0;">fa</span> and the icon's name. Font Awesome is designed to be used with inline elements (we like the <span style="padding: 0px 5px; border-radius: 5px; color: black; background-color: #ff0;">&lt; i &gt;</span> tag for brevity, but using a <span style="padding: 0px 5px; border-radius: 5px; color: black; background-color: #ff0;">span</span> is more semantically correct).
 
 <pre><code>&lt;i class="fa fa-camera-retro"&gt;&lt;/i&gt; fa-camera-retro</code></pre>
-
 
 <h3><strong>Larger Font Awesome Icons.</strong></h3>
 
@@ -377,8 +376,6 @@ Here is the list of best <b>font awesome css animations</b> listed below. Click 
 			</ol>
 		</div>
 	</div>
-
-
 
 <style>
 	.accordion_container {

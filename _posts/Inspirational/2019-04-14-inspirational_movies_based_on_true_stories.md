@@ -5,7 +5,7 @@ layout: post
 image: upload/top-inspirational-movies-posture.png
 description: "Here are the best inspirational and motivational movies based on true and real stories so far following the year 2019. These movies are inspired by true-life stories of famous persons. Get inspired by watching these motivational movies in your free time."
 datepublished: "2019-04-14"
-datemodified: "2020-01-17"
+datemodified: "2020-06-10"
 margin-top: -510px
 category: [Movies, Blog]
 ---
@@ -16,11 +16,11 @@ As a matter of fact, every human being loses <strong>faith</strong> at some poin
 
 <h2 id="hacksaw-ridge"><strong>HACKSAW RIDGE</strong></h2>
 
-[Hacksaw Ridge](https://www.imdb.com/title/tt2119532/?ref_=nv_sr_1){: target="_blank" rel="noopener"} is an <strong>American biographical war film</strong> based on the " <strong>The Conscientious Objector</strong>" inspired by real-life story of "<strong>Desmond Doss</strong>" who had saved more than 75 men in the <strong>battle of Okinawa</strong> without using any kind of weapon or firearm, as a result, received the most prestigious "<strong>Medal of Honor</strong>".
+[Hacksaw Ridge](https://www.imdb.com/title/tt2119532/?ref_=nv_sr_1){: target="\_blank" rel="noopener"} is an <strong>American biographical war film</strong> based on the " <strong>The Conscientious Objector</strong>" inspired by real-life story of "<strong>Desmond Doss</strong>" who had saved more than 75 men in the <strong>battle of Okinawa</strong> without using any kind of weapon or firearm, as a result, received the most prestigious "<strong>Medal of Honor</strong>".
 
-[Hacksaw Ridge](https://en.wikipedia.org/wiki/Hacksaw_Ridge){: target="_blank" rel="noopener"} inspires and motivates many people in such a way that how the [Desmond Doss](https://en.wikipedia.org/wiki/Desmond_Doss){: target="_blank" rel="noopener"} just followed his own principles no matter what how he overcame against all the odds he faced by his fellow men and <strong>succeeded</strong> in his life.
+[Hacksaw Ridge](https://en.wikipedia.org/wiki/Hacksaw_Ridge){: target="\_blank" rel="noopener"} inspires and motivates many people in such a way that how the [Desmond Doss](https://en.wikipedia.org/wiki/Desmond_Doss){: target="\_blank" rel="noopener"} just followed his own principles no matter what how he overcame against all the odds he faced by his fellow men and <strong>succeeded</strong> in his life.
 
-Here is the best quote from the film "[Hacksaw Ridge](https://www.imdb.com/title/tt2119532/?ref_=nv_sr_1){: target="_blank" rel="noopener"}"
+Here is the best quote from the film "[Hacksaw Ridge](https://www.imdb.com/title/tt2119532/?ref_=nv_sr_1){: target="\_blank" rel="noopener"}"
 
 <blockquote>"Stay True To What You Believe In. " <br> <a class="w-inline-block social-share-btn tw" href="https://twitter.com/intent/tweet?" target="_blank" title="Tweet" onclick="window.open('https://twitter.com/intent/tweet?text=%20Stay%20True%To%20What%20You%20Believe%20In.' + encodeURIComponent(document.title) + ':%20 ' + encodeURIComponent(document.URL)); return false;">Tweet</a>
 <br> </blockquote>
@@ -39,7 +39,7 @@ Here is the best quote from the film "[Hacksaw Ridge](https://www.imdb.com/title
 
 <h2 id="hours-the-secret-soldiers-of-benghazi"><strong>13 Hours: The Secret Soldiers of Benghazi.</strong></h2>
 
-[13 Hours: The Secret Soldiers of Benghazi](https://www.imdb.com/title/tt4172430/?ref_=nv_sr_2){: target="_blank" rel="noopener"} is an <strong>American biographical war film</strong> based on the books written by <strong>Mitchell Zuckoff's</strong> inspired by a real incident occurred at the most dangerous place in the world Libya (Benghazi).
+[13 Hours: The Secret Soldiers of Benghazi](https://www.imdb.com/title/tt4172430/?ref_=nv_sr_2){: target="\_blank" rel="noopener"} is an <strong>American biographical war film</strong> based on the books written by <strong>Mitchell Zuckoff's</strong> inspired by a real incident occurred at the most dangerous place in the world Libya (Benghazi).
 
 This film follows how the six members of the security team had fought with the militants when they tried to conquer the compound in their control. As this movie turns to be the most erotic suspense thriller movie as "How six security men had the courage to do what was right when everything went wrong."This movie is so <strong>emotional</strong>, <strong>inspirational</strong>, <strong>biographical</strong> and many more to touch the inner light of every human being.
 
@@ -62,7 +62,7 @@ This film follows how the six members of the security team had fought with the m
 
 <h2 id="padman"><strong>PADMAN.</strong></h2>
 
-[Padman](https://en.wikipedia.org/wiki/Pad_Man_(film)){: target="_blank" rel="noopener"} is an Indian Bollywood movie based on true story "<strong>The sanitary Man of sacred land</strong>" based on the book "<strong>The Legend of Laxmi Prasad</strong>" written by "<strong>Twinkle Khanna</strong>" of which is inspired by the life of "<strong>Arunachalam Muruganantham</strong>" from Tamilnadu who introduced low-cost <strong>sanitary pads</strong>.
+[Padman](<https://en.wikipedia.org/wiki/Pad_Man_(film)>){: target="\_blank" rel="noopener"} is an Indian Bollywood movie based on true story "<strong>The sanitary Man of sacred land</strong>" based on the book "<strong>The Legend of Laxmi Prasad</strong>" written by "<strong>Twinkle Khanna</strong>" of which is inspired by the life of "<strong>Arunachalam Muruganantham</strong>" from Tamilnadu who introduced low-cost <strong>sanitary pads</strong>.
 
 The story starts by getting married to <strong>Shanti</strong> (Muruganantham real wife) and the odds he faced from his mom, wife and the society for trying to make a low-cost sanitary pad for asking feedback from them. This movie depicts the most <strong>hard-worked entrepreneur</strong> raging from being <strong>bullied</strong> by society to giving lectures in most prestigious institutions all over the world and even in a conference meeting with world <strong>richest</strong> person Bill Gates.
 
@@ -82,14 +82,13 @@ The story starts by getting married to <strong>Shanti</strong> (Muruganantham re
 
 {% include googlead4.html %}
 
-
 <h2 id="uri-the-surgical-strike"><strong>URI: THE SURGICAL STRIKE.</strong></h2>
 
-[URI: The surgical strike](https://en.wikipedia.org/wiki/Uri:_The_Surgical_Strike){: target="_blank" rel="noopener"} is an Indian Hindu language military action film movie is about how India conducted a <strong>surgical strike</strong> on Pakistani terrorist territorial places and how it's made successful by main army personnel captain "<strong>Vihaan Singh Shergill</strong>". As this movie starts in five chapters right from spying on the terrorists in Pakistan with catching evidential proofs to the surgical strike as a revenge to the terrorists who had been entered in the <strong>URI</strong> camp and killed many Indian army soldiers.
+[URI: The surgical strike](https://en.wikipedia.org/wiki/Uri:_The_Surgical_Strike){: target="\_blank" rel="noopener"} is an Indian Hindu language military action film movie is about how India conducted a <strong>surgical strike</strong> on Pakistani terrorist territorial places and how it's made successful by main army personnel captain "<strong>Vihaan Singh Shergill</strong>". As this movie starts in five chapters right from spying on the terrorists in Pakistan with catching evidential proofs to the surgical strike as a revenge to the terrorists who had been entered in the <strong>URI</strong> camp and killed many Indian army soldiers.
 
 As this movie turns the audience from the most thrilling mode to the final goosebumps stage. Watch Uri the surgical strike movie if you would like to feel too.
 
-Here is the best quote from film "[URI: The Surgical Strike](https://www.imdb.com/title/tt8291224/?ref_=nv_sr_1){: target="_blank" rel="noopener"}".
+Here is the best quote from film "[URI: The Surgical Strike](https://www.imdb.com/title/tt8291224/?ref_=nv_sr_1){: target="\_blank" rel="noopener"}".
 
 <blockquote>"Stay True To What Makes You Happy, Because That Always Ends Up Producing The Best Results." <br> <a class="w-inline-block social-share-btn tw" href="https://twitter.com/intent/tweet?" target="_blank" title="Tweet" onclick="window.open('https://twitter.com/intent/tweet?text=%20Stay%20True%20To%20What%20Makes%20You%20Happy,%20Because%20That%20Always%20Ends%20Up%20Producing%20The%20Best%20Results.' + encodeURIComponent(document.title) + ':%20 ' + encodeURIComponent(document.URL)); return false;">Tweet</a></blockquote>
 
@@ -107,10 +106,9 @@ Here is the best quote from film "[URI: The Surgical Strike](https://www.imdb.co
 
 {% include googlead5.html %}
 
-
 <h2 id="dunkirk"><strong>DUNKIRK.</strong></h2>
 
-This movie depicts the dramatic and true story of the [Dunkirk](https://en.wikipedia.org/wiki/Dunkirk_(2017_film)){: target="_blank" rel="noopener"} evacuations from a war-torn beach and harbor in France, following the seemingly doomed plight of allied soldiers in World War II. As the enemy forces close in, it seems the troops have nowhere to go, but help is at hand and a fierce battle ensues.
+This movie depicts the dramatic and true story of the [Dunkirk](<https://en.wikipedia.org/wiki/Dunkirk_(2017_film)>){: target="\_blank" rel="noopener"} evacuations from a war-torn beach and harbor in France, following the seemingly doomed plight of allied soldiers in World War II. As the enemy forces close in, it seems the troops have nowhere to go, but help is at hand and a fierce battle ensues.
 
 Under air and ground cover from British and French forces, troops were slowly and methodically evacuated from the beach using every serviceable naval and civilian vessel that could be found. At the end of this heroic mission, 330,000 French, British, Belgian and Dutch soldiers were safely evacuated.
 
@@ -132,14 +130,13 @@ Here is one of the best quote from <strong>Christopher Nolan</strong>.
 
 {% include googlead3.html %}
 
-
 <h2 id="sanju"><strong>SANJU.</strong></h2>
 
-Few lives in our times are as dramatic and enigmatic as the saga of <strong>Sanjay Dutt</strong>. Coming from a family of cinema legends, he himself became a film star, and then saw dizzying heights and darkest depths: adulation of diehard fans, unending battles with various addictions, brushes with the underworld, prison terms, loss of loved ones, and the haunting speculation that he might or might not be a terrorist. [Sanju](https://en.wikipedia.org/wiki/Sanju){: target="_blank" rel="noopener"} is in turns a hilarious and heartbreaking exploration of one man's battle against his own wild self and the formidable external forces trying to crush him. It depicts the journey of a man through everything that life can throw at him. Some true stories leave you thinking "<strong>did this really happen?</strong>" This is one such unbelievable story that happens to be true.
+Few lives in our times are as dramatic and enigmatic as the saga of <strong>Sanjay Dutt</strong>. Coming from a family of cinema legends, he himself became a film star, and then saw dizzying heights and darkest depths: adulation of diehard fans, unending battles with various addictions, brushes with the underworld, prison terms, loss of loved ones, and the haunting speculation that he might or might not be a terrorist. [Sanju](https://en.wikipedia.org/wiki/Sanju){: target="\_blank" rel="noopener"} is in turns a hilarious and heartbreaking exploration of one man's battle against his own wild self and the formidable external forces trying to crush him. It depicts the journey of a man through everything that life can throw at him. Some true stories leave you thinking "<strong>did this really happen?</strong>" This is one such unbelievable story that happens to be true.
 
 In the film, <strong>Sanju's</strong> wife says that he's the king of bad choices, and Hirani's idea of making a film on his life has certainly paid off. Yes, this is still an incredible story of a man and a movie star who made massive mistakes, walked through fire, survived it and lived one heck of a life.
 
-Here is the loved quote from the [SANJU movie](https://www.imdb.com/title/tt6452574/?ref_=nv_sr_1){: target="_blank" rel="noopener"}.
+Here is the loved quote from the [SANJU movie](https://www.imdb.com/title/tt6452574/?ref_=nv_sr_1){: target="\_blank" rel="noopener"}.
 
 <blockquote>"Pain Makes You Stronger, Tears Make You Braver, and Heartbreaks Make You Wiser, So Thank The Past For A Better Future." <br> <a class="w-inline-block social-share-btn tw" href="https://twitter.com/intent/tweet?" target="_blank" title="Tweet" onclick="window.open('https://twitter.com/intent/tweet?text=%20Pain20%Makes20%You20%Stronger,20%Tears20%Make20%You20%Braver,20%and20%Heartbreaks20%Make20%You20%Wiser,20%So20%Thank20%The20%Past20%For20%A20%Better20%Future.' + encodeURIComponent(document.title) + ':%20 ' + encodeURIComponent(document.URL)); return false;">Tweet</a></blockquote>
 
@@ -182,16 +179,15 @@ Here is the best quote from the film "<a href="https://en.wikipedia.org/wiki/42_
 
 {% include googlead5.html %}
 
-
 <h2 id="coach-carter"><strong>COACH CARTER.</strong></h2>
 
-[Coach Carter](https://www.imdb.com/title/tt0393162/?ref_=nv_sr_1){: target="_blank" rel="noopener"}, based on a true story, has <strong>Samuel L. Jackson</strong> playing the role of Ken Carter. Ken is offered a job to coach the basketball team at his former high school, Richmond High. He took up the position of a basketball coach in order to try and improve the underprivileged neighborhood of <strong>Richmond</strong>. However, an even more important aim of his was to motivate and lead the student-athletes on their basketball team.
+[Coach Carter](https://www.imdb.com/title/tt0393162/?ref_=nv_sr_1){: target="\_blank" rel="noopener"}, based on a true story, has <strong>Samuel L. Jackson</strong> playing the role of Ken Carter. Ken is offered a job to coach the basketball team at his former high school, Richmond High. He took up the position of a basketball coach in order to try and improve the underprivileged neighborhood of <strong>Richmond</strong>. However, an even more important aim of his was to motivate and lead the student-athletes on their basketball team.
 
 In 1999, <strong>Ken Carter</strong> accepts the job of basketball coach for his old high school in a poor area of Richmond, CA. As much dismayed by the poor attitudes of his players as well as their dismal play performance, Carter sets about to change both. He imposes a strict regime typified in written contracts that demand respectful behavior, a dress code and good grades for players.
 
-In the ensuing debate, [Carter](https://en.wikipedia.org/wiki/Coach_Carter){: target="_blank" rel="noopener"} fights to keep his methods, determined to show the boys that they need good values for their futures and eventually finds he has affected them more profoundly than he ever expected.
+In the ensuing debate, [Carter](https://en.wikipedia.org/wiki/Coach_Carter){: target="\_blank" rel="noopener"} fights to keep his methods, determined to show the boys that they need good values for their futures and eventually finds he has affected them more profoundly than he ever expected.
 
-Here is the best quote from the film "[COACH CARTER.](https://en.wikipedia.org/wiki/Coach_Carter){: target="_blank" rel="noopener"}"
+Here is the best quote from the film "[COACH CARTER.](https://en.wikipedia.org/wiki/Coach_Carter){: target="\_blank" rel="noopener"}"
 
 <blockquote>"Our Deepest Fear Is Not That We Are Inadequate. Our Deepest Fear Is That We Are Powerful Beyond Measure." <br> <a class="w-inline-block social-share-btn tw" href="https://twitter.com/intent/tweet?" target="_blank" title="Tweet" onclick="window.open('https://twitter.com/intent/tweet?text=%20Our%20Deepest%20Fear%20Is%20Not%20That%20We%20Are%20Inadequate.%20Our%20Deepest%20Fear%20Is%20That%20We%20Are%20Powerful%20Beyond%20Measure.' + encodeURIComponent(document.title) + ':%20 ' + encodeURIComponent(document.URL)); return false;">Tweet</a></blockquote>
 
@@ -209,10 +205,9 @@ Here is the best quote from the film "[COACH CARTER.](https://en.wikipedia.org/w
 
 {% include googlead4.html %}
 
-
 <h2 id="the-intouchables"><strong>THE INTOUCHABLES.</strong></h2>
 
-"[The Intouchables](https://en.wikipedia.org/wiki/The_Intouchables){: target="_blank" rel="noopener"}" tells the true story of a wealthy, physically disabled risk taker, the picture of established French nobility, who lost his wife in an accident and whose world is turned upside down when he hires a young, good-humored, black Muslim ex-con as his caretaker.
+"[The Intouchables](https://en.wikipedia.org/wiki/The_Intouchables){: target="\_blank" rel="noopener"}" tells the true story of a wealthy, physically disabled risk taker, the picture of established French nobility, who lost his wife in an accident and whose world is turned upside down when he hires a young, good-humored, black Muslim ex-con as his caretaker.
 
 His newfound job quickly becomes an unpredictable adventure. Speeding a <strong>Maserati</strong> through Paris, seducing women and paragliding over the Alps is just the beginning, as Driss turns the often humorous world of upper-class Parisian society upside-down. As this unlikely duo overcome the adversity of every flavor in this true story. Their bond proves the power and omniscience that love and friendship can hold over all social and economic differences in life.
 
@@ -232,11 +227,11 @@ His newfound job quickly becomes an unpredictable adventure. Speeding a <strong>
 
 <h2 id="october-sky"><strong>OCTOBER SKY.</strong></h2>
 
-"[October Sky](https://en.wikipedia.org/wiki/October_Sky){: target="_blank" rel="noopener"}" is a film that will steal your heart, fill your mind with vivid imagery, and lift your spirit. The tale of Homer Hickham and his dream of creating a rocket seem so simple at first, especially when the film is set in a mining town, where the future is as clear cut as the lumps of coal in the mine. But Homer cannot follow in his father's footsteps. With the encouragement of Miss Riley,(a friendly teacher), members of his father's staff, and his friends, Homer attempts to make his dream a reality.
+"[October Sky](https://en.wikipedia.org/wiki/October_Sky){: target="\_blank" rel="noopener"}" is a film that will steal your heart, fill your mind with vivid imagery, and lift your spirit. The tale of Homer Hickham and his dream of creating a rocket seem so simple at first, especially when the film is set in a mining town, where the future is as clear cut as the lumps of coal in the mine. But Homer cannot follow in his father's footsteps. With the encouragement of Miss Riley,(a friendly teacher), members of his father's staff, and his friends, Homer attempts to make his dream a reality.
 
 <strong>October Sky</strong> is a 1999 American biographical drama film directed by <strong>Joe Johnston</strong>, starring Jake Gyllenhaal, Chris Cooper, Chris Owen, and Laura Dern. It is based on the true story of <strong>Homer H. Hickam, Jr.,</strong> a coal miner's son who was inspired by the launch of Sputnik 1 in 1957 to take up rocketry against his father's wishes and eventually became a <strong>NASA engineer</strong>.
 
-Here is the best quote from the film "[OCTOBER SKY](https://www.imdb.com/title/tt0132477/?ref_=nv_sr_2){: target="_blank" rel="noopener"}."
+Here is the best quote from the film "[OCTOBER SKY](https://www.imdb.com/title/tt0132477/?ref_=nv_sr_2){: target="\_blank" rel="noopener"}."
 
 <blockquote>"I Had Discovered That Learning Something, No Matter How Complex, Wasn't Hard When I Had A Reason To Want To Know It." <br> <a class="w-inline-block social-share-btn tw" href="https://twitter.com/intent/tweet?" target="_blank" title="Tweet" onclick="window.open('https://twitter.com/intent/tweet?text=%20I%20Had%20Discovered%20That%20Learning%20Something,%20No%20Matter%20How%20Complex,%20Wasn't%20Hard%20When%20I%20Had%20A%20Reason%20To%20Want%20To%20Know%20It.' + encodeURIComponent(document.title) + ':%20 ' + encodeURIComponent(document.URL)); return false;">Tweet</a> </blockquote>
 
@@ -256,11 +251,11 @@ Here is the best quote from the film "[OCTOBER SKY](https://www.imdb.com/title/t
 
 <h2 id="12-years-a-slave"><strong>12 Years A SLAVE.</strong></h2>
 
-[12 YEARS A SLAVE](https://en.wikipedia.org/wiki/12_Years_a_Slave_(film)){: target="_blank" rel="noopener"} is based on an incredible true story of <strong>Solomon Northup</strong>, an educated and free black man living in New York during the 1840s who get abducted, shipped to the south, and substantially fight for his survival and freedom.
+[12 YEARS A SLAVE](<https://en.wikipedia.org/wiki/12_Years_a_Slave_(film)>){: target="\_blank" rel="noopener"} is based on an incredible true story of <strong>Solomon Northup</strong>, an educated and free black man living in New York during the 1840s who get abducted, shipped to the south, and substantially fight for his survival and freedom.
 
 Solomon struggles not only to stay alive but to retain his dignity. In the twelfth year of his unforgettable odyssey, <strong>Solomon’s</strong> chance meeting with a Canadian abolitionist will forever alter his life. It is a film that stimulates at both an emotional level and an intellectual one.
 
-Here is the best quote from the film "[12 YEARS A SLAVE](https://www.imdb.com/title/tt2024544/?ref_=nv_sr_1){: target="_blank" rel="noopener"}."
+Here is the best quote from the film "[12 YEARS A SLAVE](https://www.imdb.com/title/tt2024544/?ref_=nv_sr_1){: target="\_blank" rel="noopener"}."
 
 <blockquote>"Life Is Dear To Every Living Thing, The Worm That Crawls Upon The Ground Will Struggle For It." <br> <a class="w-inline-block social-share-btn tw" href="https://twitter.com/intent/tweet?" target="_blank" title="Tweet" onclick="window.open('https://twitter.com/intent/tweet?text=%20Life%20Is%20Dear%20To%20Every%20Living%20Thing,%20The%20Worm%20That%20Crawls%20Upon%20The%20Ground%20Will%20Struggle%20For%20It.' + encodeURIComponent(document.title) + ':%20 ' + encodeURIComponent(document.URL)); return false;">Tweet</a></blockquote>
 
@@ -278,14 +273,13 @@ Here is the best quote from the film "[12 YEARS A SLAVE](https://www.imdb.com/ti
 
 {% include googlead5.html %}
 
-
 <h2 id="manjhi-the-mountain-man"><strong>MANJHI - THE MOUNTAIN MAN.</strong></h2>
 
-[Manjhi – The Mountain Man](https://en.wikipedia.org/wiki/Manjhi_%E2%80%93_The_Mountain_Man){: target="_blank" rel="noopener"} is a 2015 Indian biographical film, based on the life of Dashrath Manjhi. Manjhi, widely known as the "[Mountain Man](https://en.wikipedia.org/wiki/Manjhi_%E2%80%93_The_Mountain_Man){: target="_blank" rel="noopener"}", was a poor labourer in <strong>Gehlaur village</strong>, near Gaya in Bihar, India, who carved a path 9.1 metres (30 ft) wide and 110 metres (360 ft) long through a hill 7.6 metres (25 ft) high, using only a hammer and chisel. The film is directed by <strong>Ketan Mehta</strong>.
+[Manjhi – The Mountain Man](https://en.wikipedia.org/wiki/Manjhi_%E2%80%93_The_Mountain_Man){: target="_blank" rel="noopener"} is a 2015 Indian biographical film, based on the life of Dashrath Manjhi. Manjhi, widely known as the "[Mountain Man](https://en.wikipedia.org/wiki/Manjhi_%E2%80%93_The_Mountain_Man){: target="\_blank" rel="noopener"}", was a poor labourer in <strong>Gehlaur village</strong>, near Gaya in Bihar, India, who carved a path 9.1 metres (30 ft) wide and 110 metres (360 ft) long through a hill 7.6 metres (25 ft) high, using only a hammer and chisel. The film is directed by <strong>Ketan Mehta</strong>.
 
 Summaries. Using only a hammer and a chisel, a man spends twenty-two years carving a road through a treacherous mountain. <strong>Dashrath Manjhi</strong> was a poor man from the lowest of the low castes, living in a remote village cut off from the world by a rocky mountain range.
 
-Here is the best quote from the film "[MANJHI: THE MOUNTAIN MAN](https://www.imdb.com/title/tt3449292/?ref_=nv_sr_1){: target="_blank" rel="noopener"}."
+Here is the best quote from the film "[MANJHI: THE MOUNTAIN MAN](https://www.imdb.com/title/tt3449292/?ref_=nv_sr_1){: target="\_blank" rel="noopener"}."
 
 <blockquote>"Never Underestimate The Power Of "One."" <br> <a class="w-inline-block social-share-btn tw" href="https://twitter.com/intent/tweet?" target="_blank" title="Tweet" onclick="window.open('https://twitter.com/intent/tweet?text=%20Never%20Underestimate%20The%20Power%20Of%20One.' + encodeURIComponent(document.title) + ':%20 ' + encodeURIComponent(document.URL)); return false;">Tweet</a></blockquote>
 
@@ -301,12 +295,11 @@ Here is the best quote from the film "[MANJHI: THE MOUNTAIN MAN](https://www.imd
 
 {% include googlead1.html %}
 
-
 <h2 id="forrest-gump"><strong>FORREST GUMP.</strong></h2>
 
-The [Forrest Gump](https://en.wikipedia.org/wiki/Forrest_Gump){: target="_blank" rel="noopener"} tells the story of a slow-witted but kind-hearted man from Alabama who witnessed and unwittingly, influences, several defining historical events in the 20th century in the united states.
+The [Forrest Gump](https://en.wikipedia.org/wiki/Forrest_Gump){: target="\_blank" rel="noopener"} tells the story of a slow-witted but kind-hearted man from Alabama who witnessed and unwittingly, influences, several defining historical events in the 20th century in the united states.
 
-The movie [Forrest Gump](https://www.imdb.com/title/tt0109830/?ref_=fn_al_tt_1){: target="_blank" rel="noopener"} was really based on the novel 1986 novel "<strong>Forrest Gump</strong>" which was written by <strong>Eric Roth</strong>. It was directed by Robert Zemeckis and written by Winston Groom.
+The movie [Forrest Gump](https://www.imdb.com/title/tt0109830/?ref_=fn_al_tt_1){: target="\_blank" rel="noopener"} was really based on the novel 1986 novel "<strong>Forrest Gump</strong>" which was written by <strong>Eric Roth</strong>. It was directed by Robert Zemeckis and written by Winston Groom.
 
 Here is the best quote from the film "<a href="https://en.wikipedia.org/wiki/Forrest_Gump" target="_blank" rel="noopener">Forrest Gump</a>".
 
@@ -326,16 +319,15 @@ Here is the best quote from the film "<a href="https://en.wikipedia.org/wiki/For
 
 {% include googlead2.html %}
 
-
 <h2 id="the-shawshank-redemption"><strong>The Shawshank Redemption.</strong></h2>
 
-[The Shawshank Redemption](https://www.imdb.com/title/tt0111161/?ref_=nv_sr_1){: target="_blank" rel="noopener"} tells the story of a banker named <strong>Andy Dufresne</strong>, who is wrongfully handed a life sentence for murdering his wife and her lover. This is widely considered to be one of the <strong>greatest movies</strong> of all time, and rightly so.
+[The Shawshank Redemption](https://www.imdb.com/title/tt0111161/?ref_=nv_sr_1){: target="\_blank" rel="noopener"} tells the story of a banker named <strong>Andy Dufresne</strong>, who is wrongfully handed a life sentence for murdering his wife and her lover. This is widely considered to be one of the <strong>greatest movies</strong> of all time, and rightly so.
 
 Andy goes on to use his financial skills to help the warden and the prison guards to keep accounts. These include the gains they've been making from illegally using prisoners as manual labor, which is brutally exposed by Andy eventually.
 
 The film illustrates the need to develop long-term goals while continuing to fulfill short-term goals. While keeping the guards and warden placated was the short-term goal for Andy, the ultimate goal was his freedom.
 
-Here is the best quote from the film "[The Shawshank Redemption](https://en.wikipedia.org/wiki/The_Shawshank_Redemption){: target="_blank" rel="noopener"}."
+Here is the best quote from the film "[The Shawshank Redemption](https://en.wikipedia.org/wiki/The_Shawshank_Redemption){: target="\_blank" rel="noopener"}."
 
 <blockquote>"Hope Is A Good Thing, Maybe The Best Of Things, And No Good Thing Ever Dies." <br> <a class="w-inline-block social-share-btn tw" href="https://twitter.com/intent/tweet?" target="_blank" title="Tweet" onclick="window.open('https://twitter.com/intent/tweet?text=%20Hope%20Is%20A%20Good%20Thing,%20Maybe%20The%20Best%20Of%20Things,%20And%20No%20Good%20Thing%20Ever%20Dies.' + encodeURIComponent(document.title) + ':%20 ' + encodeURIComponent(document.URL)); return false;">Tweet</a></blockquote>
 
@@ -353,10 +345,9 @@ Here is the best quote from the film "[The Shawshank Redemption](https://en.wiki
 
 {% include googlead3.html %}
 
-
 <h2 id="the-pursuit-of-happiness"><strong>The Pursuit of Happiness.</strong></h2>
 
-[The pursuit of happiness](https://en.wikipedia.org/wiki/The_Pursuit_of_Happyness){: target="_blank" rel="noopener"} was really based on the <strong>autobiography</strong> of <strong>Chris Gardner</strong> who is an American businessman, investor, stockbroker, motivational speaker, author, and philanthropist who, during the early 1980s, struggled with <strong>homelessness</strong> while raising his toddler son, <strong>Christopher Gardner Jr.</strong>
+[The pursuit of happiness](https://en.wikipedia.org/wiki/The_Pursuit_of_Happyness){: target="\_blank" rel="noopener"} was really based on the <strong>autobiography</strong> of <strong>Chris Gardner</strong> who is an American businessman, investor, stockbroker, motivational speaker, author, and philanthropist who, during the early 1980s, struggled with <strong>homelessness</strong> while raising his toddler son, <strong>Christopher Gardner Jr.</strong>
 
 In the hope, <strong>Gardner's story</strong> would inspire the down-trodden citizens to achieve financial independence and to take greater responsibility for the welfare of their families.
 
@@ -376,18 +367,17 @@ A Sneek peek from his Autobiography book - <strong>Start Where You Are: Life Les
 
 {% include googlead5.html %}
 
-
 <h2 id="the-blind-side"><strong>The Blind Side.</strong></h2>
 
 <strong>Michael Oher</strong> was just 16 years old when his life changed forever. He went from living with a drug-addicted mother to becoming a professional football player in the span of a few years. Michael has one special family and a few others to thank for propelling him towards the life he lives today.
 
-His story was documented in the Oscar-winning film [The Blind Side](https://www.imdb.com/title/tt0878804/?ref_=nv_sr_1){: target="_blank" rel="noopener"} and while the film got many things right, it also got a few things wrong — and there’s a major reason why Michael himself doesn’t like the movie.
+His story was documented in the Oscar-winning film [The Blind Side](https://www.imdb.com/title/tt0878804/?ref_=nv_sr_1){: target="\_blank" rel="noopener"} and while the film got many things right, it also got a few things wrong — and there’s a major reason why Michael himself doesn’t like the movie.
 
 The 2009 movie <strong>The Blind Side</strong> starred Quinton Aaron as Michael “<strong>Big Mike</strong>” Oher, a high school student at Briarcrest Christian School who was rescued from poverty and taken in by Leigh Anne Tuohy (Sandra Bullock) and Sean Tuohy (Tim McGraw). Big Mike became a highly sought-after prospect in college football and wound up playing for the NFL’s Baltimore Ravens.
 
-The film was based on the 2006 book, “<strong>The Blind Side: Evolution of a Game</strong>” by Michael Lewis and was written and directed by <strong>John Lee Hancock</strong>. The movie made $300 million at the box office, and Bullock won an Academy Award and Golden Globe Award for her role.
+The film was based on the 2006 book, “<strong>The Blind Side: Evolution of a Game</strong>” by Michael Lewis and was written and directed by <strong>John Lee Hancock</strong>. The movie made \$300 million at the box office, and Bullock won an Academy Award and Golden Globe Award for her role.
 
-Here is the loved quote from the film [THE BLIND SIDE](https://en.wikipedia.org/wiki/The_Blind_Side_(film)){: target="_blank" rel="noopener"}."
+Here is the loved quote from the film [THE BLIND SIDE](<https://en.wikipedia.org/wiki/The_Blind_Side_(film)>){: target="\_blank" rel="noopener"}."
 
 <blockquote>"Dont Ever Allow Yourself To Feel Trapped By Your Choices. Take A Look At Yourself. You Are Unique Person Created For A Specific Purpose.
 				<br> Your Gifts Matter.
@@ -406,7 +396,6 @@ Here is the loved quote from the film [THE BLIND SIDE](https://en.wikipedia.org/
 <br>
 
 {% include googlead5.html %}
-
 
 <div class="anim_container">
 <button id="show">
@@ -450,8 +439,6 @@ Here is the loved quote from the film [THE BLIND SIDE](https://en.wikipedia.org/
 			</ol>
 		</div>
 </div>
-
-
 
 <style>
 .wrapper {

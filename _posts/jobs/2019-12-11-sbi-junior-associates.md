@@ -5,19 +5,16 @@ layout: post
 image: upload/sbi-recruitment-for-junior-associates.png
 description: "SBI has announced the latest 2020 notification for the post of junior associate in customer support and sales in clerical cadre of about 9753 vacancies all over India. Candidates need to apply online with a bachelor's degree to meet eligibility criteria. For more info visit the karunakar Patel blog."
 datepublished: "2020-01-17"
-datemodified: "2020-01-17"
+datemodified: "2020-06-10"
 margin-top: -250px
 category: [Latest-Jobs, Jobs]
 ---
 
 State Bank Of India has announced the latest 2020 notification for the recruitment of Junior Associate (Customer Support & Sales). Applications are invited from eligible Indian Citizens for appointment in clerical cadre in State Bank of India. All the details regarding eligibility criteria, application important dates, application fees, etc. can be found in this complete blog post.
 
-The candidates applying for vacancies of a particular State should be proficient (reading, writing, speaking, and understanding) in the specified opted local language of that State. 
+The candidates applying for vacancies of a particular State should be proficient (reading, writing, speaking, and understanding) in the specified opted local language of that State.
 
 Candidates are advised to check this blog post for more complete details about Junior Associates Recruitment under State Bank Of India.
-
-
-
 
 <table>
 <th colspan="2"><b>SBI's Junior Associates Recruitment Notification</b></th>
@@ -42,11 +39,9 @@ Candidates are advised to check this blog post for more complete details about J
 </tr>
 </table>
 
-
-
 <h2 id="essential-academic-qualifications">Essential Academic Qualifications:</h2>
 
-Graduation in any discipline from a recognized University or any equivalent qualification recognized as such by Central Government. Candidates having integrated dual degree (IDD) certificate should ensure that the date of passing the IDD is on or before 01.01.2020. 
+Graduation in any discipline from a recognized University or any equivalent qualification recognized as such by Central Government. Candidates having integrated dual degree (IDD) certificate should ensure that the date of passing the IDD is on or before 01.01.2020.
 
 Those who are in the final year/ semester of their Graduation may also apply provisionally subject to the condition that, if provisionally selected, they will have to produce proof of having passed the graduation examination on or before 01.01.2020.
 
@@ -81,7 +76,7 @@ Not below 20 years and not above 28 years as on 01.01.2020, i.e candidates must 
 
 <h4>SELECTION PROCEDURE: </h4>
 
-The selection process will consist of an on-line test (preliminary & main exam). 
+The selection process will consist of an on-line test (preliminary & main exam).
 
 <h3 id="preliminary-examination"><b>Phase-I: Preliminary Examination: </b></h3>
 
@@ -129,7 +124,7 @@ There will be negative marks for wrong answers in the Objective tests. 1/4th of 
 
 <h3 id="main-examination"><b>Phase - II: Main Examination: </b></h3>
 
-Structure of Online Main Exam would be as follows: 
+Structure of Online Main Exam would be as follows:
 
 <table>
 <tr>
@@ -183,7 +178,7 @@ The questions in objective tests, except for the test of General English, will b
 
 <h2 id="how-to-apply"><b>HOW TO APPLY:</b></h2>
 
-Candidates can apply online and no other mode of application will be accepted. Candidates will be required to register themselves online through State Bank's official website https://bank.sbi/careers OR https://www.sbi.co.in/careers - 
+Candidates can apply online and no other mode of application will be accepted. Candidates will be required to register themselves online through State Bank's official website https://bank.sbi/careers OR https://www.sbi.co.in/careers -
 
 After registration candidates are required to pay the requisite application fee through online mode by using debit card/ credit card/ Internet Banking.
 
@@ -193,13 +188,13 @@ Candidates should have valid email ID & mobile no. which should be kept active t
 
 <h6>PAY SCALE:</h6>
 
-Rs.11765-655/3-13730-815/3-16175-980/4-20095-1145/7-28110-2120/1-30230-1310/1-31450. 
+Rs.11765-655/3-13730-815/3-16175-980/4-20095-1145/7-28110-2120/1-30230-1310/1-31450.
 
-The starting Basic Pay is Rs.13075/- (Rs11765/- plus two advance increments admissible to graduates) 
+The starting Basic Pay is Rs.13075/- (Rs11765/- plus two advance increments admissible to graduates)
 
 <h6><b>PRE-EXAMINATION TRAINING: </b></h6>
 
-SBI may arrange pre-examination training at certain centers for SC/ST/XS/ Religious Minority Community candidates in consonance with the guidelines issued by the Government of India. 
+SBI may arrange pre-examination training at certain centers for SC/ST/XS/ Religious Minority Community candidates in consonance with the guidelines issued by the Government of India.
 
 Candidates belonging to the above categories who desire to avail themselves of such training at their own cost have to apply online.
 
@@ -223,7 +218,7 @@ Candidates belonging to the above categories who desire to avail themselves of s
 
 <h6 id="exam-centers">Tentative List of Centres for Preliminary Examination, Main Examination & Pre-Examination Training.</h6>
 
-Here is the list of examination centers for preliminary, main and pre-examination training as it was mentioned in the official notification. 
+Here is the list of examination centers for preliminary, main and pre-examination training as it was mentioned in the official notification.
 
 Here is the screenshot of the list of examination centers.
 
@@ -233,9 +228,7 @@ Here are some of the important guidelines regarding the online application and s
 
 <a href="https://www.alltechnotricks.com/uploads/jobs-photo.jpg" target="_blank"><img src="/uploads/jobs-photo.jpg"  alt="sbi-junior-associates-exam-centerssbi-junior-associates-guidelines" title="sbi-junior-associates-exam-centerssbi-junior-associates-guidelines"></a>
 
-
 {% include googlead1.html %}
-
 
 <div class="anim_container">
 <button id="show">

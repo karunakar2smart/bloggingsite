@@ -5,7 +5,7 @@ layout: post
 image: upload/wikipedia-backlinks.png
 description: "Getting backlinks from Wikipedia not only helps to increase direct traffic but also gets awesome SEO juice to our blog. Important tactics like dead link method, broken link method or improving Wikipedia page by inserting our link as a moderator by just creating an account for free helps to get everlasting backlinks from Wikipedia. Once you know how to get a backlink from Wikipedia, we can create as many links as possible but Wikipedia only accepts the changes that add value to their articles, Information needs to be factual, well-researched and error-free."
 datepublished: "2019-01-02"
-datemodified: "2020-01-17"
+datemodified: "2020-06-10"
 margin-top: -240px
 category: [SEO, Blog]
 ---

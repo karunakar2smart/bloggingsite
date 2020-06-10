@@ -14,5 +14,3 @@ category: [SEO, Blog]
 Here is the comment form in jekyll - staticman app
 
 {% include page_comments.html %}
-
-{% include googlead3.html %}

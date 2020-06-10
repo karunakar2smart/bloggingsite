@@ -5,20 +5,20 @@ layout: post
 image: upload/oscar-winners-2019-list.png
 description: "The Oscars 2019 marked the 91st edition of the Academy Awards which were the biggest night in film. Here is the complete list of Oscar award winners of 2019 in their respective categories nominated by the Oscars 2019."
 datepublished: "2019-06-20"
-datemodified: "2020-01-17"
+datemodified: "2020-06-10"
 margin-top: -420px
 category: [Movies, Blog]
 ---
 
 The <b>Oscars 2019</b> marked the <b>91st edition</b> of the biggest night in film. It came during a monumental time in Hollywood. Always the highlight of awards season, this year’s Oscars were full of surprises - with unexpected wins in several of the major categories. Below, I share its definitive guide to the 2019 Academy Awards, from the red-carpet gowns to the tear-jerking speeches.
 
-The <b>91st Academy Awards</b>, commonly referred to as The Oscars and presented by the [Academy of Motion Picture Arts and Sciences (AMPAS)](https://en.wikipedia.org/wiki/Academy_of_Motion_Picture_Arts_and_Sciences){: target="_blank" rel="noopener"}, honored the best films of 2018. The ceremony was held on February 24, 2019, at the Dolby Theatre in Hollywood, Los Angeles, California. <b>AMPAS</b> presented Academy Awards in 24 categories. The ceremony was televised in the United States by American Broadcasting Company (ABC) and produced by Donna Gigliotti and Glenn Weiss, with Weiss also serving as director. It was the first ceremony in three decades, since the 61st Academy Awards in 1989, to be conducted with <b>no host</b>.
+The <b>91st Academy Awards</b>, commonly referred to as The Oscars and presented by the [Academy of Motion Picture Arts and Sciences (AMPAS)](https://en.wikipedia.org/wiki/Academy_of_Motion_Picture_Arts_and_Sciences){: target="\_blank" rel="noopener"}, honored the best films of 2018. The ceremony was held on February 24, 2019, at the Dolby Theatre in Hollywood, Los Angeles, California. <b>AMPAS</b> presented Academy Awards in 24 categories. The ceremony was televised in the United States by American Broadcasting Company (ABC) and produced by Donna Gigliotti and Glenn Weiss, with Weiss also serving as director. It was the first ceremony in three decades, since the 61st Academy Awards in 1989, to be conducted with <b>no host</b>.
 
 Here are the list of the <b>official Oscar winners</b> and their details that they had won in the <b>91st Academy Awards</b>. Winning an Oscar is all well and good. Like everyone else in the world.
 
 <h2 id="bohemian-rhapsody"><strong>Bohemian Rhapsody.</strong></h2>
 
-[Bohemian Rhapsody](https://www.imdb.com/title/tt1727824/?ref_=nv_sr_1){: target="_blank" rel="noopener"} is a foot-stomping celebration of <b>Queen</b>, their music and their extraordinary lead singer <b>Freddie Mercury</b>. Freddie defied stereotypes and shattered convention to become one of the most beloved entertainers on the planet. The film traces the meteoric rise of the band through their iconic songs and revolutionary sound. They reach unparalleled success, but in an unexpected turn <b>Freddie</b>, surrounded by darker influences, shuns Queen in pursuit of his solo career. Having suffered greatly without the collaboration of Queen, Freddie manages to reunite with his bandmates just in time for Live Aid. While bravely facing a recent <b>AIDS diagnosis</b>, <b>Freddie</b> leads the band in one of the greatest performances in the history of rock music. Queen cements a legacy that continues to <b>inspire outsiders</b>, <b>dreamers</b> and <b>music lovers</b> to this day.
+[Bohemian Rhapsody](https://www.imdb.com/title/tt1727824/?ref_=nv_sr_1){: target="\_blank" rel="noopener"} is a foot-stomping celebration of <b>Queen</b>, their music and their extraordinary lead singer <b>Freddie Mercury</b>. Freddie defied stereotypes and shattered convention to become one of the most beloved entertainers on the planet. The film traces the meteoric rise of the band through their iconic songs and revolutionary sound. They reach unparalleled success, but in an unexpected turn <b>Freddie</b>, surrounded by darker influences, shuns Queen in pursuit of his solo career. Having suffered greatly without the collaboration of Queen, Freddie manages to reunite with his bandmates just in time for Live Aid. While bravely facing a recent <b>AIDS diagnosis</b>, <b>Freddie</b> leads the band in one of the greatest performances in the history of rock music. Queen cements a legacy that continues to <b>inspire outsiders</b>, <b>dreamers</b> and <b>music lovers</b> to this day.
 
 <blockquote><strong>Best Actor in Leading Role - Rami Malek</strong>
 					<br> <strong>Best Sound Mixing - Paul Massey, Tim Cavagin, and John Casali</strong>
@@ -58,7 +58,7 @@ In the early 18th century, <b>England</b> is at war with the <b>French</b>. Neve
 
 <h2 id="roma"><strong>Roma.</strong></h2>
 
-[Roma](https://www.imdb.com/title/tt6155172/?ref_=nv_sr_1){: target="_blank" rel="noopener"} is a 2018 drama film written and directed by <b>Alfonso Cuarón</b>, who also produced, shot, and co-edited it. Set in 1970 and 1971, <b>Roma</b>, which is a semi-autobiographical take on <b>Cuarón's</b> upbringing in the Colonia Roma neighborhood of Mexico City, stars Yalitza Aparicio and Marina de Tavira and follows the life of a live-in housekeeper of a middle-class family.
+[Roma](https://www.imdb.com/title/tt6155172/?ref_=nv_sr_1){: target="\_blank" rel="noopener"} is a 2018 drama film written and directed by <b>Alfonso Cuarón</b>, who also produced, shot, and co-edited it. Set in 1970 and 1971, <b>Roma</b>, which is a semi-autobiographical take on <b>Cuarón's</b> upbringing in the Colonia Roma neighborhood of Mexico City, stars Yalitza Aparicio and Marina de Tavira and follows the life of a live-in housekeeper of a middle-class family.
 
 Cleo is one of two domestic workers who help Antonio and Sofía take care of their four children in 1970s Mexico City. Complications soon arise when Antonio suddenly runs away with his mistress and Cleo finds out that she's <b>pregnant</b>. When Sofía decides to take the kids on vacation, she invites Cleo for a much-needed getaway to clear her mind and <b>bond</b> with the <b>family</b>.
 
@@ -99,10 +99,9 @@ After the <b>death</b> of his father, <b>T'Challa</b> returns home to the Africa
 
 <h2 id="green-book"><strong>Green Book.</strong></h2>
 
-[Green Book](https://en.wikipedia.org/wiki/Green_Book_(film)){: target="_blank" rel="noopener"} is a 2018 American biographical comedy-drama film directed by <b>Peter Farrelly</b>. Set in 1962, the film is <b>inspired</b> by the <b>true story</b> of a tour of the Deep South by <b>African-American</b> classical and jazz pianist Don Shirley (Mahershala Ali) and Tony Vallelonga (Viggo Mortensen), an Italian-American bouncer who served as Shirley's driver and bodyguard.
+[Green Book](<https://en.wikipedia.org/wiki/Green_Book_(film)>){: target="\_blank" rel="noopener"} is a 2018 American biographical comedy-drama film directed by <b>Peter Farrelly</b>. Set in 1962, the film is <b>inspired</b> by the <b>true story</b> of a tour of the Deep South by <b>African-American</b> classical and jazz pianist Don Shirley (Mahershala Ali) and Tony Vallelonga (Viggo Mortensen), an Italian-American bouncer who served as Shirley's driver and bodyguard.
 
 Dr. Don Shirley is a world-class <b>African-American pianist</b>, who is about to embark on a concert tour in the Deep South in 1962. In need of a driver and protection, Shirley recruits Tony Lip, a tough-talking bouncer from an Italian-American neighborhood in the Bronx. Despite their differences, the two men soon develop an unexpected bond while confronting <b>racism</b> and <b>danger</b> in an era of <b>segregation</b>.
-
 
 <blockquote><strong>Best Picture,</strong>
 					<br><strong>Best Actor in Supporting Role - Mahershala Ali</strong>
@@ -122,7 +121,7 @@ Dr. Don Shirley is a world-class <b>African-American pianist</b>, who is about t
 
 <h2 id="if-beale-street-could-talk">If Beale Street Could Talk.</h2>
 
-[If Beale Street Could Talk](https://en.wikipedia.org/wiki/If_Beale_Street_Could_Talk_(film)){: target="_blank" rel="noopener"} is a 2018 American romantic drama film directed and written by <b>Barry Jenkins</b>, and based on <b>James Baldwin's novel</b> of the same name. It stars KiKi Layne, Stephan James, Colman Domingo, Teyonah Parris, Michael Beach, Dave Franco, Diego Luna, Pedro Pascal, Ed Skrein, Brian Tyree Henry and Regina King. The film follows a young African-American woman who, with her family's support, seeks to clear the name of her <b>wrongly charged lover</b> and prove his innocence before the birth of their child.
+[If Beale Street Could Talk](<https://en.wikipedia.org/wiki/If_Beale_Street_Could_Talk_(film)>){: target="\_blank" rel="noopener"} is a 2018 American romantic drama film directed and written by <b>Barry Jenkins</b>, and based on <b>James Baldwin's novel</b> of the same name. It stars KiKi Layne, Stephan James, Colman Domingo, Teyonah Parris, Michael Beach, Dave Franco, Diego Luna, Pedro Pascal, Ed Skrein, Brian Tyree Henry and Regina King. The film follows a young African-American woman who, with her family's support, seeks to clear the name of her <b>wrongly charged lover</b> and prove his innocence before the birth of their child.
 
 In early 1970s Harlem, daughter, and wife-to-be Tish vividly recall the passion, respect, and trust that have connected her and her artist <b>fiancé Alonzo Hunt</b>, who goes by the nickname Funny. Friends since childhood, the devoted couple dream of a future together, but their plans are derailed when Fonny is arrested for a <b>crime</b> he did not <b>commit</b>.
 
@@ -160,7 +159,7 @@ Seasoned musician <b>Jackson Maine discovers</b> -- and falls in love with -- st
 
 <h2 id="first-man"><strong>First Man.</strong></h2>
 
-[First Man](https://www.imdb.com/title/tt1213641/?ref_=nv_sr_1){: target="_blank" rel="noopener"}, the riveting story of <b>NASA’s</b> mission to land a man on the moon, focusing on <b>Neil Armstrong</b> and the years 1961-1969. A visceral, first-person account, based on the book by <b>James R. Hansen</b>, the movie will explore the sacrifices and the cost—on Armstrong and on the nation—of one of the most <b>dangerous missions</b> in the history of mankind.
+[First Man](https://www.imdb.com/title/tt1213641/?ref_=nv_sr_1){: target="\_blank" rel="noopener"}, the riveting story of <b>NASA’s</b> mission to land a man on the moon, focusing on <b>Neil Armstrong</b> and the years 1961-1969. A visceral, first-person account, based on the book by <b>James R. Hansen</b>, the movie will explore the sacrifices and the cost—on Armstrong and on the nation—of one of the most <b>dangerous missions</b> in the history of mankind.
 
 <blockquote><strong>Visual Effects - Paul Lambert, Ian Hunter, Tristan Myles, and J.D. Schwalm. </strong></blockquote>
 <br>
@@ -220,7 +219,6 @@ Celebrated as one of the greatest <b>athletic</b> feats of any kind, <b>Honnold�
 
 <b>Teen Miles Morales</b> becomes Spider-Man of his reality, crossing his path with five counterparts from another dimension to stop a <b>threat</b> for all realities from all over the world.
 
-
 <blockquote><strong>Spider-Man: Into the Spider-Verse :- Bob Persichetti, Peter Ramsey, Rodney Rothman.</strong> </blockquote>
 <br>
 
@@ -237,7 +235,7 @@ Celebrated as one of the greatest <b>athletic</b> feats of any kind, <b>Honnold�
 
 <h2 id="bao"><strong>Bao.</strong></h2>
 
-[Bao](https://en.wikipedia.org/wiki/Bao_(film)){: target="_blank" rel="noopener"} is a 2018 computer-animated short film written and directed by Domee Shi and produced by <b>Pixar Animation Studios</b>. The story is simple and sweet: an aging and lonely <b>Chinese mother</b>, suffering from empty nest syndrome, receives an unexpected second chance at motherhood when her homemade dumpling comes to life as a <b>boy</b>.
+[Bao](<https://en.wikipedia.org/wiki/Bao_(film)>){: target="\_blank" rel="noopener"} is a 2018 computer-animated short film written and directed by Domee Shi and produced by <b>Pixar Animation Studios</b>. The story is simple and sweet: an aging and lonely <b>Chinese mother</b>, suffering from empty nest syndrome, receives an unexpected second chance at motherhood when her homemade dumpling comes to life as a <b>boy</b>.
 
 <blockquote><strong>Animated Short Film - Bao (Domee Shi).</strong> </blockquote>
 <br>
@@ -255,7 +253,7 @@ Celebrated as one of the greatest <b>athletic</b> feats of any kind, <b>Honnold�
 
 <h2 id="skin"><strong>Skin.</strong></h2>
 
-[Skin](https://en.wikipedia.org/wiki/Skin_(2018_short_film)){: target="_blank" rel="noopener"} is an <b>American biographical drama</b> film written and directed by <b>Guy Nattiv</b>. It follows the life of former skinhead group member Bryon Widner and stars Jamie Bell, Vera Farmiga, Danielle Macdonald, Mike Colter, and Bill Camp.
+[Skin](<https://en.wikipedia.org/wiki/Skin_(2018_short_film)>){: target="\_blank" rel="noopener"} is an <b>American biographical drama</b> film written and directed by <b>Guy Nattiv</b>. It follows the life of former skinhead group member Bryon Widner and stars Jamie Bell, Vera Farmiga, Danielle Macdonald, Mike Colter, and Bill Camp.
 
 The film is about a small supermarket in a blue-collar town, a black man smiles at a 10-year-old white boy across the checkout aisle. This innocuous moment sends two gangs into a ruthless war that ends with a <b>shocking backlash</b>.
 
@@ -290,7 +288,6 @@ From visionary filmmaker, <b>Spike Lee</b> comes the incredible <b>true story</b
 {% include googlead4.html %}
 
 ---
-
 
 <h2 id="period."><strong>Period. End of Sentence.</strong></h2>
 

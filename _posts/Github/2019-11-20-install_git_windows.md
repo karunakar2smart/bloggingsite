@@ -5,10 +5,9 @@ layout: post
 image: upload/install-git-on-windows.jpg
 description: "The following set of instructions details how to install Git on Windows. You can either install it as a package or via another installer or download the source code and compile it. Git for Windows focuses on offering a lightweight, native set of tools that bring the full feature set of the Git SCM to Windows while providing appropriate use."
 datepublished: "2020-01-17"
-datemodified: "2020-01-17"
+datemodified: "2020-06-10"
 margin-top: -118px
 category: [Github-Pages, Blog]
-
 ---
 
 Here is the best place to learn how to install the latest, stable, prepackaged version git on Windows using their package managers. Git can also be compiled from source and installed on any operating system. This guide will walk you through the basics of getting started with Git, from installing the software to using basic commands on both local and remote repositories (repo).
@@ -29,7 +28,6 @@ The default path is "C:\Program Files\Git". If you want the software installed i
 
 <img src="/uploads/install-git-windows-2.png">
 
-
 Click Next when ready to proceed. Follow the Next and Finish prompts to complete the installation. The default options are pretty sensible for most users.</li>
 
 <img src="/uploads/install-git-windows-3.png">
@@ -48,7 +46,7 @@ git config --global user.email "user@domain.com"
 
 You can check your current version of Git by running the git --version command in a terminal (Linux, macOS) or command prompt (Windows).
 
-For example: 
+For example:
 
 <pre>
 <code>
@@ -58,7 +56,6 @@ git version 2.7.4
 </pre>
 
 <img src="/uploads/install-git-windows-cmd.jpg">
-
 
 If you don't see a supported version of Git, you'll need to either upgrade Git or perform a fresh install, as described above.
 

@@ -5,10 +5,9 @@ layout: post
 image: upload/github-commands-list.png
 description: "List of commonly used Github Commands. Github is a distributed version control system that helps to manage the repositories. In this blog post on git commands, you will explore the top most used basic git commands which would use in a day-to-day workflow."
 datepublished: "2020-01-17"
-datemodified: "2020-01-17"
+datemodified: "2020-06-10"
 margin-top: -320px
 category: [Github-Pages, Blog]
-
 ---
 
 Git is the free and open-source distributed version control system that's responsible for everything GitHub related that happens locally on your computer. This guide features the most important and commonly used Git commands for easy reference. This guide provides a list of the most common GIT commands, a short description for them and example usage.
@@ -58,7 +57,6 @@ Before we begin, you should run git --version to check your current git version.
 
 {% include googlead3.html %}
 
-
 <h3 id="stage-snapshot">STAGE & SNAPSHOT</h3>
 
 <table>
@@ -96,8 +94,6 @@ Before we begin, you should run git --version to check your current git version.
 </table>
 
 {% include googlead4.html %}
-
-
 
 <h3 id="branch-merge">BRANCH & MERGE </h3>
 <table>
@@ -254,12 +250,10 @@ Before we begin, you should run git --version to check your current git version.
 </table>
 {% include googlead5.html %}
 
-
 Next Step
 
 After learning all the basic GitHub commands, then to put your project up on GitHub, you'll need to create a repository for it to live in.
 For more information on this karunakar Patel blog, you will walk through the Absolute method to start and create your first own GitHub repository right from start to finish.
-
 
 <div class="anim_container">
 <button id="show">
@@ -296,4 +290,3 @@ For more information on this karunakar Patel blog, you will walk through the Abs
 							</ol>
 						</div>
 </div>
-

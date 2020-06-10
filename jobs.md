@@ -5,9 +5,8 @@ image: upload/latest-jobs-notifications.png
 permalink: jobs.html
 layout: homepage
 datepublished: "2020-01-17"
-datemodified: "2020-01-17"
+datemodified: "2020-06-10"
 ---
-
 
 <table>
 <caption style="margin-bottom: 20px; font-weight: bold; background-color: var(--gray10); padding: 10px;"> 
@@ -36,15 +35,11 @@ datemodified: "2020-01-17"
 <tr><td colspan="2">Learn more about above notification at <a href="https://www.alltechnotricks.com/jobs/sbi_junior_associates_recruitment_2020.html">SBI Junior Associates Recruitment.</a>.</td></tr>
 </table>
 
-
-
-
 <div class="box">
    <div class="box-header">
       <h1>Latest Blog Posts.</h1>
    </div>
 </div>
-
 
 {% for post in site.categories.Latest-Jobs limit:"2" %}
 
@@ -86,6 +81,4 @@ datemodified: "2020-01-17"
 
 {% endfor %}
 
-
 {% include googlead3.html %}
-

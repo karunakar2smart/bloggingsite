@@ -5,10 +5,9 @@ layout: post
 image: upload/github-desktop-windows.png
 description: "Install and use GitHub Desktop on windows to manage your project work. Authenticate to GitHub.com, keep the project up-to-date, and review your preferred settings. Use GitHub Desktop to manage your projects, create meaningful commits, and track the project's history in an app instead of on the command line."
 datepublished: "2020-01-17"
-datemodified: "2020-01-17"
+datemodified: "2020-06-10"
 margin-top: -120px
 category: [Github-Pages, Blog]
-
 ---
 
 This guide will walk you through the process of using GitHub Desktop to work on a Git repository. GitHub Desktop extends and simplifies your GitHub.com workflow, using a visual interface instead of text commands on the command line. By the end of this guide, you'll have used GitHub Desktop to create a repository, make changes to the repository, and publish the changes to GitHub.com.
@@ -30,7 +29,7 @@ Here are the quick steps to download and install the Github desktop.
 
 <img src="/uploads/github-desktop.png">
 
-With GitHub Desktop open, you can drag and drop repositories from within the file manager to automatically add them to your Git repository, or you can clone a repository from your GitHub account to your local drive (repositories clone to C:\Users\NAME\Documents\GitHub--where NAME is your Windows username). 
+With GitHub Desktop open, you can drag and drop repositories from within the file manager to automatically add them to your Git repository, or you can clone a repository from your GitHub account to your local drive (repositories clone to C:\Users\NAME\Documents\GitHub--where NAME is your Windows username).
 
 With a repository cloned to your local drive, you can start working on it locally and then compare, merge, rebase, creating a new repository, deleting repository and many more.
 
@@ -67,7 +66,6 @@ In the left sidebar, you'll find the Changes and History views.
 
 <img src="/uploads/history-view.png">
 
-
 </ul>
 
 <h2>Push your repository to GitHub using Github Desktop.</h2>
@@ -79,7 +77,6 @@ Currently, your repository only exists on your computer, and you're the only one
 Click Publish repository.
 
 <img src="/uploads/publish-repository.png">
-
 
 <li>You'll see a few familiar fields. "Name" and "Description" match the fields you completed when you created the repository.</li>
 
@@ -96,8 +93,6 @@ Click Publish repository.
 </ul>
 
 {% include googlead2.html %}
-
-
 
 <div class="anim_container">
 <button id="show">

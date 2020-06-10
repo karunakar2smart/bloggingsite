@@ -5,7 +5,7 @@ layout: post
 image: upload/host-website-using-github-pages.png
 description: "We can host a website using Github pages with a custom URL and a personal domain name. We will learn more about adding CNAME file, creating a new repository on Github, configuring DNS for Domain name and finally checking the live status of our website with custom URL."
 datepublished: "2018-10-23"
-datemodified: "2020-01-17"
+datemodified: "2020-06-10"
 margin-top: -310px
 tags: github-pages
 category: [Github-Pages, Blog]
@@ -60,10 +60,9 @@ After creating click on the add **new file** to upload our newly created simple 
 <figcaption>Create New Github Repository.</figcaption>
 </figure>
 
-Another way to create a **new repository** is by using **GitBash**. After installing **Github** desktop locally we can **add** (<code>$ git add</code>), **commit** (<code>$ git commit -m "Commit Message"</code>), **push** (<code>$ git push</code>) etc directly from the GitBash. I have written an awesome article on how to commit, push, add the new repository by using **git command lines**.
+Another way to create a **new repository** is by using **GitBash**. After installing **Github** desktop locally we can **add** (<code>$ git add</code>), **commit** (<code>$ git commit -m "Commit Message"</code>), **push** (<code>\$ git push</code>) etc directly from the GitBash. I have written an awesome article on how to commit, push, add the new repository by using **git command lines**.
 
 <blockquote>You can check your live version of your simple website at <strong>YOURUSERNAME.github.io</strong></blockquote>
-
 
 {% include googlead4.html %}
 
@@ -84,7 +83,7 @@ In my case, I filled my **CNAME** file as shown in the image below.
 
 <h2 id="configure-DNS-server-for-domain-name"><strong>5. Configure DNS Server For DOMAIN Name.</strong></h2>
 
-Over at [https://in.godaddy.com/](https://in.godaddy.com/){: target="_blank" rel="noopener"} head to the “**Manage DNS**” tab and scroll to the “**Custom resource records**” section at the bottom of the page.
+Over at [https://in.godaddy.com/](https://in.godaddy.com/){: target="\_blank" rel="noopener"} head to the “**Manage DNS**” tab and scroll to the “**Custom resource records**” section at the bottom of the page.
 
 <ol>
 <li> We need to <strong>add</strong> two "<strong>@</strong>" type <strong>A records</strong> that point to the <strong>Github IP's 192.30.252.153</strong> and <strong>192.30.252.154</strong>. </li>
@@ -135,4 +134,3 @@ Thank you. Please share this article if you love. 😍
 			</ol>
 		</div>
 </div>
-
