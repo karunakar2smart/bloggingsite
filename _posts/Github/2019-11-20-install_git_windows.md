@@ -5,7 +5,7 @@ layout: post
 image: upload/install-git-on-windows.jpg
 description: "The following set of instructions details how to install Git on Windows. You can either install it as a package or via another installer or download the source code and compile it. Git for Windows focuses on offering a lightweight, native set of tools that bring the full feature set of the Git SCM to Windows while providing appropriate use."
 datepublished: "2020-01-17"
-datemodified: "2020-06-10"
+datemodified: "2020-06-25"
 margin-top: -118px
 category: [Github-Pages, Blog]
 ---

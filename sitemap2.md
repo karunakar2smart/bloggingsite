@@ -3,7 +3,7 @@ permalink: sitemap.xml
 layout: none
 ---
 
-<urlset>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"> 
 {% for post in site.posts %}
 <url>
 <loc>{{post.url | absolute_url }}</loc>

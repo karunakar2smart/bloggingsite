@@ -5,7 +5,7 @@ layout: post
 image: upload/sbi-recruitment-for-junior-associates.png
 description: "SBI has announced the latest 2020 notification for the post of junior associate in customer support and sales in clerical cadre of about 9753 vacancies all over India. Candidates need to apply online with a bachelor's degree to meet eligibility criteria. For more info visit the karunakar Patel blog."
 datepublished: "2020-01-17"
-datemodified: "2020-06-10"
+datemodified: "2020-06-25"
 margin-top: -250px
 category: [Latest-Jobs, Jobs]
 ---

@@ -5,7 +5,7 @@ layout: post
 image: uploads/mobile-friendly.png
 description: "This complete post guides you to audit your site for mobile SEO. Mobile optimization is more than a responsive site design, it's about ensuring that visitors to your site from mobile devices have a high-quality experience.  With Google now role out to google mobile first indexing in the search rankings, now is the time to ensure optimal mobile performance by conducting a mobile usability audit."
 datepublished: "2019-01-31"
-datemodified: "2020-06-10"
+datemodified: "2020-06-25"
 margin-top: -300px
 category: [SEO, Blog]
 ---

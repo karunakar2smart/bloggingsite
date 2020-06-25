@@ -5,7 +5,7 @@ layout: post
 image: upload/github-commands-list.png
 description: "List of commonly used Github Commands. Github is a distributed version control system that helps to manage the repositories. In this blog post on git commands, you will explore the top most used basic git commands which would use in a day-to-day workflow."
 datepublished: "2020-01-17"
-datemodified: "2020-06-10"
+datemodified: "2020-06-25"
 margin-top: -320px
 category: [Github-Pages, Blog]
 ---
