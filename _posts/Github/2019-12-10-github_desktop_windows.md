@@ -5,7 +5,7 @@ layout: post
 image: upload/github-desktop-windows.png
 description: "Install and use GitHub Desktop on windows to manage your project work. Authenticate to GitHub.com, keep the project up-to-date, and review your preferred settings. Use GitHub Desktop to manage your projects, create meaningful commits, and track the project's history in an app instead of on the command line."
 datepublished: "2020-01-17"
-datemodified: "2020-06-25"
+datemodified: "2020-12-25"
 margin-top: -120px
 category: [Github-Pages, Blog]
 ---

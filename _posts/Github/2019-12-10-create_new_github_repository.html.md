@@ -5,7 +5,7 @@ layout: post
 image: upload/create-first-github-repository.png
 description: "This tutorial will guide you through to create and use a new Github repository where GitHub stores each project in its own online repository. we can also create a remote repository on GitHub right from the command line, allow the user to interactively create a .gitignore file and so on."
 datepublished: "2020-01-17"
-datemodified: "2020-06-25"
+datemodified: "2020-12-25"
 margin-top: -200px
 category: [Github-Pages, Blog]
 ---

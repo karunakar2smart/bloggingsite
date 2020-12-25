@@ -4,7 +4,7 @@ title:  categories
 permalink: category.html
 image: /
 datepublished: "2019-08-30"
-datemodified: "2019-08-30"
+datemodified: "2019-12-25"
 ---
 
 {% assign rawcats = "" %}
