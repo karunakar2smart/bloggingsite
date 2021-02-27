@@ -2923,6 +2923,7 @@ Usage (In Ghost editor):
   padding: 20px 15px;
   display: none;
   color: #267dff !important;
+  margin-top: -100px;
 
 }
 
