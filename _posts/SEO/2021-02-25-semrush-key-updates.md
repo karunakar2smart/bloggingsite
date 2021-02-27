@@ -31,9 +31,7 @@ When it comes to pricing, the SEMrush tool offers us three subscriptions startin
 
 Seriously, you can also signup at **SEMrush** for free for 7 days without even giving your credit card credentials. You can just directly login and start exploring the updated features instantly. Just click on this SEMrush link to get it free of cost for 7 days.
 
-<iframe src="https://pm.berush.com/widgets/traffic-analytics/?ref=9673809710&utm_campaign=ci_campaign&utm_source=berush&utm_medium=promo&utm_term=1&new_window=true&color=darkblue&lang=en" frameborder="0" scrolling="no" width="100%" height="191" style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;"></iframe>
-
-<br>
+<iframe src="https://pm.berush.com/widgets/traffic-analytics/?ref=9673809710&utm_campaign=ci_campaign&utm_source=berush&utm_medium=promo&utm_term=1&new_window=true&color=darkblue&lang=en" frameborder="0" scrolling="no" width="100%" height="255"></iframe>
 
 <h2 id="updates-in-seo-tools">Updates In SEO Tools.</h2>
 
@@ -274,9 +272,8 @@ This **traffic journey** report gives you the
 <li>Monthly changes.</li>
 </ul>
 
-<iframe src="https://pm.berush.com/widgets/traffic-analytics/?ref=9673809710&utm_campaign=ci_campaign&utm_source=berush&utm_medium=promo&utm_term=1&new_window=true&color=darkblue&lang=en" frameborder="0" scrolling="no" width="100%" height="191" style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;"></iframe>
+<iframe src="https://pm.berush.com/widgets/traffic-analytics/?ref=9673809710&utm_campaign=ci_campaign&utm_source=berush&utm_medium=promo&utm_term=1&new_window=true&color=darkblue&lang=en" frameborder="0" scrolling="no" width="100%" height="255"></iframe>
 
-<br>
 
 <h3 id="growth-quadrant">Market Explorer: Growth Quadrant</h3>
 
@@ -338,8 +335,6 @@ A **SEMrush Sensor** is a tool for tracking volatility of Google’s search engi
 
 <iframe src="https://www.semrush.com/sensor/static/widget/au/s/?ref=9673809710&utm_campaign=competitive-research&utm_source=berush&utm_medium=promo&utm_term=8" frameborder="0" scrolling="no" width="100%" height="320" ></iframe>
 
-<br>
-
 <h4>Prowly: </h4>
 
 **Prowly** is a PR & Media Relations, internal, and external communications software that connects all PR activities in only one place, including finding the right media contacts, keeping them under control, sending personalized emails to journalists, and creating a journalist-friendly newsroom. The subscription charges start from the basis of 115$ to the premium of $549.
@@ -353,6 +348,13 @@ A **SEMrush Sensor** is a tool for tracking volatility of Google’s search engi
 **Sellerly** is a free tool for increasing conversions of amazon product pages by split testing the mains elements that affect sales. This tool allows you to run unlimited split tests, gradually improving to craft the most profitable listing to the Amazon product listings. With the help of this tool, you can directly manage your product listing directly by integrating your amazon seller account, test different titles, descriptions & prices to find the best combinations, track each experiment live, etc. seriously this tool is available for free of cost with any basis subscription.
 
 {% include googlead1.html %}
+
+<h4>Overview:</h4>
+
+Please try out the best and latest updated features in the SEMrush tool and stand out in the competition by stealing your competitor's traffic. As there is a free trial version available, just play around by signup for free without entering your credit card credentials ,<a href="https://www.semrush.com/content-marketing/topic-research/?ref=9673809710&utm_campaign=content_campaign&utm_source=berush&utm_medium=promo&utm_term=205" target="_blank" rel="noopener">here</a>. 
+
+
+
 
 <div class="anim_container">
 <button id="show">
