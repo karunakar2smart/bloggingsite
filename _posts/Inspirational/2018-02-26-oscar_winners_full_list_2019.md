@@ -5,7 +5,7 @@ layout: post
 image: upload/oscar-winners-2019-list.png
 description: "The Oscars 2019 marked the 91st edition of the Academy Awards which were the biggest night in film. Here is the complete list of Oscar award winners of 2019 in their respective categories nominated by the Oscars 2019."
 datepublished: "2019-06-20"
-datemodified: "2020-12-25"
+datemodified: "2021-03-05"
 margin-top: -420px
 category: [Movies, Blog]
 ---

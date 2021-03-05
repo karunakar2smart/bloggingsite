@@ -5,7 +5,7 @@ layout: post
 image: upload/host-website-using-github-pages.png
 description: "We can host a website using Github pages with a custom URL and a personal domain name. We will learn more about adding CNAME file, creating a new repository on Github, configuring DNS for Domain name and finally checking the live status of our website with custom URL."
 datepublished: "2018-10-23"
-datemodified: "2020-12-25"
+datemodified: "2021-03-05"
 margin-top: -310px
 tags: github-pages
 category: [Github-Pages, Blog]

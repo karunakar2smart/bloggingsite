@@ -5,7 +5,7 @@ layout: post
 image: upload/2captcha-online-typing-jobs.png
 description: "2Captcha is the best online captcha typing job as we get to register for free. 2captcha typing job supports working from 2captcha apk, app & in the software downloaded for free & receive weekly payments. Many payment proofs and customer reviews make 2captcha is 100% legitimate online captcha entry job."
 datepublished: "2018-12-03"
-datemodified: "2020-06-25"
+datemodified: "2021-03-05"
 margin-top: -220px
 category: [Online-Typing-Jobs, Blog]
 ---

@@ -2916,7 +2916,8 @@ Usage (In Ghost editor):
   border-radius: 5px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   width: 420px;
-  height: auto;
+  /* height: auto; */
+  max-height: 500px;
   background: #fff;
   margin-left: 60px;
   z-index: 1;
@@ -2924,7 +2925,7 @@ Usage (In Ghost editor):
   display: none;
   color: #267dff !important;
   margin-top: -100px;
-
+  overflow-y: scroll;
 }
 
 #links_container ol {
@@ -2975,7 +2976,7 @@ Usage (In Ghost editor):
 
   #links_container {
     margin-top: {{page.margin-top}};
-    margin-right: 14px;
+    margin-right: 19px;
     width: 330px;
     height: auto;
     padding: 15px;
